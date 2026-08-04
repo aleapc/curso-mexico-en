@@ -7,10 +7,10 @@
   "FernandaMX": "NyQ87MpRGbszyh7rZLXM",
   "CarlosMX": "HS7W0ly7cmPolP5WMyz9",
   "roles": {
-    "guide_en_us_f": "XrExE9yKIg1WjnnlVkGX",
-    "guide_en_us_m": "cjVigY5qzO86Huf0OWal",
-    "target_mx_f": "NyQ87MpRGbszyh7rZLXM",
-    "target_mx_m": "HS7W0ly7cmPolP5WMyz9"
+    "guide_en_us_f": { "voiceId": "XrExE9yKIg1WjnnlVkGX", "languageCode": "en" },
+    "guide_en_us_m": { "voiceId": "cjVigY5qzO86Huf0OWal", "languageCode": "en" },
+    "target_mx_f": { "voiceId": "NyQ87MpRGbszyh7rZLXM", "languageCode": "es" },
+    "target_mx_m": { "voiceId": "HS7W0ly7cmPolP5WMyz9", "languageCode": "es" }
   },
   "_g14": {
     "guia": ["Matilda", "Eric"],
