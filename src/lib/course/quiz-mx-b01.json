@@ -1,0 +1,51 @@
+{
+  "id": "q-mx-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — From the airport to the hotel",
+  "subtitulo": "Hear the Mexican sound model inside a useful arrival exchange",
+  "introAudioKey": "mx-b01-q-i",
+  "introPt": "You have landed in Mexico. Listen to one short taxi exchange and one hotel exchange. Catch the destination, the confirmation and the reservation — not every sound.",
+  "cenario": "An authorised airport taxi drops the traveller at a hotel in the Historic Centre. At reception, the traveller opens the reservation.",
+  "dialogo": [
+    { "audioKey": "mx-b01-q01", "voz": "target_mx_m", "es": "Buenas tardes. ¿A dónde va?", "pinyin": "BWEH-nahs TAR-dehs. ah DOHN-deh bah", "pt": "Good afternoon. Where are you going?" },
+    { "audioKey": "mx-b01-q02", "voz": "target_mx_f", "es": "Al hotel del Centro Histórico, por favor.", "pinyin": "ahl oh-TEL del SEN-troh ees-TOH-ree-koh, por fah-BOR", "pt": "To the hotel in the Historic Centre, please." },
+    { "audioKey": "mx-b01-q03", "voz": "target_mx_m", "es": "¿Por la entrada principal?", "pinyin": "por lah en-TRAH-dah preen-see-PAHL", "pt": "Through the main entrance?" },
+    { "audioKey": "mx-b01-q04", "voz": "target_mx_f", "es": "Sí, gracias.", "pinyin": "see, GRAH-syahs", "pt": "Yes, thank you." },
+    { "audioKey": "mx-b01-q05", "voz": "target_mx_m", "es": "Buenas tardes. ¿En qué le ayudo?", "pinyin": "BWEH-nahs TAR-dehs. en keh leh ah-YOO-doh", "pt": "Good afternoon. How can I help you?" },
+    { "audioKey": "mx-b01-q06", "voz": "target_mx_f", "es": "Tengo una reservación.", "pinyin": "TEN-goh OO-nah reh-sehr-bah-SYOHN", "pt": "I have a reservation." },
+    { "audioKey": "mx-b01-q07", "voz": "target_mx_m", "es": "¿A nombre de quién?", "pinyin": "ah NOHM-breh deh kyen", "pt": "Under what name?" },
+    { "audioKey": "mx-b01-q08", "voz": "target_mx_f", "es": "A nombre de Morgan.", "pinyin": "ah NOHM-breh deh MOR-gahn", "pt": "Under the name Morgan." }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Where does the traveller ask the driver to go?",
+      "opcoes": ["The bus terminal", "A hotel in the Historic Centre", "The nearest market", "A museum"],
+      "correta": 1,
+      "explica": "The destination is 'el hotel del Centro Histórico'. The stress lands at the end of hotel: ho-TEL."
+    },
+    {
+      "pergunta": "What does the driver confirm?",
+      "opcoes": ["Whether the traveller has cash", "Whether the luggage is complete", "Whether to use the main entrance", "Whether the hotel is open"],
+      "correta": 2,
+      "explica": "'¿Por la entrada principal?' checks the entrance before the driver commits to the drop-off point."
+    },
+    {
+      "pergunta": "Which pronunciation belongs to the Mexican model in this course?",
+      "opcoes": ["GRAH-thyahs", "GRAH-syahs", "GRAH-shahs", "grah-SEE-ahs"],
+      "correta": 1,
+      "explica": "Mexican Spanish is seseante: soft C and Z use /s/, not the central-Spain /θ/."
+    },
+    {
+      "pergunta": "At reception, what opens the booking?",
+      "opcoes": ["Quiero un cuarto", "Tengo una reservación", "Necesito ayuda", "¿Cuánto cuesta?"],
+      "correta": 1,
+      "explica": "'Tengo una reservación' states that the booking already exists; the clerk then asks for the name."
+    },
+    {
+      "pergunta": "What is the purpose of the hand movements in B01?",
+      "opcoes": ["To erase a foreign accent", "To memorise spelling rules", "To expose swallowed syllables, sliding vowels and misplaced stress", "To imitate one regional Mexican accent"],
+      "correta": 2,
+      "explica": "The gestures betray the specific English-speaking errors that make familiar words hard to recognise. Sounding foreign is allowed."
+    }
+  ]
+}
