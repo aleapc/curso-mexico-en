@@ -157,6 +157,74 @@
       "tts": "Está bien, muchas gracias."
     },
     {
+      "consulta": [
+        "compras/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "dos de esos",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i10-px1",
+      "promptPt": "Point and quantify, nothing else. Speak now.",
+      "audioKey": "mx-i10-x1",
+      "es": "¿Me da dos de esos?",
+      "pinyin": "meh dah dohs deh EH-sohs",
+      "pt": "Can I have two of those?",
+      "tts": "¿Me da dos de esos?"
+    },
+    {
+      "consulta": [
+        "compras/precio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "descuento por dos",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i10-px2",
+      "promptPt": "Volume is the honest way into a better price. Speak now.",
+      "audioKey": "mx-i10-x2",
+      "es": "¿Hay descuento si llevo dos?",
+      "pinyin": "eye dehs-KWEN-toh see YEH-boh dohs",
+      "pt": "Is there a discount if I take two?",
+      "tts": "¿Hay descuento si llevo dos?"
+    },
+    {
+      "consulta": [
+        "compras/precio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "algo más barato",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i10-px3",
+      "promptPt": "Ask about the stall, not about this piece. Speak now.",
+      "audioKey": "mx-i10-x3",
+      "es": "¿Tiene algo más barato?",
+      "pinyin": "TYEH-neh AHL-goh mahs bah-RAH-toh",
+      "pt": "Do you have anything cheaper?",
+      "tts": "¿Tiene algo más barato?"
+    },
+    {
+      "consulta": [
+        "compras/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "envolver",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i10-px4",
+      "promptPt": "It is a gift and it has to survive the flight. Speak now.",
+      "audioKey": "mx-i10-x4",
+      "es": "¿Me lo puede envolver?",
+      "pinyin": "meh loh PWEH-deh en-bohl-BEHR",
+      "pt": "Can you wrap it for me?",
+      "tts": "¿Me lo puede envolver?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i10-s01",

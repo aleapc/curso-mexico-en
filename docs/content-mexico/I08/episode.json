@@ -157,6 +157,74 @@
       "tts": "¡Salud!"
     },
     {
+      "consulta": [
+        "simpatia/elogio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "dar la receta",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i08-px1",
+      "promptPt": "The highest compliment you can pay a home cook. Speak now.",
+      "audioKey": "mx-i08-x1",
+      "es": "¿Me puede dar la receta?",
+      "pinyin": "meh PWEH-deh dahr lah reh-SEH-tah",
+      "pt": "Can you give me the recipe?",
+      "tts": "¿Me puede dar la receta?"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "ayudar con algo",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i08-px2",
+      "promptPt": "Plates are moving and you are sitting. Offer. Speak now.",
+      "audioKey": "mx-i08-x2",
+      "es": "¿Puedo ayudar con algo?",
+      "pinyin": "PWEH-doh ah-yoo-DAHR kohn AHL-goh",
+      "pt": "Can I help with anything?",
+      "tts": "¿Puedo ayudar con algo?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "un poco más",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i08-px3",
+      "promptPt": "Asking for seconds is itself a compliment here. Speak now.",
+      "audioKey": "mx-i08-x3",
+      "es": "¿Me da un poco más, por favor?",
+      "pinyin": "meh dah oon POH-koh mahs por fah-BOR",
+      "pt": "Could I have a little more, please?",
+      "tts": "¿Me da un poco más, por favor?"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "algo que no deba traer",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i08-px4",
+      "promptPt": "Before the next invitation, check. Speak now.",
+      "audioKey": "mx-i08-x4",
+      "es": "¿Hay algo que no deba traer?",
+      "pinyin": "eye AHL-goh keh noh DEH-bah trah-EHR",
+      "pt": "Is there anything I should not bring?",
+      "tts": "¿Hay algo que no deba traer?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i08-s01",

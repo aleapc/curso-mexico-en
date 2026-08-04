@@ -246,6 +246,57 @@
       "tts": "Muy bien."
     },
     {
+      "consulta": [
+        "mesa/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "SIN",
+      "encaixe": "chile",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b12-px1",
+      "promptPt": "A complete sentence with no verb. Speak now.",
+      "audioKey": "mx-b12-x1",
+      "es": "Sin chile, por favor.",
+      "pinyin": "seen CHEE-leh por fah-BOR",
+      "pt": "Without chilli, please.",
+      "tts": "Sin chile, por favor."
+    },
+    {
+      "consulta": [
+        "mesa/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "SIN",
+      "encaixe": "crema",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b12-px2",
+      "promptPt": "Only your plate changes, not your companion’s. Speak now.",
+      "audioKey": "mx-b12-x2",
+      "es": "El mío sin crema.",
+      "pinyin": "el MEE-oh seen KREH-mah",
+      "pt": "Mine without cream.",
+      "tts": "El mío sin crema."
+    },
+    {
+      "consulta": [
+        "mesa/salsa"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "otra salsa",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b12-px3",
+      "promptPt": "This one is too hot. Ask for a different one. Speak now.",
+      "audioKey": "mx-b12-x3",
+      "es": "¿Me da otra salsa?",
+      "pinyin": "meh dah OH-trah SAHL-sah",
+      "pt": "Can I have a different salsa?",
+      "tts": "¿Me da otra salsa?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b12-s01",

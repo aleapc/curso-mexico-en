@@ -3,228 +3,221 @@
   "slot": "B12",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b12-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b12-t01",
       "role": "target_mx_f",
-      "text": "Quería dos tacos al pastor, por favor.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b12-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b12-r01",
       "role": "target_mx_m",
-      "text": "¿Con todo?",
       "kind": "return"
     },
     {
       "key": "mx-b12-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
-    },
-    {
-      "key": "mx-b12-t02",
-      "role": "target_mx_f",
-      "text": "Uno con cebolla y cilantro.",
-      "kind": "target"
     },
     {
       "key": "mx-b12-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-t02",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-r02",
       "role": "target_mx_m",
-      "text": "Muy bien.",
       "kind": "return"
     },
     {
       "key": "mx-b12-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
-    },
-    {
-      "key": "mx-b12-t03",
-      "role": "target_mx_f",
-      "text": "El otro sin cebolla, por favor.",
-      "kind": "target"
     },
     {
       "key": "mx-b12-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-t03",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-r03",
       "role": "target_mx_m",
-      "text": "Claro.",
       "kind": "return"
     },
     {
       "key": "mx-b12-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
-    },
-    {
-      "key": "mx-b12-t04",
-      "role": "target_mx_f",
-      "text": "La salsa aparte, por favor.",
-      "kind": "target"
     },
     {
       "key": "mx-b12-p04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-t04",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-r04",
       "role": "target_mx_m",
-      "text": "Sí, aquí tiene.",
       "kind": "return"
     },
     {
       "key": "mx-b12-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
-    },
-    {
-      "key": "mx-b12-t05",
-      "role": "target_mx_f",
-      "text": "¿Cuál salsa pica menos?",
-      "kind": "target"
     },
     {
       "key": "mx-b12-p05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-t05",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-r05",
       "role": "target_mx_m",
-      "text": "Esta pica menos.",
       "kind": "return"
     },
     {
       "key": "mx-b12-n06",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
-    },
-    {
-      "key": "mx-b12-t06",
-      "role": "target_mx_f",
-      "text": "Más limón, por favor.",
-      "kind": "target"
     },
     {
       "key": "mx-b12-p06",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-t06",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-r06",
       "role": "target_mx_m",
-      "text": "Claro, aquí tiene.",
       "kind": "return"
     },
     {
       "key": "mx-b12-n07",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
-    },
-    {
-      "key": "mx-b12-t07",
-      "role": "target_mx_f",
-      "text": "Una limonada sin hielo, por favor.",
-      "kind": "target"
     },
     {
       "key": "mx-b12-p07",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-t07",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-r07",
       "role": "target_mx_m",
-      "text": "Muy bien.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b12-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b12-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b12-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b12-x3",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b12-s01",
       "role": "target_mx_f",
-      "text": "Uno con cebolla y cilantro. El otro sin cebolla. La salsa aparte. Más limón. Una limonada sin hielo.",
       "kind": "shadow"
     },
     {
       "key": "mx-b12-n08",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b12-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b12-q01",
       "role": "target_mx_f",
-      "text": "Quería dos tacos al pastor, por favor.",
       "kind": "quiz"
     },
     {
       "key": "mx-b12-q02",
       "role": "target_mx_m",
-      "text": "¿Con todo?",
       "kind": "quiz"
     },
     {
       "key": "mx-b12-q03",
       "role": "target_mx_f",
-      "text": "Uno con cebolla y cilantro. El otro sin cebolla, por favor.",
       "kind": "quiz"
     },
     {
       "key": "mx-b12-q04",
       "role": "target_mx_f",
-      "text": "La salsa aparte, por favor. ¿Cuál salsa pica menos?",
       "kind": "quiz"
     },
     {
       "key": "mx-b12-q05",
       "role": "target_mx_m",
-      "text": "Esta pica menos.",
       "kind": "quiz"
     },
     {
       "key": "mx-b12-q06",
       "role": "target_mx_f",
-      "text": "Más limón, por favor. Una limonada sin hielo.",
       "kind": "quiz"
     }
   ]

@@ -347,6 +347,40 @@
       "tts": "Claro, aquí tiene."
     },
     {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "la nota",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b14-px1",
+      "promptPt": "A second word for the same thing. Speak now.",
+      "audioKey": "mx-b14-x1",
+      "es": "¿Me da la nota, por favor?",
+      "pinyin": "meh dah lah NOH-tah por fah-BOR",
+      "pt": "Can I have the bill, please?",
+      "tts": "¿Me da la nota, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/tarjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "pagar la mitad con tarjeta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b14-px2",
+      "promptPt": "You want to split the payment across two methods. Speak now.",
+      "audioKey": "mx-b14-x2",
+      "es": "¿Puedo pagar la mitad con tarjeta?",
+      "pinyin": "PWEH-doh pah-GAHR lah mee-TAHD kohn tahr-HEH-tah",
+      "pt": "Can I pay half by card?",
+      "tts": "¿Puedo pagar la mitad con tarjeta?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b14-s01",

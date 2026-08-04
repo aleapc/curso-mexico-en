@@ -6,7 +6,7 @@
   "titulo": "Choose the channel before the car",
   "subtitulo": "Authorised transport, app pickup, address, cost and receipt from the airport to the hotel",
   "cena": "A dozen drivers are working the arrivals curb, and the only one who matters is the one you haven't found yet — the authorised one.",
-  "moldura": "protege",
+  "moldura": "resolve",
   "frasePiso": "The first vehicle that approaches you is not automatically your transport.",
   "steps": [
     {
@@ -162,6 +162,74 @@
       "es": "Sí, claro.",
       "pt": "Yes, of course.",
       "tts": "Sí, claro."
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "la parada del autobús",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b07-px1",
+      "promptPt": "You have decided against a taxi. Ask for the known stop. Speak now.",
+      "audioKey": "mx-b07-x1",
+      "es": "¿Dónde está la parada del autobús?",
+      "pinyin": "DOHN-deh ehs-TAH lah pah-RAH-dah del ow-toh-BOOS",
+      "pt": "Where is the bus stop?",
+      "tts": "¿Dónde está la parada del autobús?"
+    },
+    {
+      "consulta": [
+        "taxi/autorizado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "un taxi autorizado",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b07-px2",
+      "promptPt": "Any authorised one will do, not a specific rank. Speak now.",
+      "audioKey": "mx-b07-x2",
+      "es": "¿Dónde hay un taxi autorizado?",
+      "pinyin": "DOHN-deh eye oon TAHK-see ow-toh-ree-SAH-doh",
+      "pt": "Where is there an authorised taxi?",
+      "tts": "¿Dónde hay un taxi autorizado?"
+    },
+    {
+      "consulta": [
+        "taxi/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "un recibo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b07-px3",
+      "promptPt": "The ride is over. Ask for the paper before you get out. Speak now.",
+      "audioKey": "mx-b07-x3",
+      "es": "¿Me da un recibo, por favor?",
+      "pinyin": "meh dah oon reh-SEE-boh por fah-BOR",
+      "pt": "Can I have a receipt, please?",
+      "tts": "¿Me da un recibo, por favor?"
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "la salida",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b07-px4",
+      "promptPt": "You are turned around inside the terminal. Speak now.",
+      "audioKey": "mx-b07-x4",
+      "es": "¿Dónde está la salida?",
+      "pinyin": "DOHN-deh ehs-TAH lah sah-LEE-dah",
+      "pt": "Where is the exit?",
+      "tts": "¿Dónde está la salida?"
     },
     {
       "tipo": "shadow",

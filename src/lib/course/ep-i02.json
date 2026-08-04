@@ -149,6 +149,74 @@
       "tts": "No, eso es todo."
     },
     {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "una orden de quesadillas",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i02-px1",
+      "promptPt": "Direct, no padding, at a busy counter. Speak now.",
+      "audioKey": "mx-i02-x1",
+      "es": "¿Me da una orden de quesadillas?",
+      "pinyin": "meh dah OO-nah OHR-den deh keh-sah-DEE-yahs",
+      "pt": "Can I have an order of quesadillas?",
+      "tts": "¿Me da una orden de quesadillas?"
+    },
+    {
+      "consulta": [
+        "mesa/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "SIN",
+      "encaixe": "cebolla",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i02-px2",
+      "promptPt": "Two words, said fast, while he is already working. Speak now.",
+      "audioKey": "mx-i02-x2",
+      "es": "Sin cebolla, por favor.",
+      "pinyin": "seen seh-BOH-yah por fah-BOR",
+      "pt": "Without onion, please.",
+      "tts": "Sin cebolla, por favor."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "pagar aquí",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i02-px3",
+      "promptPt": "You are not sure if it is the counter or a till. Speak now.",
+      "audioKey": "mx-i02-x3",
+      "es": "¿Puedo pagar aquí?",
+      "pinyin": "PWEH-doh pah-GAHR ah-KEE",
+      "pt": "Can I pay here?",
+      "tts": "¿Puedo pagar aquí?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "una servilleta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i02-px4",
+      "promptPt": "Smallest possible request, same frame. Speak now.",
+      "audioKey": "mx-i02-x4",
+      "es": "¿Me da una servilleta?",
+      "pinyin": "meh dah OO-nah sehr-bee-YEH-tah",
+      "pt": "Can I have a napkin?",
+      "tts": "¿Me da una servilleta?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i02-s01",

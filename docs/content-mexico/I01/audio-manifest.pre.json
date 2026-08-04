@@ -13,7 +13,6 @@
     {
       "key": "mx-i01-r01",
       "role": "target_mx_m",
-      "text": "Buenas tardes. Pase, tenemos mesa.",
       "kind": "return"
     },
     {
@@ -29,19 +28,16 @@
     {
       "key": "mx-i01-p01",
       "role": "guide_en_us_m",
-      "text": "You want to know when this place is genuinely busy. Ask what time la comida is usually served here. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i01-t01",
       "role": "target_mx_f",
-      "text": "¿A qué hora sirven la comida aquí?",
       "kind": "target"
     },
     {
       "key": "mx-i01-r02",
       "role": "target_mx_m",
-      "text": "De una a tres, más o menos.",
       "kind": "return"
     },
     {
@@ -52,13 +48,11 @@
     {
       "key": "mx-i01-t02",
       "role": "target_mx_f",
-      "text": "Para la cena, algo ligero está bien.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-i01-p02",
       "role": "guide_en_us_f",
-      "text": "It's evening and you're not looking for a full meal. Say something light is fine for dinner. Speak now.",
       "kind": "prompt"
     },
     {
@@ -69,61 +63,17 @@
     {
       "key": "mx-i01-r03",
       "role": "target_mx_m",
-      "text": "¿Va a comer aquí o solo va de paso?",
       "kind": "return"
     },
     {
       "key": "mx-i01-p03",
       "role": "guide_en_us_m",
-      "text": "You've arrived right in the middle of la comida. Say you'd like to eat, here, now. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i01-t03",
       "role": "target_mx_f",
-      "text": "Sí, quiero comer aquí, por favor.",
       "kind": "target"
-    },
-    {
-      "key": "mx-i01-s01",
-      "role": "target_mx_f",
-      "text": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien.",
-      "kind": "shadow"
-    },
-    {
-      "key": "mx-i01-n06",
-      "role": "guide_en_us_f",
-      "kind": "recap"
-    },
-    {
-      "key": "mx-i01-q-i",
-      "role": "guide_en_us_f",
-      "text": "A traveller walks into an empty comedor at six in the evening and asks when it actually fills up.",
-      "kind": "quiz_intro"
-    },
-    {
-      "key": "mx-i01-q01",
-      "role": "target_mx_m",
-      "text": "Buenas tardes. Pase, tenemos mesa.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i01-q02",
-      "role": "target_mx_f",
-      "text": "¿A qué hora sirven la comida aquí?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i01-q03",
-      "role": "target_mx_m",
-      "text": "De una a tres, más o menos.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i01-q04",
-      "role": "target_mx_f",
-      "text": "Para la cena, algo ligero está bien.",
-      "kind": "quiz"
     },
     {
       "key": "mx-i01-n07",
@@ -144,6 +94,81 @@
       "key": "mx-i01-r04",
       "role": "target_mx_m",
       "kind": "return"
+    },
+    {
+      "key": "mx-i01-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-x4",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-s01",
+      "role": "target_mx_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i01-n06",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i01-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i01-q01",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-q02",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-q03",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-q04",
+      "role": "target_mx_f",
+      "kind": "quiz"
     }
   ]
 }

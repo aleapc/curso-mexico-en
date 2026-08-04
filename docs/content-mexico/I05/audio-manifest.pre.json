@@ -13,25 +13,21 @@
     {
       "key": "mx-i05-r01",
       "role": "target_mx_m",
-      "text": "¿De dónde eres?",
       "kind": "return"
     },
     {
       "key": "mx-i05-p01",
       "role": "guide_en_us_f",
-      "text": "Answer with where you're actually from. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i05-t01",
       "role": "target_mx_f",
-      "text": "Soy de Estados Unidos.",
       "kind": "target"
     },
     {
       "key": "mx-i05-r02",
       "role": "target_mx_m",
-      "text": "¿Cuánto tiempo te vas a quedar?",
       "kind": "return"
     },
     {
@@ -42,19 +38,16 @@
     {
       "key": "mx-i05-p02",
       "role": "guide_en_us_m",
-      "text": "Give your real length of stay. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i05-t02",
       "role": "target_mx_f",
-      "text": "Diez días, más o menos.",
       "kind": "target"
     },
     {
       "key": "mx-i05-r03",
       "role": "target_mx_m",
-      "text": "¿Qué te ha gustado más de México?",
       "kind": "return"
     },
     {
@@ -65,31 +58,26 @@
     {
       "key": "mx-i05-p03",
       "role": "guide_en_us_f",
-      "text": "Give one specific thing you've genuinely liked. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i05-t03",
       "role": "target_mx_f",
-      "text": "Me encantó la comida, sobre todo los tacos.",
       "kind": "target"
     },
     {
       "key": "mx-i05-r04",
       "role": "target_mx_m",
-      "text": "¿Vienes solo o con familia?",
       "kind": "return"
     },
     {
       "key": "mx-i05-p04",
       "role": "guide_en_us_m",
-      "text": "Say who you're travelling with, or that you're on your own. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i05-t04",
       "role": "target_mx_f",
-      "text": "Vengo con mi pareja.",
       "kind": "target"
     },
     {
@@ -100,19 +88,56 @@
     {
       "key": "mx-i05-p05",
       "role": "guide_en_us_m",
-      "text": "You need to get going. Excuse yourself politely. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i05-t05",
       "role": "target_mx_f",
-      "text": "Bueno, fue un gusto. Que le vaya bien.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i05-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i05-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i05-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i05-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i05-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i05-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i05-py1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i05-y1",
+      "role": "target_mx_f",
       "kind": "target"
     },
     {
       "key": "mx-i05-s01",
       "role": "target_mx_f",
-      "text": "Soy de Estados Unidos. Diez días, más o menos. Me encantó la comida.",
       "kind": "shadow"
     },
     {
@@ -123,31 +148,26 @@
     {
       "key": "mx-i05-q-i",
       "role": "guide_en_us_f",
-      "text": "A friendly stranger asks the same handful of questions travellers hear constantly. Listen for the ready answers and the polite exit.",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-i05-q01",
       "role": "target_mx_m",
-      "text": "¿De dónde eres?",
       "kind": "quiz"
     },
     {
       "key": "mx-i05-q02",
       "role": "target_mx_f",
-      "text": "Soy de Estados Unidos.",
       "kind": "quiz"
     },
     {
       "key": "mx-i05-q03",
       "role": "target_mx_m",
-      "text": "¿Qué te ha gustado más de México?",
       "kind": "quiz"
     },
     {
       "key": "mx-i05-q04",
       "role": "target_mx_f",
-      "text": "Me encantó la comida, sobre todo los tacos.",
       "kind": "quiz"
     }
   ]

@@ -192,6 +192,74 @@
       "tts": "Muchas gracias. Hasta luego."
     },
     {
+      "consulta": [
+        "chegar/banheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "usar el baño antes de irme",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b18-px1",
+      "promptPt": "Checked out, bag stored, long ride ahead. Speak now.",
+      "audioKey": "mx-b18-x1",
+      "es": "¿Puedo usar el baño antes de irme?",
+      "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh AHN-tehs deh EER-meh",
+      "pt": "Can I use the bathroom before I go?",
+      "tts": "¿Puedo usar el baño antes de irme?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "la factura",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b18-px2",
+      "promptPt": "You need it for expenses. Speak now.",
+      "audioKey": "mx-b18-x2",
+      "es": "¿Me da la factura?",
+      "pinyin": "meh dah lah fahk-TOO-rah",
+      "pt": "Can I have the invoice?",
+      "tts": "¿Me da la factura?"
+    },
+    {
+      "consulta": [
+        "taxi/autorizado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "pedir un taxi",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b18-px3",
+      "promptPt": "Ask the desk to do it for you. Speak now.",
+      "audioKey": "mx-b18-x3",
+      "es": "¿Me puede pedir un taxi?",
+      "pinyin": "meh PWEH-deh peh-DEER oon TAHK-see",
+      "pt": "Can you call me a taxi?",
+      "tts": "¿Me puede pedir un taxi?"
+    },
+    {
+      "consulta": [
+        "chegar/encontro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "esperar aquí adentro",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b18-px4",
+      "promptPt": "It is raining and the taxi is late. Speak now.",
+      "audioKey": "mx-b18-x4",
+      "es": "¿Puedo esperar aquí adentro?",
+      "pinyin": "PWEH-doh ehs-peh-RAHR ah-KEE ah-DEN-troh",
+      "pt": "Can I wait in here?",
+      "tts": "¿Puedo esperar aquí adentro?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b18-s01",

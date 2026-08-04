@@ -13,7 +13,6 @@
     {
       "key": "mx-i10-r01",
       "role": "target_mx_m",
-      "text": "Esta le doy en quinientos.",
       "kind": "return"
     },
     {
@@ -24,19 +23,16 @@
     {
       "key": "mx-i10-p01",
       "role": "guide_en_us_m",
-      "text": "You're at an open craft stall, no price marked. Ask a friendly opening question. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i10-t01",
       "role": "target_mx_f",
-      "text": "¿Cuál es su mejor precio?",
       "kind": "target"
     },
     {
       "key": "mx-i10-r02",
       "role": "target_mx_m",
-      "text": "Se lo dejo en cuatrocientos.",
       "kind": "return"
     },
     {
@@ -47,13 +43,11 @@
     {
       "key": "mx-i10-p02",
       "role": "guide_en_us_f",
-      "text": "Offer a lower price, warmly. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i10-t02",
       "role": "target_mx_f",
-      "text": "¿Se lo puedo dejar en trescientos cincuenta?",
       "kind": "target"
     },
     {
@@ -64,66 +58,7 @@
     {
       "key": "mx-i10-r03",
       "role": "target_mx_m",
-      "text": "Va, trato hecho.",
       "kind": "return"
-    },
-    {
-      "key": "mx-i10-n05",
-      "role": "guide_en_us_f",
-      "kind": "narration"
-    },
-    {
-      "key": "mx-i10-p03",
-      "role": "guide_en_us_f",
-      "text": "The vendor can't go any lower. Thank them warmly, whether or not you buy. Speak now.",
-      "kind": "prompt"
-    },
-    {
-      "key": "mx-i10-t03",
-      "role": "target_mx_f",
-      "text": "Está bien, muchas gracias.",
-      "kind": "target"
-    },
-    {
-      "key": "mx-i10-s01",
-      "role": "target_mx_f",
-      "text": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias.",
-      "kind": "shadow"
-    },
-    {
-      "key": "mx-i10-n06",
-      "role": "guide_en_us_f",
-      "kind": "recap"
-    },
-    {
-      "key": "mx-i10-q-i",
-      "role": "guide_en_us_f",
-      "text": "A traveller bargains for a craft item at an open-air stall, then accepts the final price gracefully.",
-      "kind": "quiz_intro"
-    },
-    {
-      "key": "mx-i10-q01",
-      "role": "target_mx_m",
-      "text": "Esta le doy en quinientos.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i10-q02",
-      "role": "target_mx_f",
-      "text": "¿Cuál es su mejor precio?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i10-q03",
-      "role": "target_mx_f",
-      "text": "¿Se lo puedo dejar en trescientos cincuenta?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i10-q04",
-      "role": "target_mx_m",
-      "text": "Va, trato hecho.",
-      "kind": "quiz"
     },
     {
       "key": "mx-i10-p03b",
@@ -134,6 +69,96 @@
       "key": "mx-i10-t03b",
       "role": "target_mx_f",
       "kind": "target"
+    },
+    {
+      "key": "mx-i10-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i10-p03",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i10-t03",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i10-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i10-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i10-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i10-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i10-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i10-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i10-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i10-x4",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i10-s01",
+      "role": "target_mx_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i10-n06",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i10-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i10-q01",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i10-q02",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i10-q03",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i10-q04",
+      "role": "target_mx_m",
+      "kind": "quiz"
     }
   ]
 }

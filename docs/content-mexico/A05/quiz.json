@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — The other language",
+  "subtitulo": "One word, in the right place",
+  "introAudioKey": "mx-a05-q-i",
+  "introPt": "A visitor notices a language switch and handles it with curiosity and honesty.",
+  "cenario": "A stall in the Yucatán where Maya is spoken.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a05-q01",
+      "voz": "target_mx_f",
+      "es": "Bix a beel.",
+      "pt": "How are you (Yucatec Maya)."
+    },
+    {
+      "audioKey": "mx-a05-q02",
+      "voz": "target_mx_f",
+      "es": "¿Qué lengua es esa?",
+      "pt": "What language is that?"
+    },
+    {
+      "audioKey": "mx-a05-q03",
+      "voz": "target_mx_f",
+      "es": "Es maya. Aquí casi todos lo hablamos.",
+      "pt": "It is Maya. Almost all of us here speak it."
+    },
+    {
+      "audioKey": "mx-a05-q04",
+      "voz": "target_mx_f",
+      "es": "Dyos bo’otik.",
+      "pt": "Thank you (Yucatec Maya)."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "How many Indigenous languages does Mexico officially recognise?",
+      "opcoes": [
+        "68",
+        "12",
+        "3",
+        "120"
+      ],
+      "correta": 0,
+      "explica": "Alongside Spanish, per INALI."
+    },
+    {
+      "pergunta": "Which has the most speakers?",
+      "opcoes": [
+        "Nahuatl",
+        "Yucatec Maya",
+        "Zapotec",
+        "Purépecha"
+      ],
+      "correta": 0,
+      "explica": "Roughly 1.7 million, concentrated in central Mexico."
+    },
+    {
+      "pergunta": "Two people switch out of Spanish beside you. What is happening?",
+      "opcoes": [
+        "They are excluding you",
+        "They are speaking the language they share",
+        "They are being rude",
+        "They are testing you"
+      ],
+      "correta": 1,
+      "explica": "Bilingual speakers switch by who they are addressing."
+    },
+    {
+      "pergunta": "Someone says you speak Maya after one word. What is the right answer?",
+      "opcoes": [
+        "Accept the compliment",
+        "Say it is only that word",
+        "Say a second word you are unsure of",
+        "Switch to English"
+      ],
+      "correta": 1,
+      "explica": "Letting it stand puts a small lie in a warm moment."
+    },
+    {
+      "pergunta": "Where does dyos bo’otik belong?",
+      "opcoes": [
+        "The Yucatán",
+        "The north",
+        "Mexico City",
+        "Everywhere"
+      ],
+      "correta": 0,
+      "explica": "Match the word to the region, or it reads as costume."
+    }
+  ]
+}

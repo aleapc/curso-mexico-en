@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Who they think they are",
+  "subtitulo": "Ask, do not conclude",
+  "introAudioKey": "mx-a03-q-i",
+  "introPt": "A conversation about a grandmother’s language opens into something larger.",
+  "cenario": "A family history comes up in conversation.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a03-q01",
+      "voz": "target_mx_m",
+      "es": "Mi abuela hablaba náhuatl, pero ya nosotros no.",
+      "pt": "My grandmother spoke Nahuatl, but we don't anymore."
+    },
+    {
+      "audioKey": "mx-a03-q02",
+      "voz": "target_mx_f",
+      "es": "¿De qué parte es tu familia?",
+      "pt": "What part is your family from?"
+    },
+    {
+      "audioKey": "mx-a03-q03",
+      "voz": "target_mx_m",
+      "es": "De un pueblo de Puebla, en la sierra.",
+      "pt": "From a town in Puebla, in the mountains."
+    },
+    {
+      "audioKey": "mx-a03-q04",
+      "voz": "target_mx_f",
+      "es": "¿Y ese nombre qué significa?",
+      "pt": "And what does that name mean?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What two ideas was modern Mexican identity built on?",
+      "opcoes": [
+        "Mestizaje and a claimed line back to Tenochtitlan",
+        "Catholicism and monarchy",
+        "Isolation and neutrality",
+        "Trade and migration"
+      ],
+      "correta": 0,
+      "explica": "Both were promoted hard by the state after the Revolution."
+    },
+    {
+      "pergunta": "What changed in 1992?",
+      "opcoes": [
+        "The Constitution recognised Mexico as pluricultural",
+        "Spanish became official",
+        "Borders were redrawn",
+        "A new flag was adopted"
+      ],
+      "correta": 0,
+      "explica": "A formal move away from mestizaje as the single story."
+    },
+    {
+      "pergunta": "Someone says their family lost a language. What is the better response?",
+      "opcoes": [
+        "Say how sad that is",
+        "Ask where the family is from",
+        "Explain colonial history",
+        "Change the subject"
+      ],
+      "correta": 1,
+      "explica": "A visitor verdict grades the family; a question gets the story."
+    },
+    {
+      "pergunta": "Why are place names a good way into this topic?",
+      "opcoes": [
+        "Anyone can answer and nobody has to take a position",
+        "They are always in Spanish",
+        "They are written on every map",
+        "They are easy to pronounce"
+      ],
+      "correta": 0,
+      "explica": "Half the map is Nahuatl, Maya, Purépecha or Zapotec."
+    },
+    {
+      "pergunta": "You hear two people disagree about mestizaje. What should you do?",
+      "opcoes": [
+        "Decide which is correct",
+        "Notice which position you are hearing",
+        "Argue for the more inclusive one",
+        "Repeat what the first one said"
+      ],
+      "correta": 1,
+      "explica": "It is a live national argument, not a question you settle."
+    }
+  ]
+}

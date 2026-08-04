@@ -3,174 +3,186 @@
   "slot": "B07",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b07-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b07-t01",
       "role": "target_mx_f",
-      "text": "¿Dónde está el transporte autorizado?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b07-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b07-r01",
       "role": "target_mx_m",
-      "text": "Al fondo, junto a la salida.",
       "kind": "return"
     },
     {
       "key": "mx-b07-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b07-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b07-t02",
       "role": "target_mx_f",
-      "text": "¿Dónde está el punto de encuentro de la aplicación?",
       "kind": "target"
     },
     {
       "key": "mx-b07-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b07-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b07-t03",
       "role": "target_mx_f",
-      "text": "¿Cuánto cuesta hasta esta dirección?",
       "kind": "target"
     },
     {
       "key": "mx-b07-r02",
       "role": "target_mx_m",
-      "text": "El precio aparece aquí.",
       "kind": "return"
     },
     {
       "key": "mx-b07-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b07-p04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b07-t04",
       "role": "target_mx_f",
-      "text": "A esta dirección, por favor.",
       "kind": "target"
     },
     {
       "key": "mx-b07-r03",
       "role": "target_mx_m",
-      "text": "Claro. Vamos para allá.",
       "kind": "return"
     },
     {
       "key": "mx-b07-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b07-p05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b07-t05",
       "role": "target_mx_f",
-      "text": "Aquí está bien. ¿Me da un recibo, por favor?",
       "kind": "target"
     },
     {
       "key": "mx-b07-r04",
       "role": "target_mx_m",
-      "text": "Sí, claro.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b07-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b07-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b07-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b07-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b07-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b07-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b07-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b07-x4",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b07-s01",
       "role": "target_mx_f",
-      "text": "¿Cuánto cuesta hasta esta dirección? A esta dirección, por favor. Aquí está bien.",
       "kind": "shadow"
     },
     {
       "key": "mx-b07-n06",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b07-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b07-q01",
       "role": "target_mx_f",
-      "text": "¿Dónde está el transporte autorizado?",
       "kind": "quiz"
     },
     {
       "key": "mx-b07-q02",
       "role": "target_mx_m",
-      "text": "Al fondo, junto a la salida.",
       "kind": "quiz"
     },
     {
       "key": "mx-b07-q03",
       "role": "target_mx_f",
-      "text": "¿Cuánto cuesta hasta esta dirección?",
       "kind": "quiz"
     },
     {
       "key": "mx-b07-q04",
       "role": "target_mx_f",
-      "text": "A esta dirección, por favor.",
       "kind": "quiz"
     },
     {
       "key": "mx-b07-q05",
       "role": "target_mx_f",
-      "text": "Aquí está bien. ¿Me da un recibo, por favor?",
       "kind": "quiz"
     },
     {
       "key": "mx-b07-q06",
       "role": "target_mx_m",
-      "text": "Sí, claro.",
       "kind": "quiz"
     }
   ]

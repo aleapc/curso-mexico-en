@@ -3,150 +3,166 @@
   "slot": "B03",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b03-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b03-t01",
       "role": "target_mx_f",
-      "text": "No entendí.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b03-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b03-r01",
       "role": "target_mx_m",
-      "text": "¿Mande?",
       "kind": "return"
     },
     {
       "key": "mx-b03-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b03-t02",
       "role": "target_mx_f",
-      "text": "¿Me lo puede repetir más despacio?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b03-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b03-r02",
       "role": "target_mx_m",
-      "text": "Claro. Sale a las quince cincuenta.",
       "kind": "return"
     },
     {
       "key": "mx-b03-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b03-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b03-t03",
       "role": "target_mx_f",
-      "text": "¿Me lo puede escribir, por favor?",
       "kind": "target"
     },
     {
       "key": "mx-b03-r03",
       "role": "target_mx_m",
-      "text": "Sí, claro. Quince cincuenta.",
       "kind": "return"
     },
     {
       "key": "mx-b03-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b03-p04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b03-t04",
       "role": "target_mx_f",
-      "text": "¿Me lo muestra en el mapa?",
       "kind": "target"
     },
     {
       "key": "mx-b03-r04",
       "role": "target_mx_m",
-      "text": "Sí. Es aquí, después de la esquina.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b03-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b03-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b03-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b03-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b03-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b03-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b03-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b03-x4",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b03-s01",
       "role": "target_mx_f",
-      "text": "No entendí. ¿Me lo puede repetir más despacio? ¿Me lo puede escribir?",
       "kind": "shadow"
     },
     {
       "key": "mx-b03-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b03-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b03-q01",
       "role": "target_mx_m",
-      "text": "Sale a las quince cincuenta por la entrada del fondo.",
       "kind": "quiz"
     },
     {
       "key": "mx-b03-q02",
       "role": "target_mx_f",
-      "text": "No entendí. ¿Me lo puede repetir más despacio?",
       "kind": "quiz"
     },
     {
       "key": "mx-b03-q03",
       "role": "target_mx_m",
-      "text": "Claro. Sale a las quince cincuenta.",
       "kind": "quiz"
     },
     {
       "key": "mx-b03-q04",
       "role": "target_mx_f",
-      "text": "¿Me lo puede escribir, por favor?",
       "kind": "quiz"
     },
     {
       "key": "mx-b03-q05",
       "role": "target_mx_m",
-      "text": "Sí, claro. Quince cincuenta.",
       "kind": "quiz"
     }
   ]

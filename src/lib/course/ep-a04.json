@@ -1,0 +1,276 @@
+{
+  "id": "a04",
+  "nivel": "avancado",
+  "numero": 32,
+  "parte": "A04",
+  "titulo": "The old argument",
+  "subtitulo": "Every country has a fault line it jokes about and does not want a visitor joking about — here it runs between the capital and everywhere else",
+  "cena": "Somebody at the table has just said the word chilango with a very particular tone, half the table laughed, and one person didn't.",
+  "moldura": "ganha",
+  "frasePiso": "The safe move in somebody else's old argument is the same everywhere: ask where they're from and let them be the one to name it.",
+  "fatosDatados": [
+    {
+      "id": "mx-chilango-provincia",
+      "afirmacao": "Chilango, the term for someone from Mexico City, is widely embraced inside the capital as a local identity but frequently carries a pejorative charge outside it; conversely, describing someone as being de provincia is often used dismissively, implying they are less sophisticated.",
+      "fonte": "Consenso de fontes culturais (Mexperience — «Cultural Insights Into the Much-Maligned Chilango»; Mexico News Daily — «Why being from provincial Mexico is no bad thing»)",
+      "ano": 2026,
+      "revisarAte": "2029-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "medio",
+      "audioKeys": [
+        "mx-a04-n03"
+      ]
+    },
+    {
+      "id": "mx-centralismo",
+      "afirmacao": "The tension has a structural root: Mexico's twentieth-century centralisation concentrated political and economic decision-making and federal resources in Mexico City, and resentment of that concentration is a recurring theme in the rest of the country.",
+      "fonte": "Consenso de fontes sobre centralismo mexicano (SciELO — identidade de emigrantes da Cidade do México; cobertura de imprensa sobre centralização)",
+      "ano": 2026,
+      "revisarAte": "2029-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-a04-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Every country has a fault line people joke across and would rather a visitor left alone. Here is how to hear Mexico's."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a04-n02",
+      "bloco": "cena",
+      "pt": "At a table outside the capital, somebody says chilango with a certain tone. Half the table laughs. One person doesn't."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a04-o01",
+      "receptivo": true,
+      "es": "Ay, ya llegó el chilango a decirnos cómo se hace.",
+      "pt": "👂 A joke with an edge. Note the edge; you're not going to use this word.",
+      "tts": "Ay, ya llegó el chilango a decirnos cómo se hace."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a04-n03",
+      "bloco": "corpo",
+      "pt": "Chilango means someone from Mexico City. Inside the capital it's worn proudly. Outside it, it often carries a sting."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a04-n04",
+      "pt": "And it runs both ways: calling someone de provincia is the other half of the same insult, meaning unsophisticated."
+    },
+    {
+      "consulta": [
+        "conversa/origem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-a04-p01",
+      "promptPt": "Skip the labels entirely. Ask the neutral question that lets them name themselves. Speak now.",
+      "audioKey": "mx-a04-t01",
+      "es": "¿De qué parte de México eres?",
+      "pinyin": "deh keh PAHR-teh deh MEH-hee-koh EH-rehs",
+      "pt": "What part of Mexico are you from?",
+      "tts": "¿De qué parte de México eres?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a04-o02",
+      "es": "De Monterrey. Regio de toda la vida.",
+      "pt": "From Monterrey. Regio my whole life.",
+      "tts": "De Monterrey. Regio de toda la vida."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a04-n05",
+      "bloco": "capsula",
+      "pt": "He named himself, so that word is safe to use back. The root is real: a century of money concentrated in the capital."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-a04-p02",
+      "promptPt": "Use the word he just gave you, and ask about the place rather than the rivalry. Speak now.",
+      "audioKey": "mx-a04-t02",
+      "es": "No conozco Monterrey. ¿Cómo es?",
+      "pinyin": "noh koh-NOHS-koh mohn-teh-RREY. KOH-moh ehs",
+      "pt": "I don't know Monterrey. What's it like?",
+      "tts": "No conozco Monterrey. ¿Cómo es?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a04-o03",
+      "es": "Muy distinto al centro. Más seco, más directo.",
+      "pt": "Very different from the centre. Drier, more direct.",
+      "tts": "Muy distinto al centro. Más seco, más directo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a04-n06",
+      "pt": "Now the move that matters. If someone invites you to blame a region, you can decline without being stiff about it."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-a04-p03",
+      "promptPt": "You're being asked to pick a side in their argument. Step out of it, lightly. Speak now.",
+      "audioKey": "mx-a04-t03",
+      "es": "Uy, en esa no me meto.",
+      "pinyin": "OO-ee, en EH-sah noh meh MEH-toh",
+      "pt": "Oh, I'm staying out of that one.",
+      "tts": "Uy, en esa no me meto."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a04-o04",
+      "es": "Haces bien, eh.",
+      "pt": "Wise of you.",
+      "tts": "Haces bien, eh."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a04-n07",
+      "pt": "That works because it's honest. You have no stake, and saying so beats a borrowed opinion."
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-a04-p04",
+      "promptPt": "Redirect to something you actually can speak to: what you liked in both places. Speak now.",
+      "audioKey": "mx-a04-t04",
+      "es": "Me ha gustado todo lo que he visto, la verdad.",
+      "pinyin": "meh ah goos-TAH-doh TOH-doh loh keh eh BEES-toh, lah behr-DAHD",
+      "pt": "I've liked everything I've seen, honestly.",
+      "tts": "Me ha gustado todo lo que he visto, la verdad."
+    },
+    {
+      "consulta": [
+        "conversa/origem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-a04-p05",
+      "promptPt": "Ask what he'd show you if you went there. Speak now.",
+      "audioKey": "mx-a04-t05",
+      "es": "Si voy, ¿qué me enseñarías?",
+      "pinyin": "see boy, keh meh en-seh-NYAH-ree-ahs",
+      "pt": "If I go, what would you show me?",
+      "tts": "Si voy, ¿qué me enseñarías?"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-a04-py1",
+      "promptPt": "A firmer version of staying out of it. Speak now.",
+      "audioKey": "mx-a04-y1",
+      "es": "Prefiero no opinar de eso.",
+      "pinyin": "preh-FYEH-roh noh oh-pee-NAHR deh EH-soh",
+      "pt": "I would rather not weigh in on that.",
+      "tts": "Prefiero no opinar de eso."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-a04-s01",
+      "es": "¿De qué parte de México eres? Uy, en esa no me meto. Si voy, ¿qué me enseñarías?",
+      "pinyin": "deh keh PAHR-teh deh MEH-hee-koh EH-rehs. OO-ee, en EH-sah noh meh MEH-toh. see boy, keh meh en-seh-NYAH-ree-ahs",
+      "pt": "Shadow the neutral question, the graceful exit, and the redirect.",
+      "tts": "¿De qué parte de México eres? Uy, en esa no me meto. Si voy, ¿qué me enseñarías?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a04-n08",
+      "bloco": "recap",
+      "pt": "A04 complete. Skip both labels. Ask where they are from, use the word they hand you, and stay out of the argument."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "How to hear a fault line without stepping in it",
+    "secoes": [
+      {
+        "titulo": "The same word, two charges",
+        "corpo": "Chilango is a badge inside Mexico City and frequently an accusation outside it. The tone carries the difference, and a visitor reproducing the word without the tone will land on the wrong side of it about half the time."
+      },
+      {
+        "titulo": "The insult runs both directions",
+        "corpo": "De provincia, said a certain way, means unsophisticated. People from outside the capital resent it precisely as much as people from the capital resent chilango. There is no safe side to borrow."
+      },
+      {
+        "titulo": "The root is structural, not just banter",
+        "corpo": "Twentieth-century centralisation concentrated federal money and decisions in Mexico City. The jokes sit on top of a genuine, long-running grievance about where the country's resources go, which is why they have an edge that pure regional banter doesn't."
+      },
+      {
+        "titulo": "Let them name themselves",
+        "corpo": "Regio, tapatío, jarocho, norteño, yucateco — these are worn with pride by the people they describe. Ask where someone is from and use whatever word they hand you. That single habit removes essentially all the risk."
+      }
+    ]
+  },
+  "slot": "A04",
+  "permissao": "You are allowed to have no opinion, out loud. 'En esa no me meto' is a complete and well-received answer — a visitor with strong views about which Mexican region is the problem is a visitor nobody invites twice.",
+  "permissaoAudioKey": "mx-a04-n07",
+  "espelho": "Think of the regional rivalry in your own country that locals joke about constantly and a foreign guest absolutely should not — north against south, capital against everywhere, the accent people imitate at parties. You already know the rule from that side: the visitor who joins in has misread an in-joke as an invitation.",
+  "fichasCulturais": [
+    {
+      "sinal": "Your hosts spend ten minutes cheerfully mocking people from another Mexican region, then turn to you and ask what you think.",
+      "suaLeitura": "They're clearly comfortable with the topic, so agreeing is the friendly thing — refusing to answer would be prim.",
+      "oQueEAli": "Regional mockery among Mexicans sits on a real, century-old grievance about centralisation, and it is affectionate precisely because everyone in the room has standing in the argument. A visitor agreeing is not joining the banter; they are a stranger endorsing a criticism of people who aren't there.",
+      "oQueVoceFaz": "Decline lightly and honestly — en esa no me meto — and redirect to what you have actually seen and liked.",
+      "oQueMelhora": "You stay warm and get to keep talking, instead of buying a position in an argument that will still be running long after you fly home.",
+      "ondeNaoVale": "Not a rule against all opinions — you can be enthusiastic about food, cities and music. It is specifically about ranking regions or people against each other.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "mx-a04-n06"
+      ]
+    },
+    {
+      "sinal": "You pick up the word chilango from someone who used it about themselves in Mexico City, then use it later about a stranger in another state.",
+      "suaLeitura": "I heard a local use it, so it's just the normal word for someone from the capital.",
+      "oQueEAli": "The word's charge flips depending on who says it and where. Inside the capital it is commonly self-applied and affectionate; outside it, it frequently carries stereotypes of arrogance and rudeness — so the same word you heard warmly can arrive as an insult.",
+      "oQueVoceFaz": "Only use a regional label after the person has used it about themselves, and default to asking ¿de qué parte eres? instead.",
+      "oQueMelhora": "You never have to guess which charge a word is carrying in the room you happen to be standing in.",
+      "ondeNaoVale": "Not true of every regional demonym — regio, tapatío and jarocho are generally worn with pride. Chilango and de provincia are the two that reliably carry an edge.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "mx-a04-n03"
+      ]
+    }
+  ]
+}

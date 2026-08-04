@@ -18,7 +18,6 @@
     {
       "key": "mx-i02-r01",
       "role": "target_mx_m",
-      "text": "¿Quién sigue?",
       "kind": "return"
     },
     {
@@ -29,19 +28,16 @@
     {
       "key": "mx-i02-p01",
       "role": "guide_en_us_f",
-      "text": "The cook asks who's next. Claim your turn immediately. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i02-t01",
       "role": "target_mx_f",
-      "text": "Yo sigo, por favor.",
       "kind": "target"
     },
     {
       "key": "mx-i02-r02",
       "role": "target_mx_m",
-      "text": "Dígame.",
       "kind": "return"
     },
     {
@@ -52,13 +48,11 @@
     {
       "key": "mx-i02-t02",
       "role": "target_mx_f",
-      "text": "Creo que yo llegué primero.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-i02-p02",
       "role": "guide_en_us_m",
-      "text": "Someone else also claims the turn. Say, calmly, that you think you arrived first. Speak now.",
       "kind": "prompt"
     },
     {
@@ -69,61 +63,17 @@
     {
       "key": "mx-i02-r03",
       "role": "target_mx_m",
-      "text": "¿Qué le doy?",
       "kind": "return"
     },
     {
       "key": "mx-i02-p03",
       "role": "guide_en_us_f",
-      "text": "Order directly, no padding, no apology for existing. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i02-t03",
       "role": "target_mx_f",
-      "text": "Deme dos de pastor, por favor.",
       "kind": "target"
-    },
-    {
-      "key": "mx-i02-s01",
-      "role": "target_mx_f",
-      "text": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor.",
-      "kind": "shadow"
-    },
-    {
-      "key": "mx-i02-n06",
-      "role": "guide_en_us_f",
-      "kind": "recap"
-    },
-    {
-      "key": "mx-i02-q-i",
-      "role": "guide_en_us_f",
-      "text": "A crowded taco stand with no formal line. Listen for how the traveller claims a turn and orders directly.",
-      "kind": "quiz_intro"
-    },
-    {
-      "key": "mx-i02-q01",
-      "role": "target_mx_m",
-      "text": "¿Quién sigue?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i02-q02",
-      "role": "target_mx_f",
-      "text": "Yo sigo, por favor.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i02-q03",
-      "role": "target_mx_m",
-      "text": "¿Qué le doy?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i02-q04",
-      "role": "target_mx_f",
-      "text": "Deme dos de pastor, por favor.",
-      "kind": "quiz"
     },
     {
       "key": "mx-i02-r04",
@@ -139,6 +89,81 @@
       "key": "mx-i02-t04",
       "role": "target_mx_f",
       "kind": "target"
+    },
+    {
+      "key": "mx-i02-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i02-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i02-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i02-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i02-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i02-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i02-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i02-x4",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i02-s01",
+      "role": "target_mx_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i02-n06",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i02-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i02-q01",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i02-q02",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i02-q03",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i02-q04",
+      "role": "target_mx_f",
+      "kind": "quiz"
     }
   ]
 }

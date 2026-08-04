@@ -3,216 +3,201 @@
   "slot": "B13",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b13-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b13-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b13-c01",
       "role": "target_mx_f",
-      "text": "La salsa aparte, por favor.",
-      "kind": "callback"
+      "kind": "target"
     },
     {
       "key": "mx-b13-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b13-t01",
       "role": "target_mx_f",
-      "text": "Tengo una alergia grave al cacahuate.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b13-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b13-r01",
       "role": "target_mx_m",
-      "text": "¿Qué alimento no puede comer?",
       "kind": "return"
     },
     {
       "key": "mx-b13-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b13-t02",
       "role": "target_mx_f",
-      "text": "No puedo comer nada que contenga cacahuate.",
       "kind": "target"
     },
     {
       "key": "mx-b13-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b13-t03",
       "role": "target_mx_f",
-      "text": "¿Puede mostrarle esta tarjeta a la persona que prepara la comida?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b13-p04",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b13-r02",
       "role": "target_mx_m",
-      "text": "Voy a preguntarle a la cocina.",
       "kind": "return"
     },
     {
       "key": "mx-b13-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b13-t04",
       "role": "target_mx_f",
-      "text": "¿Se prepara en la misma superficie o con los mismos utensilios?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b13-p05",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b13-r03",
       "role": "target_mx_m",
-      "text": "Sí, usamos la misma superficie.",
       "kind": "return"
     },
     {
       "key": "mx-b13-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b13-t05",
       "role": "target_mx_f",
-      "text": "Entonces no voy a comer aquí.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b13-p06",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b13-r04",
       "role": "target_mx_m",
-      "text": "Entiendo. Es más seguro.",
       "kind": "return"
     },
     {
       "key": "mx-b13-n06",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b13-t06",
       "role": "target_mx_f",
-      "text": "Gracias por decírmelo. No voy a arriesgarme.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b13-p07",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
+    },
+    {
+      "key": "mx-b13-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b13-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b13-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b13-x2",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b13-s01",
       "role": "target_mx_f",
-      "text": "Tengo una alergia grave al cacahuate. ¿Puede mostrarle esta tarjeta a la persona que prepara la comida? ¿Se prepara en la misma superficie o con los mismos utensilios?",
       "kind": "shadow"
     },
     {
       "key": "mx-b13-n07",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b13-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b13-q01",
       "role": "target_mx_f",
-      "text": "Tengo una alergia grave al cacahuate.",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q02",
       "role": "target_mx_m",
-      "text": "¿Qué alimento no puede comer?",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q03",
       "role": "target_mx_f",
-      "text": "No puedo comer nada que contenga cacahuate.",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q04",
       "role": "target_mx_f",
-      "text": "¿Puede mostrarle esta tarjeta a la persona que prepara la comida?",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q05",
       "role": "target_mx_m",
-      "text": "Voy a preguntarle a la cocina.",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q06",
       "role": "target_mx_f",
-      "text": "¿Se prepara en la misma superficie o con los mismos utensilios?",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q07",
       "role": "target_mx_m",
-      "text": "Sí, usamos la misma superficie.",
       "kind": "quiz"
     },
     {
       "key": "mx-b13-q08",
       "role": "target_mx_f",
-      "text": "Entonces no voy a comer aquí.",
       "kind": "quiz"
     }
   ]

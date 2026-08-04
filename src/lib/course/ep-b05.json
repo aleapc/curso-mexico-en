@@ -156,6 +156,76 @@
       "tts": "Gracias."
     },
     {
+      "consulta": [
+        "reparo/devagar",
+        "chegar/imigracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "repetir la pregunta",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b05-px1",
+      "promptPt": "You did not catch what the officer asked. Ask cleanly. Speak now.",
+      "audioKey": "mx-b05-x1",
+      "es": "¿Me puede repetir la pregunta?",
+      "pinyin": "meh PWEH-deh reh-peh-TEER lah preh-GOON-tah",
+      "pt": "Can you repeat the question?",
+      "tts": "¿Me puede repetir la pregunta?"
+    },
+    {
+      "consulta": [
+        "chegar/imigracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "un momento",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b05-px2",
+      "promptPt": "You need two seconds to find the booking on your phone. Speak now.",
+      "audioKey": "mx-b05-x2",
+      "es": "¿Me da un momento, por favor?",
+      "pinyin": "meh dah oon moh-MEN-toh por fah-BOR",
+      "pt": "Could you give me a moment, please?",
+      "tts": "¿Me da un momento, por favor?"
+    },
+    {
+      "consulta": [
+        "chegar/imigracao",
+        "chegar/duracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "decir cuántos días",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b05-px3",
+      "promptPt": "The stamp is in. Ask how long you are authorised to stay. Speak now.",
+      "audioKey": "mx-b05-x3",
+      "es": "¿Me puede decir cuántos días me dieron?",
+      "pinyin": "meh PWEH-deh deh-SEER KWAHN-tohs DEE-ahs meh DYEH-rohn",
+      "pt": "Can you tell me how many days I was given?",
+      "tts": "¿Me puede decir cuántos días me dieron?"
+    },
+    {
+      "consulta": [
+        "chegar/imigracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "el comprobante",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b05-px4",
+      "promptPt": "Ask for whatever slip they are issuing you. Speak now.",
+      "audioKey": "mx-b05-x4",
+      "es": "¿Me da el comprobante?",
+      "pinyin": "meh dah el kohm-proh-BAHN-teh",
+      "pt": "Can I have the receipt?",
+      "tts": "¿Me da el comprobante?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b05-s01",

@@ -62,13 +62,13 @@ export const outline: ModuloOutline[] = [
     cor: 'indigo',
     licoes: [
       { id: 'a01', titulo: 'How they talk when it isn\'t to you', pronta: true },
-      { id: 'a02', titulo: 'What they laugh at — and the one joke you can make', pronta: true },
+      { id: 'a02', titulo: 'What they laugh at, and the joke you get to make', pronta: true },
       { id: 'a03', titulo: 'Who they think they are', pronta: true },
-      { id: 'c03b', titulo: 'Spain is four languages and one very old argument', pronta: true },
-      { id: 'a05', titulo: 'Bon dia, kaixo, bo día', pronta: true },
-      { id: 'a06', titulo: 'August, the saint, and the week the street belongs to everyone', pronta: true },
-      { id: 'a07', titulo: 'Two kisses, one hand, and knowing when to go', pronta: true },
-      { id: 'a08', titulo: 'So that they ask you back', pronta: true },
+      { id: 'a04', titulo: 'The old argument', pronta: true },
+      { id: 'a05', titulo: 'The other language', pronta: true },
+      { id: 'a06', titulo: 'Their calendar', pronta: true },
+      { id: 'a07', titulo: 'Signals: welcome, uncomfortable, and time to go', pronta: true },
+      { id: 'a08', titulo: 'The goodbye', pronta: true },
     ]
   },
 ];

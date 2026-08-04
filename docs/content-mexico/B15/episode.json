@@ -375,6 +375,40 @@
       "pt": "Yes, here they are."
     },
     {
+      "consulta": [
+        "compras/talla"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "otro color",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b15-px1",
+      "promptPt": "The fit is right but the colour is not. Speak now.",
+      "audioKey": "mx-b15-x1",
+      "es": "¿Tiene otro color?",
+      "pinyin": "TYEH-neh OH-troh koh-LOHR",
+      "pt": "Do you have another colour?",
+      "tts": "¿Tiene otro color?"
+    },
+    {
+      "consulta": [
+        "pagar/efectivo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "pagar en efectivo",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b15-px2",
+      "promptPt": "The card machine is down. Offer the other way. Speak now.",
+      "audioKey": "mx-b15-x2",
+      "es": "¿Puedo pagar en efectivo?",
+      "pinyin": "PWEH-doh pah-GAHR en eh-fehk-TEE-boh",
+      "pt": "Can I pay in cash?",
+      "tts": "¿Puedo pagar en efectivo?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b15-s01",

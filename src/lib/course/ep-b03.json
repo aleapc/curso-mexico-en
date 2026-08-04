@@ -148,6 +148,74 @@
       "tts": "Sí. Es aquí, después de la esquina."
     },
     {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "hablar más despacio",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b03-px1",
+      "promptPt": "Same frame, new action: ask them to slow the whole conversation down. Speak now.",
+      "audioKey": "mx-b03-x1",
+      "es": "¿Me puede hablar más despacio?",
+      "pinyin": "meh PWEH-deh ah-BLAHR mahs dehs-PAH-syoh",
+      "pt": "Can you speak more slowly?",
+      "tts": "¿Me puede hablar más despacio?"
+    },
+    {
+      "consulta": [
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "deletrear",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b03-px2",
+      "promptPt": "It is a name and you need the letters. Keep the frame, change the action. Speak now.",
+      "audioKey": "mx-b03-x2",
+      "es": "¿Me lo puede deletrear?",
+      "pinyin": "meh loh PWEH-deh deh-leh-treh-AHR",
+      "pt": "Can you spell it for me?",
+      "tts": "¿Me lo puede deletrear?"
+    },
+    {
+      "consulta": [
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "apuntar el número",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b03-px3",
+      "promptPt": "A phone number just went past you. Ask for it in writing. Speak now.",
+      "audioKey": "mx-b03-x3",
+      "es": "¿Me puede apuntar el número?",
+      "pinyin": "meh PWEH-deh ah-poon-TAHR el NOO-meh-roh",
+      "pt": "Can you write the number down?",
+      "tts": "¿Me puede apuntar el número?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "repetir la dirección",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b03-px4",
+      "promptPt": "Only the address was lost, not the whole answer. Ask for just that. Speak now.",
+      "audioKey": "mx-b03-x4",
+      "es": "¿Me puede repetir la dirección?",
+      "pinyin": "meh PWEH-deh reh-peh-TEER lah dee-rehk-SYOHN",
+      "pt": "Can you repeat the address?",
+      "tts": "¿Me puede repetir la dirección?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b03-s01",
@@ -192,7 +260,7 @@
     ]
   },
   "slot": "B03",
-  "moldura": "protege",
+  "moldura": "resolve",
   "permissao": "You are allowed to say 'no entendí' and mean it plainly, with no apology attached. Losing the thread in a noisy counter is not a failure of your Spanish — it is a normal part of a real conversation, and the ladder exists precisely so you never have to fake understanding to keep things moving.",
   "permissaoAudioKey": "mx-b03-n01",
   "espelho": "A tourist speaking English abroad does the same false-smile nod when they lose the thread of a fast reply, and it produces exactly the same downstream mess — the wrong platform, the wrong price, the wrong turn. The habit is not a Spanish-specific weakness; it is what anyone does under the small social pressure of not wanting to seem slow, in any language.",

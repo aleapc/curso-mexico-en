@@ -127,6 +127,74 @@
       "tts": "¿Cuánto cuesta esto?"
     },
     {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "algo el domingo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i09-px1",
+      "promptPt": "Same frame, different day. Speak now.",
+      "audioKey": "mx-i09-x1",
+      "es": "¿Hay algo el domingo?",
+      "pinyin": "eye AHL-goh el doh-MEEN-goh",
+      "pt": "Is there anything on Sunday?",
+      "tts": "¿Hay algo el domingo?"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "llevar algo",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i09-px2",
+      "promptPt": "You have been included in a plan. Offer to contribute. Speak now.",
+      "audioKey": "mx-i09-x2",
+      "es": "¿Puedo llevar algo?",
+      "pinyin": "PWEH-doh yeh-BAHR AHL-goh",
+      "pt": "Can I bring something?",
+      "tts": "¿Puedo llevar algo?"
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "el mercado",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i09-px3",
+      "promptPt": "A known place, on the day it happens. Speak now.",
+      "audioKey": "mx-i09-x3",
+      "es": "¿Dónde está el mercado?",
+      "pinyin": "DOHN-deh ehs-TAH el mehr-KAH-doh",
+      "pt": "Where is the market?",
+      "tts": "¿Dónde está el mercado?"
+    },
+    {
+      "consulta": [
+        "compras/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "medio kilo",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i09-px4",
+      "promptPt": "At the stall, like any other customer. Speak now.",
+      "audioKey": "mx-i09-x4",
+      "es": "¿Me da medio kilo?",
+      "pinyin": "meh dah MEH-dyoh KEE-loh",
+      "pt": "Can I have half a kilo?",
+      "tts": "¿Me da medio kilo?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i09-s01",

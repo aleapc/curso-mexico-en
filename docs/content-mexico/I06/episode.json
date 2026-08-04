@@ -129,6 +129,74 @@
       "tts": "Vamos a ir a la playa."
     },
     {
+      "consulta": [
+        "conversa/passado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "fotos de eso",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i06-px1",
+      "promptPt": "They described the festival. Ask to see it. Speak now.",
+      "audioKey": "mx-i06-x1",
+      "es": "¿Hay fotos de eso?",
+      "pinyin": "eye FOH-tohs deh EH-soh",
+      "pt": "Are there photos of that?",
+      "tts": "¿Hay fotos de eso?"
+    },
+    {
+      "consulta": [
+        "conversa/passado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "ver el lugar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i06-px2",
+      "promptPt": "They described somewhere from years ago. Ask if it is still there. Speak now.",
+      "audioKey": "mx-i06-x2",
+      "es": "¿Puedo ver ese lugar todavía?",
+      "pinyin": "PWEH-doh behr EH-seh loo-GAHR toh-dah-BEE-ah",
+      "pt": "Can I still see that place?",
+      "tts": "¿Puedo ver ese lugar todavía?"
+    },
+    {
+      "consulta": [
+        "conversa/passado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "contar cómo era",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i06-px3",
+      "promptPt": "Invite the longer story. Speak now.",
+      "audioKey": "mx-i06-x3",
+      "es": "¿Me puede contar cómo era antes?",
+      "pinyin": "meh PWEH-deh kohn-TAHR KOH-moh EH-rah AHN-tehs",
+      "pt": "Can you tell me what it was like before?",
+      "tts": "¿Me puede contar cómo era antes?"
+    },
+    {
+      "consulta": [
+        "mesa/recomendacion"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "alguna recomendación",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i06-px4",
+      "promptPt": "Swing the conversation forward. Speak now.",
+      "audioKey": "mx-i06-x4",
+      "es": "¿Tiene alguna recomendación para mañana?",
+      "pinyin": "TYEH-neh ahl-GOO-nah reh-koh-men-dah-SYOHN PAH-rah mah-NYAH-nah",
+      "pt": "Do you have any recommendation for tomorrow?",
+      "tts": "¿Tiene alguna recomendación para mañana?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i06-s01",

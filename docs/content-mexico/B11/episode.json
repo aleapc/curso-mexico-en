@@ -208,6 +208,57 @@
       "tts": "Muy bien."
     },
     {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "lugar afuera",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b11-px1",
+      "promptPt": "The inside is loud and there are tables on the pavement. Speak now.",
+      "audioKey": "mx-b11-x1",
+      "es": "¿Hay lugar afuera?",
+      "pinyin": "eye loo-GAHR ah-FWEH-rah",
+      "pt": "Is there room outside?",
+      "tts": "¿Hay lugar afuera?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "la carta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b11-px2",
+      "promptPt": "Nobody has brought one. Ask for it. Speak now.",
+      "audioKey": "mx-b11-x2",
+      "es": "¿Me da la carta, por favor?",
+      "pinyin": "meh dah lah KAHR-tah por fah-BOR",
+      "pt": "Can I have the menu, please?",
+      "tts": "¿Me da la carta, por favor?"
+    },
+    {
+      "consulta": [
+        "dieta/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "algo sin carne",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b11-px3",
+      "promptPt": "Ask whether the option exists at all, before reading the menu. Speak now.",
+      "audioKey": "mx-b11-x3",
+      "es": "¿Hay algo sin carne?",
+      "pinyin": "eye AHL-goh seen KAHR-neh",
+      "pt": "Is there anything without meat?",
+      "tts": "¿Hay algo sin carne?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b11-s01",

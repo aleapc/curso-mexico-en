@@ -13,7 +13,6 @@
     {
       "key": "mx-i06-r01",
       "role": "target_mx_m",
-      "text": "¿Qué hiciste ayer?",
       "kind": "return"
     },
     {
@@ -24,19 +23,16 @@
     {
       "key": "mx-i06-p01",
       "role": "guide_en_us_m",
-      "text": "Say where you went yesterday. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i06-t01",
       "role": "target_mx_f",
-      "text": "Fui al mercado.",
       "kind": "target"
     },
     {
       "key": "mx-i06-r02",
       "role": "target_mx_m",
-      "text": "¿Y qué comiste?",
       "kind": "return"
     },
     {
@@ -47,13 +43,11 @@
     {
       "key": "mx-i06-p02",
       "role": "guide_en_us_f",
-      "text": "Say what you ate. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i06-t02",
       "role": "target_mx_f",
-      "text": "Comí tacos al pastor.",
       "kind": "target"
     },
     {
@@ -64,19 +58,16 @@
     {
       "key": "mx-i06-p03",
       "role": "guide_en_us_m",
-      "text": "Say you loved it. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i06-t03",
       "role": "target_mx_f",
-      "text": "Me encantó.",
       "kind": "target"
     },
     {
       "key": "mx-i06-r03",
       "role": "target_mx_m",
-      "text": "¿Y hoy qué van a hacer?",
       "kind": "return"
     },
     {
@@ -87,19 +78,56 @@
     {
       "key": "mx-i06-p04",
       "role": "guide_en_us_f",
-      "text": "Say what you're going to do today. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i06-t04",
       "role": "target_mx_f",
-      "text": "Vamos a ir a la playa.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i06-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i06-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i06-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i06-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i06-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i06-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i06-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i06-x4",
+      "role": "target_mx_f",
       "kind": "target"
     },
     {
       "key": "mx-i06-s01",
       "role": "target_mx_f",
-      "text": "Fui al mercado. Comí tacos al pastor. Me encantó.",
       "kind": "shadow"
     },
     {
@@ -110,31 +138,26 @@
     {
       "key": "mx-i06-q-i",
       "role": "guide_en_us_f",
-      "text": "Someone asks about yesterday. Listen for the three verbs that carry the whole story.",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-i06-q01",
       "role": "target_mx_m",
-      "text": "¿Qué hiciste ayer?",
       "kind": "quiz"
     },
     {
       "key": "mx-i06-q02",
       "role": "target_mx_f",
-      "text": "Fui al mercado. Comí tacos al pastor. Me encantó.",
       "kind": "quiz"
     },
     {
       "key": "mx-i06-q03",
       "role": "target_mx_m",
-      "text": "¿Y hoy qué van a hacer?",
       "kind": "quiz"
     },
     {
       "key": "mx-i06-q04",
       "role": "target_mx_f",
-      "text": "Vamos a ir a la playa.",
       "kind": "quiz"
     }
   ]

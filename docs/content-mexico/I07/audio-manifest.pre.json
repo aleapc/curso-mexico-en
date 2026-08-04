@@ -13,7 +13,6 @@
     {
       "key": "mx-i07-r01",
       "role": "target_mx_m",
-      "text": "¿Todo bien con la comida?",
       "kind": "return"
     },
     {
@@ -24,19 +23,16 @@
     {
       "key": "mx-i07-p01",
       "role": "guide_en_us_m",
-      "text": "The food was genuinely excellent. Say so, specifically. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i07-t01",
       "role": "target_mx_f",
-      "text": "El mole está buenísimo.",
       "kind": "target"
     },
     {
       "key": "mx-i07-r02",
       "role": "target_mx_m",
-      "text": "Muchas gracias, se lo voy a decir.",
       "kind": "return"
     },
     {
@@ -47,19 +43,16 @@
     {
       "key": "mx-i07-p02",
       "role": "guide_en_us_f",
-      "text": "The soup arrived cold. Name the problem, calmly. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i07-t02",
       "role": "target_mx_f",
-      "text": "Disculpe, la sopa está fría.",
       "kind": "target"
     },
     {
       "key": "mx-i07-r03",
       "role": "target_mx_m",
-      "text": "Perdón, se la cambio ahora mismo.",
       "kind": "return"
     },
     {
@@ -70,55 +63,12 @@
     {
       "key": "mx-i07-p03",
       "role": "guide_en_us_m",
-      "text": "They fixed it fast. Thank them for taking care of it. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i07-t03",
       "role": "target_mx_f",
-      "text": "Gracias por resolverlo tan rápido.",
       "kind": "target"
-    },
-    {
-      "key": "mx-i07-s01",
-      "role": "target_mx_f",
-      "text": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido.",
-      "kind": "shadow"
-    },
-    {
-      "key": "mx-i07-n05",
-      "role": "guide_en_us_f",
-      "kind": "recap"
-    },
-    {
-      "key": "mx-i07-q-i",
-      "role": "guide_en_us_f",
-      "text": "A meal with one genuine compliment and one real problem. Listen for how both get handled calmly and specifically.",
-      "kind": "quiz_intro"
-    },
-    {
-      "key": "mx-i07-q01",
-      "role": "target_mx_m",
-      "text": "¿Todo bien con la comida?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i07-q02",
-      "role": "target_mx_f",
-      "text": "El mole está buenísimo.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i07-q03",
-      "role": "target_mx_f",
-      "text": "Disculpe, la sopa está fría.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i07-q04",
-      "role": "target_mx_f",
-      "text": "Gracias por resolverlo tan rápido.",
-      "kind": "quiz"
     },
     {
       "key": "mx-i07-r04",
@@ -134,6 +84,71 @@
       "key": "mx-i07-t04",
       "role": "target_mx_f",
       "kind": "target"
+    },
+    {
+      "key": "mx-i07-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i07-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i07-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i07-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i07-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i07-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i07-s01",
+      "role": "target_mx_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i07-n05",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i07-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i07-q01",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i07-q02",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i07-q03",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i07-q04",
+      "role": "target_mx_f",
+      "kind": "quiz"
     }
   ]
 }

@@ -317,6 +317,74 @@
       "tts": "Entiendo. Le voy a cambiar la habitación."
     },
     {
+      "consulta": [
+        "quarto/preferencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "servicio a la habitación",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-px1",
+      "promptPt": "It is late and you have not eaten. Ask if it exists. Speak now.",
+      "audioKey": "mx-b16-x1",
+      "es": "¿Hay servicio a la habitación?",
+      "pinyin": "eye sehr-BEE-syoh ah lah ah-bee-tah-SYOHN",
+      "pt": "Is there room service?",
+      "tts": "¿Hay servicio a la habitación?"
+    },
+    {
+      "consulta": [
+        "quarto/troca"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "una habitación más grande",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b16-px2",
+      "promptPt": "Same frame you used in the fitting room, new object. Speak now.",
+      "audioKey": "mx-b16-x2",
+      "es": "¿Tiene una habitación más grande?",
+      "pinyin": "TYEH-neh OO-nah ah-bee-tah-SYOHN mahs GRAHN-deh",
+      "pt": "Do you have a bigger room?",
+      "tts": "¿Tiene una habitación más grande?"
+    },
+    {
+      "consulta": [
+        "quarto/preferencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "otra llave",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-px3",
+      "promptPt": "Two of you, one key card. Speak now.",
+      "audioKey": "mx-b16-x3",
+      "es": "¿Me da otra llave?",
+      "pinyin": "meh dah OH-trah YAH-beh",
+      "pt": "Can I have another key?",
+      "tts": "¿Me da otra llave?"
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-py1",
+      "promptPt": "You are out before check-in time. Speak now.",
+      "audioKey": "mx-b16-y1",
+      "es": "¿Puedo dejar la maleta en recepción?",
+      "pinyin": "PWEH-doh deh-HAR lah mah-LEH-tah en reh-sehp-SYOHN",
+      "pt": "Can I leave the suitcase at reception?",
+      "tts": "¿Puedo dejar la maleta en recepción?",
+      "molde": "PUEDO",
+      "encaixe": "dejar la maleta en recepción"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b16-s01",

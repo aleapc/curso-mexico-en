@@ -190,6 +190,74 @@
       "tts": "Sí. Su reservación está confirmada."
     },
     {
+      "consulta": [
+        "dormir/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "confirmar la reservación",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b04-px1",
+      "promptPt": "You want it confirmed, not just acknowledged. Speak now.",
+      "audioKey": "mx-b04-x1",
+      "es": "¿Me puede confirmar la reservación?",
+      "pinyin": "meh PWEH-deh kohn-feer-MAHR lah reh-sehr-bah-SYOHN",
+      "pt": "Can you confirm the reservation?",
+      "tts": "¿Me puede confirmar la reservación?"
+    },
+    {
+      "consulta": [
+        "dormir/endereco"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "mandar la dirección",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b04-px2",
+      "promptPt": "You want the address on your phone, not on a call. Speak now.",
+      "audioKey": "mx-b04-x2",
+      "es": "¿Me puede mandar la dirección por mensaje?",
+      "pinyin": "meh PWEH-deh mahn-DAHR lah dee-rehk-SYOHN por men-SAH-heh",
+      "pt": "Can you send me the address by message?",
+      "tts": "¿Me puede mandar la dirección por mensaje?"
+    },
+    {
+      "consulta": [
+        "dormir/chegada-tardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "guardar la reserva",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b04-px3",
+      "promptPt": "Your flight lands late. Ask them to hold it. Speak now.",
+      "audioKey": "mx-b04-x3",
+      "es": "¿Me puede guardar la reserva hasta tarde?",
+      "pinyin": "meh PWEH-deh gwahr-DAHR lah reh-SEHR-bah AHS-tah TAR-deh",
+      "pt": "Can you hold the booking until late?",
+      "tts": "¿Me puede guardar la reserva hasta tarde?"
+    },
+    {
+      "consulta": [
+        "dormir/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "dar el número del hotel",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b04-px4",
+      "promptPt": "You want a phone number you can call from the airport. Speak now.",
+      "audioKey": "mx-b04-x4",
+      "es": "¿Me puede dar el número del hotel?",
+      "pinyin": "meh PWEH-deh dahr el NOO-meh-roh del oh-TEL",
+      "pt": "Can you give me the hotel number?",
+      "tts": "¿Me puede dar el número del hotel?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b04-s01",

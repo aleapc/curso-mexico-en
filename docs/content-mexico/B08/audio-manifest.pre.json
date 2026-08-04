@@ -3,192 +3,201 @@
   "slot": "B08",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b08-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b08-t01",
       "role": "target_mx_f",
-      "text": "¿Hay una farmacia por aquí?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b08-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b08-r01",
       "role": "target_mx_m",
-      "text": "Sí, hay una en la esquina.",
       "kind": "return"
     },
     {
       "key": "mx-b08-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b08-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b08-t02",
       "role": "target_mx_f",
-      "text": "¿Hay un cajero por aquí?",
       "kind": "target"
     },
     {
       "key": "mx-b08-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b08-t03",
       "role": "target_mx_f",
-      "text": "¿Dónde está el baño?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b08-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b08-r02",
       "role": "target_mx_m",
-      "text": "Al fondo, a la derecha.",
       "kind": "return"
     },
     {
       "key": "mx-b08-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b08-p04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b08-t04",
       "role": "target_mx_f",
-      "text": "¿Dónde hay una farmacia?",
       "kind": "target"
     },
     {
       "key": "mx-b08-r03",
       "role": "target_mx_m",
-      "text": "Siga derecho, cruce la avenida y dé vuelta después del mercado.",
       "kind": "return"
     },
     {
       "key": "mx-b08-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b08-p05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b08-t05",
       "role": "target_mx_f",
-      "text": "¿Está lejos?",
       "kind": "target"
     },
     {
       "key": "mx-b08-r04",
       "role": "target_mx_m",
-      "text": "No. Está a dos cuadras.",
       "kind": "return"
     },
     {
       "key": "mx-b08-p06",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b08-t06",
       "role": "target_mx_f",
-      "text": "¿Me lo muestra en el mapa?",
       "kind": "target"
     },
     {
       "key": "mx-b08-r05",
       "role": "target_mx_m",
-      "text": "Sí. Es aquí, en esta esquina.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b08-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b08-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b08-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b08-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b08-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b08-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b08-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b08-x4",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b08-s01",
       "role": "target_mx_f",
-      "text": "¿Hay una farmacia por aquí? ¿Dónde hay una farmacia? ¿Está lejos?",
       "kind": "shadow"
     },
     {
       "key": "mx-b08-n06",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b08-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b08-q01",
       "role": "target_mx_f",
-      "text": "¿Hay una farmacia por aquí?",
       "kind": "quiz"
     },
     {
       "key": "mx-b08-q02",
       "role": "target_mx_m",
-      "text": "Sí, hay una en la esquina.",
       "kind": "quiz"
     },
     {
       "key": "mx-b08-q03",
       "role": "target_mx_f",
-      "text": "¿Dónde hay una farmacia?",
       "kind": "quiz"
     },
     {
       "key": "mx-b08-q04",
       "role": "target_mx_m",
-      "text": "Siga derecho, cruce la avenida y dé vuelta después del mercado.",
       "kind": "quiz"
     },
     {
       "key": "mx-b08-q05",
       "role": "target_mx_f",
-      "text": "¿Está lejos? ¿Me lo muestra en el mapa?",
       "kind": "quiz"
     },
     {
       "key": "mx-b08-q06",
       "role": "target_mx_m",
-      "text": "No. Está a dos cuadras. Es aquí.",
       "kind": "quiz"
     }
   ]

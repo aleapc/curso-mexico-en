@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — The old argument",
+  "subtitulo": "Let them name themselves",
+  "introAudioKey": "mx-a04-q-i",
+  "introPt": "A regional joke lands at a table and a visitor stays out of it gracefully.",
+  "cenario": "Regional rivalry comes up in conversation.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a04-q01",
+      "voz": "target_mx_m",
+      "es": "Ay, ya llegó el chilango a decirnos cómo se hace.",
+      "pt": "Here comes the chilango to tell us how it is done."
+    },
+    {
+      "audioKey": "mx-a04-q02",
+      "voz": "target_mx_f",
+      "es": "¿De qué parte de México eres?",
+      "pt": "What part of Mexico are you from?"
+    },
+    {
+      "audioKey": "mx-a04-q03",
+      "voz": "target_mx_m",
+      "es": "De Monterrey. Regio de toda la vida.",
+      "pt": "From Monterrey. Regio my whole life."
+    },
+    {
+      "audioKey": "mx-a04-q04",
+      "voz": "target_mx_f",
+      "es": "Uy, en esa no me meto.",
+      "pt": "Oh, I'm staying out of that one."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What does chilango mean?",
+      "opcoes": [
+        "Someone from Mexico City",
+        "Someone from the north",
+        "A street vendor",
+        "A kind of music"
+      ],
+      "correta": 0,
+      "explica": "Worn proudly inside the capital, often an edge outside it."
+    },
+    {
+      "pergunta": "Why does the term carry a sting outside the capital?",
+      "opcoes": [
+        "It implies arrogance and detachment from the rest of the country",
+        "It is grammatically incorrect",
+        "It is an old-fashioned word",
+        "It refers to a political party"
+      ],
+      "correta": 0,
+      "explica": "It sits on a real grievance about centralisation."
+    },
+    {
+      "pergunta": "What is the reliable neutral question?",
+      "opcoes": [
+        "¿De qué parte de México eres?",
+        "¿Eres chilango?",
+        "¿Te gusta la capital?",
+        "¿De provincia vienes?"
+      ],
+      "correta": 0,
+      "explica": "It lets the person name themselves, and you use their word."
+    },
+    {
+      "pergunta": "Someone invites you to agree that a region is the problem. What works?",
+      "opcoes": [
+        "Agree to be friendly",
+        "Decline lightly and redirect",
+        "Give a detailed opinion",
+        "Say nothing and leave"
+      ],
+      "correta": 1,
+      "explica": "En esa no me meto is honest and well received."
+    },
+    {
+      "pergunta": "Which label is also used dismissively?",
+      "opcoes": [
+        "De provincia",
+        "Regio",
+        "Jarocho",
+        "Yucateco"
+      ],
+      "correta": 0,
+      "explica": "It implies unsophistication; the insult runs both ways."
+    }
+  ]
+}

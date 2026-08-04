@@ -6,7 +6,7 @@
   "titulo": "Ticket, rule, vehicle — in that order",
   "subtitulo": "Buy for the destination, discover validation and transfer rules, then confirm the vehicle before boarding",
   "cena": "The ticket is already in your hand, warm from the machine, and it has told you nothing yet about the one rule that decides whether it actually works.",
-  "moldura": "protege",
+  "moldura": "resolve",
   "frasePiso": "A ticket is not useful until you know where it goes and what must happen before you board.",
   "clique": {
     "contagem": [
@@ -216,6 +216,57 @@
       "es": "Sí. Suba, por favor.",
       "pt": "Yes. Board, please.",
       "tts": "Sí. Suba, por favor."
+    },
+    {
+      "consulta": [
+        "transporte/boleto"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "la taquilla",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b09-px1",
+      "promptPt": "You need the staffed window, not a machine. Speak now.",
+      "audioKey": "mx-b09-x1",
+      "es": "¿Dónde está la taquilla?",
+      "pinyin": "DOHN-deh ehs-TAH lah tah-KEE-yah",
+      "pt": "Where is the ticket window?",
+      "tts": "¿Dónde está la taquilla?"
+    },
+    {
+      "consulta": [
+        "transporte/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "otro camión más tarde",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b09-px2",
+      "promptPt": "This one is full. Ask whether a later one exists. Speak now.",
+      "audioKey": "mx-b09-x2",
+      "es": "¿Hay otro camión más tarde?",
+      "pinyin": "eye OH-troh kah-MYOHN mahs TAR-deh",
+      "pt": "Is there another bus later?",
+      "tts": "¿Hay otro camión más tarde?"
+    },
+    {
+      "consulta": [
+        "transporte/boleto"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "dos boletos",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b09-px3",
+      "promptPt": "You are travelling with someone. Ask at the window. Speak now.",
+      "audioKey": "mx-b09-x3",
+      "es": "¿Me da dos boletos, por favor?",
+      "pinyin": "meh dah dohs boh-LEH-tohs por fah-BOR",
+      "pt": "Can I have two tickets, please?",
+      "tts": "¿Me da dos boletos, por favor?"
     },
     {
       "tipo": "shadow",

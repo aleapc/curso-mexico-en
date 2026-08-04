@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Signals",
+  "subtitulo": "The no that never says no",
+  "introAudioKey": "mx-a07-q-i",
+  "introPt": "A soft yes turns out to be a no, and the visitor reads it in time.",
+  "cenario": "A request that quietly will not happen.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a07-q01",
+      "voz": "target_mx_m",
+      "es": "Sí, ahorita se lo traigo.",
+      "pt": "Yes, I will bring it right now."
+    },
+    {
+      "audioKey": "mx-a07-q02",
+      "voz": "target_mx_f",
+      "es": "¿Más o menos a qué hora?",
+      "pt": "Roughly what time?"
+    },
+    {
+      "audioKey": "mx-a07-q03",
+      "voz": "target_mx_m",
+      "es": "Uy, hoy va a estar difícil.",
+      "pt": "Ooh, today is going to be difficult."
+    },
+    {
+      "audioKey": "mx-a07-q04",
+      "voz": "target_mx_f",
+      "es": "No se preocupe, así está bien.",
+      "pt": "Do not worry, it is fine."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why is a direct no often avoided?",
+      "opcoes": [
+        "Because it can read as rejecting the person",
+        "Because it is grammatically rude",
+        "Because it is illegal",
+        "Because it is old-fashioned"
+      ],
+      "correta": 0,
+      "explica": "Deferral keeps the relationship and embarrasses nobody."
+    },
+    {
+      "pergunta": "What does va a estar difícil usually mean?",
+      "opcoes": [
+        "It will take effort but happen",
+        "It is a no",
+        "It costs more",
+        "It happens tomorrow"
+      ],
+      "correta": 1,
+      "explica": "The no delivered so nobody had to say it."
+    },
+    {
+      "pergunta": "How do you turn a soft yes into information?",
+      "opcoes": [
+        "Push harder",
+        "Ask roughly what time",
+        "Repeat the request",
+        "Ask someone else"
+      ],
+      "correta": 1,
+      "explica": "A real yes produces a time; a soft no produces another deferral."
+    },
+    {
+      "pergunta": "Someone stands closer than you expect. What does stepping back signal?",
+      "opcoes": [
+        "Nothing, it is invisible",
+        "Coldness",
+        "Respect",
+        "Agreement"
+      ],
+      "correta": 1,
+      "explica": "Distance is legible here; keep the warmth in your face."
+    },
+    {
+      "pergunta": "How does time to go usually arrive?",
+      "opcoes": [
+        "As a direct request",
+        "As people standing up or talk thinning",
+        "As a bill",
+        "As a phone call"
+      ],
+      "correta": 1,
+      "explica": "Naming it yourself first is the courteous move."
+    }
+  ]
+}

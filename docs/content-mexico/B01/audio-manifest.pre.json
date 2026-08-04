@@ -3,180 +3,151 @@
   "slot": "B01",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b01-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b01-t01",
       "role": "target_mx_f",
-      "text": "a, e, i, o, u",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b01-n02",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b01-t02",
       "role": "target_mx_m",
-      "text": "Quiero chocolate.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b01-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b01-n03",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b01-t03",
       "role": "target_mx_f",
-      "text": "Al hotel del Centro Histórico, por favor.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b01-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b01-r01",
       "role": "target_mx_m",
-      "text": "¿Por la entrada principal?",
       "kind": "return"
     },
     {
       "key": "mx-b01-p03",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b01-t04",
       "role": "target_mx_f",
-      "text": "Sí, gracias.",
       "kind": "target"
     },
     {
       "key": "mx-b01-n04",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b01-r02",
       "role": "target_mx_m",
-      "text": "Buenas tardes. ¿En qué le ayudo?",
       "kind": "return"
     },
     {
       "key": "mx-b01-p04",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b01-t05",
       "role": "target_mx_f",
-      "text": "Tengo una reservación.",
       "kind": "target"
     },
     {
       "key": "mx-b01-r03",
       "role": "target_mx_m",
-      "text": "¿A nombre de quién?",
       "kind": "return"
     },
     {
       "key": "mx-b01-p05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b01-t06",
       "role": "target_mx_f",
-      "text": "A nombre de Morgan.",
       "kind": "target"
     },
     {
       "key": "mx-b01-s01",
       "role": "target_mx_f",
-      "text": "Al hotel del Centro Histórico, por favor. Sí, gracias. Tengo una reservación.",
       "kind": "shadow"
     },
     {
       "key": "mx-b01-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b01-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b01-q01",
       "role": "target_mx_m",
-      "text": "Buenas tardes. ¿A dónde va?",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q02",
       "role": "target_mx_f",
-      "text": "Al hotel del Centro Histórico, por favor.",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q03",
       "role": "target_mx_m",
-      "text": "¿Por la entrada principal?",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q04",
       "role": "target_mx_f",
-      "text": "Sí, gracias.",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q05",
       "role": "target_mx_m",
-      "text": "Buenas tardes. ¿En qué le ayudo?",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q06",
       "role": "target_mx_f",
-      "text": "Tengo una reservación.",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q07",
       "role": "target_mx_m",
-      "text": "¿A nombre de quién?",
       "kind": "quiz"
     },
     {
       "key": "mx-b01-q08",
       "role": "target_mx_f",
-      "text": "A nombre de Morgan.",
       "kind": "quiz"
     }
   ]

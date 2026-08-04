@@ -13,19 +13,16 @@
     {
       "key": "mx-i08-r01",
       "role": "target_mx_m",
-      "text": "¿Te gustaría cenar en mi casa el sábado?",
       "kind": "return"
     },
     {
       "key": "mx-i08-p01",
       "role": "guide_en_us_f",
-      "text": "Accept the invitation warmly. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i08-t01",
       "role": "target_mx_f",
-      "text": "Claro que sí, con mucho gusto.",
       "kind": "target"
     },
     {
@@ -36,19 +33,16 @@
     {
       "key": "mx-i08-p02",
       "role": "guide_en_us_m",
-      "text": "At the door, hand over the small gift you brought. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i08-t02",
       "role": "target_mx_f",
-      "text": "Le traje esto para la casa.",
       "kind": "target"
     },
     {
       "key": "mx-i08-r02",
       "role": "target_mx_m",
-      "text": "No te hubieras molestado, muchas gracias.",
       "kind": "return"
     },
     {
@@ -59,19 +53,16 @@
     {
       "key": "mx-i08-r03",
       "role": "target_mx_m",
-      "text": "Pasa, siéntete como en tu casa.",
       "kind": "return"
     },
     {
       "key": "mx-i08-p03",
       "role": "guide_en_us_f",
-      "text": "Thank them for having you. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i08-t03",
       "role": "target_mx_f",
-      "text": "Gracias por invitarme.",
       "kind": "target"
     },
     {
@@ -82,25 +73,61 @@
     {
       "key": "mx-i08-r04",
       "role": "target_mx_m",
-      "text": "¡Salud!",
       "kind": "return"
     },
     {
       "key": "mx-i08-p04",
       "role": "guide_en_us_m",
-      "text": "The host raises a glass. Answer the toast. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i08-t04",
       "role": "target_mx_f",
-      "text": "¡Salud!",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-x4",
+      "role": "target_mx_f",
       "kind": "target"
     },
     {
       "key": "mx-i08-s01",
       "role": "target_mx_f",
-      "text": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme.",
       "kind": "shadow"
     },
     {
@@ -111,31 +138,26 @@
     {
       "key": "mx-i08-q-i",
       "role": "guide_en_us_f",
-      "text": "A traveller is invited to dinner at a friend's home. Listen for the gift, the timing, and the toast.",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-i08-q01",
       "role": "target_mx_m",
-      "text": "¿Te gustaría cenar en mi casa el sábado?",
       "kind": "quiz"
     },
     {
       "key": "mx-i08-q02",
       "role": "target_mx_f",
-      "text": "Claro que sí, con mucho gusto.",
       "kind": "quiz"
     },
     {
       "key": "mx-i08-q03",
       "role": "target_mx_f",
-      "text": "Le traje esto para la casa.",
       "kind": "quiz"
     },
     {
       "key": "mx-i08-q04",
       "role": "target_mx_m",
-      "text": "¡Salud!",
       "kind": "quiz"
     }
   ]

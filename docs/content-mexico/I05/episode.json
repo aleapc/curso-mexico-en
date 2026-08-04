@@ -146,6 +146,74 @@
       "tts": "Bueno, fue un gusto. Que le vaya bien."
     },
     {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "algo que ver cerca",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i05-px1",
+      "promptPt": "Turn the small talk into a plan. Speak now.",
+      "audioKey": "mx-i05-x1",
+      "es": "¿Hay algo que ver cerca?",
+      "pinyin": "eye AHL-goh keh behr SEHR-kah",
+      "pt": "Is there anything to see nearby?",
+      "tts": "¿Hay algo que ver cerca?"
+    },
+    {
+      "consulta": [
+        "mesa/recomendacion"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "recomendar un lugar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i05-px2",
+      "promptPt": "They clearly know the city. Ask them. Speak now.",
+      "audioKey": "mx-i05-x2",
+      "es": "¿Me puede recomendar un lugar?",
+      "pinyin": "meh PWEH-deh reh-koh-men-DAHR oon loo-GAHR",
+      "pt": "Can you recommend a place?",
+      "tts": "¿Me puede recomendar un lugar?"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "preguntarte algo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i05-px3",
+      "promptPt": "Open the door before walking through it. Speak now.",
+      "audioKey": "mx-i05-x3",
+      "es": "¿Te puedo preguntar algo?",
+      "pinyin": "teh PWEH-doh preh-goon-TAHR AHL-goh",
+      "pt": "Can I ask you something?",
+      "tts": "¿Te puedo preguntar algo?"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i05-py1",
+      "promptPt": "They have been generous. Ask for one more thing. Speak now.",
+      "audioKey": "mx-i05-y1",
+      "es": "¿Tiene algún consejo para mí?",
+      "pinyin": "TYEH-neh ahl-GOON kohn-SEH-hoh PAH-rah mee",
+      "pt": "Do you have any advice for me?",
+      "tts": "¿Tiene algún consejo para mí?",
+      "molde": "TIENE",
+      "encaixe": "algún consejo"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i05-s01",

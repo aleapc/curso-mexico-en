@@ -3,246 +3,246 @@
   "slot": "B16",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b16-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-c01",
       "role": "target_mx_f",
-      "text": "Tengo una reservación a nombre de Morgan.",
-      "kind": "callback"
+      "kind": "target"
     },
     {
       "key": "mx-b16-r01",
       "role": "target_mx_m",
-      "text": "Claro. ¿Me permite su identificación?",
       "kind": "return"
     },
     {
       "key": "mx-b16-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-t01",
       "role": "target_mx_f",
-      "text": "¿Hay una habitación más silenciosa?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-r02",
       "role": "target_mx_m",
-      "text": "Sí, tengo una lejos del elevador.",
       "kind": "return"
     },
     {
       "key": "mx-b16-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-t02",
       "role": "target_mx_f",
-      "text": "¿Tiene una habitación en un piso alto?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-r03",
       "role": "target_mx_m",
-      "text": "Sí, en el sexto piso.",
       "kind": "return"
     },
     {
       "key": "mx-b16-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-t03",
       "role": "target_mx_f",
-      "text": "¿Es posible salir más tarde mañana?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-r04",
       "role": "target_mx_m",
-      "text": "Sí, hasta las dos, con un cargo adicional.",
       "kind": "return"
     },
     {
       "key": "mx-b16-t04",
       "role": "target_mx_f",
-      "text": "¿Cuánto cuesta el cargo adicional?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p05",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-t05",
       "role": "target_mx_f",
-      "text": "El aire acondicionado no funciona.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p06",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-r05",
       "role": "target_mx_m",
-      "text": "Voy a enviar a mantenimiento.",
       "kind": "return"
     },
     {
       "key": "mx-b16-n06",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-t06",
       "role": "target_mx_f",
-      "text": "¿A qué hora pueden revisarlo?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p07",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-r06",
       "role": "target_mx_m",
-      "text": "En veinte minutos.",
       "kind": "return"
     },
     {
       "key": "mx-b16-n07",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b16-t07",
       "role": "target_mx_f",
-      "text": "Sigue sin funcionar. Necesito otra habitación, por favor.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b16-p08",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b16-r07",
       "role": "target_mx_m",
-      "text": "Entiendo. Le voy a cambiar la habitación.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b16-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b16-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b16-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b16-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b16-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b16-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b16-py1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b16-y1",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b16-s01",
       "role": "target_mx_f",
-      "text": "¿Hay una habitación más silenciosa? ¿Es posible salir más tarde mañana? El aire acondicionado no funciona. Necesito otra habitación, por favor.",
       "kind": "shadow"
     },
     {
       "key": "mx-b16-n08",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b16-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b16-q01",
       "role": "target_mx_f",
-      "text": "¿Hay una habitación más silenciosa?",
       "kind": "quiz"
     },
     {
       "key": "mx-b16-q02",
       "role": "target_mx_m",
-      "text": "Sí, tengo una lejos del elevador.",
       "kind": "quiz"
     },
     {
       "key": "mx-b16-q03",
       "role": "target_mx_f",
-      "text": "El aire acondicionado no funciona.",
       "kind": "quiz"
     },
     {
       "key": "mx-b16-q04",
       "role": "target_mx_m",
-      "text": "Voy a enviar a mantenimiento.",
       "kind": "quiz"
     },
     {
       "key": "mx-b16-q05",
       "role": "target_mx_f",
-      "text": "¿A qué hora pueden revisarlo?",
       "kind": "quiz"
     },
     {
       "key": "mx-b16-q06",
       "role": "target_mx_m",
-      "text": "En veinte minutos.",
       "kind": "quiz"
     },
     {
       "key": "mx-b16-q07",
       "role": "target_mx_f",
-      "text": "Sigue sin funcionar. Necesito otra habitación, por favor.",
       "kind": "quiz"
     }
   ]

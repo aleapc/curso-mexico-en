@@ -167,6 +167,74 @@
       "tts": "Sí, hasta las tres."
     },
     {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "comida corrida",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i01-px1",
+      "promptPt": "Existence first, details after. Speak now.",
+      "audioKey": "mx-i01-x1",
+      "es": "¿Hay comida corrida?",
+      "pinyin": "eye koh-MEE-dah koh-RREE-dah",
+      "pt": "Is there a set lunch?",
+      "tts": "¿Hay comida corrida?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "lo mismo que él",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i01-px2",
+      "promptPt": "The dish at the next table looks right. Speak now.",
+      "audioKey": "mx-i01-x2",
+      "es": "¿Me da lo mismo que él?",
+      "pinyin": "meh dah loh MEES-moh keh el",
+      "pt": "Can I have the same as him?",
+      "tts": "¿Me da lo mismo que él?"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "mesa para uno",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i01-px3",
+      "promptPt": "You are eating alone today. Speak now.",
+      "audioKey": "mx-i01-x3",
+      "es": "¿Tiene mesa para uno?",
+      "pinyin": "TYEH-neh MEH-sah PAH-rah OO-noh",
+      "pt": "Do you have a table for one?",
+      "tts": "¿Tiene mesa para uno?"
+    },
+    {
+      "consulta": [
+        "mesa/sentar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "sentarme en la barra",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i01-px4",
+      "promptPt": "The tables are full but the counter is not. Speak now.",
+      "audioKey": "mx-i01-x4",
+      "es": "¿Puedo sentarme en la barra?",
+      "pinyin": "PWEH-doh sen-TAHR-meh en lah BAH-rrah",
+      "pt": "Can I sit at the counter?",
+      "tts": "¿Puedo sentarme en la barra?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i01-s01",

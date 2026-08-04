@@ -145,6 +145,74 @@
       "tts": "El mole está buenísimo hoy."
     },
     {
+      "consulta": [
+        "mesa/recomendacion"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "algo típico de aquí",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i03-px1",
+      "promptPt": "You want the local thing, not the safe thing. Speak now.",
+      "audioKey": "mx-i03-x1",
+      "es": "¿Tiene algo típico de aquí?",
+      "pinyin": "TYEH-neh AHL-goh TEE-pee-koh deh ah-KEE",
+      "pt": "Do you have something typical from here?",
+      "tts": "¿Tiene algo típico de aquí?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "postre incluido",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i03-px2",
+      "promptPt": "Find out what the fixed price actually covers. Speak now.",
+      "audioKey": "mx-i03-x2",
+      "es": "¿Hay postre incluido?",
+      "pinyin": "eye POHS-treh een-kloo-EE-doh",
+      "pt": "Is dessert included?",
+      "tts": "¿Hay postre incluido?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "la de pollo",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i03-px3",
+      "promptPt": "Point and name, nothing more. Speak now.",
+      "audioKey": "mx-i03-x3",
+      "es": "¿Me da la de pollo?",
+      "pinyin": "meh dah lah deh POH-yoh",
+      "pt": "Can I have the chicken one?",
+      "tts": "¿Me da la de pollo?"
+    },
+    {
+      "consulta": [
+        "mesa/picante"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "SIN",
+      "encaixe": "picante",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i03-px4",
+      "promptPt": "Say it before it is made, not after. Speak now.",
+      "audioKey": "mx-i03-x4",
+      "es": "Sin picante, por favor.",
+      "pinyin": "seen pee-KAHN-teh por fah-BOR",
+      "pt": "Not spicy, please.",
+      "tts": "Sin picante, por favor."
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i03-s01",

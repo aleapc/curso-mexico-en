@@ -13,7 +13,6 @@
     {
       "key": "mx-i09-r01",
       "role": "target_mx_m",
-      "text": "¿Qué van a hacer este fin de semana?",
       "kind": "return"
     },
     {
@@ -24,19 +23,16 @@
     {
       "key": "mx-i09-p01",
       "role": "guide_en_us_m",
-      "text": "Ask what's happening in the plaza this weekend. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i09-t01",
       "role": "target_mx_f",
-      "text": "¿Hay algo en la plaza este fin de semana?",
       "kind": "target"
     },
     {
       "key": "mx-i09-r02",
       "role": "target_mx_m",
-      "text": "Sí, hay un mercado sobre ruedas los domingos.",
       "kind": "return"
     },
     {
@@ -47,78 +43,17 @@
     {
       "key": "mx-i09-p02",
       "role": "guide_en_us_f",
-      "text": "Ask if you can come along with them. Speak now.",
       "kind": "prompt"
     },
     {
       "key": "mx-i09-t02",
       "role": "target_mx_f",
-      "text": "¿Puedo ir con ustedes?",
       "kind": "target"
     },
     {
       "key": "mx-i09-r03",
       "role": "target_mx_m",
-      "text": "Claro, nos vemos a las diez.",
       "kind": "return"
-    },
-    {
-      "key": "mx-i09-n04",
-      "role": "guide_en_us_m",
-      "kind": "narration"
-    },
-    {
-      "key": "mx-i09-p03",
-      "role": "guide_en_us_m",
-      "text": "Ask the price of something at a stall, like any other customer. Speak now.",
-      "kind": "prompt"
-    },
-    {
-      "key": "mx-i09-t03",
-      "role": "target_mx_f",
-      "text": "¿Cuánto cuesta esto?",
-      "kind": "target"
-    },
-    {
-      "key": "mx-i09-s01",
-      "role": "target_mx_f",
-      "text": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?",
-      "kind": "shadow"
-    },
-    {
-      "key": "mx-i09-n05",
-      "role": "guide_en_us_f",
-      "kind": "recap"
-    },
-    {
-      "key": "mx-i09-q-i",
-      "role": "guide_en_us_f",
-      "text": "A traveller discovers a Sunday roving market by asking a local what's happening, then asks to come along.",
-      "kind": "quiz_intro"
-    },
-    {
-      "key": "mx-i09-q01",
-      "role": "target_mx_m",
-      "text": "¿Qué van a hacer este fin de semana?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i09-q02",
-      "role": "target_mx_f",
-      "text": "¿Hay algo en la plaza este fin de semana?",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i09-q03",
-      "role": "target_mx_m",
-      "text": "Sí, hay un mercado sobre ruedas los domingos.",
-      "kind": "quiz"
-    },
-    {
-      "key": "mx-i09-q04",
-      "role": "target_mx_f",
-      "text": "¿Puedo ir con ustedes?",
-      "kind": "quiz"
     },
     {
       "key": "mx-i09-p04",
@@ -129,6 +64,96 @@
       "key": "mx-i09-t04",
       "role": "target_mx_f",
       "kind": "target"
+    },
+    {
+      "key": "mx-i09-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i09-p03",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i09-t03",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i09-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i09-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i09-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i09-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i09-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i09-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i09-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i09-x4",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i09-s01",
+      "role": "target_mx_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i09-n05",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i09-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i09-q01",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i09-q02",
+      "role": "target_mx_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i09-q03",
+      "role": "target_mx_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i09-q04",
+      "role": "target_mx_f",
+      "kind": "quiz"
     }
   ]
 }

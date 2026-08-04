@@ -3,174 +3,186 @@
   "slot": "B06",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b06-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b06-t01",
       "role": "target_mx_f",
-      "text": "Mi maleta no llegó.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b06-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b06-r01",
       "role": "target_mx_m",
-      "text": "¿Tiene el comprobante de equipaje?",
       "kind": "return"
     },
     {
       "key": "mx-b06-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b06-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b06-t02",
       "role": "target_mx_f",
-      "text": "¿Hay wifi?",
       "kind": "target"
     },
     {
       "key": "mx-b06-r02",
       "role": "target_mx_m",
-      "text": "Sí. La red está en el letrero.",
       "kind": "return"
     },
     {
       "key": "mx-b06-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b06-t03",
       "role": "target_mx_f",
-      "text": "¿Puedo usar el baño?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b06-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b06-r03",
       "role": "target_mx_m",
-      "text": "Sí, adelante.",
       "kind": "return"
     },
     {
       "key": "mx-b06-p04",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b06-t04",
       "role": "target_mx_f",
-      "text": "¿Puedo pagar con tarjeta?",
       "kind": "target"
     },
     {
       "key": "mx-b06-r04",
       "role": "target_mx_m",
-      "text": "Sí, aceptamos tarjeta.",
       "kind": "return"
     },
     {
       "key": "mx-b06-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b06-p05",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b06-t05",
       "role": "target_mx_f",
-      "text": "¿Puedo esperar aquí?",
       "kind": "target"
     },
     {
       "key": "mx-b06-r05",
       "role": "target_mx_m",
-      "text": "Sí, puede esperar aquí.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b06-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b06-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b06-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b06-x2",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b06-px3",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b06-x3",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b06-px4",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b06-x4",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b06-s01",
       "role": "target_mx_f",
-      "text": "¿Puedo usar el baño? ¿Puedo pagar con tarjeta? ¿Puedo esperar aquí?",
       "kind": "shadow"
     },
     {
       "key": "mx-b06-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b06-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b06-q01",
       "role": "target_mx_f",
-      "text": "Mi maleta no llegó.",
       "kind": "quiz"
     },
     {
       "key": "mx-b06-q02",
       "role": "target_mx_m",
-      "text": "¿Tiene el comprobante de equipaje?",
       "kind": "quiz"
     },
     {
       "key": "mx-b06-q03",
       "role": "target_mx_f",
-      "text": "¿Hay wifi?",
       "kind": "quiz"
     },
     {
       "key": "mx-b06-q04",
       "role": "target_mx_f",
-      "text": "¿Puedo pagar con tarjeta?",
       "kind": "quiz"
     },
     {
       "key": "mx-b06-q05",
       "role": "target_mx_f",
-      "text": "¿Puedo esperar aquí?",
       "kind": "quiz"
     },
     {
       "key": "mx-b06-q06",
       "role": "target_mx_m",
-      "text": "Sí, puede esperar aquí.",
       "kind": "quiz"
     }
   ]

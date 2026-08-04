@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — What they laugh at",
+  "subtitulo": "Albur, dark humour, and the joke that is yours",
+  "introAudioKey": "mx-a02-q-i",
+  "introPt": "A table laughs at something a visitor missed, and the visitor handles it well.",
+  "cenario": "A joke goes past you at a table.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a02-q01",
+      "voz": "target_mx_m",
+      "es": "¿Y tú qué, no le entras a la cuchara?",
+      "pt": "And you, not going for the spoon?"
+    },
+    {
+      "audioKey": "mx-a02-q02",
+      "voz": "target_mx_f",
+      "es": "No le entendí, ¿me explicas?",
+      "pt": "I didn't get it — explain it to me?"
+    },
+    {
+      "audioKey": "mx-a02-q03",
+      "voz": "target_mx_m",
+      "es": "Ay, no seas malpensado. Es albur.",
+      "pt": "Don't overthink it — it's an albur."
+    },
+    {
+      "audioKey": "mx-a02-q04",
+      "voz": "target_mx_f",
+      "es": "Mi español todavía no aguanta el albur.",
+      "pt": "My Spanish can't handle albur yet."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is an albur?",
+      "opcoes": [
+        "Competitive sexual wordplay with a hidden second meaning",
+        "A regional accent",
+        "A kind of taco",
+        "A formal greeting"
+      ],
+      "correta": 0,
+      "explica": "An ordinary sentence built so an obscene reading sits inside it."
+    },
+    {
+      "pergunta": "Which three subjects should a visitor not joke about?",
+      "opcoes": [
+        "National symbols, the Virgin of Guadalupe, and mothers",
+        "Food, football and weather",
+        "Money, work and family",
+        "Music, dance and film"
+      ],
+      "correta": 0,
+      "explica": "A local may joke about all three; a foreigner has no licence to."
+    },
+    {
+      "pergunta": "A Mexican jokes cheerfully about death. What is the right reaction?",
+      "opcoes": [
+        "Look sympathetic and change the subject",
+        "Laugh with it",
+        "Explain that it is a sensitive topic",
+        "Say nothing at all"
+      ],
+      "correta": 1,
+      "explica": "Dark humour is warmth here; the concerned face reads as pity."
+    },
+    {
+      "pergunta": "What is the safest joke a visitor can make?",
+      "opcoes": [
+        "About the capital",
+        "About politics",
+        "About themselves",
+        "About the food"
+      ],
+      "correta": 2,
+      "explica": "Self-deprecation travels and costs nothing."
+    },
+    {
+      "pergunta": "You missed a joke. What works?",
+      "opcoes": [
+        "Pretend you got it and laugh",
+        "Ask what it meant",
+        "Ignore it and stay quiet",
+        "Ask them to speak English"
+      ],
+      "correta": 1,
+      "explica": "Asking usually extends the joke instead of killing it."
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "titulo": "Read the decision before you ask",
   "subtitulo": "Six sign pairs for doors, queues, toilets, hours and boundaries — recognition only",
   "cena": "A door is coming up fast, both hands full, and the only useful information about which way it swings is one word printed on a small metal plate.",
-  "moldura": "protege",
+  "moldura": "ganha",
   "frasePiso": "Your eyes can resolve the next action before your mouth has to ask for help.",
   "steps": [
     {
@@ -114,6 +114,74 @@
       "voz": "guide_en_us_f",
       "audioKey": "mx-b10-n07",
       "pt": "Último acceso is the deadline to enter, not closing time. Solo personal is a boundary — stop, find the public route."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "la entrada",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b10-px1",
+      "promptPt": "The sign said SALIDA and you need the other one. Speak now.",
+      "audioKey": "mx-b10-x1",
+      "es": "¿Dónde está la entrada?",
+      "pinyin": "DOHN-deh ehs-TAH lah en-TRAH-dah",
+      "pt": "Where is the entrance?",
+      "tts": "¿Dónde está la entrada?"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "otra fila",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b10-px2",
+      "promptPt": "You read FILA and it is enormous. Ask if there is a second one. Speak now.",
+      "audioKey": "mx-b10-x2",
+      "es": "¿Hay otra fila?",
+      "pinyin": "eye OH-trah FEE-lah",
+      "pt": "Is there another queue?",
+      "tts": "¿Hay otra fila?"
+    },
+    {
+      "consulta": [
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "pasar por aquí",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b10-px3",
+      "promptPt": "The sign said SOLO PERSONAL and you are not sure it applies to you. Speak now.",
+      "audioKey": "mx-b10-x3",
+      "es": "¿Puedo pasar por aquí?",
+      "pinyin": "PWEH-doh pah-SAHR por ah-KEE",
+      "pt": "Can I go through here?",
+      "tts": "¿Puedo pasar por aquí?"
+    },
+    {
+      "consulta": [
+        "chegar/banheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "los sanitarios",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b10-px4",
+      "promptPt": "You saw the word but not the arrow. Speak now.",
+      "audioKey": "mx-b10-x4",
+      "es": "¿Dónde están los sanitarios?",
+      "pinyin": "DOHN-deh ehs-TAHN lohs sah-nee-TAH-ryohs",
+      "pt": "Where are the toilets?",
+      "tts": "¿Dónde están los sanitarios?"
     },
     {
       "tipo": "recap",

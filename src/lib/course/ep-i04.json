@@ -136,6 +136,74 @@
       "tts": "Ya me voy. Gracias por todo, nos vemos."
     },
     {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "la cuenta",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i04-px1",
+      "promptPt": "You are the one who invited. Ask for it first. Speak now.",
+      "audioKey": "mx-i04-x1",
+      "es": "¿Me da la cuenta, por favor?",
+      "pinyin": "meh dah lah KWEN-tah por fah-BOR",
+      "pt": "Can I have the bill, please?",
+      "tts": "¿Me da la cuenta, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "invitar yo esta vez",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i04-px2",
+      "promptPt": "They paid last time. Claim your turn. Speak now.",
+      "audioKey": "mx-i04-x2",
+      "es": "¿Puedo invitar yo esta vez?",
+      "pinyin": "PWEH-doh een-bee-TAHR yoh EHS-tah behs",
+      "pt": "Can I be the one to invite this time?",
+      "tts": "¿Puedo invitar yo esta vez?"
+    },
+    {
+      "consulta": [
+        "pagar/propina"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "propina incluida",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i04-px3",
+      "promptPt": "Check before adding your own. Speak now.",
+      "audioKey": "mx-i04-x3",
+      "es": "¿Hay propina incluida?",
+      "pinyin": "eye proh-PEE-nah een-kloo-EE-dah",
+      "pt": "Is a tip included?",
+      "tts": "¿Hay propina incluida?"
+    },
+    {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "dividir la cuenta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i04-px4",
+      "promptPt": "Ask the server to do the splitting. Speak now.",
+      "audioKey": "mx-i04-x4",
+      "es": "¿Me puede dividir la cuenta?",
+      "pinyin": "meh PWEH-deh dee-bee-DEER lah KWEN-tah",
+      "pt": "Can you split the bill?",
+      "tts": "¿Me puede dividir la cuenta?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i04-s01",

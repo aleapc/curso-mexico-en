@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a08",
+  "nivel": "avancado",
+  "titulo": "Quiz — The goodbye",
+  "subtitulo": "How to be invited back",
+  "introAudioKey": "mx-a08-q-i",
+  "introPt": "A visitor leaves an evening well: person by person, one specific thing, a real see-you.",
+  "cenario": "Leaving a home at the end of an evening.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a08-q01",
+      "voz": "target_mx_m",
+      "es": "¿Ya te vas? Quédate otro ratito.",
+      "pt": "Leaving already? Stay a little longer."
+    },
+    {
+      "audioKey": "mx-a08-q02",
+      "voz": "target_mx_f",
+      "es": "Ya me tengo que ir, pero qué rico estuvo.",
+      "pt": "I have to go, but it was lovely."
+    },
+    {
+      "audioKey": "mx-a08-q03",
+      "voz": "target_mx_f",
+      "es": "El mole de tu mamá no se me va a olvidar.",
+      "pt": "I won't forget your mum's mole."
+    },
+    {
+      "audioKey": "mx-a08-q04",
+      "voz": "target_mx_f",
+      "es": "Cuídate mucho. Nos estamos viendo.",
+      "pt": "Take care. We will be seeing each other."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "How should you say goodbye at a gathering?",
+      "opcoes": [
+        "To the room as a whole",
+        "To each person individually",
+        "Only to the host",
+        "With a wave from the door"
+      ],
+      "correta": 1,
+      "explica": "A hasty group wave is the most common visitor misfire."
+    },
+    {
+      "pergunta": "What is quédate otro ratito?",
+      "opcoes": [
+        "A real negotiation",
+        "Part of the leaving ritual",
+        "A request for money",
+        "An offer of a bed"
+      ],
+      "correta": 1,
+      "explica": "You need not stay, but you must not sprint."
+    },
+    {
+      "pergunta": "Why name a specific thing you enjoyed?",
+      "opcoes": [
+        "It is more polite",
+        "Specific praise travels to people not in the room",
+        "It is expected by law",
+        "It shortens the goodbye"
+      ],
+      "correta": 1,
+      "explica": "Your mum's mole gets repeated; it was lovely does not."
+    },
+    {
+      "pergunta": "What does aquí tienes tu casa mean in practice?",
+      "opcoes": [
+        "A literal offer of property",
+        "A genuine offer of standing worth answering",
+        "A polite way to end talk",
+        "An invitation to move in"
+      ],
+      "correta": 1,
+      "explica": "Answering in kind converts courtesy into relationship."
+    },
+    {
+      "pergunta": "Which is the warmer sign-off with someone you like?",
+      "opcoes": [
+        "Adiós",
+        "Cuídate",
+        "Hasta luego",
+        "Buenas noches"
+      ],
+      "correta": 1,
+      "explica": "Hasta luego works everywhere; cuídate is warmer."
+    }
+  ]
+}

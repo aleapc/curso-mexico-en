@@ -250,6 +250,40 @@
       "pt": "Thank you for telling me. I'm not going to take the risk."
     },
     {
+      "consulta": [
+        "dieta/tarjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "preguntar en la cocina",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b13-px1",
+      "promptPt": "The server is guessing. Ask them to go and check. Speak now.",
+      "audioKey": "mx-b13-x1",
+      "es": "¿Me puede preguntar en la cocina?",
+      "pinyin": "meh PWEH-deh preh-goon-TAHR en lah koh-SEE-nah",
+      "pt": "Can you ask in the kitchen?",
+      "tts": "¿Me puede preguntar en la cocina?"
+    },
+    {
+      "consulta": [
+        "dieta/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "SIN",
+      "encaixe": "cacahuate",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b13-px2",
+      "promptPt": "The short form, on top of the full warning you already gave. Speak now.",
+      "audioKey": "mx-b13-x2",
+      "es": "Sin cacahuate, por favor.",
+      "pinyin": "seen kah-kah-WAH-teh por fah-BOR",
+      "pt": "Without peanut, please.",
+      "tts": "Sin cacahuate, por favor."
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b13-s01",

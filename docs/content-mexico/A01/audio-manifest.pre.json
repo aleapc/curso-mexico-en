@@ -23,13 +23,11 @@
     {
       "key": "mx-a01-o01",
       "role": "target_mx_m",
-      "text": "¿Me da dos de pastor y uno de bistec, pa' llevar?",
       "kind": "return"
     },
     {
       "key": "mx-a01-o02",
       "role": "target_mx_f",
-      "text": "Va, ahorita se los preparo.",
       "kind": "return"
     },
     {
@@ -45,13 +43,11 @@
     {
       "key": "mx-b08-t03",
       "role": "target_mx_f",
-      "text": "¿Dónde está el baño?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-a01-o03",
       "role": "target_mx_f",
-      "text": "¿Dónde 'tá el baño?",
       "kind": "return"
     },
     {
@@ -62,13 +58,11 @@
     {
       "key": "mx-b17-t03",
       "role": "target_mx_f",
-      "text": "¿Necesito receta para este medicamento?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-a01-o04",
       "role": "target_mx_f",
-      "text": "¿Necesito receta pa' este medicamento?",
       "kind": "return"
     },
     {
@@ -79,13 +73,11 @@
     {
       "key": "mx-b13-t02",
       "role": "target_mx_f",
-      "text": "No puedo comer nada que contenga cacahuate.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-a01-o05",
       "role": "target_mx_f",
-      "text": "No puedo comer na' que contenga cacahuate.",
       "kind": "return"
     },
     {
@@ -96,13 +88,11 @@
     {
       "key": "mx-a01-o06",
       "role": "target_mx_m",
-      "text": "Pues no sé, tú dime.",
       "kind": "return"
     },
     {
       "key": "mx-a01-o07",
       "role": "target_mx_m",
-      "text": "Pos no sé, tú dime.",
       "kind": "return"
     },
     {
@@ -138,19 +128,16 @@
     {
       "key": "mx-a01-q-i",
       "role": "guide_en_us_f",
-      "text": "Listen to two regulars ordering fast at a taco stand, then answer about what you heard.",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-a01-q01",
       "role": "target_mx_m",
-      "text": "¿Me da dos de pastor y uno de bistec, pa' llevar?",
       "kind": "quiz"
     },
     {
       "key": "mx-a01-q02",
       "role": "target_mx_f",
-      "text": "Va, ahorita se los preparo.",
       "kind": "quiz"
     }
   ]

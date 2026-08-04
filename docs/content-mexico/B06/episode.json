@@ -6,7 +6,7 @@
   "titulo": "Do not leave the hall with five loose problems",
   "subtitulo": "Bag, connection, payment, bathroom and meeting point in the first sixty minutes",
   "cena": "The carousel has stopped turning, your bag is not on it, and the person with the airline lanyard is twenty metres away, not coming to you.",
-  "moldura": "protege",
+  "moldura": "resolve",
   "frasePiso": "Solve the problem that cannot travel with you before starting the one that can.",
   "moldes": [
     "PUEDO"
@@ -193,6 +193,74 @@
       "es": "Sí, puede esperar aquí.",
       "pt": "Yes, you can wait here.",
       "tts": "Sí, puede esperar aquí."
+    },
+    {
+      "consulta": [
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "cargar el teléfono",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b06-px1",
+      "promptPt": "Battery is nearly gone and there is a socket. Same frame, new action. Speak now.",
+      "audioKey": "mx-b06-x1",
+      "es": "¿Puedo cargar el teléfono aquí?",
+      "pinyin": "PWEH-doh kahr-GAHR el teh-LEH-foh-noh ah-KEE",
+      "pt": "Can I charge my phone here?",
+      "tts": "¿Puedo cargar el teléfono aquí?"
+    },
+    {
+      "consulta": [
+        "chegar/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "dejar la maleta un momento",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b06-px2",
+      "promptPt": "You need both hands free at the desk. Speak now.",
+      "audioKey": "mx-b06-x2",
+      "es": "¿Puedo dejar la maleta un momento?",
+      "pinyin": "PWEH-doh deh-HAR lah mah-LEH-tah oon moh-MEN-toh",
+      "pt": "Can I leave the suitcase for a moment?",
+      "tts": "¿Puedo dejar la maleta un momento?"
+    },
+    {
+      "consulta": [
+        "pagar/caixa"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "usar este cajero",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b06-px3",
+      "promptPt": "You are unsure your card works here. Ask before inserting it. Speak now.",
+      "audioKey": "mx-b06-x3",
+      "es": "¿Puedo usar este cajero con mi tarjeta?",
+      "pinyin": "PWEH-doh oo-SAHR EHS-teh kah-HEH-roh kohn mee tahr-HEH-tah",
+      "pt": "Can I use this ATM with my card?",
+      "tts": "¿Puedo usar este cajero con mi tarjeta?"
+    },
+    {
+      "consulta": [
+        "chegar/encontro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "salir y volver",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b06-px4",
+      "promptPt": "You want air but your pickup is inside. Ask first. Speak now.",
+      "audioKey": "mx-b06-x4",
+      "es": "¿Puedo salir y volver a entrar?",
+      "pinyin": "PWEH-doh sah-LEER ee bohl-BEHR ah en-TRAHR",
+      "pt": "Can I go out and come back in?",
+      "tts": "¿Puedo salir y volver a entrar?"
     },
     {
       "tipo": "shadow",

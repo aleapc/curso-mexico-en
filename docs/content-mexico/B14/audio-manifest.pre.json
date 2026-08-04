@@ -3,258 +3,236 @@
   "slot": "B14",
   "targetLocale": "es-MX",
   "buyerLocale": "en-US",
-  "status": "generated_pending_audio_qa",
+  "status": "pending_generation",
   "clips": [
     {
       "key": "mx-b14-n01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-p01",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-c01",
       "role": "target_mx_f",
-      "text": "¿Puedo pagar con tarjeta?",
-      "kind": "callback"
+      "kind": "target"
     },
     {
       "key": "mx-b14-n02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-t01",
       "role": "target_mx_f",
-      "text": "¿Me trae la cuenta, por favor?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p02",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r01",
       "role": "target_mx_m",
-      "text": "Claro, ahora se la traigo.",
       "kind": "return"
     },
     {
       "key": "mx-b14-n03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-t02",
       "role": "target_mx_f",
-      "text": "¿Cuál es el total?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p03",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r02",
       "role": "target_mx_m",
-      "text": "Son ochocientos cuarenta pesos.",
       "kind": "return"
     },
     {
       "key": "mx-b14-t03",
       "role": "target_mx_f",
-      "text": "¿Me lo puede mostrar, por favor?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p04",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-n04",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-t04",
       "role": "target_mx_f",
-      "text": "¿Qué es este cargo?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p05",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r03",
       "role": "target_mx_m",
-      "text": "Es la propina.",
       "kind": "return"
     },
     {
       "key": "mx-b14-t05",
       "role": "target_mx_f",
-      "text": "No autoricé este cargo. ¿Puede quitarlo, por favor?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p06",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r04",
       "role": "target_mx_m",
-      "text": "Sí, la retiro.",
       "kind": "return"
     },
     {
       "key": "mx-b14-n05",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-t06",
       "role": "target_mx_f",
-      "text": "Quiero agregar esta cantidad de propina.",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p07",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r05",
       "role": "target_mx_m",
-      "text": "Muy bien. La agrego.",
       "kind": "return"
     },
     {
       "key": "mx-b14-n06",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-t07",
       "role": "target_mx_f",
-      "text": "¿Me trae la terminal, por favor?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p08",
       "role": "guide_en_us_m",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r06",
       "role": "target_mx_m",
-      "text": "Sí, aquí está.",
       "kind": "return"
     },
     {
       "key": "mx-b14-n07",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "narration"
     },
     {
       "key": "mx-b14-t08",
       "role": "target_mx_f",
-      "text": "¿Me puede dar el recibo, por favor?",
-      "kind": "target"
+      "kind": "return"
     },
     {
       "key": "mx-b14-p09",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps.promptPt",
       "kind": "prompt"
     },
     {
       "key": "mx-b14-r07",
       "role": "target_mx_m",
-      "text": "Claro, aquí tiene.",
       "kind": "return"
+    },
+    {
+      "key": "mx-b14-px1",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b14-x1",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b14-px2",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b14-x2",
+      "role": "target_mx_f",
+      "kind": "target"
     },
     {
       "key": "mx-b14-s01",
       "role": "target_mx_f",
-      "text": "¿Me trae la cuenta, por favor? ¿Cuál es el total? ¿Qué es este cargo? ¿Me trae la terminal, por favor?",
       "kind": "shadow"
     },
     {
       "key": "mx-b14-n08",
       "role": "guide_en_us_f",
-      "textSource": "episode.steps",
       "kind": "recap"
     },
     {
       "key": "mx-b14-q-i",
       "role": "guide_en_us_f",
-      "textSource": "quiz.introPt",
       "kind": "quiz_intro"
     },
     {
       "key": "mx-b14-q01",
       "role": "target_mx_f",
-      "text": "¿Me trae la cuenta, por favor?",
       "kind": "quiz"
     },
     {
       "key": "mx-b14-q02",
       "role": "target_mx_m",
-      "text": "Claro, aquí tiene.",
       "kind": "quiz"
     },
     {
       "key": "mx-b14-q03",
       "role": "target_mx_f",
-      "text": "¿Qué es este cargo?",
       "kind": "quiz"
     },
     {
       "key": "mx-b14-q04",
       "role": "target_mx_m",
-      "text": "Es la propina.",
       "kind": "quiz"
     },
     {
       "key": "mx-b14-q05",
       "role": "target_mx_f",
-      "text": "No autoricé este cargo. ¿Puede quitarlo, por favor?",
       "kind": "quiz"
     },
     {
       "key": "mx-b14-q06",
       "role": "target_mx_m",
-      "text": "Sí, la retiro.",
       "kind": "quiz"
     },
     {
       "key": "mx-b14-q07",
       "role": "target_mx_f",
-      "text": "Quiero agregar esta cantidad de propina. ¿Me trae la terminal, por favor?",
       "kind": "quiz"
     }
   ]

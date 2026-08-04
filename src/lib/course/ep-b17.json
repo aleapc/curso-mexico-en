@@ -264,6 +264,74 @@
       "tts": "Vamos en camino."
     },
     {
+      "consulta": [
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "TIENE",
+      "encaixe": "algo para la garganta",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b17-px1",
+      "promptPt": "New symptom, same frame. Speak now.",
+      "audioKey": "mx-b17-x1",
+      "es": "¿Tiene algo para la garganta?",
+      "pinyin": "TYEH-neh AHL-goh PAH-rah lah gahr-GAHN-tah",
+      "pt": "Do you have something for a sore throat?",
+      "tts": "¿Tiene algo para la garganta?"
+    },
+    {
+      "consulta": [
+        "saude/receta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "SIN",
+      "encaixe": "receta",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b17-px2",
+      "promptPt": "They said the first one needs one. Ask for the alternative. Speak now.",
+      "audioKey": "mx-b17-x2",
+      "es": "¿Hay algo sin receta?",
+      "pinyin": "eye AHL-goh seen reh-SEH-tah",
+      "pt": "Is there something without a prescription?",
+      "tts": "¿Hay algo sin receta?"
+    },
+    {
+      "consulta": [
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "explicar cómo se toma",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b17-px3",
+      "promptPt": "You bought it. Now find out the dose. Speak now.",
+      "audioKey": "mx-b17-x3",
+      "es": "¿Me puede explicar cómo se toma?",
+      "pinyin": "meh PWEH-deh eks-plee-KAHR KOH-moh seh TOH-mah",
+      "pt": "Can you explain how to take it?",
+      "tts": "¿Me puede explicar cómo se toma?"
+    },
+    {
+      "consulta": [
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b17-py1",
+      "promptPt": "Simplest version of the whole exchange. Speak now.",
+      "audioKey": "mx-b17-y1",
+      "es": "¿Me da algo para el dolor?",
+      "pinyin": "meh dah AHL-goh PAH-rah el doh-LOHR",
+      "pt": "Can I have something for the pain?",
+      "tts": "¿Me da algo para el dolor?",
+      "molde": "ME-DA",
+      "encaixe": "algo para el dolor"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b17-s01",

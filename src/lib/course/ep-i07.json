@@ -131,6 +131,57 @@
       "tts": "Ahora sí, está perfecta."
     },
     {
+      "consulta": [
+        "mesa/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "traer otra",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i07-px1",
+      "promptPt": "The dish is wrong. Ask calmly for a replacement. Speak now.",
+      "audioKey": "mx-i07-x1",
+      "es": "¿Me puede traer otra?",
+      "pinyin": "meh PWEH-deh trah-EHR OH-trah",
+      "pt": "Can you bring another one?",
+      "tts": "¿Me puede traer otra?"
+    },
+    {
+      "consulta": [
+        "mesa/salsa"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-DA",
+      "encaixe": "un poco más de salsa",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i07-px2",
+      "promptPt": "A small, easy request while they are at the table. Speak now.",
+      "audioKey": "mx-i07-x2",
+      "es": "¿Me da un poco más de salsa?",
+      "pinyin": "meh dah oon POH-koh mahs deh SAHL-sah",
+      "pt": "Can I have a bit more salsa?",
+      "tts": "¿Me da un poco más de salsa?"
+    },
+    {
+      "consulta": [
+        "simpatia/elogio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "ME-PUEDE",
+      "encaixe": "decirle al cocinero",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i07-px3",
+      "promptPt": "Send the compliment where it belongs. Speak now.",
+      "audioKey": "mx-i07-x3",
+      "es": "¿Me puede decir al cocinero que estuvo excelente?",
+      "pinyin": "meh PWEH-deh deh-SEER al koh-see-NEH-roh keh ehs-TOO-boh ek-seh-LEN-teh",
+      "pt": "Can you tell the cook it was excellent?",
+      "tts": "¿Me puede decir al cocinero que estuvo excelente?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-i07-s01",

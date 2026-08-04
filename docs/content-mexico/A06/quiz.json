@@ -1,0 +1,92 @@
+{
+  "id": "q-mx-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Their calendar",
+  "subtitulo": "Two questions beat memorising dates",
+  "introAudioKey": "mx-a06-q-i",
+  "introPt": "A visitor discovers a long weekend the hard way, then learns the two questions.",
+  "cenario": "Planning around Mexican holidays.",
+  "dialogo": [
+    {
+      "audioKey": "mx-a06-q01",
+      "voz": "target_mx_m",
+      "es": "El lunes hacen puente, joven. Cerramos.",
+      "pt": "Monday is a long weekend — we are closed."
+    },
+    {
+      "audioKey": "mx-a06-q02",
+      "voz": "target_mx_f",
+      "es": "¿El lunes es día festivo?",
+      "pt": "Is Monday a public holiday?"
+    },
+    {
+      "audioKey": "mx-a06-q03",
+      "voz": "target_mx_m",
+      "es": "Sí, y el martes muchos no abren tampoco.",
+      "pt": "Yes, and many do not open Tuesday either."
+    },
+    {
+      "audioKey": "mx-a06-q04",
+      "voz": "target_mx_f",
+      "es": "¿Ustedes van a abrir?",
+      "pt": "Are you going to be open?"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is a puente?",
+      "opcoes": [
+        "A holiday shifted to Monday to stretch the weekend",
+        "A public march",
+        "A type of market",
+        "A religious procession"
+      ],
+      "correta": 0,
+      "explica": "Several national rest days work exactly this way."
+    },
+    {
+      "pergunta": "Is Semana Santa an official public holiday?",
+      "opcoes": [
+        "Yes, the whole week",
+        "No, but it is a huge travel week",
+        "Yes, two days",
+        "Only in the south"
+      ],
+      "correta": 1,
+      "explica": "Offices empty and beaches fill, with no legal holiday at all."
+    },
+    {
+      "pergunta": "Which date is observed but not an obligatory rest day?",
+      "opcoes": [
+        "12 December, the Virgin of Guadalupe",
+        "25 December",
+        "1 May",
+        "16 September"
+      ],
+      "correta": 0,
+      "explica": "Widely observed; banks may close without being required to."
+    },
+    {
+      "pergunta": "Why ask ¿ustedes van a abrir? after ¿es día festivo?",
+      "opcoes": [
+        "Because small businesses decide for themselves",
+        "Because the first question is rude",
+        "Because holidays change yearly",
+        "Because it is more polite"
+      ],
+      "correta": 0,
+      "explica": "Official closing and actual closing are different lists."
+    },
+    {
+      "pergunta": "Someone describes their family Día de Muertos. What is the good move?",
+      "opcoes": [
+        "Assume you can join",
+        "Assume it is private",
+        "Ask if an outsider may go",
+        "Ask to photograph it"
+      ],
+      "correta": 2,
+      "explica": "The question itself reads as respect, either answer is fine."
+    }
+  ]
+}

@@ -214,6 +214,74 @@
       "tts": "Sí. Es aquí, en esta esquina."
     },
     {
+      "consulta": [
+        "compras/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "un súper por aquí",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b08-px1",
+      "promptPt": "Keep the frame, change the thing. Speak now.",
+      "audioKey": "mx-b08-x1",
+      "es": "¿Hay un súper por aquí?",
+      "pinyin": "eye oon SOO-pehr por ah-KEE",
+      "pt": "Is there a supermarket around here?",
+      "tts": "¿Hay un súper por aquí?"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "agua para comprar",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b08-px2",
+      "promptPt": "Simplest possible existence question. Speak now.",
+      "audioKey": "mx-b08-x2",
+      "es": "¿Hay agua para comprar?",
+      "pinyin": "eye AH-gwah PAH-rah kohm-PRAHR",
+      "pt": "Is there water to buy?",
+      "tts": "¿Hay agua para comprar?"
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "la estación",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b08-px3",
+      "promptPt": "A known, single place. Use the definite frame. Speak now.",
+      "audioKey": "mx-b08-x3",
+      "es": "¿Dónde está la estación?",
+      "pinyin": "DOHN-deh ehs-TAH lah ehs-tah-SYOHN",
+      "pt": "Where is the station?",
+      "tts": "¿Dónde está la estación?"
+    },
+    {
+      "consulta": [
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "otro camino",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b08-px4",
+      "promptPt": "The route they described sounds long. Ask if another exists. Speak now.",
+      "audioKey": "mx-b08-x4",
+      "es": "¿Hay otro camino?",
+      "pinyin": "eye OH-troh kah-MEE-noh",
+      "pt": "Is there another way?",
+      "tts": "¿Hay otro camino?"
+    },
+    {
       "tipo": "shadow",
       "voz": "target_mx_f",
       "audioKey": "mx-b08-s01",
