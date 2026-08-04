@@ -1,0 +1,7 @@
+{"slot":"B06","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b06-t01","es":"Mi maleta no llegó.","en":"My bag did not arrive.","purpose":"report missing baggage"},
+  {"audioKey":"mx-b06-t02","es":"¿Hay wifi?","en":"Is there wifi?","purpose":"restore connection"},
+  {"audioKey":"mx-b06-t03","es":"¿Puedo usar el baño?","en":"Can I use the bathroom?","purpose":"ask permission"},
+  {"audioKey":"mx-b06-t04","es":"¿Puedo pagar con tarjeta?","en":"Can I pay by card?","purpose":"check payment method"},
+  {"audioKey":"mx-b06-t05","es":"¿Puedo esperar aquí?","en":"Can I wait here?","purpose":"secure meeting point"}
+]}

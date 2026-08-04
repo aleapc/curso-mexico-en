@@ -1,0 +1,8 @@
+{"slot":"B08","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b08-t01","es":"¿Hay una farmacia por aquí?","en":"Is there a pharmacy around here?","purpose":"ask existence"},
+  {"audioKey":"mx-b08-t02","es":"¿Hay un cajero por aquí?","en":"Is there an ATM around here?","purpose":"substitute category"},
+  {"audioKey":"mx-b08-t03","es":"¿Dónde está el baño?","en":"Where is the bathroom?","purpose":"locate known place"},
+  {"audioKey":"mx-b08-t04","es":"¿Dónde hay una farmacia?","en":"Where is there a pharmacy?","purpose":"locate any instance"},
+  {"audioKey":"mx-b08-t05","es":"¿Está lejos?","en":"Is it far?","purpose":"collapse long answer"},
+  {"audioKey":"mx-b08-t06","es":"¿Me lo muestra en el mapa?","en":"Can you show me on the map?","purpose":"externalise route"}
+]}

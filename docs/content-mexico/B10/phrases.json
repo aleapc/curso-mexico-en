@@ -1,0 +1,8 @@
+{"slot":"B10","targetLocale":"es-MX","buyerLocale":"en-US","mode":"recognition_only","phrases":[
+  {"audioKey":"mx-b10-t01","receptivo":true,"es":"ENTRADA · SALIDA","en":"entrance · exit","action":"choose the correct flow before crossing"},
+  {"audioKey":"mx-b10-t02","receptivo":true,"es":"JALE · EMPUJE","en":"pull · push","action":"move the manual door in the written direction"},
+  {"audioKey":"mx-b10-t03","receptivo":true,"es":"FILA · TAQUILLA","en":"queue · ticket window","action":"join the back or identify the service window"},
+  {"audioKey":"mx-b10-t04","receptivo":true,"es":"SANITARIOS · BAÑOS","en":"toilets · bathrooms","action":"follow the restroom pictogram or arrow"},
+  {"audioKey":"mx-b10-t05","receptivo":true,"es":"HORARIO · CERRADO","en":"hours or schedule · closed","action":"read today’s range or change the plan"},
+  {"audioKey":"mx-b10-t06","receptivo":true,"es":"ÚLTIMO ACCESO · SOLO PERSONAL","en":"last entry · staff only","action":"respect the deadline or stop at the boundary"}
+]}

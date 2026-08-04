@@ -1,0 +1,203 @@
+{
+  "id": "mx-b01",
+  "slot": "B01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1A",
+  "titulo": "Five vowels, one clean beat",
+  "subtitulo": "The four hand movements that make your Spanish land in a taxi, at reception and at the market",
+  "moldura": "ganha",
+  "frasePiso": "Five steady vowels, every syllable paid, one punch per word: you may sound foreign and still be understood the first time.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b01-n01",
+      "mapaGestos": true,
+      "pt": "This is not accent removal. It is a four-movement repair kit for the words you already know. Equal taps keep every syllable alive. A flat palm stops English vowels from sliding. One small punch marks the stressed syllable. A finger flick replaces the heavy English R. We will use all four in the three places where your first words matter: the airport taxi, the hotel desk and a market counter."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b01-t01",
+      "gesto": 2,
+      "es": "a — e — i — o — u",
+      "pinyin": "ah — eh — ee — oh — oo",
+      "pt": "Five stable vowels. Keep your palm level; if it tilts, the vowel moved.",
+      "tts": "a, e, i, o, u"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b01-n02",
+      "gesto": 1,
+      "pt": "Now pay every syllable. English hides weak vowels; Mexican Spanish keeps them available. Tap once for each syllable, all taps the same size: cho-co-la-te. Four taps, then one small punch on LA: cho-co-LA-te."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b01-t02",
+      "gesto": 1,
+      "es": "Quiero chocolate.",
+      "pinyin": "KYEH-roh choh-koh-LAH-teh",
+      "pt": "I want chocolate. Four clean syllables in chocolate; no swallowed ending.",
+      "tts": "Quiero chocolate."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_m",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b01-p01",
+      "promptPt": "At a market counter, point to the chocolate and say what you want. Four equal taps and one punch on LA. Speak now.",
+      "audioKey": "mx-b01-t02",
+      "es": "Quiero chocolate.",
+      "pinyin": "KYEH-roh choh-koh-LAH-teh",
+      "pt": "I want chocolate.",
+      "consulta": ["compras/balcao"]
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b01-n03",
+      "gesto": 3,
+      "pt": "At the airport, the familiar word hotel is the trap. English hits HO; Spanish hits TEL. Give the word one short punch at the end: ho-TEL. Then stop. No extra vowel after the L."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b01-t03",
+      "gesto": 3,
+      "es": "Al hotel del Centro Histórico, por favor.",
+      "pinyin": "ahl oh-TEL del SEN-troh ees-TOH-ree-koh, por fah-BOR",
+      "pt": "To the hotel in the Historic Centre, please.",
+      "tts": "Al hotel del Centro Histórico, por favor."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b01-p02",
+      "promptPt": "The authorised taxi driver asks where you are going. Give the destination and punch the end of ho-TEL. Speak now.",
+      "audioKey": "mx-b01-t03",
+      "es": "Al hotel del Centro Histórico, por favor.",
+      "pinyin": "ahl oh-TEL del SEN-troh ees-TOH-ree-koh, por fah-BOR",
+      "pt": "To the hotel in the Historic Centre, please.",
+      "consulta": ["taxi/destino"]
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b01-r01",
+      "es": "¿Por la entrada principal?",
+      "pt": "Through the main entrance?",
+      "tts": "¿Por la entrada principal?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b01-p03",
+      "promptPt": "The driver checks whether you want the main entrance. Confirm and thank him. Keep the S in gracias: Mexican Spanish does not use the Spanish th here. Speak now.",
+      "audioKey": "mx-b01-t04",
+      "es": "Sí, gracias.",
+      "pinyin": "see, GRAH-syahs",
+      "pt": "Yes, thank you.",
+      "consulta": ["taxi/destino", "simpatia/agradecer"]
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b01-n04",
+      "pt": "That S matters to the identity of this course. In Mexico, gracias, cinco and zapato all use an S sound. The th taught for central Spain does not belong in the Mexican model. And LL and Y share one sound here: start with the Y in yes. You do not need a regional performance; you need a stable, recognisable word."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b01-r02",
+      "es": "Buenas tardes. ¿En qué le ayudo?",
+      "pt": "Good afternoon. How can I help you?",
+      "tts": "Buenas tardes. ¿En qué le ayudo?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b01-p04",
+      "promptPt": "At hotel reception, the clerk asks how she can help. Say that you have a reservation. Keep every syllable in reservación and punch the final syllable. Speak now.",
+      "audioKey": "mx-b01-t05",
+      "es": "Tengo una reservación.",
+      "pinyin": "TEN-goh OO-nah reh-sehr-bah-SYOHN",
+      "pt": "I have a reservation.",
+      "consulta": ["quarto/reserva"]
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b01-r03",
+      "es": "¿A nombre de quién?",
+      "pt": "Under what name?",
+      "tts": "¿A nombre de quién?"
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b01-p05",
+      "promptPt": "The clerk asks under what name. Say: under the name Morgan. Do not add an English R after the final vowel. Speak now.",
+      "audioKey": "mx-b01-t06",
+      "es": "A nombre de Morgan.",
+      "pinyin": "ah NOHM-breh deh MOR-gahn",
+      "pt": "Under the name Morgan.",
+      "consulta": ["quarto/reserva"]
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b01-s01",
+      "es": "Al hotel del Centro Histórico, por favor. Sí, gracias. Tengo una reservación.",
+      "pinyin": "ahl oh-TEL del SEN-troh ees-TOH-ree-koh, por fah-BOR. see, GRAH-syahs. TEN-goh OO-nah reh-sehr-bah-SYOHN",
+      "pt": "Shadow the three lines that carry you from the airport into the hotel.",
+      "tts": "Al hotel del Centro Histórico, por favor. Sí, gracias. Tengo una reservación."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b01-n05",
+      "pt": "B01 complete. Equal taps, flat palm, one punch, quick flick. You used them to buy something at a market, direct an airport taxi and open your hotel reservation. Your floor is not a Mexican accent. It is five steady vowels and every syllable present when the useful sentence leaves your mouth."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The Mexican sound model used in this course",
+    "secoes": [
+      {
+        "titulo": "S, Z and soft C converge",
+        "corpo": "Mexican Spanish is seseante: gracias, cinco and zapato use /s/. Do not import the th model from central Spain. This is a destination choice, not a simplified learner option.",
+        "exemplos": [
+          {"es": "gracias", "pt": "GRAH-syahs"},
+          {"es": "cincuenta", "pt": "seen-KWEN-tah"}
+        ]
+      },
+      {
+        "titulo": "Five vowels and one stress",
+        "corpo": "Keep a, e, i, o and u stable, and give each word one clear stressed syllable. Accent marks override the default stress rules.",
+        "exemplos": [
+          {"es": "México", "pt": "MEH-ksee-koh"},
+          {"es": "hotel", "pt": "oh-TEL"},
+          {"es": "reservación", "pt": "reh-sehr-bah-SYOHN"}
+        ]
+      },
+      {
+        "titulo": "LL and Y share a lane",
+        "corpo": "The Mexican model in this course is yeísta. For an English-speaking beginner, the Y in yes is the safe starting anchor. Regional realisations belong in receptive training later, not in your first production drill.",
+        "exemplos": [
+          {"es": "ayuda", "pt": "ah-YOO-dah"},
+          {"es": "llave", "pt": "YAH-beh"}
+        ]
+      },
+      {
+        "titulo": "Permission to sound foreign",
+        "corpo": "A weak trill is not a travel emergency. Stable vowels, preserved syllables and correct stress buy more intelligibility than performing a regional accent. The target is understood first time, not mistaken for a local."
+      }
+    ]
+  }
+}

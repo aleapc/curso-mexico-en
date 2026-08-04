@@ -1,0 +1,9 @@
+{
+  "slot":"B04","targetLocale":"es-MX","buyerLocale":"en-US",
+  "phrases":[
+    {"audioKey":"mx-b04-t01","es":"Quiero confirmar mi reservación.","en":"I want to confirm my reservation.","purpose":"confirm booking"},
+    {"audioKey":"mx-b04-t02","es":"¿Me puede mandar la confirmación por correo?","en":"Can you send me the confirmation by email?","purpose":"make confirmation portable"},
+    {"audioKey":"mx-b04-t03","es":"¿Cuál es la dirección completa?","en":"What is the complete address?","purpose":"make destination usable offline"},
+    {"audioKey":"mx-b04-t04","es":"Llego después de las diez. ¿Hay recepción las veinticuatro horas?","en":"I arrive after ten. Is reception open twenty-four hours?","purpose":"protect late arrival"}
+  ]
+}

@@ -1,0 +1,9 @@
+{"slot":"B12","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b12-t01","es":"Quería dos tacos al pastor, por favor.","en":"I’d like two tacos al pastor, please.","purpose":"order quantity and base item"},
+  {"audioKey":"mx-b12-t02","es":"Uno con cebolla y cilantro.","en":"One with onion and cilantro.","purpose":"add named ingredients"},
+  {"audioKey":"mx-b12-t03","es":"El otro sin cebolla, por favor.","en":"The other one without onion, please.","purpose":"remove a preference from one item"},
+  {"audioKey":"mx-b12-t04","es":"La salsa aparte, por favor.","en":"The salsa on the side, please.","purpose":"keep sauce separate"},
+  {"audioKey":"mx-b12-t05","es":"¿Cuál salsa pica menos?","en":"Which salsa is less spicy?","purpose":"compare the current sauces"},
+  {"audioKey":"mx-b12-t06","es":"Más limón, por favor.","en":"More lime, please.","purpose":"add a visible accompaniment"},
+  {"audioKey":"mx-b12-t07","es":"Una limonada sin hielo, por favor.","en":"One lemonade without ice, please.","purpose":"remove ice from the drink"}
+]}

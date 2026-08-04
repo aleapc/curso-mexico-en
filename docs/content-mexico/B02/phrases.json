@@ -1,0 +1,13 @@
+{
+  "slot": "B02",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "phrases": [
+    {"audioKey": "mx-b02-t01", "es": "Buenos días.", "en": "Good morning.", "purpose": "greet on entry"},
+    {"audioKey": "mx-b02-t02", "es": "Solo estoy viendo, gracias.", "en": "I'm just looking, thank you.", "purpose": "release shop attendant"},
+    {"audioKey": "mx-b02-t03", "es": "Con permiso.", "en": "Excuse me; let me pass.", "purpose": "move through space"},
+    {"audioKey": "mx-b02-t04", "es": "Gracias.", "en": "Thank you.", "purpose": "acknowledge passage"},
+    {"audioKey": "mx-b02-t05", "es": "Muchas gracias. Hasta luego.", "en": "Thank you very much. See you.", "purpose": "close an exchange"},
+    {"audioKey": "mx-b02-t06", "es": "Igualmente.", "en": "Likewise.", "purpose": "return a good wish"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "slot": "B13",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "phrases": [
+    {"audioKey":"mx-b13-t01","es":"Tengo una alergia grave al cacahuate.","en":"I have a severe peanut allergy.","purpose":"state severity and the example allergen"},
+    {"audioKey":"mx-b13-t02","es":"No puedo comer nada que contenga cacahuate.","en":"I cannot eat anything containing peanut.","purpose":"exclude anything containing the allergen"},
+    {"audioKey":"mx-b13-t03","es":"¿Puede mostrarle esta tarjeta a la persona que prepara la comida?","en":"Can you show this card to the person preparing the food?","purpose":"send the written warning into the kitchen"},
+    {"audioKey":"mx-b13-t04","es":"¿Se prepara en la misma superficie o con los mismos utensilios?","en":"Is it prepared on the same surface or with the same utensils?","purpose":"ask about a concrete cross-contact path"},
+    {"audioKey":"mx-b13-t05","es":"Entonces no voy a comer aquí.","en":"Then I’m not going to eat here.","purpose":"leave after an unsafe answer"},
+    {"audioKey":"mx-b13-t06","es":"Gracias por decírmelo. No voy a arriesgarme.","en":"Thank you for telling me. I’m not going to take the risk.","purpose":"leave after an uncertain answer"}
+  ]
+}

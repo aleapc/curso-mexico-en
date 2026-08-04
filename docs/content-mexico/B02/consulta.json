@@ -1,0 +1,21 @@
+{
+  "versao": 1,
+  "sku": "en-us__mexico-es-mx",
+  "cards": [
+    {"id": "mx-b02-shop-entry", "folhas": ["chegar/entrar", "compras/so-olhando"], "titulo": "Greet before browsing", "origem": "mx-b02", "troca": [
+      {"quem": "voce", "es": "Buenos días.", "en": "Good morning.", "audioKey": "mx-b02-t01", "pron": "BWEH-nohs DEE-ahs"},
+      {"quem": "ele", "es": "Buenos días. Dígame.", "en": "Good morning. How can I help?", "audioKey": "mx-b02-r01"},
+      {"quem": "voce", "es": "Solo estoy viendo, gracias.", "en": "I'm just looking, thank you.", "audioKey": "mx-b02-t02", "pron": "SOH-loh ehs-TOY BYEN-doh, GRAH-syahs"}
+    ]},
+    {"id": "mx-b02-passage", "folhas": ["chegar/sair", "reparo/apontar"], "titulo": "Move through a blocked doorway", "origem": "mx-b02", "troca": [
+      {"quem": "voce", "es": "Con permiso.", "en": "Excuse me; let me pass.", "audioKey": "mx-b02-t03", "pron": "kohn pehr-MEE-soh"},
+      {"quem": "ele", "es": "Sí, pásele.", "en": "Of course, go ahead.", "audioKey": "mx-b02-r02"},
+      {"quem": "voce", "es": "Gracias.", "en": "Thank you.", "audioKey": "mx-b02-t04", "pron": "GRAH-syahs"}
+    ]},
+    {"id": "mx-b02-good-exit", "folhas": ["chegar/sair", "simpatia/agradecer"], "titulo": "Leave the counter well", "origem": "mx-b02", "troca": [
+      {"quem": "voce", "es": "Muchas gracias. Hasta luego.", "en": "Thank you very much. See you.", "audioKey": "mx-b02-t05", "pron": "MOO-chahs GRAH-syahs. AHS-tah LWEH-goh"},
+      {"quem": "ele", "es": "Que le vaya bien.", "en": "Take care; hope it goes well.", "audioKey": "mx-b02-r03"},
+      {"quem": "voce", "es": "Igualmente.", "en": "Likewise.", "audioKey": "mx-b02-t06", "pron": "ee-gwahl-MEN-teh"}
+    ]}
+  ]
+}

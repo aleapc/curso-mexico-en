@@ -1,0 +1,12 @@
+{
+  "slot": "B01",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "phrases": [
+    {"audioKey": "mx-b01-t02", "es": "Quiero chocolate.", "en": "I want chocolate.", "purpose": "market counter"},
+    {"audioKey": "mx-b01-t03", "es": "Al hotel del Centro Histórico, por favor.", "en": "To the hotel in the Historic Centre, please.", "purpose": "airport taxi destination"},
+    {"audioKey": "mx-b01-t04", "es": "Sí, gracias.", "en": "Yes, thank you.", "purpose": "confirm and thank"},
+    {"audioKey": "mx-b01-t05", "es": "Tengo una reservación.", "en": "I have a reservation.", "purpose": "hotel reception"},
+    {"audioKey": "mx-b01-t06", "es": "A nombre de Morgan.", "en": "Under the name Morgan.", "purpose": "reservation name"}
+  ]
+}

@@ -1,0 +1,8 @@
+{"slot":"B09","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b09-t01","es":"¿Este transporte va al centro?","en":"Does this transport go downtown?","purpose":"confirm destination before purchase"},
+  {"audioKey":"mx-b09-t02","es":"Un boleto para el centro, por favor.","en":"One ticket to downtown, please.","purpose":"buy for destination"},
+  {"audioKey":"mx-b09-t03","es":"¿Tengo que validar el boleto?","en":"Do I have to validate the ticket?","purpose":"discover validation rule"},
+  {"audioKey":"mx-b09-t04","es":"¿Dónde está el andén?","en":"Where is the platform?","purpose":"find boarding place"},
+  {"audioKey":"mx-b09-t05","es":"¿Tengo que hacer transbordo?","en":"Do I have to transfer?","purpose":"discover transfer rule"},
+  {"audioKey":"mx-b09-t06","es":"¿Este autobús va al Centro Histórico?","en":"Does this bus go to the Historic Centre?","purpose":"confirm vehicle before boarding"}
+]}

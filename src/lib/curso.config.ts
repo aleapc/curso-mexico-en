@@ -11,14 +11,14 @@ export const curso = {
   /** Par para o link do Google Tradutor: sl = comprador, tl = destino. */
   translatorPair: { sl: 'en', tl: 'es' },
   /** Moeda do destino. */
-  destCurrency: 'EUR',
+  destCurrency: 'MXN',
   /**
    * Moedas de "casa" do comprador que vale converter no bolso do viajante.
    * Vazio quando o comprador já usa a moeda do destino (ex.: DE/FR/IT→Espanha,
    * todos em EUR) — nesse caso o /bolso mostra a nota "mesma moeda", sem conversor.
    */
-  homeCurrencies: ['GBP', 'USD'] as string[],
-  timeZone: 'Europe/Madrid'
+  homeCurrencies: ['USD'] as string[],
+  timeZone: 'America/Mexico_City'
 } as const;
 
 export type CursoConfig = typeof curso;

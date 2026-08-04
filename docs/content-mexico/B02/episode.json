@@ -1,0 +1,37 @@
+{
+  "id": "mx-b02",
+  "slot": "B02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "1B",
+  "titulo": "Hello before anything else",
+  "subtitulo": "The five short moves that open a shop, clear a doorway and close an exchange well",
+  "moldura": "ganha",
+  "frasePiso": "Greet before the request, ask permission before the body moves, and sign off before the door closes.",
+  "steps": [
+    {"tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b02-n01", "pt": "In Mexico, the useful politeness is not a long sentence. It is timing. The greeting comes before you inspect the shop. Con permiso comes before your body crosses someone else's space. Gracias and hasta luego arrive before the door closes. Five short pieces, each placed one second earlier than an English speaker expects."},
+    {"tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b02-t01", "es": "Buenos días.", "pinyin": "BWEH-nohs DEE-ahs", "pt": "Good morning.", "tts": "Buenos días."},
+    {"tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b02-p01", "promptPt": "You open the door of a small shop in the morning. Before looking at the shelves, greet the person at the counter. Speak now.", "audioKey": "mx-b02-t01", "es": "Buenos días.", "pinyin": "BWEH-nohs DEE-ahs", "pt": "Good morning.", "consulta": ["chegar/entrar", "compras/balcao"]},
+    {"tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b02-r01", "es": "Buenos días. Dígame.", "pt": "Good morning. How can I help?", "tts": "Buenos días. Dígame."},
+    {"tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b02-n02", "pt": "Dígame means the floor is yours. It is not a request for your life story. If you are only looking, say so and release the attendant from hovering."},
+    {"tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b02-p02", "promptPt": "The shopkeeper asks how she can help, but you only want to look. Say that, and thank her. Speak now.", "audioKey": "mx-b02-t02", "es": "Solo estoy viendo, gracias.", "pinyin": "SOH-loh ehs-TOY BYEN-doh, GRAH-syahs", "pt": "I'm just looking, thank you.", "consulta": ["compras/so-olhando"]},
+    {"tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b02-n03", "pt": "Now the body move. A crowded lift, a narrow taquería aisle, somebody blocking the doorway: say con permiso before you squeeze through. You are not apologising for existing; you are announcing the movement before it happens."},
+    {"tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b02-t03", "es": "Con permiso.", "pinyin": "kohn pehr-MEE-soh", "pt": "Excuse me — let me pass.", "tts": "Con permiso."},
+    {"tipo": "responde", "voz": "target_mx_m", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b02-p03", "promptPt": "The lift doors open and one person is standing across the exit. Ask permission before moving past. Speak now.", "audioKey": "mx-b02-t03", "es": "Con permiso.", "pinyin": "kohn pehr-MEE-soh", "pt": "Excuse me — let me pass.", "consulta": ["reparo/apontar", "chegar/sair"]},
+    {"tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b02-r02", "es": "Sí, pásele.", "pt": "Of course, go ahead.", "tts": "Sí, pásele."},
+    {"tipo": "responde", "voz": "target_mx_m", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b02-p04", "promptPt": "They make room and say pásele. Thank them as you pass. Speak now.", "audioKey": "mx-b02-t04", "es": "Gracias.", "pinyin": "GRAH-syahs", "pt": "Thank you.", "consulta": ["simpatia/agradecer"]},
+    {"tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b02-n04", "pt": "Last move: close the exchange. Hasta luego does not promise you will return later. It is the ordinary sign-off as you leave a shop or counter."},
+    {"tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b02-p05", "promptPt": "You have paid at a taquería and are walking out. Thank them and sign off before the door closes. Speak now.", "audioKey": "mx-b02-t05", "es": "Muchas gracias. Hasta luego.", "pinyin": "MOO-chahs GRAH-syahs. AHS-tah LWEH-goh", "pt": "Thank you very much. See you.", "consulta": ["simpatia/agradecer", "chegar/sair"]},
+    {"tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b02-r03", "es": "Que le vaya bien.", "pt": "Take care; hope it goes well.", "tts": "Que le vaya bien."},
+    {"tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b02-p06", "promptPt": "They answer que le vaya bien. Return the wish with one word. Speak now.", "audioKey": "mx-b02-t06", "es": "Igualmente.", "pinyin": "ee-gwahl-MEN-teh", "pt": "Likewise.", "consulta": ["simpatia/agradecer", "chegar/sair"]},
+    {"tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b02-n05", "pt": "B02 complete. Buenos días before the request. Con permiso before the body moves. Gracias when the space opens. Hasta luego before the door closes. If somebody answers pásele, dígame or que le vaya bien, you now know exactly where the exchange is going."}
+  ],
+  "aprofundar": {
+    "titulo": "Short courtesy, placed at the right moment",
+    "secoes": [
+      {"titulo": "Dígame and pásele are returns", "corpo": "You do not need to produce either word in B02. Dígame opens your turn at a counter. Pásele grants passage or invites you in. Recognising them prevents the pause that makes a simple courtesy feel complicated.", "exemplos": [{"es": "Dígame.", "pt": "Go ahead; how can I help?"}, {"es": "Pásele.", "pt": "Go ahead; come through."}]},
+      {"titulo": "¿Mande? is receptive", "corpo": "In Mexico, ¿mande? can answer a call or replace a sharp ¿qué? when someone was not heard. The visitor may simply recognise it; producing it is optional. The Mexican Academy describes it as a courtesy marker, not proof of colonial submission."},
+      {"titulo": "Permission is not apology", "corpo": "Use con permiso before crossing physical space. Use perdón when you have actually bumped into somebody or made a mistake. Keeping those jobs separate makes both phrases clearer."}
+    ]
+  }
+}

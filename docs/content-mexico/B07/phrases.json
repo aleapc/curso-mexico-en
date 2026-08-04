@@ -1,0 +1,7 @@
+{"slot":"B07","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b07-t01","es":"¿Dónde está el transporte autorizado?","en":"Where is the authorised transport?","purpose":"choose official channel"},
+  {"audioKey":"mx-b07-t02","es":"¿Dónde está el punto de encuentro de la aplicación?","en":"Where is the app pickup point?","purpose":"find designated pickup"},
+  {"audioKey":"mx-b07-t03","es":"¿Cuánto cuesta hasta esta dirección?","en":"How much does it cost to this address?","purpose":"confirm cost before accepting"},
+  {"audioKey":"mx-b07-t04","es":"A esta dirección, por favor.","en":"To this address, please.","purpose":"share exact destination"},
+  {"audioKey":"mx-b07-t05","es":"Aquí está bien. ¿Me da un recibo, por favor?","en":"Here is fine. Can you give me a receipt, please?","purpose":"close and document ride"}
+]}

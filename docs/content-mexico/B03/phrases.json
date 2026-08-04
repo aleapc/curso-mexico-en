@@ -1,0 +1,9 @@
+{
+  "slot":"B03","targetLocale":"es-MX","buyerLocale":"en-US",
+  "phrases":[
+    {"audioKey":"mx-b03-t01","es":"No entendí.","en":"I didn't understand.","purpose":"signal the break"},
+    {"audioKey":"mx-b03-t02","es":"¿Me lo puede repetir más despacio?","en":"Can you repeat that more slowly?","purpose":"slow repetition"},
+    {"audioKey":"mx-b03-t03","es":"¿Me lo puede escribir, por favor?","en":"Can you write it down for me, please?","purpose":"externalise detail"},
+    {"audioKey":"mx-b03-t04","es":"¿Me lo muestra en el mapa?","en":"Can you show me on the map?","purpose":"externalise route"}
+  ]
+}

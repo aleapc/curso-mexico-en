@@ -1,0 +1,16 @@
+{
+  "versao":1,"sku":"en-us__mexico-es-mx","cards":[
+    {"id":"mx-b04-confirm-booking","folhas":["dormir/confirmar","antes/reserva"],"titulo":"Confirm the booking before the flight","origem":"mx-b04","troca":[
+      {"quem":"voce","es":"Quiero confirmar mi reservación.","en":"I want to confirm my reservation.","audioKey":"mx-b04-t01","pron":"KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN"},
+      {"quem":"ele","es":"Claro. ¿A nombre de quién?","en":"Of course. Under what name?","audioKey":"mx-b04-r01"},
+      {"quem":"voce","es":"¿Me puede mandar la confirmación por correo?","en":"Can you send me the confirmation by email?","audioKey":"mx-b04-t02","pron":"meh PWEH-deh mahn-DAHR lah kohn-feer-mah-SYOHN por koh-REH-oh"}
+    ]},
+    {"id":"mx-b04-address","folhas":["dormir/endereco","transporte/direcao"],"titulo":"Get the complete address","origem":"mx-b04","troca":[
+      {"quem":"voce","es":"¿Cuál es la dirección completa?","en":"What is the complete address?","audioKey":"mx-b04-t03","pron":"kwahl ehs lah dee-rehk-SYOHN kohm-PLEH-tah"}
+    ]},
+    {"id":"mx-b04-late-arrival","folhas":["dormir/chegada-tardia"],"titulo":"Protect a late arrival","origem":"mx-b04","troca":[
+      {"quem":"voce","es":"Llego después de las diez. ¿Hay recepción las veinticuatro horas?","en":"I arrive after ten. Is reception open twenty-four hours?","audioKey":"mx-b04-t04","pron":"YEH-goh dehs-PWEHS deh lahs DYEHS. eye reh-sehp-SYOHN lahs bayn-tee-KWAH-troh OH-rahs"},
+      {"quem":"ele","es":"Sí. Su reservación está confirmada.","en":"Yes. Your reservation is confirmed.","audioKey":"mx-b04-r02"}
+    ]}
+  ]
+}

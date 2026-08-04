@@ -1,0 +1,17 @@
+{
+  "versao":1,"sku":"en-us__mexico-es-mx","cards":[
+    {"id":"mx-b03-slow-repeat","folhas":["reparo/no-entendi","reparo/devagar"],"titulo":"Slow the answer down","origem":"mx-b03","troca":[
+      {"quem":"voce","es":"No entendí. ¿Me lo puede repetir más despacio?","en":"I didn't understand. Can you repeat that more slowly?","audioKey":"mx-b03-t02","pron":"noh en-ten-DEE. meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh"},
+      {"quem":"ele","es":"Claro. Sale a las quince cincuenta.","en":"Of course. It leaves at 15:50.","audioKey":"mx-b03-r02"},
+      {"quem":"voce","es":"¿Me lo puede escribir, por favor?","en":"Can you write it down for me, please?","audioKey":"mx-b03-t03","pron":"meh loh PWEH-deh ehs-kree-BEER, por fah-BOR"}
+    ]},
+    {"id":"mx-b03-write-detail","folhas":["reparo/escribir","transporte/horario"],"titulo":"Put the time in writing","origem":"mx-b03","troca":[
+      {"quem":"voce","es":"¿Me lo puede escribir, por favor?","en":"Can you write it down for me, please?","audioKey":"mx-b03-t03","pron":"meh loh PWEH-deh ehs-kree-BEER, por fah-BOR"},
+      {"quem":"ele","es":"Sí, claro. Quince cincuenta.","en":"Yes, of course. 15:50.","audioKey":"mx-b03-r03"}
+    ]},
+    {"id":"mx-b03-map","folhas":["reparo/apontar","transporte/direcao"],"titulo":"Move the route onto the map","origem":"mx-b03","troca":[
+      {"quem":"voce","es":"¿Me lo muestra en el mapa?","en":"Can you show me on the map?","audioKey":"mx-b03-t04","pron":"meh loh MWEHS-trah en el MAH-pah"},
+      {"quem":"ele","es":"Sí. Es aquí, después de la esquina.","en":"Yes. It's here, after the corner.","audioKey":"mx-b03-r04"}
+    ]}
+  ]
+}

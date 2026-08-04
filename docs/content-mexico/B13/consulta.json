@@ -1,0 +1,43 @@
+{
+  "slot": "B13",
+  "cards": [
+    {
+      "id": "warning",
+      "title": "Name the severe allergy",
+      "leaves": ["dieta/alergia", "apuro/alergia"],
+      "exchange": [
+        {"speaker":"traveler","audioKey":"mx-b13-t01","es":"Tengo una alergia grave al cacahuate.","en":"I have a severe peanut allergy."},
+        {"speaker":"staff","audioKey":"mx-b13-r01","es":"¿Qué alimento no puede comer?","en":"Which food can’t you eat?"},
+        {"speaker":"traveler","audioKey":"mx-b13-t02","es":"No puedo comer nada que contenga cacahuate.","en":"I cannot eat anything containing peanut."}
+      ]
+    },
+    {
+      "id": "card",
+      "title": "Send the card to the kitchen",
+      "leaves": ["dieta/tarjeta"],
+      "exchange": [
+        {"speaker":"traveler","audioKey":"mx-b13-t03","es":"¿Puede mostrarle esta tarjeta a la persona que prepara la comida?","en":"Can you show this card to the person preparing the food?"},
+        {"speaker":"staff","audioKey":"mx-b13-r02","es":"Voy a preguntarle a la cocina.","en":"I’m going to ask the kitchen."}
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Ask how it is prepared",
+      "leaves": ["dieta/contacto"],
+      "exchange": [
+        {"speaker":"traveler","audioKey":"mx-b13-t04","es":"¿Se prepara en la misma superficie o con los mismos utensilios?","en":"Is it prepared on the same surface or with the same utensils?"},
+        {"speaker":"staff","audioKey":"mx-b13-r03","es":"Sí, usamos la misma superficie.","en":"Yes, we use the same surface."},
+        {"speaker":"traveler","audioKey":"mx-b13-t05","es":"Entonces no voy a comer aquí.","en":"Then I’m not going to eat here."}
+      ]
+    },
+    {
+      "id": "uncertain",
+      "title": "Treat uncertainty as an answer",
+      "leaves": ["dieta/salir", "reparo/no-se"],
+      "exchange": [
+        {"speaker":"staff","es":"No estoy seguro.","en":"I’m not sure."},
+        {"speaker":"traveler","audioKey":"mx-b13-t06","es":"Gracias por decírmelo. No voy a arriesgarme.","en":"Thank you for telling me. I’m not going to take the risk."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{"slot":"B14","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b14-t01","es":"¿Me trae la cuenta, por favor?","en":"Can you bring me the bill, please?","purpose":"open the review before payment"},
+  {"audioKey":"mx-b14-t02","es":"¿Cuál es el total?","en":"What is the total?","purpose":"identify the final amount"},
+  {"audioKey":"mx-b14-t03","es":"¿Me lo puede mostrar, por favor?","en":"Can you show it to me, please?","purpose":"turn a missed number into visible information"},
+  {"audioKey":"mx-b14-t04","es":"¿Qué es este cargo?","en":"What is this charge?","purpose":"identify an unknown line"},
+  {"audioKey":"mx-b14-t05","es":"No autoricé este cargo. ¿Puede quitarlo, por favor?","en":"I did not authorise this charge. Can you remove it, please?","purpose":"remove an unauthorised charge"},
+  {"audioKey":"mx-b14-t06","es":"Quiero agregar esta cantidad de propina.","en":"I want to add this amount as a tip.","purpose":"authorise a chosen voluntary tip"},
+  {"audioKey":"mx-b14-t07","es":"¿Me trae la terminal, por favor?","en":"Can you bring me the card terminal, please?","purpose":"keep the card and bring the payment device"},
+  {"audioKey":"mx-b14-t08","es":"¿Me puede dar el recibo, por favor?","en":"Can you give me the receipt, please?","purpose":"close the payment loop with evidence"}
+]}

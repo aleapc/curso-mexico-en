@@ -1,0 +1,6 @@
+{"slot":"B05","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b05-t01","es":"Vengo de vacaciones.","en":"I am here on vacation.","purpose":"state purpose"},
+  {"audioKey":"mx-b05-t02","es":"Diez días.","en":"Ten days.","purpose":"state actual duration"},
+  {"audioKey":"mx-b05-t03","es":"Me hospedo en este hotel.","en":"I am staying at this hotel.","purpose":"state accommodation"},
+  {"audioKey":"mx-b05-t04","es":"Sí. Aquí tiene mi reservación.","en":"Yes. Here is my reservation.","purpose":"provide evidence"}
+]}

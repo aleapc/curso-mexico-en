@@ -1,0 +1,8 @@
+{"slot":"B11","targetLocale":"es-MX","buyerLocale":"en-US","phrases":[
+  {"audioKey":"mx-b11-t01","es":"Buenas tardes. Somos dos.","en":"Good afternoon. There are two of us.","purpose":"greet and state group size"},
+  {"audioKey":"mx-b11-t02","es":"¿Hay mesa para dos?","en":"Is there a table for two?","purpose":"ask for a table"},
+  {"audioKey":"mx-b11-t03","es":"¿Nos sentamos aquí?","en":"Do we sit here?","purpose":"confirm the indicated seat"},
+  {"audioKey":"mx-b11-t04","es":"¿Ordeno aquí o en la mesa?","en":"Do I order here or at the table?","purpose":"discover the service channel"},
+  {"audioKey":"mx-b11-t05","es":"Un agua mineral, por favor.","en":"One sparkling water, please.","purpose":"order the first drink"},
+  {"audioKey":"mx-b11-t06","es":"Eso es todo por ahora, gracias.","en":"That is all for now, thank you.","purpose":"close the first round temporarily"}
+]}

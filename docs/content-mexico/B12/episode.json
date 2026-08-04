@@ -1,0 +1,38 @@
+{
+  "id":"mx-b12","slot":"B12","nivel":"basico","numero":12,"parte":"4B",
+  "titulo":"Two tacos, two different builds",
+  "subtitulo":"Order the base, then use with, without, on the side, less spicy, more and no ice",
+  "moldura":"ganha","frasePiso":"You can turn one menu choice into the taco and drink you actually want without explaining your diet.",
+  "steps":[
+    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b12-n01","pt":"B11 found the ordering channel. Now the menu gives you the base and six small controls change the result. Start with quantity and the item exactly as you see it."},
+    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b12-t01","es":"Quería dos tacos al pastor, por favor.","pinyin":"keh-REE-ah dohs TAH-kohs al pahs-TOR por fah-BOR","pt":"I’d like two tacos al pastor, please.","tts":"Quería dos tacos al pastor, por favor."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b12-p01","promptPt":"At the cashier from B11, order two of the rotating-spit tacos named on the menu. Speak now.","audioKey":"mx-b12-t01","es":"Quería dos tacos al pastor, por favor.","pinyin":"keh-REE-ah dohs TAH-kohs al pahs-TOR por fah-BOR","pt":"I’d like two tacos al pastor, please.","consulta":["mesa/pedir","mesa/tacos"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r01","es":"¿Con todo?","pt":"With everything?","tts":"¿Con todo?"},
+    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b12-n02","pt":"Todo is not a national ingredient list. Answer with the ingredients you want. First taco: con carries the additions printed or visible here."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b12-p02","promptPt":"For the first taco, accept the chopped onion and cilantro offered at this counter. Speak now.","audioKey":"mx-b12-t02","es":"Uno con cebolla y cilantro.","pinyin":"OO-noh kohn seh-BOH-yah ee see-LAHN-troh","pt":"One with onion and cilantro.","consulta":["mesa/com","mesa/tacos"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r02","es":"Muy bien.","pt":"Very good.","tts":"Muy bien."},
+    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b12-n03","pt":"Second taco, different build. Sin removes one named ingredient; it does not certify allergy safety. B13 handles the high-stakes kitchen conversation."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b12-p03","promptPt":"Your companion wants the second taco without the chopped onion. Change only that taco. Speak now.","audioKey":"mx-b12-t03","es":"El otro sin cebolla, por favor.","pinyin":"el OH-troh seen seh-BOH-yah por fah-BOR","pt":"The other one without onion, please.","consulta":["mesa/sem","mesa/tacos"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r03","es":"Claro.","pt":"Of course.","tts":"Claro."},
+    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b12-n04","pt":"Keep the salsa reversible. Aparte moves it beside the taco, so you control the first taste instead of asking the kitchen to guess your heat limit."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b12-p04","promptPt":"Ask for the salsa in a separate small container, not poured over either taco. Speak now.","audioKey":"mx-b12-t04","es":"La salsa aparte, por favor.","pinyin":"lah SAHL-sah ah-PAHR-teh por fah-BOR","pt":"The salsa on the side, please.","consulta":["mesa/salsa","mesa/aparte"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r04","es":"Sí, aquí tiene.","pt":"Yes, here you are.","tts":"Sí, aquí tiene."},
+    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b12-n05","pt":"Red and green name ingredients or appearance, not a reliable heat ladder. Ask the comparison that matters and follow the person’s gesture to this batch."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b12-p05","promptPt":"Two unlabelled salsas are beside the tacos. Ask which one is less spicy. Speak now.","audioKey":"mx-b12-t05","es":"¿Cuál salsa pica menos?","pinyin":"kwahl SAHL-sah PEE-kah MEH-nohs","pt":"Which salsa is less spicy?","consulta":["mesa/salsa","mesa/picante"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r05","es":"Esta pica menos.","pt":"This one is less spicy.","tts":"Esta pica menos."},
+    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b12-n06","pt":"Más asks for one visible addition, not an undefined bigger portion. Point to the lime wedges and name the thing you want more of."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b12-p06","promptPt":"The tray has one lime wedge for two tacos. Ask for more lime. Speak now.","audioKey":"mx-b12-t06","es":"Más limón, por favor.","pinyin":"mahs lee-MOHN por fah-BOR","pt":"More lime, please.","consulta":["mesa/mais","mesa/tacos"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r06","es":"Claro, aquí tiene.","pt":"Of course, here you are.","tts":"Claro, aquí tiene."},
+    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b12-n07","pt":"The same sin frame changes the drink. Name the whole drink, then remove the ice. This is preference control, not a health guarantee about water or preparation."},
+    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b12-p07","promptPt":"Add one lemonade but ask for it without ice. Speak now.","audioKey":"mx-b12-t07","es":"Una limonada sin hielo, por favor.","pinyin":"OO-nah lee-moh-NAH-dah seen YEH-loh por fah-BOR","pt":"One lemonade without ice, please.","consulta":["mesa/bebida","mesa/sem"]},
+    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b12-r07","es":"Muy bien.","pt":"Very good.","tts":"Muy bien."},
+    {"tipo":"shadow","voz":"target_mx_f","audioKey":"mx-b12-s01","es":"Uno con cebolla y cilantro. El otro sin cebolla. La salsa aparte. Más limón. Una limonada sin hielo.","pinyin":"OO-noh kohn seh-BOH-yah ee see-LAHN-troh. el OH-troh seen seh-BOH-yah. lah SAHL-sah ah-PAHR-teh. mahs lee-MOHN. OO-nah lee-moh-NAH-dah seen YEH-loh","pt":"Shadow the five controls after the base order.","tts":"Uno con cebolla y cilantro. El otro sin cebolla. La salsa aparte. Más limón. Una limonada sin hielo."},
+    {"tipo":"recap","voz":"guide_en_us_f","audioKey":"mx-b12-n08","pt":"B12 complete. Order the base from the menu. Con adds. Sin removes a named preference. Aparte keeps salsa reversible. Ask which batch is less spicy. Más adds the visible thing. Sin changes the drink too. Allergy is not a preference and gets its own protected route next."}
+  ],
+  "aprofundar":{"titulo":"One base order, six controls","secoes":[
+    {"titulo":"Con todo is a question, not a fixed recipe","corpo":"When you hear ¿Con todo?, do not assume a national list. Answer with the ingredients you want in the scene: con cebolla y cilantro, or remove a named preference with sin."},
+    {"titulo":"Aparte makes the first taste reversible","corpo":"Salsa aparte keeps the sauce beside the taco. You can test a small amount after asking which current batch pica menos."},
+    {"titulo":"Colour does not grade heat","corpo":"Salsa colour reflects ingredients and preparation. Ask ¿Cuál salsa pica menos? and use the answer for the batch in front of you; do not turn green and red into a permanent rule."},
+    {"titulo":"Preference is not allergy","corpo":"Sin cebolla and sin hielo customise an order. They do not communicate allergy severity, cross-contact or kitchen procedure. B13 deliberately changes both the language and the artifact."}
+  ]}
+}

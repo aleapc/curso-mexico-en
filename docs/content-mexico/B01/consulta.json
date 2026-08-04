@@ -1,0 +1,28 @@
+{
+  "versao": 1,
+  "sku": "en-us__mexico-es-mx",
+  "cards": [
+    {
+      "id": "mx-b01-taxi-hotel",
+      "folhas": ["taxi/destino"],
+      "titulo": "Tell the airport taxi where to go",
+      "origem": "mx-b01",
+      "troca": [
+        {"quem": "voce", "es": "Al hotel del Centro Histórico, por favor.", "en": "To the hotel in the Historic Centre, please.", "audioKey": "mx-b01-t03", "pron": "ahl oh-TEL del SEN-troh ees-TOH-ree-koh, por fah-BOR"},
+        {"quem": "ele", "es": "¿Por la entrada principal?", "en": "Through the main entrance?", "audioKey": "mx-b01-r01"},
+        {"quem": "voce", "es": "Sí, gracias.", "en": "Yes, thank you.", "audioKey": "mx-b01-t04", "pron": "see, GRAH-syahs"}
+      ]
+    },
+    {
+      "id": "mx-b01-hotel-reservation",
+      "folhas": ["quarto/reserva"],
+      "titulo": "Open the reservation at reception",
+      "origem": "mx-b01",
+      "troca": [
+        {"quem": "voce", "es": "Tengo una reservación.", "en": "I have a reservation.", "audioKey": "mx-b01-t05", "pron": "TEN-goh OO-nah reh-sehr-bah-SYOHN"},
+        {"quem": "ele", "es": "¿A nombre de quién?", "en": "Under what name?", "audioKey": "mx-b01-r03"},
+        {"quem": "voce", "es": "A nombre de Morgan.", "en": "Under the name Morgan.", "audioKey": "mx-b01-t06", "pron": "ah NOHM-breh deh MOR-gahn"}
+      ]
+    }
+  ]
+}
