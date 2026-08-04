@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Choose the channel before the car",
+  "subtitulo": "Move from the information point to the hotel without improvising the transport system",
+  "introAudioKey": "mx-b07-q-i",
+  "introPt": "The airport allows more than one transport channel, but the pickup rules vary. Listen for the sequence that survives those differences: authorised channel, exact address, quote, stop and receipt.",
+  "cenario": "A traveller chooses authorised transport and reaches the confirmed hotel address.",
+  "dialogo": [
+    { "audioKey": "mx-b07-q01", "voz": "target_mx_f", "es": "¿Dónde está el transporte autorizado?", "pinyin": "DOHN-deh ehs-TAH el trahns-POR-teh ow-toh-ree-SAH-doh", "pt": "Where is the authorised transport?" },
+    { "audioKey": "mx-b07-q02", "voz": "target_mx_m", "es": "Al fondo, junto a la salida.", "pinyin": "ahl FOHN-doh, HOON-toh ah lah sah-LEE-dah", "pt": "At the back, next to the exit." },
+    { "audioKey": "mx-b07-q03", "voz": "target_mx_f", "es": "¿Cuánto cuesta hasta esta dirección?", "pinyin": "KWAHN-toh KWEHS-tah AHS-tah EHS-tah dee-rehk-SYOHN", "pt": "How much does it cost to this address?" },
+    { "audioKey": "mx-b07-q04", "voz": "target_mx_f", "es": "A esta dirección, por favor.", "pinyin": "ah EHS-tah dee-rehk-SYOHN por fah-BOR", "pt": "To this address, please." },
+    { "audioKey": "mx-b07-q05", "voz": "target_mx_f", "es": "Aquí está bien. ¿Me da un recibo, por favor?", "pinyin": "ah-KEE ehs-TAH byen. meh dah oon reh-SEE-boh por fah-BOR", "pt": "Here is fine. Can you give me a receipt, please?" },
+    { "audioKey": "mx-b07-q06", "voz": "target_mx_m", "es": "Sí, claro.", "pinyin": "see, KLAH-roh", "pt": "Yes, of course." }
+  ],
+  "perguntas": [
+    { "pergunta": "What comes before choosing a vehicle?", "opcoes": ["A fare argument", "The authorised transport channel", "A hotel check-in", "A cash withdrawal"], "correta": 1, "explica": "The lesson chooses the official channel before following any individual car or person." },
+    { "pergunta": "Why ask for the app meeting point?", "opcoes": ["Every airport uses the same door", "Pickup rules can vary by terminal and city", "The app has no driver", "To change the hotel"], "correta": 1, "explica": "The designated point is durable; assuming the nearest door is not." },
+    { "pergunta": "What should the price question contain?", "opcoes": ["Only the hotel name", "The exact saved address", "The passport number", "The flight time"], "correta": 1, "explica": "The quote and the ride must refer to the same destination." },
+    { "pergunta": "How should a difficult quoted number be handled?", "opcoes": ["Pretend to understand", "Cancel every ride", "Read the display or use a calculator", "Repeat a random number"], "correta": 2, "explica": "Numbers stay receptive; showing them protects the money decision." },
+    { "pergunta": "What closes the ride before hotel check-in begins?", "opcoes": ["A new transport search", "Aquí está bien and the receipt", "A baggage report", "A visa question"], "correta": 1, "explica": "The stop and receipt finish B07 as one completed exchange." }
+  ]
+}

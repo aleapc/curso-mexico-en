@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Make the answer smaller",
+  "subtitulo": "Existence, known place, useful instance, distance and map",
+  "introAudioKey": "mx-b08-q-i",
+  "introPt": "A traveller needs a pharmacy in a historic-centre street. Listen as the question grows only when the previous answer is still usable.",
+  "cenario": "A local confirms a pharmacy exists, gives a long route and then moves the useful part onto the map.",
+  "dialogo": [
+    { "audioKey": "mx-b08-q01", "voz": "target_mx_f", "es": "¿Hay una farmacia por aquí?", "pinyin": "eye OO-nah fahr-MAH-syah por ah-KEE", "pt": "Is there a pharmacy around here?" },
+    { "audioKey": "mx-b08-q02", "voz": "target_mx_m", "es": "Sí, hay una en la esquina.", "pinyin": "see, eye OO-nah en lah ehs-KEE-nah", "pt": "Yes, there is one on the corner." },
+    { "audioKey": "mx-b08-q03", "voz": "target_mx_f", "es": "¿Dónde hay una farmacia?", "pinyin": "DOHN-deh eye OO-nah fahr-MAH-syah", "pt": "Where is there a pharmacy?" },
+    { "audioKey": "mx-b08-q04", "voz": "target_mx_m", "es": "Siga derecho, cruce la avenida y dé vuelta después del mercado.", "pinyin": "SEE-gah deh-REH-choh, KROO-seh lah ah-beh-NEE-dah ee deh BWEHL-tah dehs-PWEHS del mehr-KAH-doh", "pt": "Go straight, cross the avenue and turn after the market." },
+    { "audioKey": "mx-b08-q05", "voz": "target_mx_f", "es": "¿Está lejos? ¿Me lo muestra en el mapa?", "pinyin": "ehs-TAH LEH-hohs. meh loh MWEHS-trah en el MAH-pah", "pt": "Is it far? Can you show me on the map?" },
+    { "audioKey": "mx-b08-q06", "voz": "target_mx_m", "es": "No. Está a dos cuadras. Es aquí.", "pinyin": "noh. ehs-TAH ah dohs KWAH-drahs. ehs ah-KEE", "pt": "No. It is two blocks away. It is here." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why start with ¿Hay una farmacia por aquí?", "opcoes": ["It demands a full route", "Yes or no is already useful", "It names a specific pharmacy", "It asks the price"], "correta": 1, "explica": "The first answer establishes whether the useful category exists nearby." },
+    { "pergunta": "Which question finds the known bathroom in this café?", "opcoes": ["¿Hay una farmacia?", "¿Dónde está el baño?", "¿Está lejos?", "¿Cuánto cuesta?"], "correta": 1, "explica": "Está locates the defined place inside the current setting." },
+    { "pergunta": "Which question looks for any pharmacy?", "opcoes": ["¿Dónde hay una farmacia?", "¿Dónde está la farmacia Azul?", "¿Puedo esperar aquí?", "¿Tiene la reservación?"], "correta": 0, "explica": "Dónde hay finds any useful instance of the category." },
+    { "pergunta": "What does ¿Está lejos? do after a long route?", "opcoes": ["Repeats every street", "Collapses the answer into a distance decision", "Cancels the request", "Asks for a taxi fare"], "correta": 1, "explica": "Near or far is easier to act on than a paragraph of directions." },
+    { "pergunta": "What is the final repair when the turns still do not survive?", "opcoes": ["Pretend to understand", "Ask for louder Spanish", "Move the point onto the map", "Memorise all landmarks"], "correta": 2, "explica": "The map externalises the route and reuses B03's repair strategy." }
+  ]
+}
