@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Está buenísimo, and the cook comes out",
+  "subtitulo": "A specific compliment, a calm complaint",
+  "introAudioKey": "mx-i07-q-i",
+  "introPt": "A meal with one genuine compliment and one real problem. Listen for how both get handled calmly and specifically.",
+  "cenario": "A traveller compliments the food by name, then reports cold soup and thanks the fix.",
+  "dialogo": [
+    { "audioKey": "mx-i07-q01", "voz": "target_mx_m", "es": "¿Todo bien con la comida?", "pt": "Everything good with the food?" },
+    { "audioKey": "mx-i07-q02", "voz": "target_mx_f", "es": "El mole está buenísimo.", "pt": "The mole is really excellent." },
+    { "audioKey": "mx-i07-q03", "voz": "target_mx_f", "es": "Disculpe, la sopa está fría.", "pt": "Excuse me, the soup is cold." },
+    { "audioKey": "mx-i07-q04", "voz": "target_mx_f", "es": "Gracias por resolverlo tan rápido.", "pt": "Thanks for sorting it out so quickly." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why name the specific dish rather than saying a generic 'delicious'?", "opcoes": ["It's required by etiquette", "It shows genuine attention and often reaches the cook directly", "Generic compliments are considered rude", "It's shorter"], "correta": 1, "explica": "Specificity makes the compliment feel real, not automatic." },
+    { "pergunta": "What does 'disculpe' do when opening a complaint?", "opcoes": ["Assigns blame immediately", "Opens the correction without blame", "Cancels the order", "Insults the staff"], "correta": 1, "explica": "It's a neutral opener that keeps the exchange calm." },
+    { "pergunta": "What makes a complaint effective here?", "opcoes": ["Volume and drama", "Being specific about the exact problem", "Complaining to other diners", "Waiting until the end of the meal"], "correta": 1, "explica": "Naming the object and the issue precisely gets a fast fix." },
+    { "pergunta": "What closes the complaint loop well?", "opcoes": ["Ignoring the fix", "A short thank-you once it's resolved", "Demanding a discount", "Repeating the complaint"], "correta": 1, "explica": "Thanking the fix keeps the whole exchange warm." },
+    { "pergunta": "What is the shared trait of both the compliment and the complaint in this lesson?", "opcoes": ["Both are loud", "Both are honest and specific, not vague or dramatic", "Both require a manager", "Both are optional and rarely used"], "correta": 1, "explica": "Precision, not volume, is what makes both moves work." }
+  ]
+}

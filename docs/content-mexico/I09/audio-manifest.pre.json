@@ -1,0 +1,29 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I09",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {"key": "mx-i09-n01", "role": "guide_en_us_f", "text": "One question opens up a whole different kind of afternoon: not what should I see, but what's actually happening. The plaza, the local market, a neighbourhood event — the answer changes week to week, and that's exactly the point.", "kind": "narration"},
+    {"key": "mx-i09-r01", "role": "target_mx_m", "text": "¿Qué van a hacer este fin de semana?", "kind": "return"},
+    {"key": "mx-i09-n02", "role": "guide_en_us_m", "text": "Turn the question back around. This is the one that gets you invited into someone's actual plan instead of a tourist itinerary.", "kind": "narration"},
+    {"key": "mx-i09-p01", "role": "guide_en_us_m", "text": "Ask what's happening in the plaza this weekend. Speak now.", "kind": "prompt"},
+    {"key": "mx-i09-t01", "role": "target_mx_f", "text": "¿Hay algo en la plaza este fin de semana?", "kind": "target"},
+    {"key": "mx-i09-r02", "role": "target_mx_m", "text": "Sí, hay un mercado sobre ruedas los domingos.", "kind": "return"},
+    {"key": "mx-i09-n03", "role": "guide_en_us_f", "text": "A mercado sobre ruedas — a market that sets up on a street for one day and moves on — is a completely different rhythm from a fixed tourist market. Ask to go along, not just for directions.", "kind": "narration"},
+    {"key": "mx-i09-p02", "role": "guide_en_us_f", "text": "Ask if you can come along with them. Speak now.", "kind": "prompt"},
+    {"key": "mx-i09-t02", "role": "target_mx_f", "text": "¿Puedo ir con ustedes?", "kind": "target"},
+    {"key": "mx-i09-r03", "role": "target_mx_m", "text": "Claro, nos vemos a las diez.", "kind": "return"},
+    {"key": "mx-i09-n04", "role": "guide_en_us_m", "text": "Once you're there, you're not performing tourism. You're just at the market with everyone else, so the useful sentence is the same one anyone would use.", "kind": "narration"},
+    {"key": "mx-i09-p03", "role": "guide_en_us_m", "text": "Ask the price of something at a stall, like any other customer. Speak now.", "kind": "prompt"},
+    {"key": "mx-i09-t03", "role": "target_mx_f", "text": "¿Cuánto cuesta esto?", "kind": "target"},
+    {"key": "mx-i09-s01", "role": "target_mx_f", "text": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?", "kind": "shadow"},
+    {"key": "mx-i09-n05", "role": "guide_en_us_f", "text": "I09 complete. ¿Hay algo en la plaza? finds out what's actually happening. ¿Puedo ir con ustedes? turns a plan into an invitation. Once you're there, you're just a customer, not a spectator — cuánto cuesta esto works exactly the same way it does everywhere else.", "kind": "recap"},
+    {"key": "mx-i09-q-i", "role": "guide_en_us_f", "text": "A traveller discovers a Sunday roving market by asking a local what's happening, then asks to come along.", "kind": "quiz_intro"},
+    {"key": "mx-i09-q01", "role": "target_mx_m", "text": "¿Qué van a hacer este fin de semana?", "kind": "quiz"},
+    {"key": "mx-i09-q02", "role": "target_mx_f", "text": "¿Hay algo en la plaza este fin de semana?", "kind": "quiz"},
+    {"key": "mx-i09-q03", "role": "target_mx_m", "text": "Sí, hay un mercado sobre ruedas los domingos.", "kind": "quiz"},
+    {"key": "mx-i09-q04", "role": "target_mx_f", "text": "¿Puedo ir con ustedes?", "kind": "quiz"}
+  ]
+}

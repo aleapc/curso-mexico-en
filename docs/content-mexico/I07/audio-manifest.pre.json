@@ -1,0 +1,29 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I07",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {"key": "mx-i07-n01", "role": "guide_en_us_f", "text": "Two moves today, both about saying something true out loud instead of keeping it to yourself: a genuine compliment, and a calm complaint. Both work better specific than vague.", "kind": "narration"},
+    {"key": "mx-i07-r01", "role": "target_mx_m", "text": "¿Todo bien con la comida?", "kind": "return"},
+    {"key": "mx-i07-n02", "role": "guide_en_us_m", "text": "This is your opening. Está buenísimo works, but naming the actual dish gets a bigger reaction — it proves you weren't just being polite.", "kind": "narration"},
+    {"key": "mx-i07-p01", "role": "guide_en_us_m", "text": "The food was genuinely excellent. Say so, specifically. Speak now.", "kind": "prompt"},
+    {"key": "mx-i07-t01", "role": "target_mx_f", "text": "El mole está buenísimo.", "kind": "target"},
+    {"key": "mx-i07-r02", "role": "target_mx_m", "text": "Muchas gracias, se lo voy a decir.", "kind": "return"},
+    {"key": "mx-i07-n03", "role": "guide_en_us_f", "text": "Now the other move. Something's actually wrong — not a preference, an actual problem. Name the object and the issue, calmly, without a speech attached.", "kind": "narration"},
+    {"key": "mx-i07-p02", "role": "guide_en_us_f", "text": "The soup arrived cold. Name the problem, calmly. Speak now.", "kind": "prompt"},
+    {"key": "mx-i07-t02", "role": "target_mx_f", "text": "Disculpe, la sopa está fría.", "kind": "target"},
+    {"key": "mx-i07-r03", "role": "target_mx_m", "text": "Perdón, se la cambio ahora mismo.", "kind": "return"},
+    {"key": "mx-i07-n04", "role": "guide_en_us_m", "text": "Disculpe opens it without blame. Naming the object and the exact problem — not a general complaint — is what actually gets it fixed fast.", "kind": "narration"},
+    {"key": "mx-i07-p03", "role": "guide_en_us_m", "text": "They fixed it fast. Thank them for taking care of it. Speak now.", "kind": "prompt"},
+    {"key": "mx-i07-t03", "role": "target_mx_f", "text": "Gracias por resolverlo tan rápido.", "kind": "target"},
+    {"key": "mx-i07-s01", "role": "target_mx_f", "text": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido.", "kind": "shadow"},
+    {"key": "mx-i07-n05", "role": "guide_en_us_f", "text": "I07 complete. A specific compliment brings the cook out to say thanks in person. A calm, specific complaint — disculpe plus the exact problem — gets it fixed fast, no confrontation required. Both moves work because they're honest and precise, not because they're loud.", "kind": "recap"},
+    {"key": "mx-i07-q-i", "role": "guide_en_us_f", "text": "A meal with one genuine compliment and one real problem. Listen for how both get handled calmly and specifically.", "kind": "quiz_intro"},
+    {"key": "mx-i07-q01", "role": "target_mx_m", "text": "¿Todo bien con la comida?", "kind": "quiz"},
+    {"key": "mx-i07-q02", "role": "target_mx_f", "text": "El mole está buenísimo.", "kind": "quiz"},
+    {"key": "mx-i07-q03", "role": "target_mx_f", "text": "Disculpe, la sopa está fría.", "kind": "quiz"},
+    {"key": "mx-i07-q04", "role": "target_mx_f", "text": "Gracias por resolverlo tan rápido.", "kind": "quiz"}
+  ]
+}

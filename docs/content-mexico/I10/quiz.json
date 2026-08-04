@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i10",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Money without the drama",
+  "subtitulo": "Read the setting, negotiate warmly, accept a firm no",
+  "introAudioKey": "mx-i10-q-i",
+  "introPt": "A traveller bargains for a craft item at an open-air stall, then accepts the final price gracefully.",
+  "cenario": "A friendly negotiation at a craft market stall.",
+  "dialogo": [
+    { "audioKey": "mx-i10-q01", "voz": "target_mx_m", "es": "Esta le doy en quinientos.", "pt": "I'll give you this one for five hundred." },
+    { "audioKey": "mx-i10-q02", "voz": "target_mx_f", "es": "¿Cuál es su mejor precio?", "pt": "What's your best price?" },
+    { "audioKey": "mx-i10-q03", "voz": "target_mx_f", "es": "¿Se lo puedo dejar en trescientos cincuenta?", "pt": "Could I offer three hundred fifty?" },
+    { "audioKey": "mx-i10-q04", "voz": "target_mx_m", "es": "Va, trato hecho.", "pt": "Deal." }
+  ],
+  "perguntas": [
+    { "pergunta": "Where is bargaining generally expected?", "opcoes": ["At a supermarket checkout", "At an open-air or craft market stall with no price tag", "At a chain clothing store", "At a bank"], "correta": 1, "explica": "No price tag or register signals a negotiable setting." },
+    { "pergunta": "What tone works best when bargaining?", "opcoes": ["Aggressive and pushy", "Friendly and respectful", "Cold and transactional", "Silent"], "correta": 1, "explica": "A warm tone and genuine interest get better results than pressure." },
+    { "pergunta": "Roughly how much off the opening price is a common outcome?", "opcoes": ["Around 30 percent", "Around 90 percent", "Exactly half, always", "None, prices never move"], "correta": 0, "explica": "It's a rough pattern from friendly negotiation, not a fixed rule." },
+    { "pergunta": "What should you do if the vendor gives a firm no?", "opcoes": ["Keep pushing until they agree", "Accept it gracefully, buy or thank them and move on", "Walk away without a word", "Argue with other customers nearby"], "correta": 1, "explica": "Pushing past a firm no is what actually sours the exchange." },
+    { "pergunta": "Is it acceptable to simply pay the asking price without bargaining?", "opcoes": ["No, it's expected of every traveller", "Yes, declining to haggle is never rude", "Only if you're a local", "Only at supermarkets"], "correta": 1, "explica": "Bargaining is optional; paying what's asked is always fine." }
+  ]
+}

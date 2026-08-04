@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — An afternoon doing what they do",
+  "subtitulo": "Ask what's happening, then ask to join",
+  "introAudioKey": "mx-i09-q-i",
+  "introPt": "A traveller discovers a Sunday roving market by asking a local what's happening, then asks to come along.",
+  "cenario": "A conversation that turns a weekend plan into an invitation.",
+  "dialogo": [
+    { "audioKey": "mx-i09-q01", "voz": "target_mx_m", "es": "¿Qué van a hacer este fin de semana?", "pt": "What are you doing this weekend?" },
+    { "audioKey": "mx-i09-q02", "voz": "target_mx_f", "es": "¿Hay algo en la plaza este fin de semana?", "pt": "Is there anything happening in the plaza this weekend?" },
+    { "audioKey": "mx-i09-q03", "voz": "target_mx_m", "es": "Sí, hay un mercado sobre ruedas los domingos.", "pt": "Yes, there's a roving market on Sundays." },
+    { "audioKey": "mx-i09-q04", "voz": "target_mx_f", "es": "¿Puedo ir con ustedes?", "pt": "Can I come with you?" }
+  ],
+  "perguntas": [
+    { "pergunta": "What does 'mercado sobre ruedas' mean?", "opcoes": ["A permanent indoor market", "A roving street market on a fixed day, then gone", "An online market", "A tourist-only market"], "correta": 1, "explica": "It sets up temporarily on a specific day and packs up afterward." },
+    { "pergunta": "What does asking '¿hay algo en la plaza?' accomplish?", "opcoes": ["Books a hotel", "Finds out what's actually happening locally", "Orders food", "Asks for directions only"], "correta": 1, "explica": "It surfaces real local activity, not guidebook attractions." },
+    { "pergunta": "What does '¿puedo ir con ustedes?' do?", "opcoes": ["Turns information into an invitation to join", "Asks for a price", "Ends the conversation", "Requests a taxi"], "correta": 0, "explica": "It moves from hearing about a plan to being part of it." },
+    { "pergunta": "Once at the market, how does the traveller behave?", "opcoes": ["As a spectator only", "Like any other customer, asking prices normally", "By avoiding all interaction", "By only taking photos"], "correta": 1, "explica": "Cuánto cuesta esto works exactly as it would for a local shopper." },
+    { "pergunta": "Is asking to tag along considered intrusive?", "opcoes": ["Yes, always avoid it", "No, it's generally a welcome question", "Only if you're a local", "Only on weekdays"], "correta": 1, "explica": "Most people are glad to share their actual weekend plans." }
+  ]
+}

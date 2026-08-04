@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Where you went yesterday",
+  "subtitulo": "Fui, comí, me encantó",
+  "introAudioKey": "mx-i06-q-i",
+  "introPt": "Someone asks about yesterday. Listen for the three verbs that carry the whole story.",
+  "cenario": "A traveller recounts yesterday's market trip and talks about today's plan.",
+  "dialogo": [
+    { "audioKey": "mx-i06-q01", "voz": "target_mx_m", "es": "¿Qué hiciste ayer?", "pt": "What did you do yesterday?" },
+    { "audioKey": "mx-i06-q02", "voz": "target_mx_f", "es": "Fui al mercado. Comí tacos al pastor. Me encantó.", "pt": "I went to the market. I ate tacos al pastor. I loved it." },
+    { "audioKey": "mx-i06-q03", "voz": "target_mx_m", "es": "¿Y hoy qué van a hacer?", "pt": "And what are you going to do today?" },
+    { "audioKey": "mx-i06-q04", "voz": "target_mx_f", "es": "Vamos a ir a la playa.", "pt": "We're going to go to the beach." }
+  ],
+  "perguntas": [
+    { "pergunta": "What does 'fui' mean?", "opcoes": ["I eat", "I went", "I love", "I will go"], "correta": 1, "explica": "Fui is the past-tense 'I went'." },
+    { "pergunta": "What does 'me encantó' literally convey grammatically?", "opcoes": ["I liked it a little", "The thing delighted me — but it lands as 'I loved it'", "I hated it", "I will love it"], "correta": 1, "explica": "Like gustar, encantar puts the delighting thing first, but the natural translation is 'I loved it'." },
+    { "pergunta": "How many past-tense verbs does this lesson focus on?", "opcoes": ["Ten", "Three: fui, comí, me encantó", "Every irregular verb in Spanish", "None — it's all present tense"], "correta": 1, "explica": "Three specific verbs are enough to tell a complete, natural story." },
+    { "pergunta": "How does the traveller talk about today's plan without a new tense?", "opcoes": ["Using the past tense again", "Vamos a plus a plain verb", "Only gestures", "Switching to English"], "correta": 1, "explica": "Vamos a ('we're going to') is the simplest way to cover near-future plans." },
+    { "pergunta": "What is the main point of this lesson?", "opcoes": ["You need to master all Spanish tenses before travelling", "A handful of specific verbs let you tell a complete, real story", "Past tense is optional and never needed", "Only guides use past tense"], "correta": 1, "explica": "A small, specific verb set covers real conversational need." }
+  ]
+}

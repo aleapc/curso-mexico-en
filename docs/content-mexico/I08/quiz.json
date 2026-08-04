@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i08",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Someone invites you home",
+  "subtitulo": "A small gift, real punctuality, and one word for the toast",
+  "introAudioKey": "mx-i08-q-i",
+  "introPt": "A traveller is invited to dinner at a friend's home. Listen for the gift, the timing, and the toast.",
+  "cenario": "A home dinner invitation from arrival to the first toast.",
+  "dialogo": [
+    { "audioKey": "mx-i08-q01", "voz": "target_mx_m", "es": "¿Te gustaría cenar en mi casa el sábado?", "pt": "Would you like to have dinner at my place on Saturday?" },
+    { "audioKey": "mx-i08-q02", "voz": "target_mx_f", "es": "Claro que sí, con mucho gusto.", "pt": "Of course, I'd love to." },
+    { "audioKey": "mx-i08-q03", "voz": "target_mx_f", "es": "Le traje esto para la casa.", "pt": "I brought you this for the house." },
+    { "audioKey": "mx-i08-q04", "voz": "target_mx_m", "es": "¡Salud!", "pt": "Cheers!" }
+  ],
+  "perguntas": [
+    { "pergunta": "What is customary to bring to a home dinner invitation?", "opcoes": ["Nothing, arriving empty-handed is expected", "A small gift like flowers, wine, or a dessert", "A large expensive present", "Only yellow flowers"], "correta": 1, "explica": "A small gesture, not the value, is what matters." },
+    { "pergunta": "Which flower colour should be avoided as a gift?", "opcoes": ["Red", "Yellow", "White", "Green"], "correta": 1, "explica": "Yellow flowers are associated with mourning in this context." },
+    { "pergunta": "How should a traveller treat the arrival time for a home invitation?", "opcoes": ["Arrive very late, as with casual plans", "Arrive on time or close to it, as a sign of respect", "Time doesn't matter for any occasion", "Arrive extremely early"], "correta": 1, "explica": "Unlike more relaxed social plans, a hosted meal has a real, respected timing." },
+    { "pergunta": "Who leads the first toast?", "opcoes": ["The guest", "The host", "Whoever is oldest", "There is no toast"], "correta": 1, "explica": "The host initiates; the guest simply joins in." },
+    { "pergunta": "What is a complete response to a toast?", "opcoes": ["A long speech", "¡Salud!", "Silence", "Standing up"], "correta": 1, "explica": "One word is a complete, warm reply." }
+  ]
+}

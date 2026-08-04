@@ -1,0 +1,30 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I10",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {"key": "mx-i10-n01", "role": "guide_en_us_f", "text": "Today's real skill isn't the bargaining phrases — it's knowing where they belong. Get that part right, and the rest is easy and even fun.", "kind": "narration"},
+    {"key": "mx-i10-r01", "role": "target_mx_m", "text": "Esta le doy en quinientos.", "kind": "return"},
+    {"key": "mx-i10-n02", "role": "guide_en_us_m", "text": "A craft stall with no price tag, no cash register, no receipt — that's an invitation to negotiate. A supermarket or a chain store is not. Reading the room correctly comes first.", "kind": "narration"},
+    {"key": "mx-i10-p01", "role": "guide_en_us_m", "text": "You're at an open craft stall, no price marked. Ask a friendly opening question. Speak now.", "kind": "prompt"},
+    {"key": "mx-i10-t01", "role": "target_mx_f", "text": "¿Cuál es su mejor precio?", "kind": "target"},
+    {"key": "mx-i10-r02", "role": "target_mx_m", "text": "Se lo dejo en cuatrocientos.", "kind": "return"},
+    {"key": "mx-i10-n03", "role": "guide_en_us_f", "text": "Now you make a counter-offer, friendly, not aggressive. This is a conversation, not a demand — smiling and showing genuine interest in the piece gets you further than pressure ever will.", "kind": "narration"},
+    {"key": "mx-i10-p02", "role": "guide_en_us_f", "text": "Offer a lower price, warmly. Speak now.", "kind": "prompt"},
+    {"key": "mx-i10-t02", "role": "target_mx_f", "text": "¿Se lo puedo dejar en trescientos cincuenta?", "kind": "target"},
+    {"key": "mx-i10-n04", "role": "guide_en_us_m", "text": "A friendly back-and-forth like this commonly lands somewhere around thirty percent off the opening price — not a rule, just a rough shape of how these conversations tend to go.", "kind": "narration"},
+    {"key": "mx-i10-r03", "role": "target_mx_m", "text": "Va, trato hecho.", "kind": "return"},
+    {"key": "mx-i10-n05", "role": "guide_en_us_f", "text": "And if the answer is a flat no, that's the end of it — pushing further is the one move that actually sours the exchange. Thank them and decide whether to buy at the stated price.", "kind": "narration"},
+    {"key": "mx-i10-p03", "role": "guide_en_us_f", "text": "The vendor can't go any lower. Thank them warmly, whether or not you buy. Speak now.", "kind": "prompt"},
+    {"key": "mx-i10-t03", "role": "target_mx_f", "text": "Está bien, muchas gracias.", "kind": "target"},
+    {"key": "mx-i10-s01", "role": "target_mx_f", "text": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias.", "kind": "shadow"},
+    {"key": "mx-i10-n06", "role": "guide_en_us_f", "text": "I10 complete. First, read the room — craft stall or supermarket. If it's a stall, ¿cuál es su mejor precio? opens it, a friendly counter-offer moves it, and a warm gracias closes it either way, deal or no deal. Money doesn't need to be tense to be real.", "kind": "recap"},
+    {"key": "mx-i10-q-i", "role": "guide_en_us_f", "text": "A traveller bargains for a craft item at an open-air stall, then accepts the final price gracefully.", "kind": "quiz_intro"},
+    {"key": "mx-i10-q01", "role": "target_mx_m", "text": "Esta le doy en quinientos.", "kind": "quiz"},
+    {"key": "mx-i10-q02", "role": "target_mx_f", "text": "¿Cuál es su mejor precio?", "kind": "quiz"},
+    {"key": "mx-i10-q03", "role": "target_mx_f", "text": "¿Se lo puedo dejar en trescientos cincuenta?", "kind": "quiz"},
+    {"key": "mx-i10-q04", "role": "target_mx_m", "text": "Va, trato hecho.", "kind": "quiz"}
+  ]
+}

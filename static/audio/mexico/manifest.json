@@ -4723,5 +4723,754 @@
     "voiceId": "NyQ87MpRGbszyh7rZLXM",
     "model": "eleven_multilingual_v2",
     "bytes": 46437
+  },
+  "mx-i06-n01": {
+    "text": "Everything so far has lived in the present: order this, ask that, right now. Today the trip gets a past tense — three verbs that let you tell someone what yesterday actually was.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 186871
+  },
+  "mx-i06-r01": {
+    "text": "¿Qué hiciste ayer?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i06-n02": {
+    "text": "Fui — I went. The whole day starts with where you went, and that one word carries the whole sentence.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 106623
+  },
+  "mx-i06-p01": {
+    "text": "Say where you went yesterday. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 32226
+  },
+  "mx-i06-t01": {
+    "text": "Fui al mercado.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 20942
+  },
+  "mx-i06-r02": {
+    "text": "¿Y qué comiste?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 19688
+  },
+  "mx-i06-n03": {
+    "text": "Comí — I ate. Same pattern, different verb. The story is building itself one short sentence at a time.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 117908
+  },
+  "mx-i06-p02": {
+    "text": "Say what you ate. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 33062
+  },
+  "mx-i06-t02": {
+    "text": "Comí tacos al pastor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i06-n04": {
+    "text": "And the verb that closes the story with feeling, not just fact: me encantó. It loved-me, literally — the thing did the loving, in Spanish grammar. But it lands exactly like 'I loved it.'",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 154688
+  },
+  "mx-i06-p03": {
+    "text": "Say you loved it. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 54378
+  },
+  "mx-i06-t03": {
+    "text": "Me encantó.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 17598
+  },
+  "mx-i06-r03": {
+    "text": "¿Y hoy qué van a hacer?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i06-n05": {
+    "text": "The conversation naturally swings forward too. You don't need a new tense for tomorrow — vamos a plus what you'll do covers it.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 123759
+  },
+  "mx-i06-p04": {
+    "text": "Say what you're going to do today. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 43511
+  },
+  "mx-i06-t04": {
+    "text": "Vamos a ir a la playa.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 25539
+  },
+  "mx-i06-s01": {
+    "text": "Fui al mercado. Comí tacos al pastor. Me encantó.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 64409
+  },
+  "mx-i06-n06": {
+    "text": "I06 complete. Fui, comí, me encantó — three verbs, and yesterday becomes a real story instead of a list of nouns. Vamos a covers tomorrow. You now have a past and a future, not just an endless present.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 229085
+  },
+  "mx-i06-q-i": {
+    "text": "Someone asks about yesterday. Listen for the three verbs that carry the whole story.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 83635
+  },
+  "mx-i06-q01": {
+    "text": "¿Qué hiciste ayer?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 22613
+  },
+  "mx-i06-q02": {
+    "text": "Fui al mercado. Comí tacos al pastor. Me encantó.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 64409
+  },
+  "mx-i06-q03": {
+    "text": "¿Y hoy qué van a hacer?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i06-q04": {
+    "text": "Vamos a ir a la playa.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i07-n01": {
+    "text": "Two moves today, both about saying something true out loud instead of keeping it to yourself: a genuine compliment, and a calm complaint. Both work better specific than vague.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 188961
+  },
+  "mx-i07-r01": {
+    "text": "¿Todo bien con la comida?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 26375
+  },
+  "mx-i07-n02": {
+    "text": "This is your opening. Está buenísimo works, but naming the actual dish gets a bigger reaction — it proves you weren't just being polite.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 119162
+  },
+  "mx-i07-p01": {
+    "text": "The food was genuinely excellent. Say so, specifically. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 53960
+  },
+  "mx-i07-t01": {
+    "text": "El mole está buenísimo.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24285
+  },
+  "mx-i07-r02": {
+    "text": "Muchas gracias, se lo voy a decir.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 37660
+  },
+  "mx-i07-n03": {
+    "text": "Now the other move. Something's actually wrong — not a preference, an actual problem. Name the object and the issue, calmly, without a speech attached.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 157196
+  },
+  "mx-i07-p02": {
+    "text": "The soup arrived cold. Name the problem, calmly. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 73186
+  },
+  "mx-i07-t02": {
+    "text": "Disculpe, la sopa está fría.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i07-r03": {
+    "text": "Perdón, se la cambio ahora mismo.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 54378
+  },
+  "mx-i07-n04": {
+    "text": "Disculpe opens it without blame. Naming the object and the exact problem — not a general complaint — is what actually gets it fixed fast.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 132537
+  },
+  "mx-i07-p03": {
+    "text": "They fixed it fast. Thank them for taking care of it. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 53960
+  },
+  "mx-i07-t03": {
+    "text": "Gracias por resolverlo tan rápido.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 33898
+  },
+  "mx-i07-s01": {
+    "text": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 103697
+  },
+  "mx-i07-n05": {
+    "text": "I07 complete. A specific compliment brings the cook out to say thanks in person. A calm, specific complaint — disculpe plus the exact problem — gets it fixed fast, no confrontation required. Both moves work because they're honest and precise, not because they're loud.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 296795
+  },
+  "mx-i07-q-i": {
+    "text": "A meal with one genuine compliment and one real problem. Listen for how both get handled calmly and specifically.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 119998
+  },
+  "mx-i07-q01": {
+    "text": "¿Todo bien con la comida?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 25539
+  },
+  "mx-i07-q02": {
+    "text": "El mole está buenísimo.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24285
+  },
+  "mx-i07-q03": {
+    "text": "Disculpe, la sopa está fría.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 27629
+  },
+  "mx-i07-q04": {
+    "text": "Gracias por resolverlo tan rápido.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 33898
+  },
+  "mx-i08-n01": {
+    "text": "Being invited into someone's home is a real gesture, not a formality, and three small moves make you a good guest: something small in your hands, arriving on time, and letting your host lead the first toast.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 194813
+  },
+  "mx-i08-r01": {
+    "text": "¿Te gustaría cenar en mi casa el sábado?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41839
+  },
+  "mx-i08-p01": {
+    "text": "Accept the invitation warmly. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 45601
+  },
+  "mx-i08-t01": {
+    "text": "Claro que sí, con mucho gusto.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 34316
+  },
+  "mx-i08-n02": {
+    "text": "Don't arrive empty-handed. Something small — flowers, wine, a dessert — is the norm. Skip yellow flowers, which read as mourning here, not celebration.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 144657
+  },
+  "mx-i08-p02": {
+    "text": "At the door, hand over the small gift you brought. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 43511
+  },
+  "mx-i08-t02": {
+    "text": "Le traje esto para la casa.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 27629
+  },
+  "mx-i08-r02": {
+    "text": "No te hubieras molestado, muchas gracias.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 38914
+  },
+  "mx-i08-n03": {
+    "text": "Everything else about time here can be relaxed. This isn't. Arriving on time for a home invitation reads as respect for the work someone put into tonight.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 149673
+  },
+  "mx-i08-r03": {
+    "text": "Pasa, siéntete como en tu casa.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 45601
+  },
+  "mx-i08-p03": {
+    "text": "Thank them for having you. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 38914
+  },
+  "mx-i08-t03": {
+    "text": "Gracias por invitarme.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i08-n04": {
+    "text": "Glasses fill, and the table waits. The host leads the first toast — you don't need to invent one. When it comes, one word is the whole reply.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 117908
+  },
+  "mx-i08-r04": {
+    "text": "¡Salud!",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 18852
+  },
+  "mx-i08-p04": {
+    "text": "The host raises a glass. Answer the toast. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 43511
+  },
+  "mx-i08-t04": {
+    "text": "¡Salud!",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 17598
+  },
+  "mx-i08-s01": {
+    "text": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 98264
+  },
+  "mx-i08-n05": {
+    "text": "I08 complete. Bring something small. Arrive on time — this is the one place the relaxed clock doesn't apply. Let the host lead the toast, and salud covers your whole reply. Being a good guest here is three small, specific moves, not a performance.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 294705
+  },
+  "mx-i08-q-i": {
+    "text": "A traveller is invited to dinner at a friend's home. Listen for the gift, the timing, and the toast.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 93248
+  },
+  "mx-i08-q01": {
+    "text": "¿Te gustaría cenar en mi casa el sábado?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41004
+  },
+  "mx-i08-q02": {
+    "text": "Claro que sí, con mucho gusto.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 33898
+  },
+  "mx-i08-q03": {
+    "text": "Le traje esto para la casa.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 27629
+  },
+  "mx-i08-q04": {
+    "text": "¡Salud!",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 17598
+  },
+  "mx-i09-n01": {
+    "text": "One question opens up a whole different kind of afternoon: not what should I see, but what's actually happening. The plaza, the local market, a neighbourhood event — the answer changes week to week, and that's exactly the point.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 219472
+  },
+  "mx-i09-r01": {
+    "text": "¿Qué van a hacer este fin de semana?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 32226
+  },
+  "mx-i09-n02": {
+    "text": "Turn the question back around. This is the one that gets you invited into someone's actual plan instead of a tourist itinerary.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 101190
+  },
+  "mx-i09-p01": {
+    "text": "Ask what's happening in the plaza this weekend. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 44347
+  },
+  "mx-i09-t01": {
+    "text": "¿Hay algo en la plaza este fin de semana?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 37660
+  },
+  "mx-i09-r02": {
+    "text": "Sí, hay un mercado sobre ruedas los domingos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 53124
+  },
+  "mx-i09-n03": {
+    "text": "A mercado sobre ruedas — a market that sets up on a street for one day and moves on — is a completely different rhythm from a fixed tourist market. Ask to go along, not just for directions.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 186035
+  },
+  "mx-i09-p02": {
+    "text": "Ask if you can come along with them. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 45601
+  },
+  "mx-i09-t02": {
+    "text": "¿Puedo ir con ustedes?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i09-r03": {
+    "text": "Claro, nos vemos a las diez.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i09-n04": {
+    "text": "Once you're there, you're not performing tourism. You're just at the market with everyone else, so the useful sentence is the same one anyone would use.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 137970
+  },
+  "mx-i09-p03": {
+    "text": "Ask the price of something at a stall, like any other customer. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 60648
+  },
+  "mx-i09-t03": {
+    "text": "¿Cuánto cuesta esto?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i09-s01": {
+    "text": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 63573
+  },
+  "mx-i09-n05": {
+    "text": "I09 complete. ¿Hay algo en la plaza? finds out what's actually happening. ¿Puedo ir con ustedes? turns a plan into an invitation. Once you're there, you're just a customer, not a spectator — cuánto cuesta esto works exactly the same way it does everywhere else.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 285092
+  },
+  "mx-i09-q-i": {
+    "text": "A traveller discovers a Sunday roving market by asking a local what's happening, then asks to come along.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 102862
+  },
+  "mx-i09-q01": {
+    "text": "¿Qué van a hacer este fin de semana?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 32226
+  },
+  "mx-i09-q02": {
+    "text": "¿Hay algo en la plaza este fin de semana?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 37660
+  },
+  "mx-i09-q03": {
+    "text": "Sí, hay un mercado sobre ruedas los domingos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 51453
+  },
+  "mx-i09-q04": {
+    "text": "¿Puedo ir con ustedes?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i10-n01": {
+    "text": "Today's real skill isn't the bargaining phrases — it's knowing where they belong. Get that part right, and the rest is easy and even fun.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 139224
+  },
+  "mx-i10-r01": {
+    "text": "Esta le doy en quinientos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 29301
+  },
+  "mx-i10-n02": {
+    "text": "A craft stall with no price tag, no cash register, no receipt — that's an invitation to negotiate. A supermarket or a chain store is not. Reading the room correctly comes first.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 163048
+  },
+  "mx-i10-p01": {
+    "text": "You're at an open craft stall, no price marked. Ask a friendly opening question. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 71515
+  },
+  "mx-i10-t01": {
+    "text": "¿Cuál es su mejor precio?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i10-r02": {
+    "text": "Se lo dejo en cuatrocientos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 29301
+  },
+  "mx-i10-n03": {
+    "text": "Now you make a counter-offer, friendly, not aggressive. This is a conversation, not a demand — smiling and showing genuine interest in the piece gets you further than pressure ever will.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 181438
+  },
+  "mx-i10-p02": {
+    "text": "Offer a lower price, warmly. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 45601
+  },
+  "mx-i10-t02": {
+    "text": "¿Se lo puedo dejar en trescientos cincuenta?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 40586
+  },
+  "mx-i10-n04": {
+    "text": "A friendly back-and-forth like this commonly lands somewhere around thirty percent off the opening price — not a rule, just a rough shape of how these conversations tend to go.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 141314
+  },
+  "mx-i10-r03": {
+    "text": "Va, trato hecho.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 30973
+  },
+  "mx-i10-n05": {
+    "text": "And if the answer is a flat no, that's the end of it — pushing further is the one move that actually sours the exchange. Thank them and decide whether to buy at the stated price.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 171407
+  },
+  "mx-i10-p03": {
+    "text": "The vendor can't go any lower. Thank them warmly, whether or not you buy. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 84889
+  },
+  "mx-i10-t03": {
+    "text": "Está bien, muchas gracias.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 26375
+  },
+  "mx-i10-s01": {
+    "text": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 101190
+  },
+  "mx-i10-n06": {
+    "text": "I10 complete. First, read the room — craft stall or supermarket. If it's a stall, ¿cuál es su mejor precio? opens it, a friendly counter-offer moves it, and a warm gracias closes it either way, deal or no deal. Money doesn't need to be tense to be real.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 298884
+  },
+  "mx-i10-q-i": {
+    "text": "A traveller bargains for a craft item at an open-air stall, then accepts the final price gracefully.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 94502
+  },
+  "mx-i10-q01": {
+    "text": "Esta le doy en quinientos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i10-q02": {
+    "text": "¿Cuál es su mejor precio?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i10-q03": {
+    "text": "¿Se lo puedo dejar en trescientos cincuenta?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 39750
+  },
+  "mx-i10-q04": {
+    "text": "Va, trato hecho.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 30137
   }
 }
