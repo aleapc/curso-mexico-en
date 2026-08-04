@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — Ticket, rule, vehicle",
+  "subtitulo": "Put destination, purchase, validation, transfer and boarding in the correct order",
+  "introAudioKey": "mx-b09-q-i",
+  "introPt": "A traveller needs local transport to the Historic Centre. Listen for the two different destination checks and the two obligations discovered in between.",
+  "cenario": "At a staffed terminal, the traveller buys a ticket, validates it and boards the correct bus after one transfer.",
+  "dialogo": [
+    { "audioKey": "mx-b09-q01", "voz": "target_mx_f", "es": "¿Este transporte va al centro?", "pinyin": "EHS-teh trahns-POR-teh bah al SEHN-troh", "pt": "Does this transport go downtown?" },
+    { "audioKey": "mx-b09-q02", "voz": "target_mx_m", "es": "Sí, pero tiene que hacer transbordo.", "pinyin": "see, PEH-roh TYEH-neh keh ah-SEHR trahns-BOR-doh", "pt": "Yes, but you have to transfer." },
+    { "audioKey": "mx-b09-q03", "voz": "target_mx_f", "es": "Un boleto para el centro, por favor. ¿Tengo que validar el boleto?", "pinyin": "oon boh-LEH-toh PAH-rah el SEHN-troh por fah-BOR. TEHN-goh keh bah-lee-DAHR el boh-LEH-toh", "pt": "One ticket downtown, please. Do I have to validate it?" },
+    { "audioKey": "mx-b09-q04", "voz": "target_mx_m", "es": "Sí, en esa máquina.", "pinyin": "see, en EH-sah MAH-kee-nah", "pt": "Yes, at that machine." },
+    { "audioKey": "mx-b09-q05", "voz": "target_mx_f", "es": "¿Este autobús va al Centro Histórico?", "pinyin": "EHS-teh ow-toh-BOOS bah al SEHN-troh ees-TOH-ree-koh", "pt": "Does this bus go to the Historic Centre?" },
+    { "audioKey": "mx-b09-q06", "voz": "target_mx_m", "es": "Sí. Suba, por favor.", "pinyin": "see. SOO-bah por fah-BOR", "pt": "Yes. Board, please." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why ask the destination before buying?", "opcoes": ["To practise a number", "To protect the ticket choice", "To find the bathroom", "To request a receipt"], "correta": 1, "explica": "The first destination check ensures the product being bought serves the journey." },
+    { "pergunta": "Which ticket word does the Mexican SKU teach?", "opcoes": ["Billete only", "Boleto", "Vía", "Cercanías"], "correta": 1, "explica": "Boleto is the working Mexican travel-ticket word used here." },
+    { "pergunta": "What changes after ¿Tengo que?", "opcoes": ["The traveller's identity", "The required action", "The destination country", "The ticket price"], "correta": 1, "explica": "Validar and hacer transbordo occupy the action slot." },
+    { "pergunta": "Why confirm the bus again at the door?", "opcoes": ["The first question protected purchase; this one protects boarding", "The ticket has expired", "The driver sets the fare", "The platform is closed"], "correta": 0, "explica": "The same destination closes a different risk at the vehicle." },
+    { "pergunta": "How should a difficult line or platform number be handled?", "opcoes": ["Invent it", "Show or read it from the display", "Avoid transport", "Translate every sign aloud"], "correta": 1, "explica": "Numbers stay on the surface; pointing and reading are the permitted escape hatch." }
+  ]
+}

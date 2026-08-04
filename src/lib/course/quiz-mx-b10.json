@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Surface, decision, body",
+  "subtitulo": "Recognition only: choose the action, never the pronunciation",
+  "introAudioKey": "mx-b10-q-i",
+  "introPt": "You are moving through a terminal and a public building. Hear the six sign surfaces once, then choose the action each one controls.",
+  "cenario": "A traveller resolves doors, a queue, toilets, opening hours and a restricted route without producing Spanish.",
+  "dialogo": [
+    { "audioKey": "mx-b10-q01", "voz": "target_mx_f", "es": "Entrada. Salida.", "pt": "Entrance. Exit." },
+    { "audioKey": "mx-b10-q02", "voz": "target_mx_m", "es": "Jale. Empuje.", "pt": "Pull. Push." },
+    { "audioKey": "mx-b10-q03", "voz": "target_mx_f", "es": "Fila. Taquilla.", "pt": "Queue. Ticket window." },
+    { "audioKey": "mx-b10-q04", "voz": "target_mx_m", "es": "Sanitarios. Baños.", "pt": "Toilets. Bathrooms." },
+    { "audioKey": "mx-b10-q05", "voz": "target_mx_f", "es": "Horario. Cerrado.", "pt": "Hours. Closed." },
+    { "audioKey": "mx-b10-q06", "voz": "target_mx_m", "es": "Último acceso. Solo personal.", "pt": "Last entry. Staff only." }
+  ],
+  "perguntas": [
+    { "pergunta": "SALIDA is above one side of a divided doorway. What do you do?", "opcoes": ["Enter there", "Leave through that flow", "Buy a ticket", "Wait for staff"], "correta": 1, "explica": "SALIDA marks the way out." },
+    { "pergunta": "The manual door says EMPUJE. Which movement follows?", "opcoes": ["Pull it toward you", "Push it away", "Wait for it to open automatically", "Join a queue"], "correta": 1, "explica": "EMPUJE means push; JALE means pull in this Mexican set." },
+    { "pergunta": "A line ends at a window marked TAQUILLA. What comes first?", "opcoes": ["Walk to the glass", "Join the back of the FILA", "Find the toilets", "Use a staff door"], "correta": 1, "explica": "FILA marks the queue; TAQUILLA identifies the ticket window." },
+    { "pergunta": "A place lists HORARIO and a separate ÚLTIMO ACCESO. Which controls entry?", "opcoes": ["The last-entry time", "The final closing time only", "The first hour printed", "Neither"], "correta": 0, "explica": "ÚLTIMO ACCESO is the entry deadline and may be earlier than closing." },
+    { "pergunta": "A shortcut says SOLO PERSONAL. What is the safe action?", "opcoes": ["Use it quickly", "Knock and continue", "Stop and choose a public route", "Translate it aloud"], "correta": 2, "explica": "SOLO PERSONAL marks a staff-only boundary." }
+  ]
+}
