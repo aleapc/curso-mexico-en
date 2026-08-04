@@ -1,0 +1,25 @@
+{
+  "id": "q-mx-b16",
+  "nivel": "basico",
+  "titulo": "Quiz — Improve first, repair second",
+  "subtitulo": "Before the key and after the failed checkpoint",
+  "introAudioKey": "mx-b16-q-i",
+  "introPt": "A traveller improves the room before assignment, then reports one defect and escalates only after the promised repair checkpoint fails.",
+  "cenario": "The quiet room is assigned; the air conditioner later needs a timed repair and a room change.",
+  "dialogo": [
+    { "audioKey": "mx-b16-q01", "voz": "target_mx_f", "es": "¿Hay una habitación más silenciosa?", "pt": "Is there a quieter room?" },
+    { "audioKey": "mx-b16-q02", "voz": "target_mx_m", "es": "Sí, tengo una lejos del elevador.", "pt": "Yes, I have one far from the elevator." },
+    { "audioKey": "mx-b16-q03", "voz": "target_mx_f", "es": "El aire acondicionado no funciona.", "pt": "The air conditioning does not work." },
+    { "audioKey": "mx-b16-q04", "voz": "target_mx_m", "es": "Voy a enviar a mantenimiento.", "pt": "I'll send maintenance." },
+    { "audioKey": "mx-b16-q05", "voz": "target_mx_f", "es": "¿A qué hora pueden revisarlo?", "pt": "What time can they check it?" },
+    { "audioKey": "mx-b16-q06", "voz": "target_mx_m", "es": "En veinte minutos.", "pt": "In twenty minutes." },
+    { "audioKey": "mx-b16-q07", "voz": "target_mx_f", "es": "Sigue sin funcionar. Necesito otra habitación, por favor.", "pt": "It still doesn't work. I need another room, please." }
+  ],
+  "perguntas": [
+    { "pergunta": "When was the quieter room requested?", "opcoes": ["Before room assignment", "After checkout", "During a medical emergency", "After paying a restaurant bill"], "correta": 0, "explica": "The lesson opens with improvements before the key is issued." },
+    { "pergunta": "Did the dialogue promise late checkout at every hotel?", "opcoes": ["Yes", "No; it is an availability and policy question", "Only on Sundays", "Only for cash guests"], "correta": 1, "explica": "The hotel answers its current limit and charge; the course does not universalise it." },
+    { "pergunta": "What made the defect report useful?", "opcoes": ["It named the object and observable failure", "It blamed the receptionist", "It included a long travel story", "It demanded compensation first"], "correta": 0, "explica": "The air conditioner and failure can be inspected immediately." },
+    { "pergunta": "Why ask a qué hora?", "opcoes": ["To learn the clock", "To create a repair checkpoint", "To extend checkout", "To find the elevator"], "correta": 1, "explica": "A time turns an open promise into a moment the traveller can verify." },
+    { "pergunta": "When did the traveller ask for another room?", "opcoes": ["Before maintenance", "After the checkpoint passed and the defect remained", "Before showing identification", "Instead of reporting the defect"], "correta": 1, "explica": "Escalation follows the failed repair, not the opening move." }
+  ]
+}

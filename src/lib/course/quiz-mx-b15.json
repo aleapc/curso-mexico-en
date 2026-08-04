@@ -1,0 +1,25 @@
+{
+  "id": "q-mx-b15",
+  "nivel": "basico",
+  "titulo": "Quiz — The return was prepared before payment",
+  "subtitulo": "Fit, policy and evidence",
+  "introAudioKey": "mx-b15-q-i",
+  "introPt": "A traveller tries three sizes, asks the exchange rule before paying and returns with the two artifacts the store requested.",
+  "cenario": "A shirt that seemed right in the fitting room comes back with its tag and receipt.",
+  "dialogo": [
+    { "audioKey": "mx-b15-q01", "voz": "target_mx_f", "es": "¿Me la puedo probar?", "pt": "Can I try it on?" },
+    { "audioKey": "mx-b15-q02", "voz": "target_mx_m", "es": "Sí. Los probadores están al fondo.", "pt": "Yes. The fitting rooms are at the back." },
+    { "audioKey": "mx-b15-q03", "voz": "target_mx_f", "es": "¿La puedo cambiar si no me queda?", "pt": "Can I exchange it if it doesn't fit me?" },
+    { "audioKey": "mx-b15-q04", "voz": "target_mx_m", "es": "Sí, con el recibo y la etiqueta.", "pt": "Yes, with the receipt and the tag." },
+    { "audioKey": "mx-b15-q05", "voz": "target_mx_f", "es": "Quiero cambiarla por otra talla.", "pt": "I want to exchange it for another size." },
+    { "audioKey": "mx-b15-q06", "voz": "target_mx_m", "es": "¿Tiene el recibo y la etiqueta?", "pt": "Do you have the receipt and the tag?" },
+    { "audioKey": "mx-b15-q07", "voz": "target_mx_f", "es": "Sí, aquí están.", "pt": "Yes, here they are." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why did the traveller try the shirt instead of translating the label?", "opcoes": ["Size labels never exist", "Fit can vary by brand and product", "Trying is legally required", "The price was hidden"], "correta": 1, "explica": "The garment itself is better evidence than assuming a familiar size letter transfers." },
+    { "pergunta": "When was the exchange rule asked?", "opcoes": ["Before payment", "After removing the tag", "At the airport", "Only after a defect appeared"], "correta": 0, "explica": "The traveller makes the condition visible before committing money." },
+    { "pergunta": "Did the lesson promise every fit exchange?", "opcoes": ["Yes", "No; it trained asking this store's policy", "Only for tourists", "Only for cash purchases"], "correta": 1, "explica": "A fit exchange can depend on the store policy, unlike remedies for a defective or misrepresented product." },
+    { "pergunta": "What two artifacts did this store request?", "opcoes": ["Passport and card", "Receipt and tag", "Bag and hanger", "Photo and email"], "correta": 1, "explica": "The return is prepared by preserving the receipt and attached tag." },
+    { "pergunta": "What does otra talla change?", "opcoes": ["The product category", "The size", "The payment method", "The shop"], "correta": 1, "explica": "The traveller keeps the shirt choice and changes the fit." }
+  ]
+}
