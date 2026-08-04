@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Close the loose problems",
+  "subtitulo": "Use the right first-hour action before leaving the arrival hall",
+  "introAudioKey": "mx-b06-q-i",
+  "introPt": "The traveller still has four loose problems: a missing bag, no data, a payment question and a delayed pickup. Put them in the order that prevents one problem from travelling into the next.",
+  "cenario": "In the arrivals hall, the carousel has stopped and the pickup is delayed.",
+  "dialogo": [
+    { "audioKey": "mx-b06-q01", "voz": "target_mx_f", "es": "Mi maleta no llegó.", "pinyin": "mee mah-LEH-tah noh yeh-GOH", "pt": "My bag did not arrive." },
+    { "audioKey": "mx-b06-q02", "voz": "target_mx_m", "es": "¿Tiene el comprobante de equipaje?", "pinyin": "TYEH-neh el kohm-proh-BAHN-teh deh eh-kee-PAH-heh", "pt": "Do you have the baggage receipt?" },
+    { "audioKey": "mx-b06-q03", "voz": "target_mx_f", "es": "¿Hay wifi?", "pinyin": "eye WEE-fee", "pt": "Is there wifi?" },
+    { "audioKey": "mx-b06-q04", "voz": "target_mx_f", "es": "¿Puedo pagar con tarjeta?", "pinyin": "PWEH-doh pah-GAHR kohn tahr-HEH-tah", "pt": "Can I pay by card?" },
+    { "audioKey": "mx-b06-q05", "voz": "target_mx_f", "es": "¿Puedo esperar aquí?", "pinyin": "PWEH-doh ehs-peh-RAHR ah-KEE", "pt": "Can I wait here?" },
+    { "audioKey": "mx-b06-q06", "voz": "target_mx_m", "es": "Sí, puede esperar aquí.", "pinyin": "see, PWEH-deh ehs-peh-RAHR ah-KEE", "pt": "Yes, you can wait here." }
+  ],
+  "perguntas": [
+    { "pergunta": "Which problem must be reported before leaving the baggage area?", "opcoes": ["A delayed pickup", "A missing bag", "A card payment", "The hotel address"], "correta": 1, "explica": "The airline baggage desk is the first loop because the missing bag cannot be solved from the road." },
+    { "pergunta": "What should happen before chasing cash?", "opcoes": ["Ask whether the actual purchase accepts card", "Exchange all money", "Leave the terminal", "Call immigration"], "correta": 0, "explica": "B06 avoids creating a cash problem until the payment method is known." },
+    { "pergunta": "What stays fixed in the three permission phrases?", "opcoes": ["The location", "¿Puedo", "The price", "The reply"], "correta": 1, "explica": "¿Puedo opens the pattern; the infinitive action changes." },
+    { "pergunta": "Why choose an identified meeting point?", "opcoes": ["To negotiate the fare", "To wait without drifting toward an unofficial offer", "To file a visa", "To retrieve baggage"], "correta": 1, "explica": "The stable point closes the pickup problem before B07 begins transport." },
+    { "pergunta": "Where is the full hay/está contrast taught?", "opcoes": ["B04", "B05", "B06", "B08"], "correta": 3, "explica": "B06 uses ¿Hay wifi? as a complete preview; B08 opens the location pattern." }
+  ]
+}

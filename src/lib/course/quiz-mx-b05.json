@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Three answers, no extra story",
+  "subtitulo": "Match each immigration question to one true payload",
+  "introAudioKey": "mx-b05-q-i",
+  "introPt": "At Mexican immigration, the officer asks purpose, duration and accommodation. Listen for the clean stop after each answer.",
+  "cenario": "A traveller arrives for a ten-day holiday with a confirmed hotel booking.",
+  "dialogo": [
+    { "audioKey": "mx-b05-q01", "voz": "target_mx_m", "es": "¿Cuál es el motivo de su viaje?", "pinyin": "kwahl ehs el moh-TEE-boh deh soo BYAH-heh", "pt": "What is the purpose of your trip?" },
+    { "audioKey": "mx-b05-q02", "voz": "target_mx_f", "es": "Vengo de vacaciones.", "pinyin": "BEN-goh deh bah-kah-SYOH-nehs", "pt": "I am here on vacation." },
+    { "audioKey": "mx-b05-q03", "voz": "target_mx_m", "es": "¿Cuántos días se queda?", "pinyin": "KWAHN-tohs DEE-ahs seh KEH-dah", "pt": "How many days are you staying?" },
+    { "audioKey": "mx-b05-q04", "voz": "target_mx_f", "es": "Diez días.", "pinyin": "DYEHS DEE-ahs", "pt": "Ten days." },
+    { "audioKey": "mx-b05-q05", "voz": "target_mx_m", "es": "¿Dónde se va a hospedar? ¿Tiene la reservación?", "pinyin": "DOHN-deh seh bah ah ohs-peh-DAHR. TYEH-neh lah reh-sehr-bah-SYOHN", "pt": "Where will you stay? Do you have the reservation?" },
+    { "audioKey": "mx-b05-q06", "voz": "target_mx_f", "es": "Me hospedo en este hotel. Aquí tiene mi reservación.", "pinyin": "meh ohs-PEH-doh en EHS-teh oh-TEL. ah-KEE TYEH-neh mee reh-sehr-bah-SYOHN", "pt": "I am staying at this hotel. Here is my reservation." }
+  ],
+  "perguntas": [
+    { "pergunta": "Which answer matches the purpose question?", "opcoes": ["Diez días.", "Vengo de vacaciones.", "Aquí tiene mi reservación.", "En taxi."], "correta": 1, "explica": "Vengo de vacaciones states the reason for travel and nothing else." },
+    { "pergunta": "What must replace 'Diez días' on a different trip?", "opcoes": ["Nothing; always say ten", "The traveller's real length of stay", "The hotel address", "The flight number"], "correta": 1, "explica": "The lesson value is rehearsal; the border answer must match the real itinerary." },
+    { "pergunta": "What does '¿Dónde se va a hospedar?' ask for?", "opcoes": ["Occupation", "Accommodation", "Nationality", "Payment method"], "correta": 1, "explica": "Hospedarse is to stay or lodge somewhere." },
+    { "pergunta": "Why hand over the reservation?", "opcoes": ["To replace the passport", "To support the accommodation answer when requested", "To request 180 days", "To buy transport"], "correta": 1, "explica": "The saved booking carries the exact evidence without a longer explanation." },
+    { "pergunta": "Does visa-free tourism automatically grant 180 days?", "opcoes": ["Yes", "Only with an eSIM", "No; immigration determines the authorised period", "Only at a hotel"], "correta": 2, "explica": "The ceiling and the period authorised at entry are different facts." }
+  ]
+}
