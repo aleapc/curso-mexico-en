@@ -7,7 +7,7 @@ import https from 'node:https';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const contentRoot = join(root, 'docs', 'content-mexico');
-const outRoot = join(root, 'static', 'audio', 'mexico');
+const outRoot = join(root, 'static', 'audio');
 const statePath = join(outRoot, 'manifest.json');
 const config = JSON.parse(readFileSync(join(root, 'audio.config.json'), 'utf8'));
 
@@ -151,7 +151,7 @@ async function generate() {
   const jobs = collectJobs();
   if (!jobs.length) throw new Error('Nenhum pacote pré-áudio completo encontrado.');
   const state = loadState();
-  const pending = jobs.filter((job) => state[job.key]?.text !== job.text).slice(0, limitArg);
+  const pending = jobs.filter((job) => state[job.key] !== job.text).slice(0, limitArg);
   const characters = pending.reduce((total, job) => total + job.text.length, 0);
   console.log(`Jobs: ${jobs.length} · pendentes: ${pending.length} · caracteres: ${characters}` +
     (onlySlot ? ` · slot: ${onlySlot}` : ''));
@@ -159,11 +159,9 @@ async function generate() {
     console.log(`${dryRun ? '·' : '→'} ${job.key} · ${job.voice.name} · ${job.text.length} chars`);
     if (dryRun) continue;
     const bytes = await synthesize(job);
-    const slotDir = join(outRoot, job.slot);
-    mkdirSync(slotDir, { recursive: true });
-    writeFileSync(join(slotDir, `${job.key}.mp3`), bytes);
-    state[job.key] = { text: job.text, role: job.role, voiceId: job.voice.voiceId, model: job.model, bytes: bytes.length };
     mkdirSync(outRoot, { recursive: true });
+    writeFileSync(join(outRoot, `${job.key}.mp3`), bytes);
+    state[job.key] = job.text;
     writeFileSync(statePath, JSON.stringify(state, null, 2));
   }
   if (!dryRun) console.log(`Concluído: ${pending.length} clipes gerados.`);

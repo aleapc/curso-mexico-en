@@ -1,0 +1,20 @@
+{
+  "id": "q-mx-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — How they talk when it isn't to you",
+  "subtitulo": "Recognizing fast, worn-down Spanish",
+  "introAudioKey": "mx-a01-q-i",
+  "introPt": "Listen to two regulars ordering fast at a taco stand, then answer about what you heard.",
+  "cenario": "A busy taco stand at night, native speed.",
+  "dialogo": [
+    { "audioKey": "mx-a01-q01", "voz": "target_mx_m", "es": "¿Me da dos de pastor y uno de bistec, pa' llevar?", "pt": "Can I get two al pastor and one bistec, to go?" },
+    { "audioKey": "mx-a01-q02", "voz": "target_mx_f", "es": "Va, ahorita se los preparo.", "pt": "Sure, I'll get them ready right away." }
+  ],
+  "perguntas": [
+    { "pergunta": "What does 'pa'' stand for in fast speech?", "opcoes": ["Papá", "Para", "Pasa", "Poco"], "correta": 1, "explica": "Para commonly shrinks to pa' in relaxed, fast speech." },
+    { "pergunta": "What does '¿Dónde 'tá el baño?' mean?", "opcoes": ["Where is the bathroom?", "What time is it?", "Is there a bathroom?", "How much is it?"], "correta": 0, "explica": "'tá is está, worn down — the question is unchanged." },
+    { "pergunta": "Is dropping the d in words like 'cansado' to 'cansao' considered an error?", "opcoes": ["Yes, it's sloppy Spanish", "No, it's ordinary relaxed speech across Mexico", "Only children speak this way", "Only in Mexico City"], "correta": 1, "explica": "This reduction is normal, widespread informal speech, not a mistake." },
+    { "pergunta": "What is 'pos' or 'pus' a fast reduction of?", "opcoes": ["Por", "Puso", "Pues", "Poco"], "correta": 2, "explica": "Pues, a common filler word, often reduces to pos or pus." },
+    { "pergunta": "If a vendor speaks slowly to you, then fast to the person behind you, what changed?", "opcoes": ["Your Spanish got worse mid-conversation", "The audience changed, not the language", "The vendor was being rude to you", "It's a different dialect entirely"], "correta": 1, "explica": "Speech aimed at a visitor is often slowed; speech aimed at a regular typically isn't." }
+  ]
+}
