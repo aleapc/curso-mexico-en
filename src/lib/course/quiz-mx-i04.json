@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Who invited whom",
+  "subtitulo": "Accepting an invitation, splitting on request, and a clean exit",
+  "introAudioKey": "mx-i04-q-i",
+  "introPt": "A night out with friends. Listen for who pays, how splitting is requested, and how to leave the table first.",
+  "cenario": "A group of friends deciding how to pay, and one person leaving before the rest.",
+  "dialogo": [
+    { "audioKey": "mx-i04-q01", "voz": "target_mx_m", "es": "Vamos por unas cervezas, yo invito.", "pt": "Let's go for some beers, I'm inviting." },
+    { "audioKey": "mx-i04-q02", "voz": "target_mx_f", "es": "Muchas gracias, muy amable.", "pt": "Thank you very much, that's kind of you." },
+    { "audioKey": "mx-i04-q03", "voz": "target_mx_f", "es": "¿Podemos pagar por separado?", "pt": "Can we pay separately?" },
+    { "audioKey": "mx-i04-q04", "voz": "target_mx_f", "es": "Ya me voy. Gracias por todo, nos vemos.", "pt": "I'm heading out. Thanks for everything, see you." }
+  ],
+  "perguntas": [
+    { "pergunta": "What does 'yo invito' signal?", "opcoes": ["An offer to be refused three times", "A plain statement that this person is paying", "A request to split the bill", "Nothing about payment"], "correta": 1, "explica": "It's closer to an announcement than a polite offer expecting refusal." },
+    { "pergunta": "What is the graceful response to 'yo invito'?", "opcoes": ["Insist on paying your share", "Accept with thanks", "Ignore it", "Leave immediately"], "correta": 1, "explica": "Accepting plainly is the expected, comfortable response." },
+    { "pergunta": "Is splitting the bill the cultural default in Mexico?", "opcoes": ["Yes, always automatic", "No — whoever invites usually pays; splitting is requested explicitly", "Only allowed at breakfast", "It's illegal to split"], "correta": 1, "explica": "Splitting is possible but not assumed; it's worth naming early if wanted." },
+    { "pergunta": "How does the traveller leave the table before the others?", "opcoes": ["Silently, without a word", "With ya me voy and a short thanks", "By asking everyone to leave too", "By paying everyone's bill first"], "correta": 1, "explica": "A brief, warm line closes the exit without a drawn-out goodbye." },
+    { "pergunta": "What does 'cada quien paga lo suyo' mean?", "opcoes": ["One person pays for everyone", "Each person pays for their own order", "The bill is free", "The group splits evenly regardless of order"], "correta": 1, "explica": "It's an itemized-style split, different from an even division." }
+  ]
+}

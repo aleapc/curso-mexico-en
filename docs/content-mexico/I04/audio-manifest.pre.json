@@ -1,0 +1,31 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I04",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {"key": "mx-i04-n01", "role": "guide_en_us_f", "text": "Tonight's decision happens before a single drink is ordered, in one word: who invited whom. That answer already decides who reaches for the bill later, and knowing it now avoids an awkward tug-of-war at the end.", "kind": "narration"},
+    {"key": "mx-i04-r01", "role": "target_mx_m", "text": "Vamos por unas cervezas, yo invito.", "kind": "return"},
+    {"key": "mx-i04-n02", "role": "guide_en_us_m", "text": "Yo invito isn't a small offer to be politely refused three times. It's a plain statement of who's paying tonight — and the expected answer is thanks, not a fight over the bill.", "kind": "narration"},
+    {"key": "mx-i04-p01", "role": "guide_en_us_m", "text": "A friend says he's inviting. Accept it plainly, with thanks. Speak now.", "kind": "prompt"},
+    {"key": "mx-i04-t01", "role": "target_mx_f", "text": "Muchas gracias, muy amable.", "kind": "target"},
+    {"key": "mx-i04-n03", "role": "guide_en_us_f", "text": "But you're allowed to want the other arrangement. Splitting is not the default here — so if you want it, say so early, clearly, before the tab starts running.", "kind": "narration"},
+    {"key": "mx-i04-p02", "role": "guide_en_us_f", "text": "You'd rather split the bill this time. Say so, before ordering. Speak now.", "kind": "prompt"},
+    {"key": "mx-i04-t02", "role": "target_mx_f", "text": "¿Podemos pagar por separado?", "kind": "target"},
+    {"key": "mx-i04-r02", "role": "target_mx_m", "text": "Claro, sin problema.", "kind": "return"},
+    {"key": "mx-i04-n04", "role": "guide_en_us_m", "text": "One more version, for a group that's fine sharing a table but not a tab: everyone pays for what they actually had.", "kind": "narration"},
+    {"key": "mx-i04-p03", "role": "guide_en_us_m", "text": "Suggest that everyone pays for their own order. Speak now.", "kind": "prompt"},
+    {"key": "mx-i04-t03", "role": "target_mx_f", "text": "Cada quien paga lo suyo.", "kind": "target"},
+    {"key": "mx-i04-n05", "role": "guide_en_us_f", "text": "And when the night's done and you're leaving before the rest of the table, the exit doesn't need a speech. One line covers it.", "kind": "narration"},
+    {"key": "mx-i04-p04", "role": "guide_en_us_f", "text": "You're heading out while the others stay. Say goodbye to the table. Speak now.", "kind": "prompt"},
+    {"key": "mx-i04-t04", "role": "target_mx_f", "text": "Ya me voy. Gracias por todo, nos vemos.", "kind": "target"},
+    {"key": "mx-i04-s01", "role": "target_mx_f", "text": "¿Podemos pagar por separado? Cada quien paga lo suyo. Ya me voy. Gracias por todo, nos vemos.", "kind": "shadow"},
+    {"key": "mx-i04-n06", "role": "guide_en_us_f", "text": "I04 complete. Yo invito means they're paying — accept it. If you'd rather split, say ¿podemos pagar por separado? early. And when you're the one leaving first, ya me voy plus a thank-you closes it cleanly, no drawn-out goodbye required.", "kind": "recap"},
+    {"key": "mx-i04-q-i", "role": "guide_en_us_f", "text": "A night out with friends. Listen for who pays, how splitting is requested, and how to leave the table first.", "kind": "quiz_intro"},
+    {"key": "mx-i04-q01", "role": "target_mx_m", "text": "Vamos por unas cervezas, yo invito.", "kind": "quiz"},
+    {"key": "mx-i04-q02", "role": "target_mx_f", "text": "Muchas gracias, muy amable.", "kind": "quiz"},
+    {"key": "mx-i04-q03", "role": "target_mx_f", "text": "¿Podemos pagar por separado?", "kind": "quiz"},
+    {"key": "mx-i04-q04", "role": "target_mx_f", "text": "Ya me voy. Gracias por todo, nos vemos.", "kind": "quiz"}
+  ]
+}

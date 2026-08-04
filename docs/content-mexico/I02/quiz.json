@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Nine seconds at a busy counter",
+  "subtitulo": "Speak up, at normal volume, no padding",
+  "introAudioKey": "mx-i02-q-i",
+  "introPt": "A crowded taco stand with no formal line. Listen for how the traveller claims a turn and orders directly.",
+  "cenario": "A busy informal counter where speaking up, not waiting quietly, determines who gets served next.",
+  "dialogo": [
+    { "audioKey": "mx-i02-q01", "voz": "target_mx_m", "es": "¿Quién sigue?", "pt": "Who's next?" },
+    { "audioKey": "mx-i02-q02", "voz": "target_mx_f", "es": "Yo sigo, por favor.", "pt": "I'm next, please." },
+    { "audioKey": "mx-i02-q03", "voz": "target_mx_m", "es": "¿Qué le doy?", "pt": "What can I get you?" },
+    { "audioKey": "mx-i02-q04", "voz": "target_mx_f", "es": "Deme dos de pastor, por favor.", "pt": "Give me two al pastor, please." }
+  ],
+  "perguntas": [
+    { "pergunta": "At a busy counter with no visible line, what actually determines service order?", "opcoes": ["Arrival time in silence", "Who speaks up and makes eye contact", "Who is closest to the register", "Alphabetical order"], "correta": 1, "explica": "Speaking up, not silent waiting, is what gets you noticed at an informal counter." },
+    { "pergunta": "What does 'yo sigo' do?", "opcoes": ["Orders food", "Claims your turn", "Asks for the bill", "Apologises for waiting"], "correta": 1, "explica": "It states plainly that you are next." },
+    { "pergunta": "Why avoid English-style padding like 'I was wondering if I could possibly...'?", "opcoes": ["It's grammatically wrong", "It reads as distance, not politeness, at this kind of counter", "It's too formal for any context", "It's rude everywhere in Mexico"], "correta": 1, "explica": "Directness at an informal counter is the expected, comfortable register." },
+    { "pergunta": "Where does this no-line counter behaviour NOT apply?", "opcoes": ["Taco stands", "Market stalls", "Banks and government offices with numbered tickets", "Small shops"], "correta": 2, "explica": "Formal queues still exist in more bureaucratic settings." },
+    { "pergunta": "What volume is appropriate for ordering at a busy counter?", "opcoes": ["A whisper", "A shout", "Normal speaking volume", "Silence, using only gestures"], "correta": 2, "explica": "Normal volume with eye contact is the expected register, neither timid nor loud." }
+  ]
+}

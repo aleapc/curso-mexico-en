@@ -3960,5 +3960,768 @@
     "voiceId": "NyQ87MpRGbszyh7rZLXM",
     "model": "eleven_multilingual_v2",
     "bytes": 32226
+  },
+  "mx-i01-n01": {
+    "text": "Part one of the good stuff. Today's decision is not a phrase — it's a time. What hour you sit down decides which room you eat in, and the two rooms are not the same trip.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 183110
+  },
+  "mx-i01-r01": {
+    "text": "Buenas tardes. Pase, tenemos mesa.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 44347
+  },
+  "mx-i01-n02": {
+    "text": "Six in the evening, and the whole comedor is yours — every table free, the cook visible through the kitchen door, nobody else in the room.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 131283
+  },
+  "mx-i01-n03": {
+    "text": "Nothing has gone wrong. La comida — the main meal — runs one to three. By six, the city already ate hours ago; what's open now is running on tourist hours, not local ones.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 164719
+  },
+  "mx-i01-p01": {
+    "text": "You want to know when this place is genuinely busy. Ask what time la comida is usually served here. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 97010
+  },
+  "mx-i01-t01": {
+    "text": "¿A qué hora sirven la comida aquí?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 32226
+  },
+  "mx-i01-r02": {
+    "text": "De una a tres, más o menos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i01-n04": {
+    "text": "Now the other end of the day. Cena is not a second comida — it runs later and lighter, sometimes just something from a stall, not a sit-down production.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 152599
+  },
+  "mx-i01-t02": {
+    "text": "Para la cena, algo ligero está bien.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41839
+  },
+  "mx-i01-p02": {
+    "text": "It's evening and you're not looking for a full meal. Say something light is fine for dinner. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 102026
+  },
+  "mx-i01-n05": {
+    "text": "So the move: if you want the room the city actually eats in, walk in for comida between one and three. If you just want something before bed, cena any time after six is completely normal.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 171825
+  },
+  "mx-i01-r03": {
+    "text": "¿Va a comer aquí o solo va de paso?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 47273
+  },
+  "mx-i01-p03": {
+    "text": "You've arrived right in the middle of la comida. Say you'd like to eat, here, now. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 80710
+  },
+  "mx-i01-t03": {
+    "text": "Sí, quiero comer aquí, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41004
+  },
+  "mx-i01-s01": {
+    "text": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 78202
+  },
+  "mx-i01-n06": {
+    "text": "I01 complete. Comida owns one to three — that's the room worth walking into. Cena is real but lighter, any time after six. An empty comedor at six isn't a warning sign. It's the clock telling you exactly where you are.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 226159
+  },
+  "mx-i01-q-i": {
+    "text": "A traveller walks into an empty comedor at six in the evening and asks when it actually fills up.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 86561
+  },
+  "mx-i01-q01": {
+    "text": "Buenas tardes. Pase, tenemos mesa.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 43511
+  },
+  "mx-i01-q02": {
+    "text": "¿A qué hora sirven la comida aquí?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 31391
+  },
+  "mx-i01-q03": {
+    "text": "De una a tres, más o menos.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i01-q04": {
+    "text": "Para la cena, algo ligero está bien.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 40586
+  },
+  "mx-i02-n01": {
+    "text": "A busy counter in Mexico often has no formal line at all — just a cluster of people, and whoever makes eye contact and speaks up gets served next. Standing back quietly, the way you might queue at home, can mean waiting a very long time.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 238698
+  },
+  "mx-i02-n02": {
+    "text": "You're the fourth person deep at a busy taco stand, no line, everyone talking over everyone. The cook glances up. This is the half-second that matters.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 145075
+  },
+  "mx-i02-r01": {
+    "text": "¿Quién sigue?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 18852
+  },
+  "mx-i02-n03": {
+    "text": "That question is your opening, not a formality to survive. Answer it immediately, at a normal speaking volume — not a whisper, not a shout.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 161376
+  },
+  "mx-i02-p01": {
+    "text": "The cook asks who's next. Claim your turn immediately. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 71097
+  },
+  "mx-i02-t01": {
+    "text": "Yo sigo, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 22613
+  },
+  "mx-i02-r02": {
+    "text": "Dígame.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 14254
+  },
+  "mx-i02-n04": {
+    "text": "If two people speak at once and it isn't clear who was actually first, this line settles it without an argument.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 92413
+  },
+  "mx-i02-t02": {
+    "text": "Creo que yo llegué primero.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 25539
+  },
+  "mx-i02-p02": {
+    "text": "Someone else also claims the turn. Say, calmly, that you think you arrived first. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 84471
+  },
+  "mx-i02-n05": {
+    "text": "Here's the permission this whole part is built on. The English instinct — 'I was wondering if I could possibly...' — doesn't read as polite here. It reads as distance, and it makes the cook wonder if you're actually ready to order.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 209859
+  },
+  "mx-i02-r03": {
+    "text": "¿Qué le doy?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 16762
+  },
+  "mx-i02-p03": {
+    "text": "Order directly, no padding, no apology for existing. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 71515
+  },
+  "mx-i02-t03": {
+    "text": "Deme dos de pastor, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 30973
+  },
+  "mx-i02-s01": {
+    "text": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 87815
+  },
+  "mx-i02-n06": {
+    "text": "I02 complete. No formal line, no problem: yo sigo claims your turn, creo que yo llegué primero defends it if needed, and a direct deme plus what you want is the whole order. Quiet waiting was never the polite move — speaking up, at a normal volume, was.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 286346
+  },
+  "mx-i02-q-i": {
+    "text": "A crowded taco stand with no formal line. Listen for how the traveller claims a turn and orders directly.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 111639
+  },
+  "mx-i02-q01": {
+    "text": "¿Quién sigue?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 18016
+  },
+  "mx-i02-q02": {
+    "text": "Yo sigo, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 22613
+  },
+  "mx-i02-q03": {
+    "text": "¿Qué le doy?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 15926
+  },
+  "mx-i02-q04": {
+    "text": "Deme dos de pastor, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 30973
+  },
+  "mx-i03-n01": {
+    "text": "Some of the best food in Mexico has no printed menu at all. It has a chalkboard, or nothing — just today's comida corrida, decided in the kitchen that morning.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 151345
+  },
+  "mx-i03-r01": {
+    "text": "Hoy tenemos comida corrida: sopa, guisado y agua.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 80710
+  },
+  "mx-i03-n02": {
+    "text": "Comida corrida — the same idea as a menú del día — is a full, fixed multi-course lunch at a fair price, usually only available for a few hours around midday. It's not a limited option. It's often the actual reason to be there.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 205262
+  },
+  "mx-i03-p01": {
+    "text": "That's exactly what you want. Say you'll have the comida corrida. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 60648
+  },
+  "mx-i03-t01": {
+    "text": "Quiero la comida corrida, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 34316
+  },
+  "mx-i03-r02": {
+    "text": "¿Sopa o crema?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 20942
+  },
+  "mx-i03-n03": {
+    "text": "Comida corrida still asks you to choose between two or three set options at each course. You don't need every word — you need one clean choice.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 138388
+  },
+  "mx-i03-p02": {
+    "text": "Pick one. Say soup. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 38078
+  },
+  "mx-i03-t02": {
+    "text": "Sopa, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 21777
+  },
+  "mx-i03-n04": {
+    "text": "And when there genuinely is a longer menu and no comida corrida in sight, this is the move that unlocks the good dish instead of the safe one.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 122088
+  },
+  "mx-i03-p03": {
+    "text": "You're not sure what to get. Ask what they recommend. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 47691
+  },
+  "mx-i03-t03": {
+    "text": "¿Qué me recomienda?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 20524
+  },
+  "mx-i03-r03": {
+    "text": "El mole está buenísimo hoy.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 27629
+  },
+  "mx-i03-s01": {
+    "text": "Quiero la comida corrida, por favor. ¿Qué me recomienda?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 53124
+  },
+  "mx-i03-n05": {
+    "text": "I03 complete. Comida corrida is the move, not the fallback — a full fixed lunch, fair price, usually the best thing in the room. And when there's a longer menu instead, ¿qué me recomienda? gets you today's actual best dish, not just the one you already knew the name of.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 304318
+  },
+  "mx-i03-q-i": {
+    "text": "A fonda with no printed menu. Listen for how the traveller orders the fixed daily lunch and asks for a recommendation elsewhere.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 127521
+  },
+  "mx-i03-q01": {
+    "text": "Hoy tenemos comida corrida: sopa, guisado y agua.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 76948
+  },
+  "mx-i03-q02": {
+    "text": "Quiero la comida corrida, por favor.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 33898
+  },
+  "mx-i03-q03": {
+    "text": "¿Qué me recomienda?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 20524
+  },
+  "mx-i03-q04": {
+    "text": "El mole está buenísimo hoy.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 27211
+  },
+  "mx-i04-n01": {
+    "text": "Tonight's decision happens before a single drink is ordered, in one word: who invited whom. That answer already decides who reaches for the bill later, and knowing it now avoids an awkward tug-of-war at the end.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 206097
+  },
+  "mx-i04-r01": {
+    "text": "Vamos por unas cervezas, yo invito.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 40586
+  },
+  "mx-i04-n02": {
+    "text": "Yo invito isn't a small offer to be politely refused three times. It's a plain statement of who's paying tonight — and the expected answer is thanks, not a fight over the bill.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 147583
+  },
+  "mx-i04-p01": {
+    "text": "A friend says he's inviting. Accept it plainly, with thanks. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 60648
+  },
+  "mx-i04-t01": {
+    "text": "Muchas gracias, muy amable.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i04-n03": {
+    "text": "But you're allowed to want the other arrangement. Splitting is not the default here — so if you want it, say so early, clearly, before the tab starts running.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 150509
+  },
+  "mx-i04-p02": {
+    "text": "You'd rather split the bill this time. Say so, before ordering. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 79874
+  },
+  "mx-i04-t02": {
+    "text": "¿Podemos pagar por separado?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i04-r02": {
+    "text": "Claro, sin problema.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i04-n04": {
+    "text": "One more version, for a group that's fine sharing a table but not a tab: everyone pays for what they actually had.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 99936
+  },
+  "mx-i04-p03": {
+    "text": "Suggest that everyone pays for their own order. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 51453
+  },
+  "mx-i04-t03": {
+    "text": "Cada quien paga lo suyo.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 25539
+  },
+  "mx-i04-n05": {
+    "text": "And when the night's done and you're leaving before the rest of the table, the exit doesn't need a speech. One line covers it.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 106623
+  },
+  "mx-i04-p04": {
+    "text": "You're heading out while the others stay. Say goodbye to the table. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 83635
+  },
+  "mx-i04-t04": {
+    "text": "Ya me voy. Gracias por todo, nos vemos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 47691
+  },
+  "mx-i04-s01": {
+    "text": "¿Podemos pagar por separado? Cada quien paga lo suyo. Ya me voy. Gracias por todo, nos vemos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 122924
+  },
+  "mx-i04-n06": {
+    "text": "I04 complete. Yo invito means they're paying — accept it. If you'd rather split, say ¿podemos pagar por separado? early. And when you're the one leaving first, ya me voy plus a thank-you closes it cleanly, no drawn-out goodbye required.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 288435
+  },
+  "mx-i04-q-i": {
+    "text": "A night out with friends. Listen for who pays, how splitting is requested, and how to leave the table first.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 104951
+  },
+  "mx-i04-q01": {
+    "text": "Vamos por unas cervezas, yo invito.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 39750
+  },
+  "mx-i04-q02": {
+    "text": "Muchas gracias, muy amable.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i04-q03": {
+    "text": "¿Podemos pagar por separado?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 27629
+  },
+  "mx-i04-q04": {
+    "text": "Ya me voy. Gracias por todo, nos vemos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 46437
+  },
+  "mx-i05-n01": {
+    "text": "Almost every stranger who talks to you will ask some version of the same four or five questions. That's good news — it means you can walk in with real answers ready, instead of building each one from scratch under pressure.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 194813
+  },
+  "mx-i05-r01": {
+    "text": "¿De dónde eres?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 20524
+  },
+  "mx-i05-p01": {
+    "text": "Answer with where you're actually from. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 54378
+  },
+  "mx-i05-t01": {
+    "text": "Soy de Estados Unidos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i05-r02": {
+    "text": "¿Cuánto tiempo te vas a quedar?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 31391
+  },
+  "mx-i05-n02": {
+    "text": "This one wants a real number, not a philosophy. Keep it short.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 44765
+  },
+  "mx-i05-p02": {
+    "text": "Give your real length of stay. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 33898
+  },
+  "mx-i05-t02": {
+    "text": "Diez días, más o menos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 26375
+  },
+  "mx-i05-r03": {
+    "text": "¿Qué te ha gustado más de México?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 36824
+  },
+  "mx-i05-n03": {
+    "text": "This is the question that makes the conversation warm instead of transactional. A specific answer lands better than a generic 'everything' — it shows you were actually paying attention.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 229085
+  },
+  "mx-i05-p03": {
+    "text": "Give one specific thing you've genuinely liked. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 58976
+  },
+  "mx-i05-t03": {
+    "text": "Me encantó la comida, sobre todo los tacos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 47273
+  },
+  "mx-i05-r04": {
+    "text": "¿Vienes solo o con familia?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 28465
+  },
+  "mx-i05-p04": {
+    "text": "Say who you're travelling with, or that you're on your own. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 54378
+  },
+  "mx-i05-t04": {
+    "text": "Vengo con mi pareja.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-i05-n04": {
+    "text": "And if you want out of a conversation, that's fine too — one polite line closes it without rudeness.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 84889
+  },
+  "mx-i05-p05": {
+    "text": "You need to get going. Excuse yourself politely. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 48527
+  },
+  "mx-i05-t05": {
+    "text": "Bueno, fue un gusto. Que le vaya bien.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 50199
+  },
+  "mx-i05-s01": {
+    "text": "Soy de Estados Unidos. Diez días, más o menos. Me encantó la comida.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 97846
+  },
+  "mx-i05-n05": {
+    "text": "I05 complete. Origin, duration, what you've liked, who you're with — the same four questions, almost every time. Have your real answers ready, and the fifth skill, leaving a conversation politely, is just as useful as staying in one.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 267955
+  },
+  "mx-i05-q-i": {
+    "text": "A friendly stranger asks the same handful of questions travellers hear constantly. Listen for the ready answers and the polite exit.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 126685
+  },
+  "mx-i05-q01": {
+    "text": "¿De dónde eres?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 20524
+  },
+  "mx-i05-q02": {
+    "text": "Soy de Estados Unidos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24703
+  },
+  "mx-i05-q03": {
+    "text": "¿Qué te ha gustado más de México?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 35152
+  },
+  "mx-i05-q04": {
+    "text": "Me encantó la comida, sobre todo los tacos.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 46437
   }
 }

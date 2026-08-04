@@ -1,0 +1,30 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I02",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {"key": "mx-i02-n01", "role": "guide_en_us_f", "text": "A busy counter in Mexico often has no formal line at all — just a cluster of people, and whoever makes eye contact and speaks up gets served next. Standing back quietly, the way you might queue at home, can mean waiting a very long time.", "kind": "narration"},
+    {"key": "mx-i02-n02", "role": "guide_en_us_m", "text": "You're the fourth person deep at a busy taco stand, no line, everyone talking over everyone. The cook glances up. This is the half-second that matters.", "kind": "narration"},
+    {"key": "mx-i02-r01", "role": "target_mx_m", "text": "¿Quién sigue?", "kind": "return"},
+    {"key": "mx-i02-n03", "role": "guide_en_us_f", "text": "That question is your opening, not a formality to survive. Answer it immediately, at a normal speaking volume — not a whisper, not a shout.", "kind": "narration"},
+    {"key": "mx-i02-p01", "role": "guide_en_us_f", "text": "The cook asks who's next. Claim your turn immediately. Speak now.", "kind": "prompt"},
+    {"key": "mx-i02-t01", "role": "target_mx_f", "text": "Yo sigo, por favor.", "kind": "target"},
+    {"key": "mx-i02-r02", "role": "target_mx_m", "text": "Dígame.", "kind": "return"},
+    {"key": "mx-i02-n04", "role": "guide_en_us_m", "text": "If two people speak at once and it isn't clear who was actually first, this line settles it without an argument.", "kind": "narration"},
+    {"key": "mx-i02-t02", "role": "target_mx_f", "text": "Creo que yo llegué primero.", "kind": "target"},
+    {"key": "mx-i02-p02", "role": "guide_en_us_m", "text": "Someone else also claims the turn. Say, calmly, that you think you arrived first. Speak now.", "kind": "prompt"},
+    {"key": "mx-i02-n05", "role": "guide_en_us_f", "text": "Here's the permission this whole part is built on. The English instinct — 'I was wondering if I could possibly...' — doesn't read as polite here. It reads as distance, and it makes the cook wonder if you're actually ready to order.", "kind": "narration"},
+    {"key": "mx-i02-r03", "role": "target_mx_m", "text": "¿Qué le doy?", "kind": "return"},
+    {"key": "mx-i02-p03", "role": "guide_en_us_f", "text": "Order directly, no padding, no apology for existing. Speak now.", "kind": "prompt"},
+    {"key": "mx-i02-t03", "role": "target_mx_f", "text": "Deme dos de pastor, por favor.", "kind": "target"},
+    {"key": "mx-i02-s01", "role": "target_mx_f", "text": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor.", "kind": "shadow"},
+    {"key": "mx-i02-n06", "role": "guide_en_us_f", "text": "I02 complete. No formal line, no problem: yo sigo claims your turn, creo que yo llegué primero defends it if needed, and a direct deme plus what you want is the whole order. Quiet waiting was never the polite move — speaking up, at a normal volume, was.", "kind": "recap"},
+    {"key": "mx-i02-q-i", "role": "guide_en_us_f", "text": "A crowded taco stand with no formal line. Listen for how the traveller claims a turn and orders directly.", "kind": "quiz_intro"},
+    {"key": "mx-i02-q01", "role": "target_mx_m", "text": "¿Quién sigue?", "kind": "quiz"},
+    {"key": "mx-i02-q02", "role": "target_mx_f", "text": "Yo sigo, por favor.", "kind": "quiz"},
+    {"key": "mx-i02-q03", "role": "target_mx_m", "text": "¿Qué le doy?", "kind": "quiz"},
+    {"key": "mx-i02-q04", "role": "target_mx_f", "text": "Deme dos de pastor, por favor.", "kind": "quiz"}
+  ]
+}

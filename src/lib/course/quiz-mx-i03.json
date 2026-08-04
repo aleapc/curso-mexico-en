@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The dish you weren't going to order",
+  "subtitulo": "Comida corrida and trusting a recommendation",
+  "introAudioKey": "mx-i03-q-i",
+  "introPt": "A fonda with no printed menu. Listen for how the traveller orders the fixed daily lunch and asks for a recommendation elsewhere.",
+  "cenario": "A small fonda serving comida corrida, and later a restaurant with a longer menu.",
+  "dialogo": [
+    { "audioKey": "mx-i03-q01", "voz": "target_mx_m", "es": "Hoy tenemos comida corrida: sopa, guisado y agua.", "pt": "Today we have comida corrida: soup, a stew, and a drink." },
+    { "audioKey": "mx-i03-q02", "voz": "target_mx_f", "es": "Quiero la comida corrida, por favor.", "pt": "I'd like the comida corrida, please." },
+    { "audioKey": "mx-i03-q03", "voz": "target_mx_f", "es": "¿Qué me recomienda?", "pt": "What do you recommend?" },
+    { "audioKey": "mx-i03-q04", "voz": "target_mx_m", "es": "El mole está buenísimo hoy.", "pt": "The mole is really good today." }
+  ],
+  "perguntas": [
+    { "pergunta": "What is comida corrida?", "opcoes": ["A single dish always the same everywhere", "A fixed-price multi-course daily lunch decided by the kitchen", "A type of taco", "A dessert menu"], "correta": 1, "explica": "It's a fixed daily lunch menu, also called menú del día." },
+    { "pergunta": "When is comida corrida typically available?", "opcoes": ["All day and night", "Roughly midday to mid-afternoon", "Only for breakfast", "Only on weekends"], "correta": 1, "explica": "It's tied to the comida (lunch) hour, not an all-day option." },
+    { "pergunta": "Why might a fonda have no printed English menu?", "opcoes": ["It's not meant for any customers", "It runs on a daily comida corrida the kitchen decides that morning", "It only serves drinks", "It's illegal to print menus"], "correta": 1, "explica": "The whole model is built around a changing daily set menu, not a browsable list." },
+    { "pergunta": "What does ¿qué me recomienda? signal?", "opcoes": ["Indecision or weakness", "Trust in the kitchen — a normal, common question", "A complaint", "A request for a discount"], "correta": 1, "explica": "It's a completely ordinary way to find today's best dish." },
+    { "pergunta": "What should the traveller do at each course of the comida corrida?", "opcoes": ["Order everything on the board", "Choose one of the two or three set options offered", "Skip courses", "Ask for a translated menu"], "correta": 1, "explica": "Comida corrida still involves simple choices at each course, not a fixed single plate." }
+  ]
+}

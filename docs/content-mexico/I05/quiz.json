@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The five questions everyone asks",
+  "subtitulo": "Ready answers, plus a polite way out",
+  "introAudioKey": "mx-i05-q-i",
+  "introPt": "A friendly stranger asks the same handful of questions travellers hear constantly. Listen for the ready answers and the polite exit.",
+  "cenario": "Small talk with a stranger covering origin, duration, opinion and company.",
+  "dialogo": [
+    { "audioKey": "mx-i05-q01", "voz": "target_mx_m", "es": "¿De dónde eres?", "pt": "Where are you from?" },
+    { "audioKey": "mx-i05-q02", "voz": "target_mx_f", "es": "Soy de Estados Unidos.", "pt": "I'm from the United States." },
+    { "audioKey": "mx-i05-q03", "voz": "target_mx_m", "es": "¿Qué te ha gustado más de México?", "pt": "What have you liked most about Mexico?" },
+    { "audioKey": "mx-i05-q04", "voz": "target_mx_f", "es": "Me encantó la comida, sobre todo los tacos.", "pt": "I loved the food, especially the tacos." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why is it useful that strangers ask similar questions?", "opcoes": ["It's annoying and repetitive", "You can prepare real answers in advance instead of improvising each time", "It means people are suspicious of you", "It only happens to tourists who look lost"], "correta": 1, "explica": "The repetition means preparation pays off." },
+    { "pergunta": "Which answer works better for 'what have you liked most'?", "opcoes": ["A generic 'everything'", "One specific thing, like a dish or place", "Silence", "Changing the subject"], "correta": 1, "explica": "Specificity gives the other person something real to respond to." },
+    { "pergunta": "How much detail does 'how long are you staying' usually need?", "opcoes": ["A full itinerary", "A short, rough number", "Your flight confirmation code", "No answer is expected"], "correta": 1, "explica": "A brief answer like diez días, más o menos is complete." },
+    { "pergunta": "How does the traveller politely exit a conversation?", "opcoes": ["Walking away without a word", "Fue un gusto, que le vaya bien", "Ignoring the next question", "Asking for the bill"], "correta": 1, "explica": "A short, warm closing line ends the exchange smoothly." },
+    { "pergunta": "Is this kind of personal questioning from strangers unusual?", "opcoes": ["Yes, it signals danger", "No, it's common, warm small talk", "Only children ask these questions", "It only happens in taxis"], "correta": 1, "explica": "It's a normal way many everyday interactions open." }
+  ]
+}

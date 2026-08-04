@@ -1,0 +1,22 @@
+{
+  "id": "q-mx-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Their clock, not yours",
+  "subtitulo": "Comida owns the afternoon; cena is light and late",
+  "introAudioKey": "mx-i01-q-i",
+  "introPt": "A traveller walks into an empty comedor at six in the evening and asks when it actually fills up.",
+  "cenario": "An empty restaurant at six becomes a lesson in Mexico's own meal clock.",
+  "dialogo": [
+    { "audioKey": "mx-i01-q01", "voz": "target_mx_m", "es": "Buenas tardes. Pase, tenemos mesa.", "pt": "Good afternoon. Come in, we have a table." },
+    { "audioKey": "mx-i01-q02", "voz": "target_mx_f", "es": "¿A qué hora sirven la comida aquí?", "pt": "What time do you serve la comida here?" },
+    { "audioKey": "mx-i01-q03", "voz": "target_mx_m", "es": "De una a tres, más o menos.", "pt": "From one to three, more or less." },
+    { "audioKey": "mx-i01-q04", "voz": "target_mx_f", "es": "Para la cena, algo ligero está bien.", "pt": "For dinner, something light is fine." }
+  ],
+  "perguntas": [
+    { "pergunta": "What time does la comida, the main meal, typically run?", "opcoes": ["7:00-9:00", "13:00-15:00", "18:00-20:00", "22:00-midnight"], "correta": 1, "explica": "Comida is the anchor meal, typically early-to-mid afternoon." },
+    { "pergunta": "Why is the comedor empty at six in the evening?", "opcoes": ["It's closing for the day", "The main local meal already happened hours earlier", "It's a bad restaurant", "Six is too early to be open"], "correta": 1, "explica": "Six falls well after comida and before the lighter cena crowd." },
+    { "pergunta": "How does cena typically compare to comida?", "opcoes": ["Identical in size and timing", "Later and usually lighter", "Earlier and heavier", "It doesn't exist in Mexico"], "correta": 1, "explica": "Cena runs later in the evening and is often a lighter meal." },
+    { "pergunta": "What should a traveller do to eat in the fuller, livelier room?", "opcoes": ["Arrive at six", "Ask when comida runs and come at that time", "Only eat breakfast", "Avoid comedores entirely"], "correta": 1, "explica": "Asking the local hour, then matching it, gets you the room the city actually eats in." },
+    { "pergunta": "Where does the comida/cena rhythm not reliably apply?", "opcoes": ["Neighbourhood fondas", "Hotel restaurants and airports", "Family homes", "Markets"], "correta": 1, "explica": "Tourist-facing venues often run closer to a continuous schedule." }
+  ]
+}
