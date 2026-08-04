@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b17",
+  "nivel": "basico",
+  "titulo": "Quiz — Four moves, small and scaled up",
+  "subtitulo": "Name it, time it, ask the constraint, get the answer",
+  "introAudioKey": "mx-b17-q-i",
+  "introPt": "A traveller describes a headache at the pharmacy, checks the prescription rule and later calls for real help. Listen for the same four-move pattern at two different scales.",
+  "cenario": "A pharmacy counter conversation, then an emergency call giving the same information under real pressure.",
+  "dialogo": [
+    { "audioKey": "mx-b17-q01", "voz": "target_mx_f", "es": "Me duele la cabeza. Desde ayer.", "pt": "My head hurts. Since yesterday." },
+    { "audioKey": "mx-b17-q02", "voz": "target_mx_m", "es": "Le recomiendo este para el dolor.", "pt": "I recommend this one for the pain." },
+    { "audioKey": "mx-b17-q03", "voz": "target_mx_f", "es": "¿Necesito receta para este medicamento?", "pt": "Do I need a prescription for this medication?" },
+    { "audioKey": "mx-b17-q04", "voz": "target_mx_m", "es": "No, este no necesita receta.", "pt": "No, this one doesn't need a prescription." },
+    { "audioKey": "mx-b17-q05", "voz": "target_mx_f", "es": "Necesito una ambulancia. Estoy en el hotel, en la habitación trescientos cinco.", "pt": "I need an ambulance. I'm at the hotel, in room three hundred five." },
+    { "audioKey": "mx-b17-q06", "voz": "target_mx_m", "es": "Vamos en camino.", "pt": "We're on our way." }
+  ],
+  "perguntas": [
+    { "pergunta": "What does the pharmacist ask right after the pain is named?", "opcoes": ["The traveller's age", "Since when it hurts", "The traveller's insurance", "The traveller's hotel"], "correta": 1, "explica": "Duration, not diagnosis, is the pharmacist's first useful question." },
+    { "pergunta": "Why ask ¿necesito receta? before buying?", "opcoes": ["It's a formality with no real effect", "Some medications legally cannot be sold without a Mexican prescription", "It gets a discount", "It's required to enter the pharmacy"], "correta": 1, "explica": "Since 2010, antibiotics specifically require a prescription from a Mexico-licensed doctor." },
+    { "pergunta": "What number handles the real emergency?", "opcoes": ["112", "999", "911", "411"], "correta": 2, "explica": "911 is Mexico's national number for ambulance, police and fire." },
+    { "pergunta": "What information does the emergency call need that B04 already prepared?", "opcoes": ["A passport number", "The complete address", "A credit card", "A flight number"], "correta": 1, "explica": "The portable address from B04 is exactly what an emergency call needs." },
+    { "pergunta": "What is the same across the small and the scaled-up scene?", "opcoes": ["The exact same sentence word for word", "Name it, time it if needed, state the ask, get the answer", "Both require a prescription", "Both happen at a pharmacy"], "correta": 1, "explica": "The four-move pattern scales; the vocabulary changes." }
+  ]
+}

@@ -33,8 +33,8 @@ export const outline: ModuloOutline[] = [
       { id: 'b14', titulo: 'The extra line before the terminal', pronta: true },
       { id: 'b15', titulo: 'The tag comes back to the counter', pronta: true },
       { id: 'b16', titulo: 'Before the room number is printed', pronta: true },
-      { id: 'e08a', titulo: 'The green cross before the hospital', pronta: true },
-      { id: 'b18', titulo: 'The last morning, and the jacket you left in the taxi', pronta: true },
+      { id: 'b17', titulo: 'The wall behind the pharmacy counter', pronta: true },
+      { id: 'b18', titulo: 'The last morning, before the bag is out of your hands', pronta: true },
     ]
   },
   {

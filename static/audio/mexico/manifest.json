@@ -3533,5 +3533,432 @@
     "voiceId": "NyQ87MpRGbszyh7rZLXM",
     "model": "eleven_multilingual_v2",
     "bytes": 63573
+  },
+  "mx-b17-n01": {
+    "text": "This is the one part of the whole module that is openly defensive. Most of it stays small: a headache, a question at the pharmacy counter. But the same four moves scale up to a real emergency, so we build them here, while the stakes are still low.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 238280
+  },
+  "mx-b17-t01": {
+    "text": "Me duele la cabeza.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-b17-p01": {
+    "text": "At the pharmacy counter, name the pain before asking for anything. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 76948
+  },
+  "mx-b17-r01": {
+    "text": "¿Desde cuándo le duele?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-b17-n02": {
+    "text": "Duration is the first thing a pharmacist actually needs, not a diagnosis. Keep it to one clean answer.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 96174
+  },
+  "mx-b17-t02": {
+    "text": "Desde ayer.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 18016
+  },
+  "mx-b17-p02": {
+    "text": "The pharmacist asks since when. Answer with one clean phrase: since yesterday. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 80710
+  },
+  "mx-b17-r02": {
+    "text": "Le recomiendo este para el dolor.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 38078
+  },
+  "mx-b17-n03": {
+    "text": "Here is the wall. Since 2010, a Mexican pharmacy cannot sell an antibiotic without a prescription from a doctor licensed in Mexico — and a prescription from your own country will not be accepted at this counter. Asking first saves you an argument you cannot win.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 267955
+  },
+  "mx-b17-t03": {
+    "text": "¿Necesito receta para este medicamento?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 39750
+  },
+  "mx-b17-p03": {
+    "text": "Before you take anything to the till, ask whether this medication needs a prescription. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 87815
+  },
+  "mx-b17-r03": {
+    "text": "No, este no necesita receta.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 30973
+  },
+  "mx-b17-n04": {
+    "text": "One more filter before you buy, and it connects back to B13. If you have an allergy, the pharmacy counter is not exempt from that sentence.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 109549
+  },
+  "mx-b17-t04": {
+    "text": "Tengo una alergia. ¿Tiene algo sin aspirina?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 51035
+  },
+  "mx-b17-p04": {
+    "text": "You cannot take aspirin. Say so and ask for an alternative. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 63573
+  },
+  "mx-b17-r04": {
+    "text": "Sí, este es con paracetamol.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 32226
+  },
+  "mx-b17-n05": {
+    "text": "Now the scale-up. Same four moves — name it, give it a timeframe, ask the constraint, get the answer — but the object is a real emergency, and the phone is the counter.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 177258
+  },
+  "mx-b17-r05": {
+    "text": "911, ¿cuál es su emergencia?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 44765
+  },
+  "mx-b17-p05": {
+    "text": "Someone next to you has collapsed. Call and say you need an ambulance. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 81964
+  },
+  "mx-b17-t05": {
+    "text": "Necesito una ambulancia.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 26375
+  },
+  "mx-b17-r06": {
+    "text": "¿Cuál es su ubicación?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 24285
+  },
+  "mx-b17-n06": {
+    "text": "911 is the number for the whole country: ambulance, police and fire, all through the same door. Give the address you already made portable back in B04 — this is exactly what it was for.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 168063
+  },
+  "mx-b17-p06": {
+    "text": "Give your location using the hotel name and room number. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 57722
+  },
+  "mx-b17-t06": {
+    "text": "Estoy en el hotel, en la habitación trescientos cinco.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 68589
+  },
+  "mx-b17-r07": {
+    "text": "Vamos en camino.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 23449
+  },
+  "mx-b17-s01": {
+    "text": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 97010
+  },
+  "mx-b17-n07": {
+    "text": "B17 complete. Name the problem. Give it a timeframe if asked. Ask the constraint before you hit it — receta, alergia. And if it scales up: 911, the ambulance, the address you already had ready. The only defensive part of the module, and now it is four short moves, not a fear.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 305154
+  },
+  "mx-b17-q-i": {
+    "text": "A traveller describes a headache at the pharmacy, checks the prescription rule and later calls for real help. Listen for the same four-move pattern at two different scales.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 159286
+  },
+  "mx-b17-q01": {
+    "text": "Me duele la cabeza. Desde ayer.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 47691
+  },
+  "mx-b17-q02": {
+    "text": "Le recomiendo este para el dolor.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 37660
+  },
+  "mx-b17-q03": {
+    "text": "¿Necesito receta para este medicamento?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 39750
+  },
+  "mx-b17-q04": {
+    "text": "No, este no necesita receta.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 30137
+  },
+  "mx-b17-q05": {
+    "text": "Necesito una ambulancia. Estoy en el hotel, en la habitación trescientos cinco.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 81964
+  },
+  "mx-b17-q06": {
+    "text": "Vamos en camino.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 22613
+  },
+  "mx-b18-n01": {
+    "text": "Last morning. The flight is hours away but the room is not. Close the room properly, store the bag somewhere real, thank the people who made the stay work, and leave the same way you arrived — with a sentence, not a silent exit.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 221144
+  },
+  "mx-b18-r01": {
+    "text": "Buenos días. ¿Todo bien con la habitación?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 51453
+  },
+  "mx-b18-p01": {
+    "text": "Reception asks how the room was. Confirm and say you're here to check out. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 79874
+  },
+  "mx-b18-t01": {
+    "text": "Todo bien, gracias. Vengo a hacer el check-out.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 62737
+  },
+  "mx-b18-r02": {
+    "text": "Claro. Un momento, por favor.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41004
+  },
+  "mx-b18-n02": {
+    "text": "The flight is late tonight and the checkout clock does not care. Do not carry the bag around the city all day. Ask the one question that solves it.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 125849
+  },
+  "mx-b18-t02": {
+    "text": "¿Puedo dejar mi maleta aquí hasta la tarde?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41004
+  },
+  "mx-b18-p02": {
+    "text": "Your flight isn't until tonight. Ask whether you can leave your suitcase here until the afternoon. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 80710
+  },
+  "mx-b18-r03": {
+    "text": "Sí, claro. Aquí tiene su comprobante.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 51453
+  },
+  "mx-b18-n03": {
+    "text": "Hold onto that comprobante. It is the same logic as the receipts in B14 and B15: the small paper that gets your bag back without an argument at the desk later.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 168899
+  },
+  "mx-b18-r04": {
+    "text": "¿Le gustaría dejar alguna propina para la camarista?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 57722
+  },
+  "mx-b18-n04": {
+    "text": "This one is genuinely voluntary, unlike the automatic line B14 taught you to question. A common local practice is a small amount left visibly in the room each day, since the person who cleans can change daily — but the choice and the amount are yours.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 231593
+  },
+  "mx-b18-t03": {
+    "text": "Sí, ya la dejé en la habitación.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41004
+  },
+  "mx-b18-p03": {
+    "text": "You already left a tip in the room this morning. Confirm that. Speak now.",
+    "role": "guide_en_us_m",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "model": "eleven_flash_v2_5",
+    "bytes": 55214
+  },
+  "mx-b18-n05": {
+    "text": "Last piece, and it costs one sentence. Not a review, not a summary of the trip — just the same close you used all module: thanks, and see you.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 165137
+  },
+  "mx-b18-r05": {
+    "text": "Gracias por su visita. Que tenga buen viaje.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 54378
+  },
+  "mx-b18-p04": {
+    "text": "Close the stay the way you closed every counter this trip. Thank them and say goodbye. Speak now.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 94084
+  },
+  "mx-b18-t04": {
+    "text": "Muchas gracias. Hasta luego.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 33898
+  },
+  "mx-b18-s01": {
+    "text": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 111221
+  },
+  "mx-b18-n06": {
+    "text": "B18 complete, and básico with it. Check out, store the bag with a real claim ticket, decide the tip on your own terms, and close with the same two words you opened every counter with. You did not just survive the day — you ran it, from ho-TEL to hasta luego.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 282584
+  },
+  "mx-b18-q-i": {
+    "text": "A traveller checks out hours before a night flight. Listen for the storage ticket, the voluntary tip and the final goodbye.",
+    "role": "guide_en_us_f",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "model": "eleven_flash_v2_5",
+    "bytes": 118326
+  },
+  "mx-b18-q01": {
+    "text": "Todo bien, gracias. Vengo a hacer el check-out.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 60648
+  },
+  "mx-b18-q02": {
+    "text": "¿Puedo dejar mi maleta aquí hasta la tarde?",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 41004
+  },
+  "mx-b18-q03": {
+    "text": "Sí, claro. Aquí tiene su comprobante.",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 50199
+  },
+  "mx-b18-q04": {
+    "text": "¿Le gustaría dejar alguna propina para la camarista?",
+    "role": "target_mx_m",
+    "voiceId": "HS7W0ly7cmPolP5WMyz9",
+    "model": "eleven_multilingual_v2",
+    "bytes": 55214
+  },
+  "mx-b18-q05": {
+    "text": "Sí, ya la dejé en la habitación.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 39750
+  },
+  "mx-b18-q06": {
+    "text": "Muchas gracias. Hasta luego.",
+    "role": "target_mx_f",
+    "voiceId": "NyQ87MpRGbszyh7rZLXM",
+    "model": "eleven_multilingual_v2",
+    "bytes": 32226
   }
 }

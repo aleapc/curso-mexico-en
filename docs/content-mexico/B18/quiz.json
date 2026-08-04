@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b18",
+  "nivel": "basico",
+  "titulo": "Quiz — The last morning, in order",
+  "subtitulo": "Checkout, storage, tip, and the close",
+  "introAudioKey": "mx-b18-q-i",
+  "introPt": "A traveller checks out hours before a night flight. Listen for the storage ticket, the voluntary tip and the final goodbye.",
+  "cenario": "The room is closed mid-morning; the flight leaves that night.",
+  "dialogo": [
+    { "audioKey": "mx-b18-q01", "voz": "target_mx_f", "es": "Todo bien, gracias. Vengo a hacer el check-out.", "pt": "All good, thanks. I'm here to check out." },
+    { "audioKey": "mx-b18-q02", "voz": "target_mx_f", "es": "¿Puedo dejar mi maleta aquí hasta la tarde?", "pt": "Can I leave my suitcase here until the afternoon?" },
+    { "audioKey": "mx-b18-q03", "voz": "target_mx_m", "es": "Sí, claro. Aquí tiene su comprobante.", "pt": "Yes, of course. Here's your claim ticket." },
+    { "audioKey": "mx-b18-q04", "voz": "target_mx_m", "es": "¿Le gustaría dejar alguna propina para la camarista?", "pt": "Would you like to leave a tip for the housekeeper?" },
+    { "audioKey": "mx-b18-q05", "voz": "target_mx_f", "es": "Sí, ya la dejé en la habitación.", "pt": "Yes, I already left it in the room." },
+    { "audioKey": "mx-b18-q06", "voz": "target_mx_f", "es": "Muchas gracias. Hasta luego.", "pt": "Thank you very much. See you." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why ask to leave the suitcase rather than carrying it all day?", "opcoes": ["Hotels require it by law", "Checkout time does not extend to match a late flight", "The airport is closed", "It is cheaper than a taxi"], "correta": 1, "explica": "The room's checkout clock and the flight time are unrelated; storage solves the gap." },
+    { "pergunta": "What does the comprobante do?", "opcoes": ["Confirms the flight", "Gets the bag back without an argument", "Pays for the room", "Books a taxi"], "correta": 1, "explica": "It is the same receipt logic as B14 and B15, applied to stored luggage." },
+    { "pergunta": "Is the housekeeping tip mandatory?", "opcoes": ["Yes, always", "No, it is a voluntary local custom", "Only for late checkout", "Only in Mexico City"], "correta": 1, "explica": "Unlike an automatic bill charge, this tip is optional and its amount is the traveller's choice." },
+    { "pergunta": "What does 'ya la dejé en la habitación' mean here?", "opcoes": ["The tip was already left in the room", "The suitcase was left behind", "The key was returned", "The bill was paid"], "correta": 0, "explica": "It confirms the tip was already handled before the desk conversation." },
+    { "pergunta": "How does the traveller close the whole stay?", "opcoes": ["With a written review", "With gracias and hasta luego, the same close used all module", "By skipping the goodbye", "By asking for a discount"], "correta": 1, "explica": "The course closes with the same two-word pattern it opened with." }
+  ]
+}
