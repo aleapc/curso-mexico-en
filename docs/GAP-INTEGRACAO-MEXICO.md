@@ -1,9 +1,26 @@
 # Gap de integração ao runtime — México (Claude, 2026-08-04)
 
-**Resumo em uma frase:** o conteúdo do México não está "quase pronto, só falta
-plugar" — ele foi autorado num formato mais simples que não é compatível com o
-contrato de 36 slots que o app realmente consome, e cobre menos da metade
-dele.
+**ATUALIZAÇÃO 2026-08-04 (mesmo dia, mais tarde): B01–B16 resolvidos.**
+Os 16 slots foram reescritos em `src/lib/course/ep-b01.json`..`ep-b16.json`
+no formato real do contrato (`cena`/`permissao`/`espelho`/`fichasCulturais`/
+`fatosDatados`, e `moldes`/`clique` onde havia padrão gerador: B06/PUEDO,
+B08/HAY+DONDE, B09/TENGO_QUE, B12/CON+SIN), com **zero áudio novo necessário**
+— todos os 505 clipes já gravados foram preservados e reaproveitados. Os
+placeholders de Espanha para esses 16 slots foram movidos (não apagados) para
+`src/lib/course/_espanha-placeholder-backup/`. `npm run outline` e
+`valida-estrutura --estrito` passam limpos. `valida-audio` caiu de 2467 para
+1996 clipes faltando, **100% concentrados nos 20 slots B17–A08** que ainda não
+existem — verificado que zero chaves `mx-b*` faltam. Testado no browser:
+`/episodio/b01` e `/episodio/b16` renderizam o conteúdo real; a home lista os
+16 títulos do México nos episódios 1–16. Isso deixa **apenas os 20 slots
+B17–A08** como gap real — o resto deste documento (escrito antes dessa
+atualização) descreve o estado anterior e ainda vale para essa parte restante.
+
+**Resumo original, em uma frase:** o conteúdo do México não estava "quase
+pronto, só falta plugar" — foi autorado num formato mais simples que não era
+compatível com o contrato de 36 slots que o app realmente consome, e cobria
+menos da metade dele. B01-B16 dessa lacuna já foi fechada (ver acima); B17-A08
+seguem abertos.
 
 ## O que existe
 
