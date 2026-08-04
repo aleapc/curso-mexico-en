@@ -1,0 +1,26 @@
+{
+  "id": "q-mx-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — The five seconds around the request",
+  "subtitulo": "Enter, pass and leave without adding a speech",
+  "introAudioKey": "mx-b02-q-i",
+  "introPt": "Listen to three tiny exchanges: a shop entrance, a blocked lift door and the end of a meal. The test is timing — what comes before the request or movement.",
+  "cenario": "The traveller enters a shop, exits a crowded lift and later leaves a taquería.",
+  "dialogo": [
+    { "audioKey": "mx-b02-q01", "voz": "target_mx_f", "es": "Buenos días.", "pinyin": "BWEH-nohs DEE-ahs", "pt": "Good morning." },
+    { "audioKey": "mx-b02-q02", "voz": "target_mx_m", "es": "Buenos días. Dígame.", "pinyin": "BWEH-nohs DEE-ahs. DEE-gah-meh", "pt": "Good morning. How can I help?" },
+    { "audioKey": "mx-b02-q03", "voz": "target_mx_f", "es": "Solo estoy viendo, gracias.", "pinyin": "SOH-loh ehs-TOY BYEN-doh, GRAH-syahs", "pt": "I'm just looking, thank you." },
+    { "audioKey": "mx-b02-q04", "voz": "target_mx_f", "es": "Con permiso.", "pinyin": "kohn pehr-MEE-soh", "pt": "Excuse me; let me pass." },
+    { "audioKey": "mx-b02-q05", "voz": "target_mx_m", "es": "Sí, pásele.", "pinyin": "see, PAH-seh-leh", "pt": "Of course, go ahead." },
+    { "audioKey": "mx-b02-q06", "voz": "target_mx_f", "es": "Muchas gracias. Hasta luego.", "pinyin": "MOO-chahs GRAH-syahs. AHS-tah LWEH-goh", "pt": "Thank you very much. See you." },
+    { "audioKey": "mx-b02-q07", "voz": "target_mx_m", "es": "Que le vaya bien.", "pinyin": "keh leh BAH-yah byen", "pt": "Take care." },
+    { "audioKey": "mx-b02-q08", "voz": "target_mx_f", "es": "Igualmente.", "pinyin": "ee-gwahl-MEN-teh", "pt": "Likewise." }
+  ],
+  "perguntas": [
+    { "pergunta": "What does the traveller do before looking at the merchandise?", "opcoes": ["Asks the price", "Greets the shop", "Apologises for not speaking Spanish", "Waits to be greeted"], "correta": 1, "explica": "The greeting comes at the threshold, before browsing or requesting service." },
+    { "pergunta": "The clerk says 'Dígame'. What opens?", "opcoes": ["The exit", "The payment terminal", "Your turn to say what you need", "A formal complaint"], "correta": 2, "explica": "Dígame hands you the conversational floor." },
+    { "pergunta": "When should 'Con permiso' happen?", "opcoes": ["After you push past", "Before your body crosses somebody's space", "Only after an accident", "Only with hotel staff"], "correta": 1, "explica": "It announces the movement before it happens; perdón repairs an actual mistake." },
+    { "pergunta": "What does 'Pásele' mean in the lift exchange?", "opcoes": ["Please pay", "Wait here", "Go ahead; come through", "Speak more slowly"], "correta": 2, "explica": "It grants passage. Recognition is enough; B02 does not require you to produce it." },
+    { "pergunta": "How does the traveller return 'Que le vaya bien'?", "opcoes": ["Igualmente", "Con permiso", "Dígame", "Mande"], "correta": 0, "explica": "Igualmente returns the good wish without adding another sentence." }
+  ]
+}

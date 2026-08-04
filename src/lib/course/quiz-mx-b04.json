@@ -1,0 +1,23 @@
+{
+  "id": "q-mx-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Make the trip survive offline",
+  "subtitulo": "Close the reservation gaps before the airport",
+  "introAudioKey": "mx-b04-q-i",
+  "introPt": "A traveller checks the hotel the night before flying. Listen for the three details that make the reservation usable after the phone loses signal.",
+  "cenario": "The hotel has the booking, but the traveller still needs a portable confirmation, complete address and late-arrival answer.",
+  "dialogo": [
+    { "audioKey": "mx-b04-q01", "voz": "target_mx_f", "es": "Quiero confirmar mi reservación.", "pinyin": "KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN", "pt": "I want to confirm my reservation." },
+    { "audioKey": "mx-b04-q02", "voz": "target_mx_m", "es": "Claro. ¿A nombre de quién?", "pinyin": "KLAH-roh. ah NOHM-breh deh kyen", "pt": "Of course. Under what name?" },
+    { "audioKey": "mx-b04-q03", "voz": "target_mx_f", "es": "¿Me puede mandar la confirmación por correo? ¿Cuál es la dirección completa?", "pinyin": "meh PWEH-deh mahn-DAHR lah kohn-feer-mah-SYOHN por koh-REH-oh. kwahl ehs lah dee-rehk-SYOHN kohm-PLEH-tah", "pt": "Can you send me the confirmation by email? What is the complete address?" },
+    { "audioKey": "mx-b04-q04", "voz": "target_mx_f", "es": "Llego después de las diez. ¿Hay recepción las veinticuatro horas?", "pinyin": "YEH-goh dehs-PWEHS deh lahs DYEHS. eye reh-sehp-SYOHN lahs bayn-tee-KWAH-troh OH-rahs", "pt": "I arrive after ten. Is reception open twenty-four hours?" },
+    { "audioKey": "mx-b04-q05", "voz": "target_mx_m", "es": "Sí. Su reservación está confirmada.", "pinyin": "see. soo reh-sehr-bah-SYOHN ehs-TAH kohn-feer-MAH-dah", "pt": "Yes. Your reservation is confirmed." }
+  ],
+  "perguntas": [
+    { "pergunta": "Why request the confirmation by email?", "opcoes": ["To change hotels", "To keep a copy outside the booking app", "To ask for a discount", "To apply for a visa"], "correta": 1, "explica": "The lesson makes the booking portable and available offline." },
+    { "pergunta": "Which document can a U.S. traveller use to board an international flight to Mexico?", "opcoes": ["A passport card only", "A driver's licence", "A valid passport book", "A hotel confirmation"], "correta": 2, "explica": "Air entry requires the passport book; the card is not valid for boarding the flight." },
+    { "pergunta": "Does visa-free tourism guarantee a 180-day stay?", "opcoes": ["Yes, automatically", "Only when the hotel confirms", "No; immigration determines the authorised period at entry", "Only with an eSIM"], "correta": 2, "explica": "Under 180 days is the visa-free category's ceiling, not an automatic grant." },
+    { "pergunta": "What does the complete address protect?", "opcoes": ["The exchange rate", "The trip when the app or signal fails", "The passport expiry", "The airline seat"], "correta": 1, "explica": "A saved full address remains usable by the traveller, driver and offline map." },
+    { "pergunta": "What unresolved risk remains after the booking is found?", "opcoes": ["The front desk may close before a late arrival", "The passport becomes a visa", "The email changes the flight", "The eSIM cancels the room"], "correta": 0, "explica": "The traveller explicitly checks whether reception is available after ten." }
+  ]
+}

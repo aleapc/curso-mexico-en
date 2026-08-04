@@ -1,0 +1,23 @@
+{
+  "id": "q-mx-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Change the channel",
+  "subtitulo": "Repair one noisy transport exchange without switching to English",
+  "introAudioKey": "mx-b03-q-i",
+  "introPt": "A bus-counter answer arrives too fast. Listen to the traveller climb only as far as necessary: signal the break, slow it down, then write the departure time.",
+  "cenario": "At a busy bus counter, the traveller needs the departure time and the correct entrance.",
+  "dialogo": [
+    { "audioKey": "mx-b03-q01", "voz": "target_mx_m", "es": "Sale a las quince cincuenta por la entrada del fondo.", "pinyin": "SAH-leh ah lahs KEEN-seh seen-KWEN-tah por lah en-TRAH-dah del FOHN-doh", "pt": "It leaves at 15:50 through the entrance at the back." },
+    { "audioKey": "mx-b03-q02", "voz": "target_mx_f", "es": "No entendí. ¿Me lo puede repetir más despacio?", "pinyin": "noh en-ten-DEE. meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh", "pt": "I didn't understand. Can you repeat that more slowly?" },
+    { "audioKey": "mx-b03-q03", "voz": "target_mx_m", "es": "Claro. Sale a las quince cincuenta.", "pinyin": "KLAH-roh. SAH-leh ah lahs KEEN-seh seen-KWEN-tah", "pt": "Of course. It leaves at 15:50." },
+    { "audioKey": "mx-b03-q04", "voz": "target_mx_f", "es": "¿Me lo puede escribir, por favor?", "pinyin": "meh loh PWEH-deh ehs-kree-BEER, por fah-BOR", "pt": "Can you write it down for me, please?" },
+    { "audioKey": "mx-b03-q05", "voz": "target_mx_m", "es": "Sí, claro. Quince cincuenta.", "pinyin": "see, KLAH-roh. KEEN-seh seen-KWEN-tah", "pt": "Yes, of course. 15:50." }
+  ],
+  "perguntas": [
+    { "pergunta": "What failed first?", "opcoes": ["The payment", "The traveller's listening", "The bus service", "The map"], "correta": 1, "explica": "The traveller states the break instead of pretending to understand." },
+    { "pergunta": "Why ask for 'más despacio'?", "opcoes": ["To change the destination", "To reduce speed while keeping the exchange spoken", "To demand English", "To cancel the ticket"], "correta": 1, "explica": "The second rung keeps the information in the ear but makes it more recoverable." },
+    { "pergunta": "Why move the time into writing?", "opcoes": ["Writing is more formal", "The attendant asked for a signature", "Quince and cincuenta remain fragile in the ear", "The traveller cannot read Spanish"], "correta": 2, "explica": "Numbers are high-cost payloads; writing gives both people the same value to verify." },
+    { "pergunta": "What time does the bus leave?", "opcoes": ["15:15", "15:50", "5:15", "5:50"], "correta": 1, "explica": "The written payload is quince cincuenta: 15:50." },
+    { "pergunta": "When should the traveller use the map rung?", "opcoes": ["Before asking any question", "When a written route still does not identify where to move", "Only in a taxi", "To translate a menu"], "correta": 1, "explica": "The map externalises spatial information after words and writing have reached their limit." }
+  ]
+}
