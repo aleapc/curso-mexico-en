@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Build the order you want",
+  "subtitulo": "Base first, then control ingredients, salsa, lime and ice",
+  "introAudioKey": "mx-b12-q-i",
+  "introPt": "A pair orders two tacos from the same base but wants different toppings. Listen for the return question and for every control that follows.",
+  "cenario": "At the cashier, two tacos become two different builds; salsa stays separate and the drink arrives without ice.",
+  "dialogo": [
+    { "audioKey": "mx-b12-q01", "voz": "target_mx_f", "es": "Quería dos tacos al pastor, por favor.", "pt": "I'd like two tacos al pastor, please." },
+    { "audioKey": "mx-b12-q02", "voz": "target_mx_m", "es": "¿Con todo?", "pt": "With everything?" },
+    { "audioKey": "mx-b12-q03", "voz": "target_mx_f", "es": "Uno con cebolla y cilantro. El otro sin cebolla, por favor.", "pt": "One with onion and cilantro. The other without onion, please." },
+    { "audioKey": "mx-b12-q04", "voz": "target_mx_f", "es": "La salsa aparte, por favor. ¿Cuál salsa pica menos?", "pt": "The salsa on the side, please. Which salsa is less spicy?" },
+    { "audioKey": "mx-b12-q05", "voz": "target_mx_m", "es": "Esta pica menos.", "pt": "This one is less spicy." },
+    { "audioKey": "mx-b12-q06", "voz": "target_mx_f", "es": "Más limón, por favor. Una limonada sin hielo.", "pt": "More lime, please. One lemonade without ice." }
+  ],
+  "perguntas": [
+    { "pergunta": "What should the traveller do after hearing ¿Con todo?", "opcoes": ["Assume a national recipe", "Name the ingredients wanted", "Cancel the order", "Ask for the bill"], "correta": 1, "explica": "Todo varies; the traveller answers with named additions or removals." },
+    { "pergunta": "Which phrase changes only the second taco?", "opcoes": ["Uno con cebolla", "El otro sin cebolla", "Más limón", "Sin hielo"], "correta": 1, "explica": "El otro identifies the second item before removing onion." },
+    { "pergunta": "Why request salsa aparte?", "opcoes": ["To make it free", "To control the first taste", "To identify the cashier", "To guarantee no allergy"], "correta": 1, "explica": "Separate salsa makes the first taste reversible; it does not certify allergy safety." },
+    { "pergunta": "Can colour permanently identify the milder salsa?", "opcoes": ["Yes, green is always mild", "Yes, red is always mild", "No; ask about the current salsas", "Only at airports"], "correta": 2, "explica": "Ingredients and batches vary, so ask cuál pica menos." },
+    { "pergunta": "Which frame changes both food and drink preferences?", "opcoes": ["Sin", "Mesa", "Todo", "Aquí"], "correta": 0, "explica": "Sin removes cebolla from the taco and hielo from the lemonade." }
+  ]
+}

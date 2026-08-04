@@ -1,0 +1,24 @@
+{
+  "id": "q-mx-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — The first round starts before the tacos",
+  "subtitulo": "Place the group, discover the channel and buy menu time",
+  "introAudioKey": "mx-b11-q-i",
+  "introPt": "Two travellers enter a busy taquería. Listen for the moment when the service format becomes clear and for the phrase that leaves the food order open.",
+  "cenario": "A pair gets a table, discovers that this location takes orders at the cashier and orders sparkling water while reading the menu.",
+  "dialogo": [
+    { "audioKey": "mx-b11-q01", "voz": "target_mx_f", "es": "Buenas tardes. Somos dos. ¿Hay mesa para dos?", "pt": "Good afternoon. There are two of us. Is there a table for two?" },
+    { "audioKey": "mx-b11-q02", "voz": "target_mx_m", "es": "Sí, al fondo.", "pt": "Yes, at the back." },
+    { "audioKey": "mx-b11-q03", "voz": "target_mx_f", "es": "¿Nos sentamos aquí? ¿Ordeno aquí o en la mesa?", "pt": "Do we sit here? Do I order here or at the table?" },
+    { "audioKey": "mx-b11-q04", "voz": "target_mx_m", "es": "Sí, adelante. Aquí en la caja, por favor.", "pt": "Yes, go ahead. Here at the cashier, please." },
+    { "audioKey": "mx-b11-q05", "voz": "target_mx_f", "es": "Un agua mineral, por favor. Eso es todo por ahora, gracias.", "pt": "One sparkling water, please. That is all for now, thank you." },
+    { "audioKey": "mx-b11-q06", "voz": "target_mx_m", "es": "Muy bien.", "pt": "Very good." }
+  ],
+  "perguntas": [
+    { "pergunta": "What does Somos dos solve first?", "opcoes": ["The taco filling", "The group size", "The payment method", "The spice level"], "correta": 1, "explica": "It makes the arriving group visible before the table request." },
+    { "pergunta": "Why ask ¿Ordeno aquí o en la mesa?", "opcoes": ["To request a discount", "To discover the service channel", "To reserve tomorrow", "To ask for the bill"], "correta": 1, "explica": "The question works across counter, cashier and table-service formats." },
+    { "pergunta": "In this scene, where does the order begin?", "opcoes": ["At the table", "At the cashier", "Outside", "At the kitchen door"], "correta": 1, "explica": "Aquí en la caja identifies the local channel in this scene." },
+    { "pergunta": "What does Un agua mineral buy besides the drink?", "opcoes": ["Time to read the food menu", "A guaranteed table", "Free tacos", "The final bill"], "correta": 0, "explica": "The first beverage lets the visit begin before the food decision is ready." },
+    { "pergunta": "Why add por ahora to Eso es todo?", "opcoes": ["To cancel the meal", "To close only this round", "To ask for takeaway", "To call the cashier"], "correta": 1, "explica": "Por ahora means for now, leaving the food order open." }
+  ]
+}
