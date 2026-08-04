@@ -5,25 +5,135 @@
   "buyerLocale": "en-US",
   "status": "pending_generation",
   "clips": [
-    {"key": "mx-i03-n01", "role": "guide_en_us_f", "text": "Some of the best food in Mexico has no printed menu at all. It has a chalkboard, or nothing — just today's comida corrida, decided in the kitchen that morning.", "kind": "narration"},
-    {"key": "mx-i03-r01", "role": "target_mx_m", "text": "Hoy tenemos comida corrida: sopa, guisado y agua.", "kind": "return"},
-    {"key": "mx-i03-n02", "role": "guide_en_us_m", "text": "Comida corrida — the same idea as a menú del día — is a full, fixed multi-course lunch at a fair price, usually only available for a few hours around midday. It's not a limited option. It's often the actual reason to be there.", "kind": "narration"},
-    {"key": "mx-i03-p01", "role": "guide_en_us_m", "text": "That's exactly what you want. Say you'll have the comida corrida. Speak now.", "kind": "prompt"},
-    {"key": "mx-i03-t01", "role": "target_mx_f", "text": "Quiero la comida corrida, por favor.", "kind": "target"},
-    {"key": "mx-i03-r02", "role": "target_mx_m", "text": "¿Sopa o crema?", "kind": "return"},
-    {"key": "mx-i03-n03", "role": "guide_en_us_f", "text": "Comida corrida still asks you to choose between two or three set options at each course. You don't need every word — you need one clean choice.", "kind": "narration"},
-    {"key": "mx-i03-p02", "role": "guide_en_us_f", "text": "Pick one. Say soup. Speak now.", "kind": "prompt"},
-    {"key": "mx-i03-t02", "role": "target_mx_f", "text": "Sopa, por favor.", "kind": "target"},
-    {"key": "mx-i03-n04", "role": "guide_en_us_m", "text": "And when there genuinely is a longer menu and no comida corrida in sight, this is the move that unlocks the good dish instead of the safe one.", "kind": "narration"},
-    {"key": "mx-i03-p03", "role": "guide_en_us_m", "text": "You're not sure what to get. Ask what they recommend. Speak now.", "kind": "prompt"},
-    {"key": "mx-i03-t03", "role": "target_mx_f", "text": "¿Qué me recomienda?", "kind": "target"},
-    {"key": "mx-i03-r03", "role": "target_mx_m", "text": "El mole está buenísimo hoy.", "kind": "return"},
-    {"key": "mx-i03-s01", "role": "target_mx_f", "text": "Quiero la comida corrida, por favor. ¿Qué me recomienda?", "kind": "shadow"},
-    {"key": "mx-i03-n05", "role": "guide_en_us_f", "text": "I03 complete. Comida corrida is the move, not the fallback — a full fixed lunch, fair price, usually the best thing in the room. And when there's a longer menu instead, ¿qué me recomienda? gets you today's actual best dish, not just the one you already knew the name of.", "kind": "recap"},
-    {"key": "mx-i03-q-i", "role": "guide_en_us_f", "text": "A fonda with no printed menu. Listen for how the traveller orders the fixed daily lunch and asks for a recommendation elsewhere.", "kind": "quiz_intro"},
-    {"key": "mx-i03-q01", "role": "target_mx_m", "text": "Hoy tenemos comida corrida: sopa, guisado y agua.", "kind": "quiz"},
-    {"key": "mx-i03-q02", "role": "target_mx_f", "text": "Quiero la comida corrida, por favor.", "kind": "quiz"},
-    {"key": "mx-i03-q03", "role": "target_mx_f", "text": "¿Qué me recomienda?", "kind": "quiz"},
-    {"key": "mx-i03-q04", "role": "target_mx_m", "text": "El mole está buenísimo hoy.", "kind": "quiz"}
+    {
+      "key": "mx-i03-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i03-r01",
+      "role": "target_mx_m",
+      "text": "Hoy tenemos comida corrida: sopa, guisado y agua.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i03-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i03-p01",
+      "role": "guide_en_us_m",
+      "text": "That's exactly what you want. Say you'll have the comida corrida. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i03-t01",
+      "role": "target_mx_f",
+      "text": "Quiero la comida corrida, por favor.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i03-r02",
+      "role": "target_mx_m",
+      "text": "¿Sopa o crema?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i03-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i03-p02",
+      "role": "guide_en_us_f",
+      "text": "Pick one. Say soup. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i03-t02",
+      "role": "target_mx_f",
+      "text": "Sopa, por favor.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i03-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i03-p03",
+      "role": "guide_en_us_m",
+      "text": "You're not sure what to get. Ask what they recommend. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i03-t03",
+      "role": "target_mx_f",
+      "text": "¿Qué me recomienda?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i03-r03",
+      "role": "target_mx_m",
+      "text": "El mole está buenísimo hoy.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i03-s01",
+      "role": "target_mx_f",
+      "text": "Quiero la comida corrida, por favor. ¿Qué me recomienda?",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i03-n05",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i03-q-i",
+      "role": "guide_en_us_f",
+      "text": "A fonda with no printed menu. Listen for how the traveller orders the fixed daily lunch and asks for a recommendation elsewhere.",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i03-q01",
+      "role": "target_mx_m",
+      "text": "Hoy tenemos comida corrida: sopa, guisado y agua.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i03-q02",
+      "role": "target_mx_f",
+      "text": "Quiero la comida corrida, por favor.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i03-q03",
+      "role": "target_mx_f",
+      "text": "¿Qué me recomienda?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i03-q04",
+      "role": "target_mx_m",
+      "text": "El mole está buenísimo hoy.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i03-r04",
+      "role": "target_mx_m",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i03-p04",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i03-t04",
+      "role": "target_mx_f",
+      "kind": "target"
+    }
   ]
 }

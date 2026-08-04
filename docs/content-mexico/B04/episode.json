@@ -1,13 +1,11 @@
 {
-  "id": "mx-b04",
-  "slot": "B04",
+  "id": "b04",
   "nivel": "basico",
   "numero": 4,
   "parte": "1D",
   "titulo": "The four files that board with you",
   "subtitulo": "Passport, entry evidence, working connection and a reservation you can prove without signal",
-  "moldura": "protege",
-  "frasePiso": "If the phone loses signal at the counter, the trip should still exist in your hand.",
+  "cena": "Tonight, on the kitchen table, is the last moment any of this is easy to fix — tomorrow it travels in a phone that might not have signal.",
   "fatosDatados": [
     {
       "id": "mx-air-passport-book",
@@ -17,7 +15,9 @@
       "revisarAte": "2026-11-01",
       "evidencia": "FATO",
       "risco": "alto",
-      "audioKeys": ["mx-b04-n01"]
+      "audioKeys": [
+        "mx-b04-n01"
+      ]
     },
     {
       "id": "mx-us-tourist-visa",
@@ -27,7 +27,9 @@
       "revisarAte": "2026-11-01",
       "evidencia": "FATO",
       "risco": "alto",
-      "audioKeys": ["mx-b04-n02"]
+      "audioKeys": [
+        "mx-b04-n02"
+      ]
     },
     {
       "id": "mx-air-fmmd",
@@ -37,7 +39,9 @@
       "revisarAte": "2026-11-01",
       "evidencia": "FATO",
       "risco": "alto",
-      "audioKeys": ["mx-b04-n02"]
+      "audioKeys": [
+        "mx-b04-n02"
+      ]
     },
     {
       "id": "mx-entry-evidence",
@@ -47,34 +51,210 @@
       "revisarAte": "2026-11-01",
       "evidencia": "FATO",
       "risco": "alto",
-      "audioKeys": ["mx-b04-n03"]
+      "audioKeys": [
+        "mx-b04-n03"
+      ]
     }
   ],
   "steps": [
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b04-n01","pt":"Tomorrow's flight does not begin at the airport. Put the passport book in your hand tonight and check that it covers the whole trip. A passport card cannot board the flight to Mexico. Check the airline's own validity rule too; Mexico's rule and an airline's boarding check are not the same thing."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b04-n02","pt":"For a U.S. citizen visiting as a tourist for under one hundred eighty days, Mexico does not require a visa. That number is a ceiling, not a promise: immigration decides the authorised stay when you arrive. At an international airport, do not hunt for an old paper tourist form. The FMM is generated in the entry process; if an e-gate gives you a QR receipt, keep it with the passport."},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b04-n03","pt":"Now make the trip survive a dead phone. Save the hotel confirmation, full address and return booking offline. Immigration may ask for booking or itinerary evidence. Install the eSIM according to the provider's instructions and keep the activation steps offline. Carry two payment methods you have checked yourself. These are resilience tasks, not immigration requirements."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b04-n04","pt":"The weak file is usually the hotel: a booking exists, but the name, arrival hour or full address is wrong. Confirm it before you fly, while changing it is still cheap."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b04-t01","es":"Quiero confirmar mi reservación.","pinyin":"KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN","pt":"I want to confirm my reservation.","tts":"Quiero confirmar mi reservación."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b04-p01","promptPt":"You message the hotel before flying. Open with the job: you want to confirm your reservation. Speak now.","audioKey":"mx-b04-t01","es":"Quiero confirmar mi reservación.","pinyin":"KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN","pt":"I want to confirm my reservation.","consulta":["dormir/confirmar","antes/reserva"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b04-r01","es":"Claro. ¿A nombre de quién?","pt":"Of course. Under what name?","tts":"Claro. ¿A nombre de quién?"},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b04-n05","pt":"Do not settle for a green checkmark inside an app. Ask for a confirmation you can save outside it."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b04-p02","promptPt":"The hotel finds your name. Ask them to send the confirmation by email so you can save it offline. Speak now.","audioKey":"mx-b04-t02","es":"¿Me puede mandar la confirmación por correo?","pinyin":"meh PWEH-deh mahn-DAHR lah kohn-feer-mah-SYOHN por koh-REH-oh","pt":"Can you send me the confirmation by email?","consulta":["dormir/confirmar","reparo/escribir"]},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b04-n06","pt":"A hotel name is not a destination. Your driver and your offline map need the complete address, including the neighbourhood when the city repeats street names."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b04-p03","promptPt":"The confirmation shows only the hotel name. Ask for the complete address. Speak now.","audioKey":"mx-b04-t03","es":"¿Cuál es la dirección completa?","pinyin":"kwahl ehs lah dee-rehk-SYOHN kohm-PLEH-tah","pt":"What is the complete address?","consulta":["dormir/endereco","transporte/direcao"]},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b04-n07","pt":"Last check: your flight lands late. A valid booking can still fail if the front desk closes before you arrive. Put the late arrival into the conversation now."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b04-p04","promptPt":"You expect to reach the hotel after ten at night. State that, then ask whether reception is open twenty-four hours. Speak now.","audioKey":"mx-b04-t04","es":"Llego después de las diez. ¿Hay recepción las veinticuatro horas?","pinyin":"YEH-goh dehs-PWEHS deh lahs DYEHS. eye reh-sehp-SYOHN lahs bayn-tee-KWAH-troh OH-rahs","pt":"I arrive after ten. Is reception open twenty-four hours?","consulta":["dormir/chegada-tardia"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b04-r02","es":"Sí. Su reservación está confirmada.","pt":"Yes. Your reservation is confirmed.","tts":"Sí. Su reservación está confirmada."},
-    {"tipo":"shadow","voz":"target_mx_f","audioKey":"mx-b04-s01","es":"Quiero confirmar mi reservación. ¿Cuál es la dirección completa?","pinyin":"KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN. kwahl ehs lah dee-rehk-SYOHN kohm-PLEH-tah","pt":"Shadow the confirmation and address as one pre-flight move.","tts":"Quiero confirmar mi reservación. ¿Cuál es la dirección completa?"},
-    {"tipo":"recap","voz":"guide_en_us_f","audioKey":"mx-b04-n08","pt":"B04 complete. Passport book checked. Entry evidence saved offline. Connection instructions available without connection. Two payment methods checked. Reservation, full address and late arrival confirmed. Recheck the dated entry rules before departure; the course records when each one must be reviewed."}
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Tomorrow's flight starts tonight: check the passport book covers the trip. A card can't board — check your airline's rule too."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b04-n02",
+      "pt": "Under 180 days, no visa needed — but immigration decides your actual stay. No paper form to hunt; keep any e-gate QR receipt."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b04-n03",
+      "bloco": "corpo",
+      "pt": "Survive a dead phone: save hotel, address and return booking offline, install the eSIM, carry two payment methods."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b04-n04",
+      "pt": "The weak file is usually the hotel — name or address often wrong. Confirm it before flying, while it's cheap to fix."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b04-t01",
+      "es": "Quiero confirmar mi reservación.",
+      "pinyin": "KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN",
+      "pt": "I want to confirm my reservation.",
+      "tts": "Quiero confirmar mi reservación."
+    },
+    {
+      "consulta": [
+        "dormir/confirmar",
+        "antes/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b04-p01",
+      "promptPt": "You message the hotel before flying. Open with the job: you want to confirm your reservation. Speak now.",
+      "audioKey": "mx-b04-t01",
+      "es": "Quiero confirmar mi reservación.",
+      "pinyin": "KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN",
+      "pt": "I want to confirm my reservation."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b04-r01",
+      "es": "Claro. ¿A nombre de quién?",
+      "pt": "Of course. Under what name?",
+      "tts": "Claro. ¿A nombre de quién?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b04-n05",
+      "pt": "Don't settle for a green checkmark in an app — get a confirmation you can save outside it."
+    },
+    {
+      "consulta": [
+        "dormir/confirmar",
+        "reparo/escribir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b04-p02",
+      "promptPt": "The hotel finds your name. Ask them to send the confirmation by email so you can save it offline. Speak now.",
+      "audioKey": "mx-b04-t02",
+      "es": "¿Me puede mandar la confirmación por correo?",
+      "pinyin": "meh PWEH-deh mahn-DAHR lah kohn-feer-mah-SYOHN por koh-REH-oh",
+      "pt": "Can you send me the confirmation by email?",
+      "molde": "ME-PUEDE",
+      "encaixe": "mandar la confirmación por correo"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b04-n06",
+      "bloco": "capsula",
+      "pt": "A hotel name isn't a destination — your driver and offline map need the full address, neighbourhood included."
+    },
+    {
+      "consulta": [
+        "dormir/endereco",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b04-p03",
+      "promptPt": "The confirmation shows only the hotel name. Ask for the complete address. Speak now.",
+      "audioKey": "mx-b04-t03",
+      "es": "¿Cuál es la dirección completa?",
+      "pinyin": "kwahl ehs lah dee-rehk-SYOHN kohm-PLEH-tah",
+      "pt": "What is the complete address?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b04-n07",
+      "pt": "Last check: a valid booking can still fail if the front desk closes before a late landing. Flag it now."
+    },
+    {
+      "consulta": [
+        "dormir/chegada-tardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b04-p04",
+      "promptPt": "You expect to reach the hotel after ten at night. State that, then ask whether reception is open twenty-four hours. Speak now.",
+      "audioKey": "mx-b04-t04",
+      "es": "Llego después de las diez. ¿Hay recepción las veinticuatro horas?",
+      "pinyin": "YEH-goh dehs-PWEHS deh lahs DYEHS. eye reh-sehp-SYOHN lahs bayn-tee-KWAH-troh OH-rahs",
+      "pt": "I arrive after ten. Is reception open twenty-four hours?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b04-r02",
+      "es": "Sí. Su reservación está confirmada.",
+      "pt": "Yes. Your reservation is confirmed.",
+      "tts": "Sí. Su reservación está confirmada."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b04-s01",
+      "es": "Quiero confirmar mi reservación. ¿Cuál es la dirección completa?",
+      "pinyin": "KYEH-roh kohn-feer-MAHR mee reh-sehr-bah-SYOHN. kwahl ehs lah dee-rehk-SYOHN kohm-PLEH-tah",
+      "pt": "Shadow the confirmation and address as one pre-flight move.",
+      "tts": "Quiero confirmar mi reservación. ¿Cuál es la dirección completa?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b04-n08",
+      "bloco": "recap",
+      "pt": "B04 complete. Passport, entry evidence, connection and payment checked offline — reservation and address confirmed."
+    }
   ],
   "aprofundar": {
-    "titulo":"A checklist with an expiry date",
-    "secoes":[
-      {"titulo":"Under 180 is not automatically 180","corpo":"Visa-free tourism and authorised stay are different decisions. For a U.S. tourist, a visit under 180 days does not require a Mexican visa, but immigration still determines the period granted at entry."},
-      {"titulo":"Offline is a travel feature","corpo":"A screenshot of the hotel address, return booking and eSIM instructions survives airport Wi-Fi, a locked account and an empty battery in ways a chain of app links does not."},
-      {"titulo":"Confirmation is an action","corpo":"The useful Spanish does not list documents. It closes the fragile gaps in the booking before departure.","exemplos":[{"es":"Quiero confirmar mi reservación.","pt":"I want to confirm my reservation."},{"es":"¿Cuál es la dirección completa?","pt":"What is the complete address?"}]},
-      {"titulo":"Revalidate before departure","corpo":"Passport, visa and migration-form rules can change. The sources and review date belong to the fact, not only to a forgotten research note. Check the official INM and consular guidance again before travel."}
+    "titulo": "A checklist with an expiry date",
+    "secoes": [
+      {
+        "titulo": "Under 180 is not automatically 180",
+        "corpo": "Visa-free tourism and authorised stay are different decisions. For a U.S. tourist, a visit under 180 days does not require a Mexican visa, but immigration still determines the period granted at entry."
+      },
+      {
+        "titulo": "Offline is a travel feature",
+        "corpo": "A screenshot of the hotel address, return booking and eSIM instructions survives airport Wi-Fi, a locked account and an empty battery in ways a chain of app links does not."
+      },
+      {
+        "titulo": "Confirmation is an action",
+        "corpo": "The useful Spanish does not list documents. It closes the fragile gaps in the booking before departure.",
+        "exemplos": [
+          {
+            "es": "Quiero confirmar mi reservación.",
+            "pt": "I want to confirm my reservation."
+          },
+          {
+            "es": "¿Cuál es la dirección completa?",
+            "pt": "What is the complete address?"
+          }
+        ]
+      },
+      {
+        "titulo": "Revalidate before departure",
+        "corpo": "Passport, visa and migration-form rules can change. The sources and review date belong to the fact, not only to a forgotten research note. Check the official INM and consular guidance again before travel."
+      }
     ]
-  }
+  },
+  "slot": "B04",
+  "moldura": "protege",
+  "permissao": "You are allowed to over-prepare this one. Confirming a reservation twice or saving an address you'll probably never need offline is not anxious behaviour here — it is the one part of the trip where five minutes tonight buys real protection against a dead phone or a closed front desk later.",
+  "permissaoAudioKey": "mx-b04-n04",
+  "espelho": "A traveller who would never leave home without a paper boarding pass 'just in case' the airline app fails is doing exactly this instinct already, just for one document. B04 asks for the same offline-backup habit applied to the hotel address, the return booking and the eSIM instructions — not a new kind of caution, just the familiar one extended to three more files.",
+  "frasePiso": "If the phone loses signal at the counter, the trip should still exist in your hand.",
+  "fichasCulturais": [
+    {
+      "sinal": "You land, open the map app to find the hotel, and the phone shows no signal and no cached address beyond the hotel's name.",
+      "suaLeitura": "I should have bought roaming, or this trip is already going wrong.",
+      "oQueEAli": "A hotel name is not routable — a driver or an offline map needs the complete street address, and in Mexican cities that often includes the neighbourhood (colonia), since street names repeat across a city far more than in most travellers' home countries.",
+      "oQueVoceFaz": "Before flying, ask the hotel for the complete address in writing and save it somewhere that works without signal, not just inside a booking app.",
+      "oQueMelhora": "A driver, a stranger giving directions or an offline map can all act on the address immediately, instead of you standing at arrivals with only a hotel name and no way to prove or find it.",
+      "ondeNaoVale": "Not a substitute for confirming the booking itself — a complete address for the wrong reservation is still a wrong reservation.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "mx-b04-n06"
+      ]
+    }
+  ]
 }

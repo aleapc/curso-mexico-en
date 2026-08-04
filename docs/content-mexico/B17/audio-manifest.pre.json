@@ -5,39 +5,202 @@
   "buyerLocale": "en-US",
   "status": "pending_generation",
   "clips": [
-    {"key": "mx-b17-n01", "role": "guide_en_us_f", "text": "This is the one part of the whole module that is openly defensive. Most of it stays small: a headache, a question at the pharmacy counter. But the same four moves scale up to a real emergency, so we build them here, while the stakes are still low.", "kind": "narration"},
-    {"key": "mx-b17-t01", "role": "target_mx_f", "text": "Me duele la cabeza.", "kind": "target"},
-    {"key": "mx-b17-p01", "role": "guide_en_us_f", "text": "At the pharmacy counter, name the pain before asking for anything. Speak now.", "kind": "prompt"},
-    {"key": "mx-b17-r01", "role": "target_mx_m", "text": "¿Desde cuándo le duele?", "kind": "return"},
-    {"key": "mx-b17-n02", "role": "guide_en_us_m", "text": "Duration is the first thing a pharmacist actually needs, not a diagnosis. Keep it to one clean answer.", "kind": "narration"},
-    {"key": "mx-b17-t02", "role": "target_mx_f", "text": "Desde ayer.", "kind": "target"},
-    {"key": "mx-b17-p02", "role": "guide_en_us_m", "text": "The pharmacist asks since when. Answer with one clean phrase: since yesterday. Speak now.", "kind": "prompt"},
-    {"key": "mx-b17-r02", "role": "target_mx_m", "text": "Le recomiendo este para el dolor.", "kind": "return"},
-    {"key": "mx-b17-n03", "role": "guide_en_us_f", "text": "Here is the wall. Since 2010, a Mexican pharmacy cannot sell an antibiotic without a prescription from a doctor licensed in Mexico — and a prescription from your own country will not be accepted at this counter. Asking first saves you an argument you cannot win.", "kind": "narration"},
-    {"key": "mx-b17-t03", "role": "target_mx_f", "text": "¿Necesito receta para este medicamento?", "kind": "target"},
-    {"key": "mx-b17-p03", "role": "guide_en_us_f", "text": "Before you take anything to the till, ask whether this medication needs a prescription. Speak now.", "kind": "prompt"},
-    {"key": "mx-b17-r03", "role": "target_mx_m", "text": "No, este no necesita receta.", "kind": "return"},
-    {"key": "mx-b17-n04", "role": "guide_en_us_m", "text": "One more filter before you buy, and it connects back to B13. If you have an allergy, the pharmacy counter is not exempt from that sentence.", "kind": "narration"},
-    {"key": "mx-b17-t04", "role": "target_mx_f", "text": "Tengo una alergia. ¿Tiene algo sin aspirina?", "kind": "target"},
-    {"key": "mx-b17-p04", "role": "guide_en_us_m", "text": "You cannot take aspirin. Say so and ask for an alternative. Speak now.", "kind": "prompt"},
-    {"key": "mx-b17-r04", "role": "target_mx_m", "text": "Sí, este es con paracetamol.", "kind": "return"},
-    {"key": "mx-b17-n05", "role": "guide_en_us_f", "text": "Now the scale-up. Same four moves — name it, give it a timeframe, ask the constraint, get the answer — but the object is a real emergency, and the phone is the counter.", "kind": "narration"},
-    {"key": "mx-b17-r05", "role": "target_mx_m", "text": "911, ¿cuál es su emergencia?", "kind": "return"},
-    {"key": "mx-b17-p05", "role": "guide_en_us_f", "text": "Someone next to you has collapsed. Call and say you need an ambulance. Speak now.", "kind": "prompt"},
-    {"key": "mx-b17-t05", "role": "target_mx_f", "text": "Necesito una ambulancia.", "kind": "target"},
-    {"key": "mx-b17-r06", "role": "target_mx_m", "text": "¿Cuál es su ubicación?", "kind": "return"},
-    {"key": "mx-b17-n06", "role": "guide_en_us_m", "text": "911 is the number for the whole country: ambulance, police and fire, all through the same door. Give the address you already made portable back in B04 — this is exactly what it was for.", "kind": "narration"},
-    {"key": "mx-b17-p06", "role": "guide_en_us_m", "text": "Give your location using the hotel name and room number. Speak now.", "kind": "prompt"},
-    {"key": "mx-b17-t06", "role": "target_mx_f", "text": "Estoy en el hotel, en la habitación trescientos cinco.", "kind": "target"},
-    {"key": "mx-b17-r07", "role": "target_mx_m", "text": "Vamos en camino.", "kind": "return"},
-    {"key": "mx-b17-s01", "role": "target_mx_f", "text": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia.", "kind": "shadow"},
-    {"key": "mx-b17-n07", "role": "guide_en_us_f", "text": "B17 complete. Name the problem. Give it a timeframe if asked. Ask the constraint before you hit it — receta, alergia. And if it scales up: 911, the ambulance, the address you already had ready. The only defensive part of the module, and now it is four short moves, not a fear.", "kind": "recap"},
-    {"key": "mx-b17-q-i", "role": "guide_en_us_f", "text": "A traveller describes a headache at the pharmacy, checks the prescription rule and later calls for real help. Listen for the same four-move pattern at two different scales.", "kind": "quiz_intro"},
-    {"key": "mx-b17-q01", "role": "target_mx_f", "text": "Me duele la cabeza. Desde ayer.", "kind": "quiz"},
-    {"key": "mx-b17-q02", "role": "target_mx_m", "text": "Le recomiendo este para el dolor.", "kind": "quiz"},
-    {"key": "mx-b17-q03", "role": "target_mx_f", "text": "¿Necesito receta para este medicamento?", "kind": "quiz"},
-    {"key": "mx-b17-q04", "role": "target_mx_m", "text": "No, este no necesita receta.", "kind": "quiz"},
-    {"key": "mx-b17-q05", "role": "target_mx_f", "text": "Necesito una ambulancia. Estoy en el hotel, en la habitación trescientos cinco.", "kind": "quiz"},
-    {"key": "mx-b17-q06", "role": "target_mx_m", "text": "Vamos en camino.", "kind": "quiz"}
+    {
+      "key": "mx-b17-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-t01",
+      "role": "target_mx_f",
+      "text": "Me duele la cabeza.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b17-p01",
+      "role": "guide_en_us_f",
+      "text": "At the pharmacy counter, name the pain before asking for anything. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b17-r01",
+      "role": "target_mx_m",
+      "text": "¿Desde cuándo le duele?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-t02",
+      "role": "target_mx_f",
+      "text": "Desde ayer.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b17-p02",
+      "role": "guide_en_us_m",
+      "text": "The pharmacist asks since when. Answer with one clean phrase: since yesterday. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b17-r02",
+      "role": "target_mx_m",
+      "text": "Le recomiendo este para el dolor.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-t03",
+      "role": "target_mx_f",
+      "text": "¿Necesito receta para este medicamento?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b17-p03",
+      "role": "guide_en_us_f",
+      "text": "Before you take anything to the till, ask whether this medication needs a prescription. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b17-r03",
+      "role": "target_mx_m",
+      "text": "No, este no necesita receta.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-t04",
+      "role": "target_mx_f",
+      "text": "Tengo una alergia. ¿Tiene algo sin aspirina?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b17-p04",
+      "role": "guide_en_us_m",
+      "text": "You cannot take aspirin. Say so and ask for an alternative. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b17-r04",
+      "role": "target_mx_m",
+      "text": "Sí, este es con paracetamol.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-r05",
+      "role": "target_mx_m",
+      "text": "911, ¿cuál es su emergencia?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-p05",
+      "role": "guide_en_us_f",
+      "text": "Someone next to you has collapsed. Call and say you need an ambulance. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b17-t05",
+      "role": "target_mx_f",
+      "text": "Necesito una ambulancia.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b17-r06",
+      "role": "target_mx_m",
+      "text": "¿Cuál es su ubicación?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-p06",
+      "role": "guide_en_us_m",
+      "text": "Give your location using the hotel name and room number. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b17-t06",
+      "role": "target_mx_f",
+      "text": "Estoy en el hotel, en la habitación trescientos cinco.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b17-r07",
+      "role": "target_mx_m",
+      "text": "Vamos en camino.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b17-s01",
+      "role": "target_mx_f",
+      "text": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia.",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-b17-n07",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-b17-q-i",
+      "role": "guide_en_us_f",
+      "text": "A traveller describes a headache at the pharmacy, checks the prescription rule and later calls for real help. Listen for the same four-move pattern at two different scales.",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-b17-q01",
+      "role": "target_mx_f",
+      "text": "Me duele la cabeza. Desde ayer.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b17-q02",
+      "role": "target_mx_m",
+      "text": "Le recomiendo este para el dolor.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b17-q03",
+      "role": "target_mx_f",
+      "text": "¿Necesito receta para este medicamento?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b17-q04",
+      "role": "target_mx_m",
+      "text": "No, este no necesita receta.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b17-q05",
+      "role": "target_mx_f",
+      "text": "Necesito una ambulancia. Estoy en el hotel, en la habitación trescientos cinco.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b17-q06",
+      "role": "target_mx_m",
+      "text": "Vamos en camino.",
+      "kind": "quiz"
+    }
   ]
 }

@@ -1,42 +1,375 @@
 {
-  "id":"mx-b16","slot":"B16","nivel":"basico","numero":16,"parte":"16A","titulo":"Before the room number is printed","subtitulo":"Ask for quiet, height and late checkout before the key; name the defect and escalate only if it remains","moldura":"resolve","frasePiso":"You can improve the stay before accepting the key and turn a broken room feature into a timed repair or a different room.",
-  "steps":[
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b16-n01","gesto":1,"pt":"Recall B04. Before flying, you made the reservation portable. At reception, open that same booking with the name attached; then improve the room before its number is printed."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b16-p01","promptPt":"The receptionist looks up from the screen. State that you have a reservation under the name Morgan. Speak now.","audioKey":"mx-b16-c01","es":"Tengo una reservación a nombre de Morgan.","pinyin":"TEN-goh OO-nah reh-sehr-bah-SYOHN ah NOHM-breh deh MOR-gahn","pt":"I have a reservation under the name Morgan."},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r01","es":"Claro. ¿Me permite su identificación?","pt":"Of course. May I see your identification?","tts":"Claro. ¿Me permite su identificación?"},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b16-n02","pt":"The room is not assigned yet. Ask for the outcome that matters, not a magic room number: una habitación más silenciosa."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t01","es":"¿Hay una habitación más silenciosa?","pinyin":"eye OO-nah ah-bee-tah-SYOHN mahs see-len-SYOH-sah","pt":"Is there a quieter room?","tts":"¿Hay una habitación más silenciosa?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b16-p02","promptPt":"Before the key is issued, ask whether a quieter room is available. Speak now.","audioKey":"mx-b16-t01","es":"¿Hay una habitación más silenciosa?","pinyin":"eye OO-nah ah-bee-tah-SYOHN mahs see-len-SYOH-sah","pt":"Is there a quieter room?","consulta":["quarto/preferencia"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r02","es":"Sí, tengo una lejos del elevador.","pt":"Yes, I have one far from the elevator.","tts":"Sí, tengo una lejos del elevador."},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b16-n03","pt":"Quiet has been answered. If height matters too, ask separately so the receptionist can tell you what is actually available."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t02","es":"¿Tiene una habitación en un piso alto?","pinyin":"TYEH-neh OO-nah ah-bee-tah-SYOHN en oon PEE-soh AHL-toh","pt":"Do you have a room on a high floor?","tts":"¿Tiene una habitación en un piso alto?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b16-p03","promptPt":"The quiet room is available. Ask whether it can also be on a high floor. Speak now.","audioKey":"mx-b16-t02","es":"¿Tiene una habitación en un piso alto?","pinyin":"TYEH-neh OO-nah ah-bee-tah-SYOHN en oon PEE-soh AHL-toh","pt":"Do you have a room on a high floor?","consulta":["quarto/preferencia"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r03","es":"Sí, en el sexto piso.","pt":"Yes, on the sixth floor.","tts":"Sí, en el sexto piso."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b16-n04","pt":"Now ask the time-sensitive extra before the final morning. Late checkout is availability and policy, not an entitlement; the answer may include a limit or charge."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t03","es":"¿Es posible salir más tarde mañana?","pinyin":"ehs poh-SEE-bleh sah-LEER mahs TAR-deh mah-NYAH-nah","pt":"Is it possible to check out later tomorrow?","tts":"¿Es posible salir más tarde mañana?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b16-p04","promptPt":"Your flight leaves late tomorrow. Ask whether a later checkout is possible. Speak now.","audioKey":"mx-b16-t03","es":"¿Es posible salir más tarde mañana?","pinyin":"ehs poh-SEE-bleh sah-LEER mahs TAR-deh mah-NYAH-nah","pt":"Is it possible to check out later tomorrow?","consulta":["quarto/saida"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r04","es":"Sí, hasta las dos, con un cargo adicional.","pt":"Yes, until two, with an additional charge.","tts":"Sí, hasta las dos, con un cargo adicional."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t04","es":"¿Cuánto cuesta el cargo adicional?","pinyin":"KWAHN-toh KWEHS-tah el KAHR-goh ah-dee-syoh-NAHL","pt":"How much is the additional charge?","tts":"¿Cuánto cuesta el cargo adicional?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b16-p05","promptPt":"Late checkout is available with an extra charge. Ask its cost before accepting. Speak now.","audioKey":"mx-b16-t04","es":"¿Cuánto cuesta el cargo adicional?","pinyin":"KWAHN-toh KWEHS-tah el KAHR-goh ah-dee-syoh-NAHL","pt":"How much is the additional charge?","consulta":["quarto/saida","pagar/cargo"]},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b16-n05","pt":"Upstairs, the room is quiet but the air conditioner does not start. Name the object and the observable failure. One clean sentence gets maintenance moving."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t05","es":"El aire acondicionado no funciona.","pinyin":"el EYE-reh ah-kohn-dee-syoh-NAH-doh noh foon-SYOH-nah","pt":"The air conditioning does not work.","tts":"El aire acondicionado no funciona."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b16-p06","promptPt":"The room is quiet, but the air conditioner will not start. Report the observable failure. Speak now.","audioKey":"mx-b16-t05","es":"El aire acondicionado no funciona.","pinyin":"el EYE-reh ah-kohn-dee-syoh-NAH-doh noh foon-SYOH-nah","pt":"The air conditioning does not work.","consulta":["quarto/problema"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r05","es":"Voy a enviar a mantenimiento.","pt":"I’ll send maintenance.","tts":"Voy a enviar a mantenimiento."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b16-n06","pt":"A promise without a time leaves you waiting. Ask when someone can check it. You are not demanding a universal service time; you are turning this repair into a checkpoint."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t06","es":"¿A qué hora pueden revisarlo?","pinyin":"ah keh OH-rah PWEH-den reh-bee-SAHR-loh","pt":"What time can they check it?","tts":"¿A qué hora pueden revisarlo?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b16-p07","promptPt":"Reception will send maintenance. Ask when they can check the unit. Speak now.","audioKey":"mx-b16-t06","es":"¿A qué hora pueden revisarlo?","pinyin":"ah keh OH-rah PWEH-den reh-bee-SAHR-loh","pt":"What time can they check it?","consulta":["quarto/problema"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r06","es":"En veinte minutos.","pt":"In twenty minutes.","tts":"En veinte minutos."},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b16-n07","pt":"The checkpoint passes and the unit still does not work. Now escalate one level: state that the failure continues and ask for another room. The request is earned by the unresolved scene, not opened as a threat."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b16-t07","es":"Sigue sin funcionar. Necesito otra habitación, por favor.","pinyin":"SEE-geh seen foon-syoh-NAHR neh-seh-SEE-toh OH-trah ah-bee-tah-SYOHN por fah-BOR","pt":"It still doesn’t work. I need another room, please.","tts":"Sigue sin funcionar. Necesito otra habitación, por favor."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b16-p08","promptPt":"Maintenance checked the unit, but it still does not work. State that and ask for another room. Speak now.","audioKey":"mx-b16-t07","es":"Sigue sin funcionar. Necesito otra habitación, por favor.","pinyin":"SEE-geh seen foon-syoh-NAHR neh-seh-SEE-toh OH-trah ah-bee-tah-SYOHN por fah-BOR","pt":"It still doesn’t work. I need another room, please.","consulta":["quarto/problema","quarto/troca"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b16-r07","es":"Entiendo. Le voy a cambiar la habitación.","pt":"I understand. I’ll change your room.","tts":"Entiendo. Le voy a cambiar la habitación."},
-    {"tipo":"shadow","voz":"target_mx_f","audioKey":"mx-b16-s01","es":"¿Hay una habitación más silenciosa? ¿Es posible salir más tarde mañana? El aire acondicionado no funciona. Necesito otra habitación, por favor.","pinyin":"eye OO-nah ah-bee-tah-SYOHN mahs see-len-SYOH-sah. ehs poh-SEE-bleh sah-LEER mahs TAR-deh mah-NYAH-nah. el EYE-reh ah-kohn-dee-syoh-NAH-doh noh foon-SYOH-nah. neh-seh-SEE-toh OH-trah ah-bee-tah-SYOHN por fah-BOR","pt":"Shadow improvement, late checkout, defect and escalation.","tts":"¿Hay una habitación más silenciosa? ¿Es posible salir más tarde mañana? El aire acondicionado no funciona. Necesito otra habitación, por favor."},
-    {"tipo":"recap","voz":"guide_en_us_f","audioKey":"mx-b16-n08","pt":"B16 complete. Reservation opened. Quiet and high floor requested before assignment. Late checkout and its charge checked. Defect named without drama. Repair given a time. Another room requested only after the checkpoint failed. You improved first and repaired second."}
+  "id": "b16",
+  "nivel": "basico",
+  "numero": 16,
+  "parte": "16A",
+  "titulo": "Before the room number is printed",
+  "subtitulo": "Ask for quiet, height and late checkout before the key; name the defect and escalate only if it remains",
+  "cena": "The receptionist's hand is already on the key card, and every preference you'll wish you'd asked for is still, for about ten more seconds, still possible to ask for.",
+  "moldura": "resolve",
+  "frasePiso": "You can improve the stay before accepting the key and turn a broken room feature into a timed repair or a different room.",
+  "fatosDatados": [
+    {
+      "id": "mx-hospedaje-caracteristicas-claras",
+      "afirmacao": "Hotel characteristics and amenities advertised in Mexico must be clear and truthful, and the displayed price should include applicable taxes and charges.",
+      "fonte": "Profeco — recomendações para uso de plataformas de hospedagem",
+      "ano": 2026,
+      "revisarAte": "2027-06-23",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "mx-b16-n04"
+      ]
+    },
+    {
+      "id": "mx-hospedaje-termos",
+      "afirmacao": "Guests are advised to know the specific hotel's terms and conditions, since preferences like late checkout depend on that property's own availability and policy, not a national standard.",
+      "fonte": "Profeco — informação para consumidores turistas",
+      "ano": 2026,
+      "revisarAte": "2027-06-23",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-b16-n04"
+      ]
+    }
   ],
-  "aprofundar":{"titulo":"Preference before key, evidence before escalation","secoes":[
-    {"titulo":"Availability is a return, not a promise","corpo":"Quiet room, high floor and late checkout are requests the hotel answers from current availability and policy. The course never universalises them."},
-    {"titulo":"One preference per question","corpo":"Separating quiet, floor and departure time lets reception give a usable answer instead of guessing which condition matters most."},
-    {"titulo":"Object plus observable failure","corpo":"El aire acondicionado no funciona is stronger than a long story: the object and failure are inspectable. A checkpoint then makes the response measurable."},
-    {"titulo":"Escalation follows the failed checkpoint","corpo":"Otra habitación comes after maintenance and time, not as the opening move. This keeps the exchange calm without trapping the traveller in an unresolved room."}
-  ]}
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b16-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Recall B04's portable reservation — open it here with your name, then improve the room before the number's printed."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-p01",
+      "promptPt": "The receptionist looks up from the screen. State that you have a reservation under the name Morgan. Speak now.",
+      "audioKey": "mx-b16-c01",
+      "es": "Tengo una reservación a nombre de Morgan.",
+      "pinyin": "TEN-goh OO-nah reh-sehr-bah-SYOHN ah NOHM-breh deh MOR-gahn",
+      "pt": "I have a reservation under the name Morgan."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r01",
+      "es": "Claro. ¿Me permite su identificación?",
+      "pt": "Of course. May I see your identification?",
+      "tts": "Claro. ¿Me permite su identificación?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b16-n02",
+      "bloco": "corpo",
+      "pt": "Room's not assigned yet — ask for the outcome, not a room number: una habitación más silenciosa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t01",
+      "es": "¿Hay una habitación más silenciosa?",
+      "pinyin": "eye OO-nah ah-bee-tah-SYOHN mahs see-len-SYOH-sah",
+      "pt": "Is there a quieter room?",
+      "tts": "¿Hay una habitación más silenciosa?"
+    },
+    {
+      "consulta": [
+        "quarto/preferencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b16-p02",
+      "promptPt": "Before the key is issued, ask whether a quieter room is available. Speak now.",
+      "audioKey": "mx-b16-t01",
+      "es": "¿Hay una habitación más silenciosa?",
+      "pinyin": "eye OO-nah ah-bee-tah-SYOHN mahs see-len-SYOH-sah",
+      "pt": "Is there a quieter room?",
+      "molde": "HAY",
+      "encaixe": "una habitación más silenciosa"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r02",
+      "es": "Sí, tengo una lejos del elevador.",
+      "pt": "Yes, I have one far from the elevator.",
+      "tts": "Sí, tengo una lejos del elevador."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b16-n03",
+      "pt": "Quiet's answered. If height matters too, ask separately so they can tell you what's actually available."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t02",
+      "es": "¿Tiene una habitación en un piso alto?",
+      "pinyin": "TYEH-neh OO-nah ah-bee-tah-SYOHN en oon PEE-soh AHL-toh",
+      "pt": "Do you have a room on a high floor?",
+      "tts": "¿Tiene una habitación en un piso alto?"
+    },
+    {
+      "consulta": [
+        "quarto/preferencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-p03",
+      "promptPt": "The quiet room is available. Ask whether it can also be on a high floor. Speak now.",
+      "audioKey": "mx-b16-t02",
+      "es": "¿Tiene una habitación en un piso alto?",
+      "pinyin": "TYEH-neh OO-nah ah-bee-tah-SYOHN en oon PEE-soh AHL-toh",
+      "pt": "Do you have a room on a high floor?",
+      "molde": "TIENE",
+      "encaixe": "una habitación en un piso alto"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r03",
+      "es": "Sí, en el sexto piso.",
+      "pt": "Yes, on the sixth floor.",
+      "tts": "Sí, en el sexto piso."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b16-n04",
+      "bloco": "capsula",
+      "pt": "Now ask about late checkout — it's availability and policy, not a guarantee, and may come with a limit or charge."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t03",
+      "es": "¿Es posible salir más tarde mañana?",
+      "pinyin": "ehs poh-SEE-bleh sah-LEER mahs TAR-deh mah-NYAH-nah",
+      "pt": "Is it possible to check out later tomorrow?",
+      "tts": "¿Es posible salir más tarde mañana?"
+    },
+    {
+      "consulta": [
+        "quarto/saida"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b16-p04",
+      "promptPt": "Your flight leaves late tomorrow. Ask whether a later checkout is possible. Speak now.",
+      "audioKey": "mx-b16-t03",
+      "es": "¿Es posible salir más tarde mañana?",
+      "pinyin": "ehs poh-SEE-bleh sah-LEER mahs TAR-deh mah-NYAH-nah",
+      "pt": "Is it possible to check out later tomorrow?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r04",
+      "es": "Sí, hasta las dos, con un cargo adicional.",
+      "pt": "Yes, until two, with an additional charge.",
+      "tts": "Sí, hasta las dos, con un cargo adicional."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t04",
+      "es": "¿Cuánto cuesta el cargo adicional?",
+      "pinyin": "KWAHN-toh KWEHS-tah el KAHR-goh ah-dee-syoh-NAHL",
+      "pt": "How much is the additional charge?",
+      "tts": "¿Cuánto cuesta el cargo adicional?"
+    },
+    {
+      "consulta": [
+        "quarto/saida",
+        "pagar/cargo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b16-p05",
+      "promptPt": "Late checkout is available with an extra charge. Ask its cost before accepting. Speak now.",
+      "audioKey": "mx-b16-t04",
+      "es": "¿Cuánto cuesta el cargo adicional?",
+      "pinyin": "KWAHN-toh KWEHS-tah el KAHR-goh ah-dee-syoh-NAHL",
+      "pt": "How much is the additional charge?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b16-n05",
+      "pt": "Upstairs, the AC doesn't start. Name the object and the failure — one clean sentence gets maintenance moving."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t05",
+      "es": "El aire acondicionado no funciona.",
+      "pinyin": "el EYE-reh ah-kohn-dee-syoh-NAH-doh noh foon-SYOH-nah",
+      "pt": "The air conditioning does not work.",
+      "tts": "El aire acondicionado no funciona."
+    },
+    {
+      "consulta": [
+        "quarto/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-p06",
+      "promptPt": "The room is quiet, but the air conditioner will not start. Report the observable failure. Speak now.",
+      "audioKey": "mx-b16-t05",
+      "es": "El aire acondicionado no funciona.",
+      "pinyin": "el EYE-reh ah-kohn-dee-syoh-NAH-doh noh foon-SYOH-nah",
+      "pt": "The air conditioning does not work."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r05",
+      "es": "Voy a enviar a mantenimiento.",
+      "pt": "I'll send maintenance.",
+      "tts": "Voy a enviar a mantenimiento."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b16-n06",
+      "pt": "A promise without a time leaves you waiting — ask when someone can check it, and turn the repair into a checkpoint."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t06",
+      "es": "¿A qué hora pueden revisarlo?",
+      "pinyin": "ah keh OH-rah PWEH-den reh-bee-SAHR-loh",
+      "pt": "What time can they check it?",
+      "tts": "¿A qué hora pueden revisarlo?"
+    },
+    {
+      "consulta": [
+        "quarto/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b16-p07",
+      "promptPt": "Reception will send maintenance. Ask when they can check the unit. Speak now.",
+      "audioKey": "mx-b16-t06",
+      "es": "¿A qué hora pueden revisarlo?",
+      "pinyin": "ah keh OH-rah PWEH-den reh-bee-SAHR-loh",
+      "pt": "What time can they check it?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r06",
+      "es": "En veinte minutos.",
+      "pt": "In twenty minutes.",
+      "tts": "En veinte minutos."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b16-n07",
+      "bloco": "capsula",
+      "pt": "Checkpoint passed, still broken. Escalate once: state it's still failing and ask for another room — earned, not a threat."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-t07",
+      "es": "Sigue sin funcionar. Necesito otra habitación, por favor.",
+      "pinyin": "SEE-geh seen foon-syoh-NAHR neh-seh-SEE-toh OH-trah ah-bee-tah-SYOHN por fah-BOR",
+      "pt": "It still doesn't work. I need another room, please.",
+      "tts": "Sigue sin funcionar. Necesito otra habitación, por favor."
+    },
+    {
+      "consulta": [
+        "quarto/problema",
+        "quarto/troca"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b16-p08",
+      "promptPt": "Maintenance checked the unit, but it still does not work. State that and ask for another room. Speak now.",
+      "audioKey": "mx-b16-t07",
+      "es": "Sigue sin funcionar. Necesito otra habitación, por favor.",
+      "pinyin": "SEE-geh seen foon-syoh-NAHR neh-seh-SEE-toh OH-trah ah-bee-tah-SYOHN por fah-BOR",
+      "pt": "It still doesn't work. I need another room, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b16-r07",
+      "es": "Entiendo. Le voy a cambiar la habitación.",
+      "pt": "I understand. I'll change your room.",
+      "tts": "Entiendo. Le voy a cambiar la habitación."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b16-s01",
+      "es": "¿Hay una habitación más silenciosa? ¿Es posible salir más tarde mañana? El aire acondicionado no funciona. Necesito otra habitación, por favor.",
+      "pinyin": "eye OO-nah ah-bee-tah-SYOHN mahs see-len-SYOH-sah. ehs poh-SEE-bleh sah-LEER mahs TAR-deh mah-NYAH-nah. el EYE-reh ah-kohn-dee-syoh-NAH-doh noh foon-SYOH-nah. neh-seh-SEE-toh OH-trah ah-bee-tah-SYOHN por fah-BOR",
+      "pt": "Shadow improvement, late checkout, defect and escalation.",
+      "tts": "¿Hay una habitación más silenciosa? ¿Es posible salir más tarde mañana? El aire acondicionado no funciona. Necesito otra habitación, por favor."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b16-n08",
+      "bloco": "recap",
+      "pt": "B16 complete. Reservation, quiet, high floor, late checkout checked, defect named, repair timed, room changed if needed."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Preference before key, evidence before escalation",
+    "secoes": [
+      {
+        "titulo": "Availability is a return, not a promise",
+        "corpo": "Quiet room, high floor and late checkout are requests the hotel answers from current availability and policy. The course never universalises them."
+      },
+      {
+        "titulo": "One preference per question",
+        "corpo": "Separating quiet, floor and departure time lets reception give a usable answer instead of guessing which condition matters most."
+      },
+      {
+        "titulo": "Object plus observable failure",
+        "corpo": "El aire acondicionado no funciona is stronger than a long story: the object and failure are inspectable. A checkpoint then makes the response measurable."
+      },
+      {
+        "titulo": "Escalation follows the failed checkpoint",
+        "corpo": "Otra habitación comes after maintenance and time, not as the opening move. This keeps the exchange calm without trapping the traveller in an unresolved room."
+      }
+    ]
+  },
+  "slot": "B16",
+  "permissao": "You are allowed to ask for three separate preferences before you've even seen the room. Quiet, high floor and late checkout cost the receptionist nothing to check, and asking for all three before the key is printed is the version of this conversation that actually works.",
+  "permissaoAudioKey": "mx-b16-n02",
+  "espelho": "Calling ahead to a hotel back home to ask for a quiet room away from the elevator is a habit plenty of travellers already have — B16 is the same instinct, just moved to the check-in counter and split into three separate, answerable questions instead of one vague wish.",
+  "fichasCulturais": [
+    {
+      "sinal": "You report a broken air conditioner, the receptionist says maintenance will come, and an hour later nobody has shown up and you're not sure whether to wait longer or say something.",
+      "suaLeitura": "It's rude to follow up so soon, or the promise means someone is already on their way.",
+      "oQueEAli": "A promise without a stated time isn't a broken commitment yet — it just hasn't been turned into something you can check. Asking for a specific time is a normal, expected part of reporting a problem, not impatience.",
+      "oQueVoceFaz": "Ask ¿a qué hora pueden revisarlo? right when the repair is promised, so you have a concrete checkpoint instead of an open-ended wait.",
+      "oQueMelhora": "You know exactly when to expect movement, and if that time passes with nothing fixed, you have a clean, factual reason to escalate — not a vague sense that you've waited long enough.",
+      "ondeNaoVale": "Not in the first few minutes after reporting — give the checkpoint time to arrive before treating silence as a failed promise.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "mx-b16-n06"
+      ]
+    }
+  ]
 }

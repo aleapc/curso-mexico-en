@@ -8,32 +8,199 @@
   "cena": "The officer's pen is already hovering over the form, and the only thing between you and the stamp is three short, true sentences.",
   "frasePiso": "Answer the question that was asked; the reservation carries the rest.",
   "fatosDatados": [
-    { "id": "mx-entry-authorised-stay", "afirmacao": "Mexican immigration determines the traveller's authorised period of stay at entry; visa-free tourism does not automatically grant 180 days.", "fonte": "Instituto Nacional de Migración; U.S. Department of State — Mexico entry and exit procedures", "ano": 2026, "revisarAte": "2026-11-01", "evidencia": "FATO", "risco": "alto", "audioKeys": ["mx-b05-n01"] },
-    { "id": "mx-entry-corroboration", "afirmacao": "Immigration may request hotel booking, return tickets, itinerary, address, intended length of stay and personal information to corroborate the purpose of the trip.", "fonte": "Instituto Nacional de Migración — Países y regiones que no requieren visa", "ano": 2026, "revisarAte": "2026-11-01", "evidencia": "FATO", "risco": "alto", "audioKeys": ["mx-b05-n02"] }
+    {
+      "id": "mx-entry-authorised-stay",
+      "afirmacao": "Mexican immigration determines the traveller's authorised period of stay at entry; visa-free tourism does not automatically grant 180 days.",
+      "fonte": "Instituto Nacional de Migración; U.S. Department of State — Mexico entry and exit procedures",
+      "ano": 2026,
+      "revisarAte": "2026-11-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "mx-b05-n01"
+      ]
+    },
+    {
+      "id": "mx-entry-corroboration",
+      "afirmacao": "Immigration may request hotel booking, return tickets, itinerary, address, intended length of stay and personal information to corroborate the purpose of the trip.",
+      "fonte": "Instituto Nacional de Migración — Países y regiones que no requieren visa",
+      "ano": 2026,
+      "revisarAte": "2026-11-01",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "mx-b05-n02"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b05-n01", "bloco": "aquecimento", "pt": "The immigration desk is not a Spanish exam and it is not the place to improve your story. The officer determines the period you are authorised to stay. Listen for three jobs only: why you came, how long you will stay and where you will sleep. Give the true answer, then stop." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b05-r01", "es": "¿Cuál es el motivo de su viaje?", "pt": "What is the purpose of your trip?", "tts": "¿Cuál es el motivo de su viaje?" },
-    { "consulta": ["chegar/imigracao", "chegar/motivo"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b05-p01", "promptPt": "The officer asks the purpose of the trip. You are travelling for a holiday. Answer in one sentence. Speak now.", "audioKey": "mx-b05-t01", "es": "Vengo de vacaciones.", "pinyin": "BEN-goh deh bah-kah-SYOH-nehs", "pt": "I am here on vacation." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b05-r02", "es": "¿Cuántos días se queda?", "pt": "How many days are you staying?", "tts": "¿Cuántos días se queda?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b05-n02", "bloco": "corpo", "pt": "Use your real number. Ten days is the rehearsal value, not a line to memorise for every trip. Immigration can corroborate the length and purpose with your booking, return ticket or itinerary." },
-    { "consulta": ["chegar/imigracao", "chegar/duracao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b05-p02", "promptPt": "Your actual itinerary is ten days. Give only the duration. Speak now.", "audioKey": "mx-b05-t02", "es": "Diez días.", "pinyin": "DYEHS DEE-ahs", "pt": "Ten days." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b05-r03", "es": "¿Dónde se va a hospedar?", "pt": "Where will you be staying?", "tts": "¿Dónde se va a hospedar?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b05-n03", "pt": "The accommodation answer is not the story of how you found the hotel. Name the category and let the saved reservation hold the address." },
-    { "consulta": ["chegar/imigracao", "dormir/confirmar"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b05-p03", "promptPt": "The officer asks where you will stay. Your confirmed accommodation is the hotel shown in your offline reservation. Answer briefly. Speak now.", "audioKey": "mx-b05-t03", "es": "Me hospedo en este hotel.", "pinyin": "meh ohs-PEH-doh en EHS-teh oh-TEL", "pt": "I am staying at this hotel." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b05-r04", "es": "¿Tiene la reservación?", "pt": "Do you have the reservation?", "tts": "¿Tiene la reservación?" },
-    { "consulta": ["chegar/imigracao", "antes/reserva"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b05-p04", "promptPt": "The officer asks for proof. Hand over the offline confirmation without adding a speech. Speak now.", "audioKey": "mx-b05-t04", "es": "Sí. Aquí tiene mi reservación.", "pinyin": "see. ah-KEE TYEH-neh mee reh-sehr-bah-SYOHN", "pt": "Yes. Here is my reservation." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b05-r05", "es": "Gracias.", "pt": "Thank you.", "tts": "Gracias." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b05-s01", "es": "Vengo de vacaciones. Diez días. Me hospedo en este hotel.", "pinyin": "BEN-goh deh bah-kah-SYOH-nehs. DYEHS DEE-ahs. meh ohs-PEH-doh en EHS-teh oh-TEL", "pt": "Shadow the three answers with a clean stop after each one.", "tts": "Vengo de vacaciones. Diez días. Me hospedo en este hotel." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b05-n04", "bloco": "recap", "pt": "B05 complete. Purpose: vacation. Duration: your real number. Accommodation: the place on your confirmed booking. If proof is requested, hand it over. Short does not mean evasive; short means the answer matches the question." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Not a Spanish exam. The officer sets your authorised stay. Three jobs only: why, how long, where — true answer, then stop."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b05-r01",
+      "es": "¿Cuál es el motivo de su viaje?",
+      "pt": "What is the purpose of your trip?",
+      "tts": "¿Cuál es el motivo de su viaje?"
+    },
+    {
+      "consulta": [
+        "chegar/imigracao",
+        "chegar/motivo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b05-p01",
+      "promptPt": "The officer asks the purpose of the trip. You are travelling for a holiday. Answer in one sentence. Speak now.",
+      "audioKey": "mx-b05-t01",
+      "es": "Vengo de vacaciones.",
+      "pinyin": "BEN-goh deh bah-kah-SYOH-nehs",
+      "pt": "I am here on vacation."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b05-r02",
+      "es": "¿Cuántos días se queda?",
+      "pt": "How many days are you staying?",
+      "tts": "¿Cuántos días se queda?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b05-n02",
+      "bloco": "corpo",
+      "pt": "Use your real number — ten days is just the rehearsal value. They can check it against your booking."
+    },
+    {
+      "consulta": [
+        "chegar/imigracao",
+        "chegar/duracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b05-p02",
+      "promptPt": "Your actual itinerary is ten days. Give only the duration. Speak now.",
+      "audioKey": "mx-b05-t02",
+      "es": "Diez días.",
+      "pinyin": "DYEHS DEE-ahs",
+      "pt": "Ten days."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b05-r03",
+      "es": "¿Dónde se va a hospedar?",
+      "pt": "Where will you be staying?",
+      "tts": "¿Dónde se va a hospedar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b05-n03",
+      "pt": "Skip the story of how you found the hotel — just name it, and let your saved reservation hold the address."
+    },
+    {
+      "consulta": [
+        "chegar/imigracao",
+        "dormir/confirmar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b05-p03",
+      "promptPt": "The officer asks where you will stay. Your confirmed accommodation is the hotel shown in your offline reservation. Answer briefly. Speak now.",
+      "audioKey": "mx-b05-t03",
+      "es": "Me hospedo en este hotel.",
+      "pinyin": "meh ohs-PEH-doh en EHS-teh oh-TEL",
+      "pt": "I am staying at this hotel."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b05-r04",
+      "es": "¿Tiene la reservación?",
+      "pt": "Do you have the reservation?",
+      "tts": "¿Tiene la reservación?"
+    },
+    {
+      "consulta": [
+        "chegar/imigracao",
+        "antes/reserva"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b05-p04",
+      "promptPt": "The officer asks for proof. Hand over the offline confirmation without adding a speech. Speak now.",
+      "audioKey": "mx-b05-t04",
+      "es": "Sí. Aquí tiene mi reservación.",
+      "pinyin": "see. ah-KEE TYEH-neh mee reh-sehr-bah-SYOHN",
+      "pt": "Yes. Here is my reservation."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b05-r05",
+      "es": "Gracias.",
+      "pt": "Thank you.",
+      "tts": "Gracias."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b05-s01",
+      "es": "Vengo de vacaciones. Diez días. Me hospedo en este hotel.",
+      "pinyin": "BEN-goh deh bah-kah-SYOH-nehs. DYEHS DEE-ahs. meh ohs-PEH-doh en EHS-teh oh-TEL",
+      "pt": "Shadow the three answers with a clean stop after each one.",
+      "tts": "Vengo de vacaciones. Diez días. Me hospedo en este hotel."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b05-n04",
+      "bloco": "recap",
+      "pt": "B05 complete. Purpose, duration, accommodation — three true, short answers, proof if asked. Short isn't evasive; it matches the question."
+    }
   ],
   "aprofundar": {
     "titulo": "The border is a matching task",
     "secoes": [
-      { "titulo": "True beats fluent", "corpo": "Never copy the lesson's ten days when your itinerary says something else. Replace the number with the truth; the structure stays short." },
-      { "titulo": "One question, one payload", "corpo": "Purpose, duration and accommodation are separate payloads. Do not stack all three unless the officer asks for them together." },
-      { "titulo": "Let the document speak", "corpo": "When proof is requested, Aquí tiene mi reservación moves the exchange from memory to evidence.", "exemplos": [{ "es": "¿Tiene la reservación?", "pt": "Do you have the reservation?" }, { "es": "Sí. Aquí tiene mi reservación.", "pt": "Yes. Here is my reservation." }] },
-      { "titulo": "Revalidate the rule", "corpo": "Entry procedure and authorised-stay rules can change. Recheck official INM and consular guidance before departure." }
+      {
+        "titulo": "True beats fluent",
+        "corpo": "Never copy the lesson's ten days when your itinerary says something else. Replace the number with the truth; the structure stays short."
+      },
+      {
+        "titulo": "One question, one payload",
+        "corpo": "Purpose, duration and accommodation are separate payloads. Do not stack all three unless the officer asks for them together."
+      },
+      {
+        "titulo": "Let the document speak",
+        "corpo": "When proof is requested, Aquí tiene mi reservación moves the exchange from memory to evidence.",
+        "exemplos": [
+          {
+            "es": "¿Tiene la reservación?",
+            "pt": "Do you have the reservation?"
+          },
+          {
+            "es": "Sí. Aquí tiene mi reservación.",
+            "pt": "Yes. Here is my reservation."
+          }
+        ]
+      },
+      {
+        "titulo": "Revalidate the rule",
+        "corpo": "Entry procedure and authorised-stay rules can change. Recheck official INM and consular guidance before departure."
+      }
     ]
   },
   "slot": "B05",
@@ -50,7 +217,9 @@
       "oQueMelhora": "The exchange moves at the pace the officer is already set up for, and you are through the desk faster, not slower.",
       "ondeNaoVale": "Not when the officer explicitly asks a compound question or invites more detail — then answering everything they actually asked for is the match, not a short non-answer.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b05-n01"]
+      "audioKeys": [
+        "mx-b05-n01"
+      ]
     }
   ]
 }

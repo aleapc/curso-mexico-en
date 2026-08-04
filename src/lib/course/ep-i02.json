@@ -10,27 +10,176 @@
   "moldura": "ganha",
   "frasePiso": "At a busy counter with no line, waiting quietly is not politeness. It's invisibility.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i02-n01", "gesto": 1, "bloco": "aquecimento", "pt": "A busy counter in Mexico often has no formal line at all — just a cluster of people, and whoever makes eye contact and speaks up gets served next. Standing back quietly, the way you might queue at home, can mean waiting a very long time." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i02-n02", "bloco": "cena", "pt": "You're the fourth person deep at a busy taco stand, no line, everyone talking over everyone. The cook glances up. This is the half-second that matters." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i02-r01", "es": "¿Quién sigue?", "pt": "Who's next?", "tts": "¿Quién sigue?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i02-n03", "bloco": "corpo", "pt": "That question is your opening, not a formality to survive. Answer it immediately, at a normal speaking volume — not a whisper, not a shout." },
-    { "consulta": ["mesa/balcao", "mesa/pedir"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i02-p01", "promptPt": "The cook asks who's next. Claim your turn immediately. Speak now.", "audioKey": "mx-i02-t01", "es": "Yo sigo, por favor.", "pinyin": "yoh SEE-goh, por fah-BOR", "pt": "I'm next, please.", "tts": "Yo sigo, por favor." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i02-r02", "es": "Dígame.", "pt": "Go ahead.", "tts": "Dígame." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i02-n04", "pt": "If two people speak at once and it isn't clear who was actually first, this line settles it without an argument." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-i02-t02", "es": "Creo que yo llegué primero.", "pinyin": "KREH-oh keh yoh yeh-GEH pree-MEH-roh", "pt": "I think I got here first.", "tts": "Creo que yo llegué primero." },
-    { "consulta": ["mesa/balcao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i02-p02", "promptPt": "Someone else also claims the turn. Say, calmly, that you think you arrived first. Speak now.", "audioKey": "mx-i02-t02", "es": "Creo que yo llegué primero.", "pinyin": "KREH-oh keh yoh yeh-GEH pree-MEH-roh", "pt": "I think I got here first." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i02-n05", "bloco": "capsula", "pt": "Here's the permission this whole part is built on. The English instinct — 'I was wondering if I could possibly...' — doesn't read as polite here. It reads as distance, and it makes the cook wonder if you're actually ready to order." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i02-r03", "es": "¿Qué le doy?", "pt": "What can I get you?", "tts": "¿Qué le doy?" },
-    { "consulta": ["mesa/pedir"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i02-p03", "promptPt": "Order directly, no padding, no apology for existing. Speak now.", "audioKey": "mx-i02-t03", "es": "Deme dos de pastor, por favor.", "pinyin": "DEH-meh dohs deh pahs-TOR, por fah-BOR", "pt": "Give me two al pastor, please.", "tts": "Deme dos de pastor, por favor." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i02-s01", "es": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor.", "pinyin": "yoh SEE-goh, por fah-BOR. KREH-oh keh yoh yeh-GEH pree-MEH-roh. DEH-meh dohs deh pahs-TOR, por fah-BOR", "pt": "Shadow claiming the turn, defending it, and ordering — all at normal volume, no padding.", "tts": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i02-n06", "bloco": "recap", "pt": "I02 complete. No formal line, no problem: yo sigo claims your turn, creo que yo llegué primero defends it if needed, and a direct deme plus what you want is the whole order. Quiet waiting was never the polite move — speaking up, at a normal volume, was." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A busy counter often has no formal line — whoever makes eye contact and speaks up gets served next, not whoever waits quietly."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i02-n02",
+      "bloco": "cena",
+      "pt": "Fourth person deep at a busy stand, no line, everyone talking over everyone. The cook glances up — this half-second matters."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i02-r01",
+      "es": "¿Quién sigue?",
+      "pt": "Who's next?",
+      "tts": "¿Quién sigue?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i02-n03",
+      "bloco": "corpo",
+      "pt": "That question is your opening — answer immediately, at a normal speaking volume, not a whisper or a shout."
+    },
+    {
+      "consulta": [
+        "mesa/balcao",
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i02-p01",
+      "promptPt": "The cook asks who's next. Claim your turn immediately. Speak now.",
+      "audioKey": "mx-i02-t01",
+      "es": "Yo sigo, por favor.",
+      "pinyin": "yoh SEE-goh, por fah-BOR",
+      "pt": "I'm next, please.",
+      "tts": "Yo sigo, por favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i02-r02",
+      "es": "Dígame.",
+      "pt": "Go ahead.",
+      "tts": "Dígame."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i02-n04",
+      "pt": "If two people speak at once and it's unclear who was first, this line settles it without an argument."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i02-t02",
+      "es": "Creo que yo llegué primero.",
+      "pinyin": "KREH-oh keh yoh yeh-GEH pree-MEH-roh",
+      "pt": "I think I got here first.",
+      "tts": "Creo que yo llegué primero."
+    },
+    {
+      "consulta": [
+        "mesa/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i02-p02",
+      "promptPt": "Someone else also claims the turn. Say, calmly, that you think you arrived first. Speak now.",
+      "audioKey": "mx-i02-t02",
+      "es": "Creo que yo llegué primero.",
+      "pinyin": "KREH-oh keh yoh yeh-GEH pree-MEH-roh",
+      "pt": "I think I got here first."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i02-n05",
+      "bloco": "capsula",
+      "pt": "The English instinct — 'I was wondering if...' — doesn't read as polite here. It reads as distance, not ready to order."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i02-r03",
+      "es": "¿Qué le doy?",
+      "pt": "What can I get you?",
+      "tts": "¿Qué le doy?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i02-p03",
+      "promptPt": "Order directly, no padding, no apology for existing. Speak now.",
+      "audioKey": "mx-i02-t03",
+      "es": "Deme dos de pastor, por favor.",
+      "pinyin": "DEH-meh dohs deh pahs-TOR, por fah-BOR",
+      "pt": "Give me two al pastor, please.",
+      "tts": "Deme dos de pastor, por favor.",
+      "molde": "ME-DA",
+      "encaixe": "dos de pastor"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i02-r04",
+      "es": "¿Algo más?",
+      "pt": "Anything else?",
+      "tts": "¿Algo más?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i02-p04",
+      "promptPt": "The cook asks if that's everything. Close it directly, no padding. Speak now.",
+      "audioKey": "mx-i02-t04",
+      "es": "No, eso es todo.",
+      "pinyin": "noh, EH-soh ehs TOH-doh",
+      "pt": "No, that's everything.",
+      "tts": "No, eso es todo."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i02-s01",
+      "es": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor.",
+      "pinyin": "yoh SEE-goh, por fah-BOR. KREH-oh keh yoh yeh-GEH pree-MEH-roh. DEH-meh dohs deh pahs-TOR, por fah-BOR",
+      "pt": "Shadow claiming the turn, defending it, and ordering — all at normal volume, no padding.",
+      "tts": "Yo sigo, por favor. Creo que yo llegué primero. Deme dos de pastor, por favor."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i02-n06",
+      "bloco": "recap",
+      "pt": "I02 complete. Yo sigo claims your turn, creo que yo llegué primero defends it, deme plus the item is the whole order."
+    }
   ],
   "aprofundar": {
     "titulo": "Volume and eye contact are the actual queue",
     "secoes": [
-      { "titulo": "Dígame and ¿qué le doy? are invitations", "corpo": "Both hand you the floor. Recognising them removes the half-second hesitation that costs you your turn at a busy counter." },
-      { "titulo": "Padding reads as distance, not politeness", "corpo": "A direct deme (give me) plus the item, said at a normal volume with eye contact, is the expected register at an informal counter — not curtness." },
-      { "titulo": "Formal queues still exist", "corpo": "Banks, government offices and some larger stores do use numbered tickets or a clear line — this counter behaviour is specifically for informal food stalls, market stands and small shops, not everywhere." }
+      {
+        "titulo": "Dígame and ¿qué le doy? are invitations",
+        "corpo": "Both hand you the floor. Recognising them removes the half-second hesitation that costs you your turn at a busy counter."
+      },
+      {
+        "titulo": "Padding reads as distance, not politeness",
+        "corpo": "A direct deme (give me) plus the item, said at a normal volume with eye contact, is the expected register at an informal counter — not curtness."
+      },
+      {
+        "titulo": "Formal queues still exist",
+        "corpo": "Banks, government offices and some larger stores do use numbered tickets or a clear line — this counter behaviour is specifically for informal food stalls, market stands and small shops, not everywhere."
+      }
     ]
   },
   "slot": "I02",
@@ -46,7 +195,9 @@
       "oQueMelhora": "You get served in the actual order of who spoke up, and the interaction resolves in seconds instead of you standing there wondering if you've been forgotten.",
       "ondeNaoVale": "Not at a bank, government office, or anywhere with a visible numbered ticket or formal line — those places do use strict order, and jumping in verbally there would be the actual mistake.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i02-n01"]
+      "audioKeys": [
+        "mx-i02-n01"
+      ]
     }
   ]
 }

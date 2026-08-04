@@ -1,9 +1,135 @@
-{"schema":"kit-audio-pre-v1","slot":"B10","targetLocale":"es-MX","buyerLocale":"en-US","status":"generated_pending_audio_qa","clips":[
-  {"key":"mx-b10-n01","role":"guide_en_us_f","textSource":"episode.steps","kind":"narration"},{"key":"mx-b10-t01","role":"target_mx_f","text":"Entrada. Salida.","kind":"recognition"},{"key":"mx-b10-n02","role":"guide_en_us_m","textSource":"episode.steps","kind":"narration"},
-  {"key":"mx-b10-t02","role":"target_mx_m","text":"Jale. Empuje.","kind":"recognition"},{"key":"mx-b10-n03","role":"guide_en_us_f","textSource":"episode.steps","kind":"narration"},
-  {"key":"mx-b10-t03","role":"target_mx_f","text":"Fila. Taquilla.","kind":"recognition"},{"key":"mx-b10-n04","role":"guide_en_us_m","textSource":"episode.steps","kind":"narration"},
-  {"key":"mx-b10-t04","role":"target_mx_m","text":"Sanitarios. Baños.","kind":"recognition"},{"key":"mx-b10-n05","role":"guide_en_us_f","textSource":"episode.steps","kind":"narration"},
-  {"key":"mx-b10-t05","role":"target_mx_f","text":"Horario. Cerrado.","kind":"recognition"},{"key":"mx-b10-n06","role":"guide_en_us_m","textSource":"episode.steps","kind":"narration"},
-  {"key":"mx-b10-t06","role":"target_mx_m","text":"Último acceso. Solo personal.","kind":"recognition"},{"key":"mx-b10-n07","role":"guide_en_us_f","textSource":"episode.steps","kind":"narration"},{"key":"mx-b10-n08","role":"guide_en_us_f","textSource":"episode.steps","kind":"recap"},
-  {"key":"mx-b10-q-i","role":"guide_en_us_f","textSource":"quiz.introPt","kind":"quiz_intro"},{"key":"mx-b10-q01","role":"target_mx_f","text":"Entrada. Salida.","kind":"quiz"},{"key":"mx-b10-q02","role":"target_mx_m","text":"Jale. Empuje.","kind":"quiz"},{"key":"mx-b10-q03","role":"target_mx_f","text":"Fila. Taquilla.","kind":"quiz"},{"key":"mx-b10-q04","role":"target_mx_m","text":"Sanitarios. Baños.","kind":"quiz"},{"key":"mx-b10-q05","role":"target_mx_f","text":"Horario. Cerrado.","kind":"quiz"},{"key":"mx-b10-q06","role":"target_mx_m","text":"Último acceso. Solo personal.","kind":"quiz"}
-]}
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "B10",
+  "targetLocale": "es-MX",
+  "buyerLocale": "en-US",
+  "status": "generated_pending_audio_qa",
+  "clips": [
+    {
+      "key": "mx-b10-n01",
+      "role": "guide_en_us_f",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-t01",
+      "role": "target_mx_f",
+      "text": "Entrada. Salida.",
+      "kind": "recognition"
+    },
+    {
+      "key": "mx-b10-n02",
+      "role": "guide_en_us_m",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-t02",
+      "role": "target_mx_m",
+      "text": "Jale. Empuje.",
+      "kind": "recognition"
+    },
+    {
+      "key": "mx-b10-n03",
+      "role": "guide_en_us_f",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-t03",
+      "role": "target_mx_f",
+      "text": "Fila. Taquilla.",
+      "kind": "recognition"
+    },
+    {
+      "key": "mx-b10-n04",
+      "role": "guide_en_us_m",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-t04",
+      "role": "target_mx_m",
+      "text": "Sanitarios. Baños.",
+      "kind": "recognition"
+    },
+    {
+      "key": "mx-b10-n05",
+      "role": "guide_en_us_f",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-t05",
+      "role": "target_mx_f",
+      "text": "Horario. Cerrado.",
+      "kind": "recognition"
+    },
+    {
+      "key": "mx-b10-n06",
+      "role": "guide_en_us_m",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-t06",
+      "role": "target_mx_m",
+      "text": "Último acceso. Solo personal.",
+      "kind": "recognition"
+    },
+    {
+      "key": "mx-b10-n07",
+      "role": "guide_en_us_f",
+      "textSource": "episode.steps",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b10-n08",
+      "role": "guide_en_us_f",
+      "textSource": "episode.steps",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-b10-q-i",
+      "role": "guide_en_us_f",
+      "textSource": "quiz.introPt",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-b10-q01",
+      "role": "target_mx_f",
+      "text": "Entrada. Salida.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b10-q02",
+      "role": "target_mx_m",
+      "text": "Jale. Empuje.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b10-q03",
+      "role": "target_mx_f",
+      "text": "Fila. Taquilla.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b10-q04",
+      "role": "target_mx_m",
+      "text": "Sanitarios. Baños.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b10-q05",
+      "role": "target_mx_f",
+      "text": "Horario. Cerrado.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b10-q06",
+      "role": "target_mx_m",
+      "text": "Último acceso. Solo personal.",
+      "kind": "quiz"
+    }
+  ]
+}

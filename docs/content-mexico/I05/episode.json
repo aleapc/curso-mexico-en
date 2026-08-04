@@ -10,28 +10,173 @@
   "moldura": "ganha",
   "frasePiso": "The questions repeat almost word for word. Your answers can too.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i05-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Almost every stranger who talks to you will ask some version of the same four or five questions. That's good news — it means you can walk in with real answers ready, instead of building each one from scratch under pressure." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i05-r01", "es": "¿De dónde eres?", "pt": "Where are you from?", "tts": "¿De dónde eres?" },
-    { "consulta": ["conversa/origem"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i05-p01", "promptPt": "Answer with where you're actually from. Speak now.", "audioKey": "mx-i05-t01", "es": "Soy de Estados Unidos.", "pinyin": "soy deh ehs-TAH-dohs oo-NEE-dohs", "pt": "I'm from the United States.", "tts": "Soy de Estados Unidos." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i05-r02", "es": "¿Cuánto tiempo te vas a quedar?", "pt": "How long are you staying?", "tts": "¿Cuánto tiempo te vas a quedar?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i05-n02", "bloco": "corpo", "pt": "This one wants a real number, not a philosophy. Keep it short." },
-    { "consulta": ["conversa/duracao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i05-p02", "promptPt": "Give your real length of stay. Speak now.", "audioKey": "mx-i05-t02", "es": "Diez días, más o menos.", "pinyin": "DYEHS DEE-ahs, mahs oh MEH-nohs", "pt": "About ten days.", "tts": "Diez días, más o menos." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i05-r03", "es": "¿Qué te ha gustado más de México?", "pt": "What have you liked most about Mexico?", "tts": "¿Qué te ha gustado más de México?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i05-n03", "bloco": "capsula", "pt": "This is the question that makes the conversation warm instead of transactional. A specific answer lands better than a generic 'everything' — it shows you were actually paying attention." },
-    { "consulta": ["conversa/opiniao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i05-p03", "promptPt": "Give one specific thing you've genuinely liked. Speak now.", "audioKey": "mx-i05-t03", "es": "Me encantó la comida, sobre todo los tacos.", "pinyin": "meh en-kahn-TOH lah koh-MEE-dah, SOH-breh TOH-doh lohs TAH-kohs", "pt": "I loved the food, especially the tacos.", "tts": "Me encantó la comida, sobre todo los tacos." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i05-r04", "es": "¿Vienes solo o con familia?", "pt": "Are you traveling alone or with family?", "tts": "¿Vienes solo o con familia?" },
-    { "consulta": ["conversa/companhia"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i05-p04", "promptPt": "Say who you're travelling with, or that you're on your own. Speak now.", "audioKey": "mx-i05-t04", "es": "Vengo con mi pareja.", "pinyin": "BEN-goh kohn mee pah-REH-hah", "pt": "I'm here with my partner.", "tts": "Vengo con mi pareja." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i05-n04", "pt": "And if you want out of a conversation, that's fine too — one polite line closes it without rudeness." },
-    { "consulta": ["conversa/sair"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i05-p05", "promptPt": "You need to get going. Excuse yourself politely. Speak now.", "audioKey": "mx-i05-t05", "es": "Bueno, fue un gusto. Que le vaya bien.", "pinyin": "BWEH-noh, fweh oon GOOS-toh. keh leh BAH-yah byen", "pt": "Well, it was nice talking to you. Take care.", "tts": "Bueno, fue un gusto. Que le vaya bien." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i05-s01", "es": "Soy de Estados Unidos. Diez días, más o menos. Me encantó la comida.", "pinyin": "soy deh ehs-TAH-dohs oo-NEE-dohs. DYEHS DEE-ahs, mahs oh MEH-nohs. meh en-kahn-TOH lah koh-MEE-dah", "pt": "Shadow the three most common answers in a row.", "tts": "Soy de Estados Unidos. Diez días, más o menos. Me encantó la comida." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i05-n05", "bloco": "recap", "pt": "I05 complete. Origin, duration, what you've liked, who you're with — the same four questions, almost every time. Have your real answers ready, and the fifth skill, leaving a conversation politely, is just as useful as staying in one." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i05-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Almost every stranger asks some version of the same four or five questions — good news, you can walk in with real answers ready."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i05-r01",
+      "es": "¿De dónde eres?",
+      "pt": "Where are you from?",
+      "tts": "¿De dónde eres?"
+    },
+    {
+      "consulta": [
+        "conversa/origem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i05-p01",
+      "promptPt": "Answer with where you're actually from. Speak now.",
+      "audioKey": "mx-i05-t01",
+      "es": "Soy de Estados Unidos.",
+      "pinyin": "soy deh ehs-TAH-dohs oo-NEE-dohs",
+      "pt": "I'm from the United States.",
+      "tts": "Soy de Estados Unidos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i05-r02",
+      "es": "¿Cuánto tiempo te vas a quedar?",
+      "pt": "How long are you staying?",
+      "tts": "¿Cuánto tiempo te vas a quedar?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i05-n02",
+      "bloco": "corpo",
+      "pt": "This one wants a real number, not a philosophy. Keep it short."
+    },
+    {
+      "consulta": [
+        "conversa/duracao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i05-p02",
+      "promptPt": "Give your real length of stay. Speak now.",
+      "audioKey": "mx-i05-t02",
+      "es": "Diez días, más o menos.",
+      "pinyin": "DYEHS DEE-ahs, mahs oh MEH-nohs",
+      "pt": "About ten days.",
+      "tts": "Diez días, más o menos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i05-r03",
+      "es": "¿Qué te ha gustado más de México?",
+      "pt": "What have you liked most about Mexico?",
+      "tts": "¿Qué te ha gustado más de México?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i05-n03",
+      "bloco": "capsula",
+      "pt": "This question makes it warm, not transactional — a specific answer beats a generic 'everything.'"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i05-p03",
+      "promptPt": "Give one specific thing you've genuinely liked. Speak now.",
+      "audioKey": "mx-i05-t03",
+      "es": "Me encantó la comida, sobre todo los tacos.",
+      "pinyin": "meh en-kahn-TOH lah koh-MEE-dah, SOH-breh TOH-doh lohs TAH-kohs",
+      "pt": "I loved the food, especially the tacos.",
+      "tts": "Me encantó la comida, sobre todo los tacos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i05-r04",
+      "es": "¿Vienes solo o con familia?",
+      "pt": "Are you traveling alone or with family?",
+      "tts": "¿Vienes solo o con familia?"
+    },
+    {
+      "consulta": [
+        "conversa/companhia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i05-p04",
+      "promptPt": "Say who you're travelling with, or that you're on your own. Speak now.",
+      "audioKey": "mx-i05-t04",
+      "es": "Vengo con mi pareja.",
+      "pinyin": "BEN-goh kohn mee pah-REH-hah",
+      "pt": "I'm here with my partner.",
+      "tts": "Vengo con mi pareja."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i05-n04",
+      "pt": "And if you want out of a conversation, that's fine too — one polite line closes it without rudeness."
+    },
+    {
+      "consulta": [
+        "conversa/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i05-p05",
+      "promptPt": "You need to get going. Excuse yourself politely. Speak now.",
+      "audioKey": "mx-i05-t05",
+      "es": "Bueno, fue un gusto. Que le vaya bien.",
+      "pinyin": "BWEH-noh, fweh oon GOOS-toh. keh leh BAH-yah byen",
+      "pt": "Well, it was nice talking to you. Take care.",
+      "tts": "Bueno, fue un gusto. Que le vaya bien."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i05-s01",
+      "es": "Soy de Estados Unidos. Diez días, más o menos. Me encantó la comida.",
+      "pinyin": "soy deh ehs-TAH-dohs oo-NEE-dohs. DYEHS DEE-ahs, mahs oh MEH-nohs. meh en-kahn-TOH lah koh-MEE-dah",
+      "pt": "Shadow the three most common answers in a row.",
+      "tts": "Soy de Estados Unidos. Diez días, más o menos. Me encantó la comida."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i05-n05",
+      "bloco": "recap",
+      "pt": "I05 complete. Origin, duration, what you've liked, who you're with — have real answers ready, and know how to leave well too."
+    }
   ],
   "aprofundar": {
     "titulo": "Prepared answers, not scripted ones",
     "secoes": [
-      { "titulo": "Specificity beats politeness", "corpo": "'Me encantó todo' is a safe answer but a flat one. Naming one real thing — a dish, a place, a person — gives the other person something to respond to, and the conversation actually continues." },
-      { "titulo": "A short number is a complete answer", "corpo": "Diez días, más o menos is enough. Nobody needs your itinerary; the question is usually just a warm-up, not a request for detail." },
-      { "titulo": "Leaving well is a skill, not an afterthought", "corpo": "Que le vaya bien or fue un gusto closes a conversation with a stranger warmly, without the exchange having to trail off awkwardly." }
+      {
+        "titulo": "Specificity beats politeness",
+        "corpo": "'Me encantó todo' is a safe answer but a flat one. Naming one real thing — a dish, a place, a person — gives the other person something to respond to, and the conversation actually continues."
+      },
+      {
+        "titulo": "A short number is a complete answer",
+        "corpo": "Diez días, más o menos is enough. Nobody needs your itinerary; the question is usually just a warm-up, not a request for detail."
+      },
+      {
+        "titulo": "Leaving well is a skill, not an afterthought",
+        "corpo": "Que le vaya bien or fue un gusto closes a conversation with a stranger warmly, without the exchange having to trail off awkwardly."
+      }
     ]
   },
   "slot": "I05",
@@ -47,7 +192,9 @@
       "oQueMelhora": "You get a warmer, more human interaction instead of a purely transactional one, and often useful local tips along the way.",
       "ondeNaoVale": "Not a signal to share sensitive details like your exact hotel, daily schedule, or valuables — normal friendliness doesn't require that level of specificity either.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i05-n01"]
+      "audioKeys": [
+        "mx-i05-n01"
+      ]
     }
   ]
 }

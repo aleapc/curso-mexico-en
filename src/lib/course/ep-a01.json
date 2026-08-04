@@ -9,43 +9,240 @@
   "moldura": "ganha",
   "frasePiso": "If all you take from this part is that 'está' can shrink to 'tá, you will already follow more of a real conversation than most visitors ever do.",
   "fatosDatados": [
-    { "id": "mx-elision-informal", "afirmacao": "In fast, informal Mexican Spanish, common reductions include está to 'tá, para to pa', nada to na', and pues to pos or pus; the intervocalic d in -ado/-ada endings also commonly drops in relaxed speech (cansado to cansao). None of this is an error — it is ordinary rapid colloquial speech.", "fonte": "Consenso de fontes linguísticas (SoundCy; Tandem; StudySmarter — elision in Spanish)", "ano": 2026, "revisarAte": "2029-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-a01-n05", "mx-a01-n07", "mx-a01-n09"] },
-    { "id": "mx-variedade-regional", "afirmacao": "Mexican Spanish varies noticeably by region: the speech of central Mexico (including Mexico City) tends to be fast and clipped, coastal varieties like Veracruz have a more sing-song rhythm, Yucatecan Spanish carries Maya-influenced vocabulary and intonation, and northern varieties show a distinctive accent with some English influence near the border.", "fonte": "Consenso de fontes linguísticas (The Spanish Group; descrições dialetais regionais)", "ano": 2026, "revisarAte": "2029-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-a01-n11"] }
+    {
+      "id": "mx-elision-informal",
+      "afirmacao": "In fast, informal Mexican Spanish, common reductions include está to 'tá, para to pa', nada to na', and pues to pos or pus; the intervocalic d in -ado/-ada endings also commonly drops in relaxed speech (cansado to cansao). None of this is an error — it is ordinary rapid colloquial speech.",
+      "fonte": "Consenso de fontes linguísticas (SoundCy; Tandem; StudySmarter — elision in Spanish)",
+      "ano": 2026,
+      "revisarAte": "2029-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-a01-n05",
+        "mx-a01-n07",
+        "mx-a01-n09"
+      ]
+    },
+    {
+      "id": "mx-variedade-regional",
+      "afirmacao": "Mexican Spanish varies noticeably by region: the speech of central Mexico (including Mexico City) tends to be fast and clipped, coastal varieties like Veracruz have a more sing-song rhythm, Yucatecan Spanish carries Maya-influenced vocabulary and intonation, and northern varieties show a distinctive accent with some English influence near the border.",
+      "fonte": "Consenso de fontes linguísticas (The Spanish Group; descrições dialetais regionais)",
+      "ano": 2026,
+      "revisarAte": "2029-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-a01-n11"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Today trains your ear, not your mouth. Real Mexican Spanish, spoken fast among people who know each other, drops sounds constantly — and you already own most of the sentences underneath it." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-a01-n02", "pt": "So say nothing for the next few minutes. The exercise today is entirely your ears." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n03", "bloco": "cena", "pt": "Ten at night, a busy taco stand. Two regulars order past you, back to back, and neither sentence slows down for a visitor." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-a01-o01", "es": "¿Me da dos de pastor y uno de bistec, pa' llevar?", "pt": "👂 Not for you. Nothing to work out — let it go past.", "tts": "¿Me da dos de pastor y uno de bistec, pa' llevar?" },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-a01-o02", "es": "Va, ahorita se los preparo.", "pt": "👂 Still not for you. Nothing to do yet.", "tts": "Va, ahorita se los preparo." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-a01-n04", "pt": "You didn't catch that, and your ear is fine. Every pattern in it is one you're about to meet slowed down first." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n05", "bloco": "corpo", "pt": "First pattern, and the most common: está shrinks to 'tá. Here it is in full, the way you learned it." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b08-t03", "es": "¿Dónde está el baño?", "pinyin": "DOHN-deh ehs-TAH el BAH-nyoh", "pt": "👂 Yours, from part eight. Every syllable in place.", "tts": "¿Dónde está el baño?" },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-a01-o03", "es": "¿Dónde 'tá el baño?", "pt": "👂 Same question, same bathroom. 'Está' lost its front half and nobody noticed but you.", "tts": "¿Dónde 'tá el baño?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-a01-n06", "pt": "Second: para shrinks to pa'. You already asked this exact question in part seventeen, at the pharmacy counter." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b17-t03", "es": "¿Necesito receta para este medicamento?", "pinyin": "neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh", "pt": "👂 Yours, careful and complete.", "tts": "¿Necesito receta para este medicamento?" },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-a01-o04", "es": "¿Necesito receta pa' este medicamento?", "pt": "👂 One syllable lighter, same question, same pharmacist.", "tts": "¿Necesito receta pa' este medicamento?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n07", "bloco": "capsula", "pt": "Third: nada shrinks to na'. This one you said at a restaurant table, about a peanut allergy — it matters more than most." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b13-t02", "es": "No puedo comer nada que contenga cacahuate.", "pinyin": "noh PWEH-doh koh-MEHR NAH-dah keh kohn-TEN-gah kah-kah-WAH-teh", "pt": "👂 Yours, from part thirteen. Full and clear.", "tts": "No puedo comer nada que contenga cacahuate." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-a01-o05", "es": "No puedo comer na' que contenga cacahuate.", "pt": "👂 Same warning, same kitchen. When it's this important, a server repeating it back worn-down like this is still full agreement.", "tts": "No puedo comer na' que contenga cacahuate." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-a01-n08", "pt": "Fourth, and this one you'll hear constantly: pues shrinks to pos, or even just pus. It's a filler word, a small verbal shrug." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-a01-o06", "es": "Pues no sé, tú dime.", "pt": "👂 'Well, I don't know, you tell me.' The careful version — pues, fully pronounced.", "tts": "Pues no sé, tú dime." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-a01-o07", "es": "Pos no sé, tú dime.", "pt": "👂 Same shrug, one letter shorter. You'll hear both in the same conversation, sometimes from the same person.", "tts": "Pos no sé, tú dime." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n09", "pt": "One more, and it's not a missing letter but a missing letter's cousin: the d between two vowels in -ado endings often just disappears. Cansado becomes cansao. Ocupado becomes ocupao." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-a01-n10", "pt": "None of these four patterns are mistakes, and none are regional oddities — they're what relaxed, everyday Mexican Spanish actually sounds like, everywhere in the country." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n11", "bloco": "capsula", "pt": "On top of that, the accent itself shifts by region: central Mexico tends to run fast and clipped, the coast has more of a sing-song lift, the Yucatán carries a Maya-influenced rhythm, and the north has its own distinctive pull. We won't fake demonstrating each one for you — that takes a real ear from each place, not a course. Just expect variety, not one single 'Mexican accent.'" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-a01-n12", "pt": "Now, back to the taco stand. Same two sentences you heard at the start — listen again with all four patterns in your ears." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-a01-o01", "es": "¿Me da dos de pastor y uno de bistec, pa' llevar?", "pt": "👂 Two al pastor, one bistec, to go. Pa' is para, worn down — you already knew that one.", "tts": "¿Me da dos de pastor y uno de bistec, pa' llevar?" },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-a01-o02", "es": "Va, ahorita se los preparo.", "pt": "👂 Right away, I'll get them ready. Ahorita — right now, or soon, depending entirely on tone.", "tts": "Va, ahorita se los preparo." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-a01-n13", "pt": "You got it. Nothing new went into your head today — what changed is that you can find your own sentences with pieces missing." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-a01-n14", "bloco": "recap", "pt": "A01 complete. Está to 'tá, para to pa', nada to na', pues to pos — four small erosions, and underneath every one of them is a sentence you already built. Count the beats, not the letters, and keep going." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Today trains your ear, not your mouth. Fast, informal Mexican Spanish drops sounds constantly — and you already own most of it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a01-n02",
+      "pt": "So say nothing for the next few minutes. The exercise today is entirely your ears."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n03",
+      "bloco": "cena",
+      "pt": "Ten at night, a busy taco stand. Two regulars order back to back, and neither sentence slows down for you."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a01-o01",
+      "es": "¿Me da dos de pastor y uno de bistec, pa' llevar?",
+      "pt": "👂 Not for you. Nothing to work out — let it go past.",
+      "tts": "¿Me da dos de pastor y uno de bistec, pa' llevar?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-a01-o02",
+      "es": "Va, ahorita se los preparo.",
+      "pt": "👂 Still not for you. Nothing to do yet.",
+      "tts": "Va, ahorita se los preparo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a01-n04",
+      "pt": "You didn't catch that, and your ear is fine — every pattern in it comes slowed down next."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n05",
+      "bloco": "corpo",
+      "pt": "First pattern, and the most common: está shrinks to 'tá. Here it is in full, the way you learned it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b08-t03",
+      "es": "¿Dónde está el baño?",
+      "pinyin": "DOHN-deh ehs-TAH el BAH-nyoh",
+      "pt": "👂 Yours, from part eight. Every syllable in place.",
+      "tts": "¿Dónde está el baño?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-a01-o03",
+      "es": "¿Dónde 'tá el baño?",
+      "pt": "👂 Same question, same bathroom. 'Está' lost its front half and nobody noticed but you.",
+      "tts": "¿Dónde 'tá el baño?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a01-n06",
+      "pt": "Second: para shrinks to pa' — you asked this exact question in part seventeen, at the pharmacy."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b17-t03",
+      "es": "¿Necesito receta para este medicamento?",
+      "pinyin": "neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh",
+      "pt": "👂 Yours, careful and complete.",
+      "tts": "¿Necesito receta para este medicamento?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-a01-o04",
+      "es": "¿Necesito receta pa' este medicamento?",
+      "pt": "👂 One syllable lighter, same question, same pharmacist.",
+      "tts": "¿Necesito receta pa' este medicamento?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n07",
+      "bloco": "capsula",
+      "pt": "Third: nada shrinks to na' — you said this about a peanut allergy. It matters more than most."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b13-t02",
+      "es": "No puedo comer nada que contenga cacahuate.",
+      "pinyin": "noh PWEH-doh koh-MEHR NAH-dah keh kohn-TEN-gah kah-kah-WAH-teh",
+      "pt": "👂 Yours, from part thirteen. Full and clear.",
+      "tts": "No puedo comer nada que contenga cacahuate."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-a01-o05",
+      "es": "No puedo comer na' que contenga cacahuate.",
+      "pt": "👂 Same warning, same kitchen. When it's this important, a server repeating it back worn-down like this is still full agreement.",
+      "tts": "No puedo comer na' que contenga cacahuate."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a01-n08",
+      "pt": "Fourth, and you'll hear it constantly: pues shrinks to pos, or just pus — a filler word, a small shrug."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a01-o06",
+      "es": "Pues no sé, tú dime.",
+      "pt": "👂 'Well, I don't know, you tell me.' The careful version — pues, fully pronounced.",
+      "tts": "Pues no sé, tú dime."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a01-o07",
+      "es": "Pos no sé, tú dime.",
+      "pt": "👂 Same shrug, one letter shorter. You'll hear both in the same conversation, sometimes from the same person.",
+      "tts": "Pos no sé, tú dime."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n09",
+      "pt": "One more: the d between two vowels in -ado endings often disappears. Cansado becomes cansao, ocupado becomes ocupao."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a01-n10",
+      "pt": "None of these are mistakes — it's what relaxed, everyday Mexican Spanish sounds like, everywhere in the country."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n11",
+      "bloco": "capsula",
+      "pt": "The accent shifts by region too — central fast, coastal sing-song, Yucatán Maya-influenced, northern distinct. Expect variety, not one accent."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-a01-n12",
+      "pt": "Back to the taco stand — same two sentences from the start, now with all four patterns in your ears."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-a01-o01",
+      "es": "¿Me da dos de pastor y uno de bistec, pa' llevar?",
+      "pt": "👂 Two al pastor, one bistec, to go. Pa' is para, worn down — you already knew that one.",
+      "tts": "¿Me da dos de pastor y uno de bistec, pa' llevar?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-a01-o02",
+      "es": "Va, ahorita se los preparo.",
+      "pt": "👂 Right away, I'll get them ready. Ahorita — right now, or soon, depending entirely on tone.",
+      "tts": "Va, ahorita se los preparo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n13",
+      "pt": "You got it. Nothing new went in today — what changed is you can find your sentences with pieces missing."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-a01-n14",
+      "bloco": "recap",
+      "pt": "A01 complete. Está to 'tá, para to pa', nada to na', pues to pos — four erosions over sentences you already built."
+    }
   ],
   "aprofundar": {
     "titulo": "The ear module: why nobody speaks in this one",
     "secoes": [
-      { "titulo": "Recognition is a different skill from production", "corpo": "You can already say está, para, nada and pues correctly and in full. What this part trains is the separate skill of recognizing them worn down, at speed, in real conversation — a completely different mental task from producing a careful sentence yourself. That's why every step here is listening only." },
-      { "titulo": "These reductions are the norm, not an exception", "corpo": "'tá, pa', na' and pos are not slang confined to one city or one social class — they are how Mexican Spanish is spoken informally almost everywhere, by almost everyone, in relaxed contexts. A traveller who only ever hears the careful, complete version has been spoken to as a visitor the entire time." },
-      { "titulo": "Regional variety is real — and we're not faking it", "corpo": "Central, coastal, Yucatecan and northern Mexican Spanish genuinely sound different from each other. We're telling you that variety exists rather than manufacturing fake regional accents with a single voice actor, which would teach you an accent that doesn't actually belong to anywhere." }
+      {
+        "titulo": "Recognition is a different skill from production",
+        "corpo": "You can already say está, para, nada and pues correctly and in full. What this part trains is the separate skill of recognizing them worn down, at speed, in real conversation — a completely different mental task from producing a careful sentence yourself. That's why every step here is listening only."
+      },
+      {
+        "titulo": "These reductions are the norm, not an exception",
+        "corpo": "'tá, pa', na' and pos are not slang confined to one city or one social class — they are how Mexican Spanish is spoken informally almost everywhere, by almost everyone, in relaxed contexts. A traveller who only ever hears the careful, complete version has been spoken to as a visitor the entire time."
+      },
+      {
+        "titulo": "Regional variety is real — and we're not faking it",
+        "corpo": "Central, coastal, Yucatecan and northern Mexican Spanish genuinely sound different from each other. We're telling you that variety exists rather than manufacturing fake regional accents with a single voice actor, which would teach you an accent that doesn't actually belong to anywhere."
+      }
     ]
   },
   "slot": "A01",
@@ -61,7 +258,9 @@
       "oQueMelhora": "You keep listening through the fast half of the conversation instead of tuning out — and the fast half is where the actual recommendation or the real answer usually lands.",
       "ondeNaoVale": "Not at a hotel desk, an airport counter or anywhere set up specifically to serve visitors — those run at visitor speed all day, with no faster version underneath.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-a01-n04"]
+      "audioKeys": [
+        "mx-a01-n04"
+      ]
     }
   ]
 }

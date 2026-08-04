@@ -8,43 +8,261 @@
   "cena": "The ticket is already in your hand, warm from the machine, and it has told you nothing yet about the one rule that decides whether it actually works.",
   "moldura": "protege",
   "frasePiso": "A ticket is not useful until you know where it goes and what must happen before you board.",
-  "moldes": ["TENGO_QUE"],
   "clique": {
-    "contagem": ["whether the ticket needs validating", "whether the journey needs a transfer"],
+    "contagem": [
+      "the ticket counter",
+      "the validation machine",
+      "the platform"
+    ],
     "desconto": "Nobody taught you two separate obligation questions. You built both out of one opening, by changing only the action after it.",
     "piso": "Next time a ticket machine or a turnstile is in front of you, you won't stand there guessing whether you're missing a step. You'll ask."
   },
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b09-n01", "bloco": "aquecimento", "pt": "Mexico has no single national city-transport ritual. Some systems use a paper ticket, some a card, some an app; validation and transfers change by city and operator. Your sequence does not change: destination, ticket, rule, platform, vehicle." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b09-t01", "es": "¿Este transporte va al centro?", "pinyin": "EHS-teh trahns-POR-teh bah al SEHN-troh", "pt": "Does this transport go downtown?", "tts": "¿Este transporte va al centro?" },
-    { "consulta": ["transporte/destino", "transporte/boleto"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b09-p01", "promptPt": "Before buying anything, confirm whether this service goes downtown. Speak now.", "audioKey": "mx-b09-t01", "es": "¿Este transporte va al centro?", "pinyin": "EHS-teh trahns-POR-teh bah al SEHN-troh", "pt": "Does this transport go downtown?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b09-r01", "es": "Sí, pero tiene que hacer transbordo.", "pt": "Yes, but you have to transfer.", "tts": "Sí, pero tiene que hacer transbordo." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b09-n02", "bloco": "corpo", "pt": "Now buy for the destination, not for a word like single that may not match the local product. In Mexico, boleto is the useful ticket word here." },
-    { "consulta": ["transporte/boleto", "pagar/comprar"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b09-p02", "promptPt": "At the staffed counter, ask for one ticket to downtown. Speak now.", "audioKey": "mx-b09-t02", "es": "Un boleto para el centro, por favor.", "pinyin": "oon boh-LEH-toh PAH-rah el SEHN-troh por fah-BOR", "pt": "One ticket to downtown, please." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b09-r02", "es": "Aquí tiene.", "pt": "Here you are.", "tts": "Aquí tiene." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b09-n03", "bloco": "molde", "pt": "The ticket exists; the rule is still unknown. Tengo que asks what obligation belongs to you. Keep the opening and attach the action: validate the ticket." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b09-t03", "es": "¿Tengo que validar el boleto?", "pinyin": "TEHN-goh keh bah-lee-DAHR el boh-LEH-toh", "pt": "Do I have to validate the ticket?", "tts": "¿Tengo que validar el boleto?" },
-    { "consulta": ["transporte/validar", "transporte/boleto"], "tipo": "responde", "voz": "target_mx_f", "molde": "TENGO_QUE", "encaixe": "validar el boleto", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b09-p03", "promptPt": "You have the ticket, but there is a reader before the platform. Ask whether you must validate it. Speak now.", "audioKey": "mx-b09-t03", "es": "¿Tengo que validar el boleto?", "pinyin": "TEHN-goh keh bah-lee-DAHR el boh-LEH-toh", "pt": "Do I have to validate the ticket?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b09-r03", "es": "Sí, en esa máquina.", "pt": "Yes, at that machine.", "tts": "Sí, en esa máquina." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b09-n04", "pt": "Do not decode the machine from a distance. Follow the hand, validate, then find the platform if this station uses one. B08 already gave you the defined-location question." },
-    { "consulta": ["transporte/anden", "transporte/direcao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b09-p04", "promptPt": "The ticket is valid, but you still need the platform for this departure. Ask where the platform is. Speak now.", "audioKey": "mx-b09-t04", "es": "¿Dónde está el andén?", "pinyin": "DOHN-deh ehs-TAH el ahn-DEHN", "pt": "Where is the platform?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b09-r04", "es": "Al fondo, a la izquierda.", "pt": "At the back, on the left.", "tts": "Al fondo, a la izquierda." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b09-n05", "bloco": "capsula", "pt": "The opening returns with a different action. The destination is correct, but the first answer said transfer. Ask whether that obligation belongs to this journey." },
-    { "consulta": ["transporte/troca", "transporte/destino"], "tipo": "responde", "voz": "target_mx_f", "molde": "TENGO_QUE", "encaixe": "hacer transbordo", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b09-p05", "promptPt": "At the platform, ask whether you have to make a transfer on the way downtown. Speak now.", "audioKey": "mx-b09-t05", "es": "¿Tengo que hacer transbordo?", "pinyin": "TEHN-goh keh ah-SEHR trahns-BOR-doh", "pt": "Do I have to transfer?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b09-r05", "es": "Sí, una vez.", "pt": "Yes, once.", "tts": "Sí, una vez." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b09-n06", "pt": "Last check happens at the door, not after it closes. Show the destination and confirm this bus. The line number can stay on the sign; you do not need to perform it from memory." },
-    { "consulta": ["transporte/confirmar", "transporte/destino"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b09-p06", "promptPt": "The bus arrives at the platform. Before boarding, confirm that this vehicle goes to the Historic Centre. Speak now.", "audioKey": "mx-b09-t06", "es": "¿Este autobús va al Centro Histórico?", "pinyin": "EHS-teh ow-toh-BOOS bah al SEHN-troh ees-TOH-ree-koh", "pt": "Does this bus go to the Historic Centre?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b09-r06", "es": "Sí. Suba, por favor.", "pt": "Yes. Board, please.", "tts": "Sí. Suba, por favor." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b09-s01", "es": "¿Tengo que validar el boleto? ¿Tengo que hacer transbordo?", "pinyin": "TEHN-goh keh bah-lee-DAHR el boh-LEH-toh. TEHN-goh keh ah-SEHR trahns-BOR-doh", "pt": "Shadow the obligation opening with two different actions.", "tts": "¿Tengo que validar el boleto? ¿Tengo que hacer transbordo?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b09-n07", "bloco": "recap", "pt": "B09 complete. Destination before purchase. Boleto in Mexico. Ask the validation rule instead of guessing. Find the platform. Ask whether transfer belongs to this journey. Confirm the vehicle at the door. The line number can stay on the screen; your job is the sequence." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "No single national transport ritual — paper, card or app, rules vary. Your sequence stays: destination, ticket, rule, platform, vehicle."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b09-t01",
+      "es": "¿Este transporte va al centro?",
+      "pinyin": "EHS-teh trahns-POR-teh bah al SEHN-troh",
+      "pt": "Does this transport go downtown?",
+      "tts": "¿Este transporte va al centro?"
+    },
+    {
+      "consulta": [
+        "transporte/destino",
+        "transporte/boleto"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b09-p01",
+      "promptPt": "Before buying anything, confirm whether this service goes downtown. Speak now.",
+      "audioKey": "mx-b09-t01",
+      "es": "¿Este transporte va al centro?",
+      "pinyin": "EHS-teh trahns-POR-teh bah al SEHN-troh",
+      "pt": "Does this transport go downtown?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b09-r01",
+      "es": "Sí, pero tiene que hacer transbordo.",
+      "pt": "Yes, but you have to transfer.",
+      "tts": "Sí, pero tiene que hacer transbordo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b09-n02",
+      "bloco": "corpo",
+      "pt": "Buy for the destination, not a fixed fare-word — boleto is the useful ticket word here."
+    },
+    {
+      "consulta": [
+        "transporte/boleto",
+        "pagar/comprar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b09-p02",
+      "promptPt": "At the staffed counter, ask for one ticket to downtown. Speak now.",
+      "audioKey": "mx-b09-t02",
+      "es": "Un boleto para el centro, por favor.",
+      "pinyin": "oon boh-LEH-toh PAH-rah el SEHN-troh por fah-BOR",
+      "pt": "One ticket to downtown, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b09-r02",
+      "es": "Aquí tiene.",
+      "pt": "Here you are.",
+      "tts": "Aquí tiene."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b09-n03",
+      "bloco": "molde",
+      "pt": "Ticket in hand, rule still unknown. Tengo que asks the obligation — keep the opening, attach the action."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b09-t03",
+      "es": "¿Tengo que validar el boleto?",
+      "pinyin": "TEHN-goh keh bah-lee-DAHR el boh-LEH-toh",
+      "pt": "Do I have to validate the ticket?",
+      "tts": "¿Tengo que validar el boleto?"
+    },
+    {
+      "consulta": [
+        "transporte/validar",
+        "transporte/boleto"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b09-p03",
+      "promptPt": "You have the ticket, but there is a reader before the platform. Ask whether you must validate it. Speak now.",
+      "audioKey": "mx-b09-t03",
+      "es": "¿Tengo que validar el boleto?",
+      "pinyin": "TEHN-goh keh bah-lee-DAHR el boh-LEH-toh",
+      "pt": "Do I have to validate the ticket?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b09-r03",
+      "es": "Sí, en esa máquina.",
+      "pt": "Yes, at that machine.",
+      "tts": "Sí, en esa máquina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b09-n04",
+      "pt": "Don't decode the machine from a distance — follow the hand, validate, then find the platform if there is one."
+    },
+    {
+      "consulta": [
+        "transporte/anden",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b09-p04",
+      "promptPt": "The ticket is valid, but you still need the platform for this departure. Ask where the platform is. Speak now.",
+      "audioKey": "mx-b09-t04",
+      "es": "¿Dónde está el andén?",
+      "pinyin": "DOHN-deh ehs-TAH el ahn-DEHN",
+      "pt": "Where is the platform?",
+      "molde": "DONDE",
+      "encaixe": "el andén"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b09-r04",
+      "es": "Al fondo, a la izquierda.",
+      "pt": "At the back, on the left.",
+      "tts": "Al fondo, a la izquierda."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b09-n05",
+      "bloco": "capsula",
+      "pt": "Same opening, new action. The first answer said transfer — ask whether it applies to this journey."
+    },
+    {
+      "consulta": [
+        "transporte/troca",
+        "transporte/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b09-p05",
+      "promptPt": "At the platform, ask whether you have to make a transfer on the way downtown. Speak now.",
+      "audioKey": "mx-b09-t05",
+      "es": "¿Tengo que hacer transbordo?",
+      "pinyin": "TEHN-goh keh ah-SEHR trahns-BOR-doh",
+      "pt": "Do I have to transfer?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b09-r05",
+      "es": "Sí, una vez.",
+      "pt": "Yes, once.",
+      "tts": "Sí, una vez."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b09-n06",
+      "pt": "Last check happens at the door. Confirm this bus goes there — the line number can stay on the sign."
+    },
+    {
+      "consulta": [
+        "transporte/confirmar",
+        "transporte/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b09-p06",
+      "promptPt": "The bus arrives at the platform. Before boarding, confirm that this vehicle goes to the Historic Centre. Speak now.",
+      "audioKey": "mx-b09-t06",
+      "es": "¿Este autobús va al Centro Histórico?",
+      "pinyin": "EHS-teh ow-toh-BOOS bah al SEHN-troh ees-TOH-ree-koh",
+      "pt": "Does this bus go to the Historic Centre?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b09-r06",
+      "es": "Sí. Suba, por favor.",
+      "pt": "Yes. Board, please.",
+      "tts": "Sí. Suba, por favor."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b09-s01",
+      "es": "¿Tengo que validar el boleto? ¿Tengo que hacer transbordo?",
+      "pinyin": "TEHN-goh keh bah-lee-DAHR el boh-LEH-toh. TEHN-goh keh ah-SEHR trahns-BOR-doh",
+      "pt": "Shadow the obligation opening with two different actions.",
+      "tts": "¿Tengo que validar el boleto? ¿Tengo que hacer transbordo?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b09-n07",
+      "bloco": "recap",
+      "pt": "B09 complete. Destination, boleto, validation rule, platform, transfer, confirm the vehicle — the sequence is your job."
+    }
   ],
   "aprofundar": {
     "titulo": "Discover the rule; do not import one",
     "secoes": [
-      { "titulo": "Boleto, not the Spain default", "corpo": "Boleto is the working Mexican ticket word in this course. The product behind it may be paper, card or app, so ask for the destination rather than assuming a specific fare product." },
-      { "titulo": "Tengo que plus the action", "corpo": "Use the same opening to discover an obligation.", "exemplos": [{ "es": "¿Tengo que validar el boleto?", "pt": "Do I have to validate the ticket?" }, { "es": "¿Tengo que hacer transbordo?", "pt": "Do I have to transfer?" }] },
-      { "titulo": "Numbers stay on the surface", "corpo": "Read the line, fare or platform from the display and point when needed. Productive number performance is not the price of entering the correct vehicle." },
-      { "titulo": "Confirm twice for different reasons", "corpo": "The first destination question protects the purchase. The second protects the boarding. Repetition here closes two different risks." }
+      {
+        "titulo": "Boleto, not the Spain default",
+        "corpo": "Boleto is the working Mexican ticket word in this course. The product behind it may be paper, card or app, so ask for the destination rather than assuming a specific fare product."
+      },
+      {
+        "titulo": "Tengo que plus the action",
+        "corpo": "Use the same opening to discover an obligation.",
+        "exemplos": [
+          {
+            "es": "¿Tengo que validar el boleto?",
+            "pt": "Do I have to validate the ticket?"
+          },
+          {
+            "es": "¿Tengo que hacer transbordo?",
+            "pt": "Do I have to transfer?"
+          }
+        ]
+      },
+      {
+        "titulo": "Numbers stay on the surface",
+        "corpo": "Read the line, fare or platform from the display and point when needed. Productive number performance is not the price of entering the correct vehicle."
+      },
+      {
+        "titulo": "Confirm twice for different reasons",
+        "corpo": "The first destination question protects the purchase. The second protects the boarding. Repetition here closes two different risks."
+      }
     ]
   },
   "slot": "B09",
@@ -60,7 +278,9 @@
       "oQueMelhora": "You catch the local rule while there is still time to act on it, instead of discovering it from a fellow passenger's reaction mid-journey.",
       "ondeNaoVale": "Not a reason to ask about every system feature in advance — the two questions cover validation and transfer specifically because those are the two obligations that actually change trip outcomes.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b09-n01"]
+      "audioKeys": [
+        "mx-b09-n01"
+      ]
     }
   ]
 }

@@ -8,39 +8,242 @@
   "cena": "The carousel has stopped turning, your bag is not on it, and the person with the airline lanyard is twenty metres away, not coming to you.",
   "moldura": "protege",
   "frasePiso": "Solve the problem that cannot travel with you before starting the one that can.",
-  "moldes": ["PUEDO"],
+  "moldes": [
+    "PUEDO"
+  ],
   "clique": {
-    "contagem": ["the baggage desk", "the information counter", "the small airport shop", "the meeting point by the exit"],
+    "contagem": [
+      "the baggage desk",
+      "the information counter",
+      "the small airport shop",
+      "the meeting point by the exit"
+    ],
     "desconto": "Nobody taught you three separate sentences for the bathroom, the card and the wait. You built all three out of one opening, by changing only the action.",
     "piso": "Next time you land somewhere new, you won't stand at the exit juggling five worries at once. You'll close them one at a time, in order, starting with the one that can't wait."
   },
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b06-n01", "bloco": "aquecimento", "pt": "Your first hour has an order. A missing bag stays at the airline desk. Connection gets tested before you need the car. Payment gets asked before you hunt for cash. Bathroom and meeting point get solved with a person wearing airport identification. Transport begins only after those loose problems are closed." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b06-t01", "es": "Mi maleta no llegó.", "pinyin": "mee mah-LEH-tah noh yeh-GOH", "pt": "My bag did not arrive.", "tts": "Mi maleta no llegó." },
-    { "consulta": ["chegar/bagagem", "reparo/problema"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b06-p01", "promptPt": "The carousel stops and your bag is absent. Before leaving the baggage area, tell the airline desk exactly what failed. Speak now.", "audioKey": "mx-b06-t01", "es": "Mi maleta no llegó.", "pinyin": "mee mah-LEH-tah noh yeh-GOH", "pt": "My bag did not arrive." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b06-r01", "es": "¿Tiene el comprobante de equipaje?", "pt": "Do you have the baggage receipt?", "tts": "¿Tiene el comprobante de equipaje?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b06-n02", "bloco": "corpo", "pt": "Next, test the eSIM you prepared in B04. If data does not appear, do not wander while repeatedly refreshing the phone. Ask for the airport network as one complete phrase. Hay is only a preview here; B08 will open the pattern." },
-    { "consulta": ["chegar/conexao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b06-p02", "promptPt": "Your eSIM is installed but no data appears. Ask an information-desk employee whether there is wifi. Speak now.", "audioKey": "mx-b06-t02", "es": "¿Hay wifi?", "pinyin": "eye WEE-fee", "pt": "Is there wifi?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b06-r02", "es": "Sí. La red está en el letrero.", "pt": "Yes. The network is on the sign.", "tts": "Sí. La red está en el letrero." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b06-n03", "bloco": "molde", "pt": "Now the reusable engine: puedo plus an action. Puedo means can I; the second piece is the job. Use the bathroom. Pay by card. Wait here. Same opening, three different first-hour decisions." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b06-t03", "es": "¿Puedo usar el baño?", "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh", "pt": "Can I use the bathroom?", "tts": "¿Puedo usar el baño?" },
-    { "consulta": ["chegar/banheiro", "reparo/permissao"], "tipo": "responde", "voz": "target_mx_f", "molde": "PUEDO", "encaixe": "usar el baño", "encaixeGloss": "the bathroom", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b06-p03", "promptPt": "The nearest bathroom appears to be beyond a staffed barrier. Ask the employee whether you can use it. Speak now.", "audioKey": "mx-b06-t03", "es": "¿Puedo usar el baño?", "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh", "pt": "Can I use the bathroom?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b06-r03", "es": "Sí, adelante.", "pt": "Yes, go ahead.", "tts": "Sí, adelante." },
-    { "consulta": ["pagar/cartao", "chegar/dinheiro"], "tipo": "responde", "voz": "target_mx_f", "molde": "PUEDO", "encaixe": "pagar con tarjeta", "encaixeGloss": "card", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b06-p04", "promptPt": "At the small airport counter, you want water but do not know whether you need cash. Keep puedo and change the action: ask whether you can pay by card. Speak now.", "audioKey": "mx-b06-t04", "es": "¿Puedo pagar con tarjeta?", "pinyin": "PWEH-doh pah-GAHR kohn tahr-HEH-tah", "pt": "Can I pay by card?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b06-r04", "es": "Sí, aceptamos tarjeta.", "pt": "Yes, we accept cards.", "tts": "Sí, aceptamos tarjeta." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b06-n04", "bloco": "capsula", "pt": "Last loose problem: your pickup has not appeared. Do not drift toward an unofficial offer. Choose a visible meeting point near identified staff and ask whether waiting there is allowed." },
-    { "consulta": ["chegar/encontro", "reparo/permissao"], "tipo": "responde", "voz": "target_mx_f", "molde": "PUEDO", "encaixe": "esperar aquí", "encaixeGloss": "wait here", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b06-p05", "promptPt": "Your pickup message says to wait by the information desk. Ask the identified employee whether you can wait there. Speak now.", "audioKey": "mx-b06-t05", "es": "¿Puedo esperar aquí?", "pinyin": "PWEH-doh ehs-peh-RAHR ah-KEE", "pt": "Can I wait here?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b06-r05", "es": "Sí, puede esperar aquí.", "pt": "Yes, you can wait here.", "tts": "Sí, puede esperar aquí." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b06-s01", "es": "¿Puedo usar el baño? ¿Puedo pagar con tarjeta? ¿Puedo esperar aquí?", "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh. PWEH-doh pah-GAHR kohn tahr-HEH-tah. PWEH-doh ehs-peh-RAHR ah-KEE", "pt": "Shadow the same opening through three different actions.", "tts": "¿Puedo usar el baño? ¿Puedo pagar con tarjeta? ¿Puedo esperar aquí?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b06-n05", "bloco": "recap", "pt": "B06 complete. Missing bag before you leave. Connection before you need the ride. Ask whether card works before chasing cash. Bathroom and waiting point through puedo plus the action. The first hour becomes five closed loops, not one large arrival panic." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Your first hour has an order: bag, then connection, then payment, then bathroom and meeting point — transport comes last."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b06-t01",
+      "es": "Mi maleta no llegó.",
+      "pinyin": "mee mah-LEH-tah noh yeh-GOH",
+      "pt": "My bag did not arrive.",
+      "tts": "Mi maleta no llegó."
+    },
+    {
+      "consulta": [
+        "chegar/bagagem",
+        "reparo/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b06-p01",
+      "promptPt": "The carousel stops and your bag is absent. Before leaving the baggage area, tell the airline desk exactly what failed. Speak now.",
+      "audioKey": "mx-b06-t01",
+      "es": "Mi maleta no llegó.",
+      "pinyin": "mee mah-LEH-tah noh yeh-GOH",
+      "pt": "My bag did not arrive."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b06-r01",
+      "es": "¿Tiene el comprobante de equipaje?",
+      "pt": "Do you have the baggage receipt?",
+      "tts": "¿Tiene el comprobante de equipaje?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b06-n02",
+      "bloco": "corpo",
+      "pt": "Test the eSIM from B04. No data? Don't wander refreshing your phone — just ask for the airport network directly."
+    },
+    {
+      "consulta": [
+        "chegar/conexao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b06-p02",
+      "promptPt": "Your eSIM is installed but no data appears. Ask the information desk about the network here. Speak now.",
+      "audioKey": "mx-b06-t02",
+      "es": "¿Hay wifi?",
+      "pinyin": "eye WEE-fee",
+      "pt": "Is there wifi?",
+      "molde": "HAY",
+      "encaixe": "wifi"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b06-r02",
+      "es": "Sí. La red está en el letrero.",
+      "pt": "Yes. The network is on the sign.",
+      "tts": "Sí. La red está en el letrero."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b06-n03",
+      "bloco": "molde",
+      "pt": "The frame is puedo plus an action — can I, then the job. Bathroom, card, waiting: same opening every time."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b06-t03",
+      "es": "¿Puedo usar el baño?",
+      "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh",
+      "pt": "Can I use the bathroom?",
+      "tts": "¿Puedo usar el baño?"
+    },
+    {
+      "consulta": [
+        "chegar/banheiro",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "usar el baño",
+      "encaixeGloss": "the bathroom",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b06-p03",
+      "promptPt": "The nearest bathroom appears to be beyond a staffed barrier. Ask the employee whether you can use it. Speak now.",
+      "audioKey": "mx-b06-t03",
+      "es": "¿Puedo usar el baño?",
+      "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh",
+      "pt": "Can I use the bathroom?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b06-r03",
+      "es": "Sí, adelante.",
+      "pt": "Yes, go ahead.",
+      "tts": "Sí, adelante."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "chegar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "pagar con tarjeta",
+      "encaixeGloss": "card",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b06-p04",
+      "promptPt": "At the small airport counter you want water, and all you have on you is plastic. Speak now.",
+      "audioKey": "mx-b06-t04",
+      "es": "¿Puedo pagar con tarjeta?",
+      "pinyin": "PWEH-doh pah-GAHR kohn tahr-HEH-tah",
+      "pt": "Can I pay by card?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b06-r04",
+      "es": "Sí, aceptamos tarjeta.",
+      "pt": "Yes, we accept cards.",
+      "tts": "Sí, aceptamos tarjeta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b06-n04",
+      "bloco": "capsula",
+      "pt": "Last problem: no pickup yet. Don't drift toward an unofficial offer — pick a visible spot near identified staff."
+    },
+    {
+      "consulta": [
+        "chegar/encontro",
+        "reparo/permissao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "PUEDO",
+      "encaixe": "esperar aquí",
+      "encaixeGloss": "wait here",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b06-p05",
+      "promptPt": "Your pickup message says to wait by the information desk. Ask the identified employee whether you can wait there. Speak now.",
+      "audioKey": "mx-b06-t05",
+      "es": "¿Puedo esperar aquí?",
+      "pinyin": "PWEH-doh ehs-peh-RAHR ah-KEE",
+      "pt": "Can I wait here?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b06-r05",
+      "es": "Sí, puede esperar aquí.",
+      "pt": "Yes, you can wait here.",
+      "tts": "Sí, puede esperar aquí."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b06-s01",
+      "es": "¿Puedo usar el baño? ¿Puedo pagar con tarjeta? ¿Puedo esperar aquí?",
+      "pinyin": "PWEH-doh oo-SAHR el BAH-nyoh. PWEH-doh pah-GAHR kohn tahr-HEH-tah. PWEH-doh ehs-peh-RAHR ah-KEE",
+      "pt": "Shadow the same opening through three different actions.",
+      "tts": "¿Puedo usar el baño? ¿Puedo pagar con tarjeta? ¿Puedo esperar aquí?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b06-n05",
+      "bloco": "recap",
+      "pt": "B06 complete. Bag, connection, payment, bathroom, meeting point — five closed loops with puedo, not one big panic."
+    }
   ],
   "aprofundar": {
     "titulo": "One opening, three permissions",
     "secoes": [
-      { "titulo": "The open pattern", "corpo": "Keep ¿Puedo and replace only the action you need. The infinitive stays unchanged.", "exemplos": [{ "es": "¿Puedo usar el baño?", "pt": "Can I use the bathroom?" }, { "es": "¿Puedo pagar con tarjeta?", "pt": "Can I pay by card?" }, { "es": "¿Puedo esperar aquí?", "pt": "Can I wait here?" }] },
-      { "titulo": "Do not solve cash before payment", "corpo": "The lesson does not assume card or cash. Ask what works for the actual purchase before turning money into a separate airport problem." },
-      { "titulo": "Hay and dónde are previews", "corpo": "Use ¿Hay wifi? as a complete tool now. B08 will explain the difference between asking whether something exists and where a known thing is." },
-      { "titulo": "Transport is next", "corpo": "B06 ends at a stable, identified meeting point. Choosing and negotiating the ride belongs to B07, so the two decisions do not blur together." }
+      {
+        "titulo": "The open pattern",
+        "corpo": "Keep ¿Puedo and replace only the action you need. The infinitive stays unchanged.",
+        "exemplos": [
+          {
+            "es": "¿Puedo usar el baño?",
+            "pt": "Can I use the bathroom?"
+          },
+          {
+            "es": "¿Puedo pagar con tarjeta?",
+            "pt": "Can I pay by card?"
+          },
+          {
+            "es": "¿Puedo esperar aquí?",
+            "pt": "Can I wait here?"
+          }
+        ]
+      },
+      {
+        "titulo": "Do not solve cash before payment",
+        "corpo": "The lesson does not assume card or cash. Ask what works for the actual purchase before turning money into a separate airport problem."
+      },
+      {
+        "titulo": "Hay and dónde are previews",
+        "corpo": "Use ¿Hay wifi? as a complete tool now. B08 will explain the difference between asking whether something exists and where a known thing is."
+      },
+      {
+        "titulo": "Transport is next",
+        "corpo": "B06 ends at a stable, identified meeting point. Choosing and negotiating the ride belongs to B07, so the two decisions do not blur together."
+      }
     ]
   },
   "slot": "B06",
@@ -56,7 +259,9 @@
       "oQueMelhora": "You solve the loose problem — a stable, visible waiting point — without having to evaluate a stranger's offer under pressure.",
       "ondeNaoVale": "Not a blanket suspicion of every local who speaks to you in an airport — the rule is specifically about who is offering transport, not about avoiding conversation.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b06-n04"]
+      "audioKeys": [
+        "mx-b06-n04"
+      ]
     }
   ]
 }

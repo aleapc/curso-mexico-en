@@ -1,35 +1,282 @@
 {
-  "id":"mx-b08","slot":"B08","nivel":"basico","numero":8,"parte":"3A",
-  "titulo":"Ask the question whose answer fits in your head",
-  "subtitulo":"Does one exist, where is the known place, and what to do when the answer becomes a paragraph",
-  "moldura":"ganha","frasePiso":"The best direction question is the one that gives you a usable next move.",
-  "moldes":["HAY","DONDE"],
-  "steps":[
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b08-n01","pt":"A stranger can answer where is the pharmacy with three streets, two corners and a hand wave. Start smaller. Hay asks whether the thing exists nearby. That first answer is yes or no, and yes or no fits in your head."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b08-t01","es":"¿Hay una farmacia por aquí?","pinyin":"eye OO-nah fahr-MAH-syah por ah-KEE","pt":"Is there a pharmacy around here?","tts":"¿Hay una farmacia por aquí?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b08-p01","promptPt":"You need medicine but do not know whether this street has a pharmacy. Ask the yes-or-no existence question first. Speak now.","audioKey":"mx-b08-t01","es":"¿Hay una farmacia por aquí?","pinyin":"eye OO-nah fahr-MAH-syah por ah-KEE","pt":"Is there a pharmacy around here?","consulta":["saude/farmacia","transporte/direcao"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b08-r01","es":"Sí, hay una en la esquina.","pt":"Yes, there is one on the corner.","tts":"Sí, hay una en la esquina."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b08-n02","pt":"The opening stays; the thing changes. You are looking for any cash machine, not a particular machine. Keep hay and replace only the object."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b08-p02","promptPt":"You need any cash machine nearby. Keep the existence opening and replace the object. Speak now.","audioKey":"mx-b08-t02","es":"¿Hay un cajero por aquí?","pinyin":"eye oon kah-HEH-roh por ah-KEE","pt":"Is there an ATM around here?","consulta":["pagar/caixa","transporte/direcao"]},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b08-n03","pt":"Now the defined place. Inside this café there is one bathroom; you are not asking whether bathrooms exist in the neighbourhood. Dónde está asks where the known place is."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b08-t03","es":"¿Dónde está el baño?","pinyin":"DOHN-deh ehs-TAH el BAH-nyoh","pt":"Where is the bathroom?","tts":"¿Dónde está el baño?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b08-p03","promptPt":"In a café, ask where the bathroom is. It is the known place inside this building. Speak now.","audioKey":"mx-b08-t03","es":"¿Dónde está el baño?","pinyin":"DOHN-deh ehs-TAH el BAH-nyoh","pt":"Where is the bathroom?","consulta":["chegar/banheiro","transporte/direcao"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b08-r02","es":"Al fondo, a la derecha.","pt":"At the back, on the right.","tts":"Al fondo, a la derecha."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b08-n04","pt":"Dónde hay combines the two jobs when you want the location of any useful instance. The pharmacy is a category; any nearby one can solve the problem."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b08-p04","promptPt":"The person confirmed that pharmacies exist nearby. Now ask where you can find one. Speak now.","audioKey":"mx-b08-t04","es":"¿Dónde hay una farmacia?","pinyin":"DOHN-deh eye OO-nah fahr-MAH-syah","pt":"Where is there a pharmacy?","consulta":["saude/farmacia","transporte/direcao"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b08-r03","es":"Siga derecho, cruce la avenida y dé vuelta después del mercado.","pt":"Go straight, cross the avenue and turn after the market.","tts":"Siga derecho, cruce la avenida y dé vuelta después del mercado."},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b08-n05","pt":"That answer is too large. Do not ask for the same paragraph again. Collapse it into distance. If it is near, follow the arm and confirm the first landmark. If it is far, move the route onto the map."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b08-p05","promptPt":"The stranger gives you three movements and you lose the middle. Ask only whether it is far. Speak now.","audioKey":"mx-b08-t05","es":"¿Está lejos?","pinyin":"ehs-TAH LEH-hohs","pt":"Is it far?","consulta":["transporte/distancia","reparo/encurtar"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b08-r04","es":"No. Está a dos cuadras.","pt":"No. It is two blocks away.","tts":"No. Está a dos cuadras."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b08-p06","promptPt":"Two blocks still leaves you unsure which turn begins the route. Open the map and ask the person to show you. Speak now.","audioKey":"mx-b08-t06","es":"¿Me lo muestra en el mapa?","pinyin":"meh loh MWEHS-trah en el MAH-pah","pt":"Can you show me on the map?","consulta":["reparo/apontar","transporte/direcao"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b08-r05","es":"Sí. Es aquí, en esta esquina.","pt":"Yes. It is here, on this corner.","tts":"Sí. Es aquí, en esta esquina."},
-    {"tipo":"shadow","voz":"target_mx_f","audioKey":"mx-b08-s01","es":"¿Hay una farmacia por aquí? ¿Dónde hay una farmacia? ¿Está lejos?","pinyin":"eye OO-nah fahr-MAH-syah por ah-KEE. DOHN-deh eye OO-nah fahr-MAH-syah. ehs-TAH LEH-hohs","pt":"Shadow the ladder from existence to location to distance.","tts":"¿Hay una farmacia por aquí? ¿Dónde hay una farmacia? ¿Está lejos?"},
-    {"tipo":"recap","voz":"guide_en_us_f","audioKey":"mx-b08-n06","pt":"B08 complete. Hay asks whether one exists. Dónde está finds the known place. Dónde hay finds any useful instance. Está lejos collapses a paragraph into a decision. The map takes over when words stop moving your feet."}
+  "id": "b08",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "3A",
+  "titulo": "Ask the question whose answer fits in your head",
+  "subtitulo": "Does one exist, where is the known place, and what to do when the answer becomes a paragraph",
+  "cena": "A stranger on the corner is already drawing a map in the air with both hands, three streets deep, and you haven't decided yet whether you even need all of it.",
+  "moldura": "ganha",
+  "frasePiso": "The best direction question is the one that gives you a usable next move.",
+  "moldes": [
+    "HAY"
   ],
-  "aprofundar":{"titulo":"Existence before directions","secoes":[
-    {"titulo":"Hay plus the thing","corpo":"Use ¿Hay…? when yes or no is already valuable. Keep the opening and replace the object.","exemplos":[{"es":"¿Hay una farmacia por aquí?","pt":"Is there a pharmacy around here?"},{"es":"¿Hay un cajero por aquí?","pt":"Is there an ATM around here?"}]},
-    {"titulo":"Known place versus any instance","corpo":"Use ¿Dónde está el baño? for the bathroom in this building. Use ¿Dónde hay una farmacia? when any nearby pharmacy will do."},
-    {"titulo":"Do not memorise the paragraph","corpo":"Direction words are mainly receptive here: derecho, esquina, cuadra, derecha. Your production job is to reduce the answer with ¿Está lejos? or move it onto the map."},
-    {"titulo":"The map is not failure","corpo":"B03 already taught the visual repair. B08 makes it part of direction-finding, so the learner never has to perform complete comprehension before moving."}
-  ]}
+  "clique": {
+    "contagem": [
+      "a pharmacy that may or may not exist",
+      "any nearby ATM",
+      "the café's own bathroom",
+      "a pharmacy two blocks away"
+    ],
+    "desconto": "Nobody handed you four separate direction questions. You built the ladder yourself, out of two openings, by deciding each time how much answer you actually needed.",
+    "piso": "Next time a local starts drawing a route in the air, you won't try to hold the whole paragraph in your head. You'll cut it down to a decision before it gets away from you."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A stranger might answer with three streets and a hand wave. Start smaller — hay just asks yes or no, and that fits in your head."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b08-t01",
+      "es": "¿Hay una farmacia por aquí?",
+      "pinyin": "eye OO-nah fahr-MAH-syah por ah-KEE",
+      "pt": "Is there a pharmacy around here?",
+      "tts": "¿Hay una farmacia por aquí?"
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "una farmacia por aquí",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b08-p01",
+      "promptPt": "You need medicine but do not know whether this street has a pharmacy. Ask the yes-or-no existence question first. Speak now.",
+      "audioKey": "mx-b08-t01",
+      "es": "¿Hay una farmacia por aquí?",
+      "pinyin": "eye OO-nah fahr-MAH-syah por ah-KEE",
+      "pt": "Is there a pharmacy around here?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b08-r01",
+      "es": "Sí, hay una en la esquina.",
+      "pt": "Yes, there is one on the corner.",
+      "tts": "Sí, hay una en la esquina."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b08-n02",
+      "bloco": "molde",
+      "pt": "The frame stays, the thing changes — any cash machine will do. Keep hay, swap only the object."
+    },
+    {
+      "consulta": [
+        "pagar/caixa",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "HAY",
+      "encaixe": "un cajero por aquí",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b08-p02",
+      "promptPt": "You need any cash machine nearby. Keep the existence opening and replace the object. Speak now.",
+      "audioKey": "mx-b08-t02",
+      "es": "¿Hay un cajero por aquí?",
+      "pinyin": "eye oon kah-HEH-roh por ah-KEE",
+      "pt": "Is there an ATM around here?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b08-n03",
+      "bloco": "corpo",
+      "pt": "Now the defined place: this café has one bathroom, you're not asking if bathrooms exist. Dónde está finds the known place."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b08-t03",
+      "es": "¿Dónde está el baño?",
+      "pinyin": "DOHN-deh ehs-TAH el BAH-nyoh",
+      "pt": "Where is the bathroom?",
+      "tts": "¿Dónde está el baño?"
+    },
+    {
+      "consulta": [
+        "chegar/banheiro",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "está el baño",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b08-p03",
+      "promptPt": "In a café, ask where the bathroom is. It is the known place inside this building. Speak now.",
+      "audioKey": "mx-b08-t03",
+      "es": "¿Dónde está el baño?",
+      "pinyin": "DOHN-deh ehs-TAH el BAH-nyoh",
+      "pt": "Where is the bathroom?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b08-r02",
+      "es": "Al fondo, a la derecha.",
+      "pt": "At the back, on the right.",
+      "tts": "Al fondo, a la derecha."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b08-n04",
+      "pt": "Dónde hay combines both jobs — the location of any useful instance. Any nearby pharmacy solves the problem."
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "molde": "DONDE",
+      "encaixe": "hay una farmacia",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b08-p04",
+      "promptPt": "The person confirmed that pharmacies exist nearby. Now ask where you can find one. Speak now.",
+      "audioKey": "mx-b08-t04",
+      "es": "¿Dónde hay una farmacia?",
+      "pinyin": "DOHN-deh eye OO-nah fahr-MAH-syah",
+      "pt": "Where is there a pharmacy?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b08-r03",
+      "es": "Siga derecho, cruce la avenida y dé vuelta después del mercado.",
+      "pt": "Go straight, cross the avenue and turn after the market.",
+      "tts": "Siga derecho, cruce la avenida y dé vuelta después del mercado."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b08-n05",
+      "bloco": "capsula",
+      "pt": "Too large an answer? Don't ask again — collapse it into distance. Near, follow the arm; far, move to the map."
+    },
+    {
+      "consulta": [
+        "transporte/distancia",
+        "reparo/encurtar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b08-p05",
+      "promptPt": "The stranger gives you three movements and you lose the middle. Ask only whether it is far. Speak now.",
+      "audioKey": "mx-b08-t05",
+      "es": "¿Está lejos?",
+      "pinyin": "ehs-TAH LEH-hohs",
+      "pt": "Is it far?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b08-r04",
+      "es": "No. Está a dos cuadras.",
+      "pt": "No. It is two blocks away.",
+      "tts": "No. Está a dos cuadras."
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b08-p06",
+      "promptPt": "Two blocks still leaves you unsure which turn begins the route. Open the map and ask the person to show you. Speak now.",
+      "audioKey": "mx-b08-t06",
+      "es": "¿Me lo muestra en el mapa?",
+      "pinyin": "meh loh MWEHS-trah en el MAH-pah",
+      "pt": "Can you show me on the map?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b08-r05",
+      "es": "Sí. Es aquí, en esta esquina.",
+      "pt": "Yes. It is here, on this corner.",
+      "tts": "Sí. Es aquí, en esta esquina."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b08-s01",
+      "es": "¿Hay una farmacia por aquí? ¿Dónde hay una farmacia? ¿Está lejos?",
+      "pinyin": "eye OO-nah fahr-MAH-syah por ah-KEE. DOHN-deh eye OO-nah fahr-MAH-syah. ehs-TAH LEH-hohs",
+      "pt": "Shadow the ladder from existence to location to distance.",
+      "tts": "¿Hay una farmacia por aquí? ¿Dónde hay una farmacia? ¿Está lejos?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b08-n06",
+      "bloco": "recap",
+      "pt": "B08 complete. Hay for exists, dónde está for the known place, dónde hay for any instance, está lejos to collapse it all."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Existence before directions",
+    "secoes": [
+      {
+        "titulo": "Hay plus the thing",
+        "corpo": "Use ¿Hay…? when yes or no is already valuable. Keep the opening and replace the object.",
+        "exemplos": [
+          {
+            "es": "¿Hay una farmacia por aquí?",
+            "pt": "Is there a pharmacy around here?"
+          },
+          {
+            "es": "¿Hay un cajero por aquí?",
+            "pt": "Is there an ATM around here?"
+          }
+        ]
+      },
+      {
+        "titulo": "Known place versus any instance",
+        "corpo": "Use ¿Dónde está el baño? for the bathroom in this building. Use ¿Dónde hay una farmacia? when any nearby pharmacy will do."
+      },
+      {
+        "titulo": "Do not memorise the paragraph",
+        "corpo": "Direction words are mainly receptive here: derecho, esquina, cuadra, derecha. Your production job is to reduce the answer with ¿Está lejos? or move it onto the map."
+      },
+      {
+        "titulo": "The map is not failure",
+        "corpo": "B03 already taught the visual repair. B08 makes it part of direction-finding, so the learner never has to perform complete comprehension before moving."
+      }
+    ]
+  },
+  "slot": "B08",
+  "permissao": "You are allowed to cut a stranger's answer short. Asking ¿Está lejos? or pulling out the map before someone finishes a three-street explanation is not impatience — it is the fastest way to end up somewhere useful instead of nodding through directions you were never going to retain.",
+  "permissaoAudioKey": "mx-b08-n05",
+  "espelho": "Anyone who has ever asked a local for directions back home and immediately lost the thread after 'turn left at the second light' has already lived the failure mode B08 is solving — the instinct to keep nodding rather than interrupt a stranger mid-explanation is universal, not a Spanish-specific problem.",
+  "fichasCulturais": [
+    {
+      "sinal": "A stranger answers your direction question with a long string of turns and landmarks, and you catch the first two words and lose the rest.",
+      "suaLeitura": "I should have understood all of that, or asking again will seem rude.",
+      "oQueEAli": "A full spoken route is a lot of information to hold in your head in any language, and Mexican direction-giving culture tends to be generous and detailed rather than terse — the generosity is real, but it produces more than a first-time visitor can retain in one pass.",
+      "oQueVoceFaz": "Reduce the answer instead of asking for it again in full: ask ¿Está lejos? for a near/far decision, or open the map and ask them to show you the point.",
+      "oQueMelhora": "You leave with one usable fact — near, far, or a pin on a map — instead of a paragraph you cannot reconstruct two turns later.",
+      "ondeNaoVale": "Not when someone has already reduced the answer for you unprompted (e.g. 'it's right there') — in that case a follow-up question would ask for detail that was never missing.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "mx-b08-n05"
+      ]
+    }
+  ]
 }

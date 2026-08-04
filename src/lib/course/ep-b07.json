@@ -9,31 +9,206 @@
   "moldura": "protege",
   "frasePiso": "The first vehicle that approaches you is not automatically your transport.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b07-n01", "bloco": "aquecimento", "pt": "B06 left you at a stable information point. B07 begins with a channel, not a car. Airport systems vary across Mexico, so do not memorise a company, colour or door number. Ask identified staff where authorised transport is, then choose the taxi channel, the app pickup point or another official option before following a person." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b07-t01", "es": "¿Dónde está el transporte autorizado?", "pinyin": "DOHN-deh ehs-TAH el trahns-POR-teh ow-toh-ree-SAH-doh", "pt": "Where is the authorised transport?", "tts": "¿Dónde está el transporte autorizado?" },
-    { "consulta": ["taxi/autorizado", "chegar/encontro"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b07-p01", "promptPt": "At the information desk, ask where the authorised transport is. Speak now.", "audioKey": "mx-b07-t01", "es": "¿Dónde está el transporte autorizado?", "pinyin": "DOHN-deh ehs-TAH el trahns-POR-teh ow-toh-ree-SAH-doh", "pt": "Where is the authorised transport?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b07-r01", "es": "Al fondo, junto a la salida.", "pt": "At the back, next to the exit.", "tts": "Al fondo, junto a la salida." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b07-n02", "bloco": "corpo", "pt": "If you chose an app, the car may not be allowed to collect you at the nearest door. Keep the booking inside the app and ask for the designated meeting point instead of accepting a replacement ride." },
-    { "consulta": ["taxi/aplicativo", "chegar/encontro"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b07-p02", "promptPt": "Your app shows a confirmed ride but the pickup zone is unclear. Ask where the app meeting point is. Speak now.", "audioKey": "mx-b07-t02", "es": "¿Dónde está el punto de encuentro de la aplicación?", "pinyin": "DOHN-deh ehs-TAH el POON-toh deh en-KWEN-troh deh lah ah-plee-kah-SYOHN", "pt": "Where is the app pickup point?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b07-n03", "pt": "For a quoted ride, put the destination into the question before entering. Show the offline address from B04 and ask the cost to that exact point. You do not need to produce the number; listen, read the display or use the calculator escape hatch." },
-    { "consulta": ["taxi/preco", "pagar/preco"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b07-p03", "promptPt": "At the authorised counter, show the saved hotel address and ask the cost to that address before accepting. Speak now.", "audioKey": "mx-b07-t03", "es": "¿Cuánto cuesta hasta esta dirección?", "pinyin": "KWAHN-toh KWEHS-tah AHS-tah EHS-tah dee-rehk-SYOHN", "pt": "How much does it cost to this address?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b07-r02", "es": "El precio aparece aquí.", "pt": "The price appears here.", "tts": "El precio aparece aquí." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b07-n04", "bloco": "capsula", "pt": "Now the driver gets the same offline address. Do not retell the hotel name from memory; put the shared object between you." },
-    { "consulta": ["taxi/destino", "dormir/endereco"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b07-p04", "promptPt": "You are with the confirmed driver. Show the saved address and give that destination. Speak now.", "audioKey": "mx-b07-t04", "es": "A esta dirección, por favor.", "pinyin": "ah EHS-tah dee-rehk-SYOHN por fah-BOR", "pt": "To this address, please." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b07-r03", "es": "Claro. Vamos para allá.", "pt": "Of course. Let's go there.", "tts": "Claro. Vamos para allá." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b07-n05", "pt": "At the hotel entrance, close the route before opening the hotel problem. Aquí está bien stops the car at the usable point. The receipt preserves the ride channel, time and amount if something needs to be checked later." },
-    { "consulta": ["taxi/parar", "taxi/recibo"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b07-p05", "promptPt": "The car reaches the hotel entrance. Say this point is fine and ask for a receipt. Speak now.", "audioKey": "mx-b07-t05", "es": "Aquí está bien. ¿Me da un recibo, por favor?", "pinyin": "ah-KEE ehs-TAH byen. meh dah oon reh-SEE-boh por fah-BOR", "pt": "Here is fine. Can you give me a receipt, please?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b07-r04", "es": "Sí, claro.", "pt": "Yes, of course.", "tts": "Sí, claro." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b07-s01", "es": "¿Cuánto cuesta hasta esta dirección? A esta dirección, por favor. Aquí está bien.", "pinyin": "KWAHN-toh KWEHS-tah AHS-tah EHS-tah dee-rehk-SYOHN. ah EHS-tah dee-rehk-SYOHN por fah-BOR. ah-KEE ehs-TAH byen", "pt": "Shadow the route from quote to destination to stop.", "tts": "¿Cuánto cuesta hasta esta dirección? A esta dirección, por favor. Aquí está bien." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b07-n06", "bloco": "recap", "pt": "B07 complete. Choose the authorised channel before the vehicle. Find the app meeting point instead of improvising a pickup. Put the exact address into the quote and the ride. Stop at the usable entrance and keep the receipt. You are at the bed; B08 begins outside it." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "B07 begins with a channel, not a car. The frame is dónde está, plus the place you need."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b07-t01",
+      "es": "¿Dónde está el transporte autorizado?",
+      "pinyin": "DOHN-deh ehs-TAH el trahns-POR-teh ow-toh-ree-SAH-doh",
+      "pt": "Where is the authorised transport?",
+      "tts": "¿Dónde está el transporte autorizado?"
+    },
+    {
+      "consulta": [
+        "taxi/autorizado",
+        "chegar/encontro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b07-p01",
+      "promptPt": "At the information desk, ask where the authorised transport is. Speak now.",
+      "audioKey": "mx-b07-t01",
+      "es": "¿Dónde está el transporte autorizado?",
+      "pinyin": "DOHN-deh ehs-TAH el trahns-POR-teh ow-toh-ree-SAH-doh",
+      "pt": "Where is the authorised transport?",
+      "molde": "DONDE",
+      "encaixe": "el transporte autorizado"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b07-r01",
+      "es": "Al fondo, junto a la salida.",
+      "pt": "At the back, next to the exit.",
+      "tts": "Al fondo, junto a la salida."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b07-n02",
+      "bloco": "corpo",
+      "pt": "With an app booking, the car may not reach the nearest door. Ask for the designated meeting point, don't accept a swap."
+    },
+    {
+      "consulta": [
+        "taxi/aplicativo",
+        "chegar/encontro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b07-p02",
+      "promptPt": "Your app shows a confirmed ride but the pickup zone is unclear. Ask where the app meeting point is. Speak now.",
+      "audioKey": "mx-b07-t02",
+      "es": "¿Dónde está el punto de encuentro de la aplicación?",
+      "pinyin": "DOHN-deh ehs-TAH el POON-toh deh en-KWEN-troh deh lah ah-plee-kah-SYOHN",
+      "pt": "Where is the app pickup point?",
+      "molde": "DONDE",
+      "encaixe": "el punto de encuentro"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b07-n03",
+      "pt": "For a quoted ride, ask the cost before entering — show the B04 address. No need to produce numbers; read the display."
+    },
+    {
+      "consulta": [
+        "taxi/preco",
+        "pagar/preco"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b07-p03",
+      "promptPt": "At the authorised counter, show the saved hotel address and ask the cost to that address before accepting. Speak now.",
+      "audioKey": "mx-b07-t03",
+      "es": "¿Cuánto cuesta hasta esta dirección?",
+      "pinyin": "KWAHN-toh KWEHS-tah AHS-tah EHS-tah dee-rehk-SYOHN",
+      "pt": "How much does it cost to this address?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b07-r02",
+      "es": "El precio aparece aquí.",
+      "pt": "The price appears here.",
+      "tts": "El precio aparece aquí."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b07-n04",
+      "bloco": "capsula",
+      "pt": "Give the driver that same offline address — don't retell the hotel name from memory, show the object instead."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "dormir/endereco"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b07-p04",
+      "promptPt": "You are with the confirmed driver. Show the saved address and give that destination. Speak now.",
+      "audioKey": "mx-b07-t04",
+      "es": "A esta dirección, por favor.",
+      "pinyin": "ah EHS-tah dee-rehk-SYOHN por fah-BOR",
+      "pt": "To this address, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b07-r03",
+      "es": "Claro. Vamos para allá.",
+      "pt": "Of course. Let's go there.",
+      "tts": "Claro. Vamos para allá."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b07-n05",
+      "pt": "At the hotel, close the route first. Aquí está bien stops the car; the receipt keeps proof if you need it later."
+    },
+    {
+      "consulta": [
+        "taxi/parar",
+        "taxi/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b07-p05",
+      "promptPt": "The car reaches the hotel entrance. Say this point is fine and ask for a receipt. Speak now.",
+      "audioKey": "mx-b07-t05",
+      "es": "Aquí está bien. ¿Me da un recibo, por favor?",
+      "pinyin": "ah-KEE ehs-TAH byen. meh dah oon reh-SEE-boh por fah-BOR",
+      "pt": "Here is fine. Can you give me a receipt, please?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b07-r04",
+      "es": "Sí, claro.",
+      "pt": "Yes, of course.",
+      "tts": "Sí, claro."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b07-s01",
+      "es": "¿Cuánto cuesta hasta esta dirección? A esta dirección, por favor. Aquí está bien.",
+      "pinyin": "KWAHN-toh KWEHS-tah AHS-tah EHS-tah dee-rehk-SYOHN. ah EHS-tah dee-rehk-SYOHN por fah-BOR. ah-KEE ehs-TAH byen",
+      "pt": "Shadow the route from quote to destination to stop.",
+      "tts": "¿Cuánto cuesta hasta esta dirección? A esta dirección, por favor. Aquí está bien."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b07-n06",
+      "bloco": "recap",
+      "pt": "B07 complete. Channel before car, exact address in the quote and the ride, stop and keep the receipt. B08 starts next."
+    }
   ],
   "aprofundar": {
     "titulo": "Channel, destination, closure",
     "secoes": [
-      { "titulo": "Do not freeze a local system", "corpo": "Airport pickup rules vary by city and terminal. The durable move is to ask identified staff where the authorised channel or designated app point is." },
-      { "titulo": "Show numbers; do not perform them", "corpo": "When a fare is quoted, read the display or show a calculator. The course does not turn a high-cost money decision into a test of spoken numbers." },
-      { "titulo": "The address is the shared object", "corpo": "Use the complete offline address prepared in B04 for both the quote and the driver.", "exemplos": [{ "es": "¿Cuánto cuesta hasta esta dirección?", "pt": "How much does it cost to this address?" }, { "es": "A esta dirección, por favor.", "pt": "To this address, please." }] },
-      { "titulo": "A receipt closes the ride", "corpo": "Ask for the receipt before walking into the hotel. It is evidence of the completed ride, not a confrontation." }
+      {
+        "titulo": "Do not freeze a local system",
+        "corpo": "Airport pickup rules vary by city and terminal. The durable move is to ask identified staff where the authorised channel or designated app point is."
+      },
+      {
+        "titulo": "Show numbers; do not perform them",
+        "corpo": "When a fare is quoted, read the display or show a calculator. The course does not turn a high-cost money decision into a test of spoken numbers."
+      },
+      {
+        "titulo": "The address is the shared object",
+        "corpo": "Use the complete offline address prepared in B04 for both the quote and the driver.",
+        "exemplos": [
+          {
+            "es": "¿Cuánto cuesta hasta esta dirección?",
+            "pt": "How much does it cost to this address?"
+          },
+          {
+            "es": "A esta dirección, por favor.",
+            "pt": "To this address, please."
+          }
+        ]
+      },
+      {
+        "titulo": "A receipt closes the ride",
+        "corpo": "Ask for the receipt before walking into the hotel. It is evidence of the completed ride, not a confrontation."
+      }
     ]
   },
   "slot": "B07",
@@ -49,7 +224,21 @@
       "oQueMelhora": "You start the ride from a channel with a fixed quote and a receipt, instead of a negotiation you didn't choose to be in.",
       "ondeNaoVale": "Not a reason to distrust every driver you encounter for the rest of the trip — the caution is specifically about the unverified first offer at the exact moment you're most disoriented.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b07-n01"]
+      "audioKeys": [
+        "mx-b07-n01"
+      ]
     }
-  ]
+  ],
+  "moldes": [
+    "DONDE"
+  ],
+  "clique": {
+    "contagem": [
+      "the information desk",
+      "the app pickup zone",
+      "the taxi counter"
+    ],
+    "desconto": "Nobody handed you a different question for each counter in that hall. One opening found the authorised transport, the app point and the platform.",
+    "piso": "Next time you land somewhere new, you won't hunt for a sign you can't read. You'll ask the person nearest to you, in four words."
+  }
 }

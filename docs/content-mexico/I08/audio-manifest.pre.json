@@ -5,28 +5,138 @@
   "buyerLocale": "en-US",
   "status": "pending_generation",
   "clips": [
-    {"key": "mx-i08-n01", "role": "guide_en_us_f", "text": "Being invited into someone's home is a real gesture, not a formality, and three small moves make you a good guest: something small in your hands, arriving on time, and letting your host lead the first toast.", "kind": "narration"},
-    {"key": "mx-i08-r01", "role": "target_mx_m", "text": "¿Te gustaría cenar en mi casa el sábado?", "kind": "return"},
-    {"key": "mx-i08-p01", "role": "guide_en_us_f", "text": "Accept the invitation warmly. Speak now.", "kind": "prompt"},
-    {"key": "mx-i08-t01", "role": "target_mx_f", "text": "Claro que sí, con mucho gusto.", "kind": "target"},
-    {"key": "mx-i08-n02", "role": "guide_en_us_m", "text": "Don't arrive empty-handed. Something small — flowers, wine, a dessert — is the norm. Skip yellow flowers, which read as mourning here, not celebration.", "kind": "narration"},
-    {"key": "mx-i08-p02", "role": "guide_en_us_m", "text": "At the door, hand over the small gift you brought. Speak now.", "kind": "prompt"},
-    {"key": "mx-i08-t02", "role": "target_mx_f", "text": "Le traje esto para la casa.", "kind": "target"},
-    {"key": "mx-i08-r02", "role": "target_mx_m", "text": "No te hubieras molestado, muchas gracias.", "kind": "return"},
-    {"key": "mx-i08-n03", "role": "guide_en_us_f", "text": "Everything else about time here can be relaxed. This isn't. Arriving on time for a home invitation reads as respect for the work someone put into tonight.", "kind": "narration"},
-    {"key": "mx-i08-r03", "role": "target_mx_m", "text": "Pasa, siéntete como en tu casa.", "kind": "return"},
-    {"key": "mx-i08-p03", "role": "guide_en_us_f", "text": "Thank them for having you. Speak now.", "kind": "prompt"},
-    {"key": "mx-i08-t03", "role": "target_mx_f", "text": "Gracias por invitarme.", "kind": "target"},
-    {"key": "mx-i08-n04", "role": "guide_en_us_m", "text": "Glasses fill, and the table waits. The host leads the first toast — you don't need to invent one. When it comes, one word is the whole reply.", "kind": "narration"},
-    {"key": "mx-i08-r04", "role": "target_mx_m", "text": "¡Salud!", "kind": "return"},
-    {"key": "mx-i08-p04", "role": "guide_en_us_m", "text": "The host raises a glass. Answer the toast. Speak now.", "kind": "prompt"},
-    {"key": "mx-i08-t04", "role": "target_mx_f", "text": "¡Salud!", "kind": "target"},
-    {"key": "mx-i08-s01", "role": "target_mx_f", "text": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme.", "kind": "shadow"},
-    {"key": "mx-i08-n05", "role": "guide_en_us_f", "text": "I08 complete. Bring something small. Arrive on time — this is the one place the relaxed clock doesn't apply. Let the host lead the toast, and salud covers your whole reply. Being a good guest here is three small, specific moves, not a performance.", "kind": "recap"},
-    {"key": "mx-i08-q-i", "role": "guide_en_us_f", "text": "A traveller is invited to dinner at a friend's home. Listen for the gift, the timing, and the toast.", "kind": "quiz_intro"},
-    {"key": "mx-i08-q01", "role": "target_mx_m", "text": "¿Te gustaría cenar en mi casa el sábado?", "kind": "quiz"},
-    {"key": "mx-i08-q02", "role": "target_mx_f", "text": "Claro que sí, con mucho gusto.", "kind": "quiz"},
-    {"key": "mx-i08-q03", "role": "target_mx_f", "text": "Le traje esto para la casa.", "kind": "quiz"},
-    {"key": "mx-i08-q04", "role": "target_mx_m", "text": "¡Salud!", "kind": "quiz"}
+    {
+      "key": "mx-i08-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i08-r01",
+      "role": "target_mx_m",
+      "text": "¿Te gustaría cenar en mi casa el sábado?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i08-p01",
+      "role": "guide_en_us_f",
+      "text": "Accept the invitation warmly. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-t01",
+      "role": "target_mx_f",
+      "text": "Claro que sí, con mucho gusto.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i08-p02",
+      "role": "guide_en_us_m",
+      "text": "At the door, hand over the small gift you brought. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-t02",
+      "role": "target_mx_f",
+      "text": "Le traje esto para la casa.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-r02",
+      "role": "target_mx_m",
+      "text": "No te hubieras molestado, muchas gracias.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i08-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i08-r03",
+      "role": "target_mx_m",
+      "text": "Pasa, siéntete como en tu casa.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i08-p03",
+      "role": "guide_en_us_f",
+      "text": "Thank them for having you. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-t03",
+      "role": "target_mx_f",
+      "text": "Gracias por invitarme.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i08-r04",
+      "role": "target_mx_m",
+      "text": "¡Salud!",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i08-p04",
+      "role": "guide_en_us_m",
+      "text": "The host raises a glass. Answer the toast. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i08-t04",
+      "role": "target_mx_f",
+      "text": "¡Salud!",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i08-s01",
+      "role": "target_mx_f",
+      "text": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme.",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i08-n05",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i08-q-i",
+      "role": "guide_en_us_f",
+      "text": "A traveller is invited to dinner at a friend's home. Listen for the gift, the timing, and the toast.",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i08-q01",
+      "role": "target_mx_m",
+      "text": "¿Te gustaría cenar en mi casa el sábado?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i08-q02",
+      "role": "target_mx_f",
+      "text": "Claro que sí, con mucho gusto.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i08-q03",
+      "role": "target_mx_f",
+      "text": "Le traje esto para la casa.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i08-q04",
+      "role": "target_mx_m",
+      "text": "¡Salud!",
+      "kind": "quiz"
+    }
   ]
 }

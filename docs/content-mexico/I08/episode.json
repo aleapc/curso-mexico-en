@@ -6,34 +6,188 @@
   "titulo": "Someone invites you home",
   "subtitulo": "Bring something small, arrive on time even though nobody else will, and let the host lead the first toast",
   "cena": "You've just been invited to someone's home for dinner tonight, and the whole evening hinges on what you do in the next thirty seconds.",
+  "decisao": "o que levar e a que horas chegar — gastar dez minutos e um valor pequeno numa lembrança, e tratar o horário como compromisso real, decide como a noite inteira começa",
   "moldura": "ganha",
   "frasePiso": "Show up with something small, on time, and let them lead the toast. That's the whole shape of the evening.",
   "fatosDatados": [
-    { "id": "mx-convite-presente", "afirmacao": "It's customary to bring a small gift when invited to someone's home for a meal — flowers, wine, a dessert or something for the children if the hosts have them; avoid yellow flowers (associated with death) or purple flowers (associated with funerals).", "fonte": "Consenso de guias culturais (Cultural Atlas, International Living, Mexperience)", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i08-n02"] },
-    { "id": "mx-convite-pontualidade", "afirmacao": "Despite a generally relaxed approach to time, arriving on time to someone's home when invited for a meal is considered a sign of respect for the host's effort.", "fonte": "Consenso de guias culturais (International Living, Mexperience)", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i08-n03"] }
+    {
+      "id": "mx-convite-presente",
+      "afirmacao": "It's customary to bring a small gift when invited to someone's home for a meal — flowers, wine, a dessert or something for the children if the hosts have them; avoid yellow flowers (associated with death) or purple flowers (associated with funerals).",
+      "fonte": "Consenso de guias culturais (Cultural Atlas, International Living, Mexperience)",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i08-n02"
+      ]
+    },
+    {
+      "id": "mx-convite-pontualidade",
+      "afirmacao": "Despite a generally relaxed approach to time, arriving on time to someone's home when invited for a meal is considered a sign of respect for the host's effort.",
+      "fonte": "Consenso de guias culturais (International Living, Mexperience)",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i08-n03"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i08-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Being invited into someone's home is a real gesture, not a formality, and three small moves make you a good guest: something small in your hands, arriving on time, and letting your host lead the first toast." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i08-r01", "es": "¿Te gustaría cenar en mi casa el sábado?", "pt": "Would you like to have dinner at my place on Saturday?", "tts": "¿Te gustaría cenar en mi casa el sábado?" },
-    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i08-p01", "promptPt": "Accept the invitation warmly. Speak now.", "audioKey": "mx-i08-t01", "es": "Claro que sí, con mucho gusto.", "pinyin": "KLAH-roh keh see, kohn MOO-choh GOOS-toh", "pt": "Of course, I'd love to.", "tts": "Claro que sí, con mucho gusto." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i08-n02", "bloco": "corpo", "pt": "Don't arrive empty-handed. Something small — flowers, wine, a dessert — is the norm. Skip yellow flowers, which read as mourning here, not celebration." },
-    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i08-p02", "promptPt": "At the door, hand over the small gift you brought. Speak now.", "audioKey": "mx-i08-t02", "es": "Le traje esto para la casa.", "pinyin": "leh TRAH-heh EHS-toh PAH-rah lah KAH-sah", "pt": "I brought you this for the house.", "tts": "Le traje esto para la casa." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i08-r02", "es": "No te hubieras molestado, muchas gracias.", "pt": "You didn't have to, thank you so much.", "tts": "No te hubieras molestado, muchas gracias." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i08-n03", "bloco": "capsula", "pt": "Everything else about time here can be relaxed. This isn't. Arriving on time for a home invitation reads as respect for the work someone put into tonight." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i08-r03", "es": "Pasa, siéntete como en tu casa.", "pt": "Come in, make yourself at home.", "tts": "Pasa, siéntete como en tu casa." },
-    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i08-p03", "promptPt": "Thank them for having you. Speak now.", "audioKey": "mx-i08-t03", "es": "Gracias por invitarme.", "pinyin": "GRAH-syahs por een-bee-TAHR-meh", "pt": "Thank you for inviting me.", "tts": "Gracias por invitarme." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i08-n04", "pt": "Glasses fill, and the table waits. The host leads the first toast — you don't need to invent one. When it comes, one word is the whole reply." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i08-r04", "es": "¡Salud!", "pt": "Cheers!", "tts": "¡Salud!" },
-    { "consulta": ["mesa/brindis"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i08-p04", "promptPt": "The host raises a glass. Answer the toast. Speak now.", "audioKey": "mx-i08-t04", "es": "¡Salud!", "pinyin": "sah-LOOD", "pt": "Cheers!", "tts": "¡Salud!" },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i08-s01", "es": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme.", "pinyin": "KLAH-roh keh see, kohn MOO-choh GOOS-toh. leh TRAH-heh EHS-toh PAH-rah lah KAH-sah. GRAH-syahs por een-bee-TAHR-meh", "pt": "Shadow accepting, arriving with a gift, and thanking your host.", "tts": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i08-n05", "bloco": "recap", "pt": "I08 complete. Bring something small. Arrive on time — this is the one place the relaxed clock doesn't apply. Let the host lead the toast, and salud covers your whole reply. Being a good guest here is three small, specific moves, not a performance." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A home invitation is a real gesture. Three small moves make you a good guest: something small, on time, let the host lead the toast."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i08-r01",
+      "es": "¿Te gustaría cenar en mi casa el sábado?",
+      "pt": "Would you like to have dinner at my place on Saturday?",
+      "tts": "¿Te gustaría cenar en mi casa el sábado?"
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i08-p01",
+      "promptPt": "Accept the invitation warmly. Speak now.",
+      "audioKey": "mx-i08-t01",
+      "es": "Claro que sí, con mucho gusto.",
+      "pinyin": "KLAH-roh keh see, kohn MOO-choh GOOS-toh",
+      "pt": "Of course, I'd love to.",
+      "tts": "Claro que sí, con mucho gusto."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i08-n02",
+      "bloco": "corpo",
+      "pt": "Don't arrive empty-handed — flowers, wine, a dessert are the norm. Skip yellow flowers, which read as mourning here."
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i08-p02",
+      "promptPt": "At the door, hand over the small gift you brought. Speak now.",
+      "audioKey": "mx-i08-t02",
+      "es": "Le traje esto para la casa.",
+      "pinyin": "leh TRAH-heh EHS-toh PAH-rah lah KAH-sah",
+      "pt": "I brought you this for the house.",
+      "tts": "Le traje esto para la casa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i08-r02",
+      "es": "No te hubieras molestado, muchas gracias.",
+      "pt": "You didn't have to, thank you so much.",
+      "tts": "No te hubieras molestado, muchas gracias."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i08-n03",
+      "bloco": "capsula",
+      "pt": "Everything else about time can be relaxed — this isn't. On time for a home invitation reads as respect for the work tonight."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i08-r03",
+      "es": "Pasa, siéntete como en tu casa.",
+      "pt": "Come in, make yourself at home.",
+      "tts": "Pasa, siéntete como en tu casa."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i08-p03",
+      "promptPt": "Thank them for having you. Speak now.",
+      "audioKey": "mx-i08-t03",
+      "es": "Gracias por invitarme.",
+      "pinyin": "GRAH-syahs por een-bee-TAHR-meh",
+      "pt": "Thank you for inviting me.",
+      "tts": "Gracias por invitarme."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i08-n04",
+      "pt": "Glasses fill, the host leads the first toast — you don't invent one. One word is the whole reply."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i08-r04",
+      "es": "¡Salud!",
+      "pt": "Cheers!",
+      "tts": "¡Salud!"
+    },
+    {
+      "consulta": [
+        "mesa/brindis"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i08-p04",
+      "promptPt": "The host raises a glass. Answer the toast. Speak now.",
+      "audioKey": "mx-i08-t04",
+      "es": "¡Salud!",
+      "pinyin": "sah-LOOD",
+      "pt": "Cheers!",
+      "tts": "¡Salud!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i08-s01",
+      "es": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme.",
+      "pinyin": "KLAH-roh keh see, kohn MOO-choh GOOS-toh. leh TRAH-heh EHS-toh PAH-rah lah KAH-sah. GRAH-syahs por een-bee-TAHR-meh",
+      "pt": "Shadow accepting, arriving with a gift, and thanking your host.",
+      "tts": "Claro que sí, con mucho gusto. Le traje esto para la casa. Gracias por invitarme."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i08-n05",
+      "bloco": "recap",
+      "pt": "I08 complete. Something small, arrive on time — the clock doesn't relax here — let the host lead the toast, salud replies."
+    }
   ],
   "aprofundar": {
     "titulo": "Small gestures, correctly placed",
     "secoes": [
-      { "titulo": "The gift is about the gesture, not the value", "corpo": "Flowers, wine or something sweet are all normal. What matters is arriving with something in hand, not the price of it — and steering clear of yellow or purple flowers, which read as funeral colours." },
-      { "titulo": "Punctuality here is specific, not a national rule", "corpo": "Mexican time in general has a well-known relaxed reputation, but a home invitation for a meal is treated differently: the host has timed the cooking, and arriving on time respects that effort." },
-      { "titulo": "Salud is the whole toast reply", "corpo": "You don't need a speech back. The host leads; you raise your glass and say salud. That's a complete, warm response." }
+      {
+        "titulo": "The gift is about the gesture, not the value",
+        "corpo": "Flowers, wine or something sweet are all normal. What matters is arriving with something in hand, not the price of it — and steering clear of yellow or purple flowers, which read as funeral colours."
+      },
+      {
+        "titulo": "Punctuality here is specific, not a national rule",
+        "corpo": "Mexican time in general has a well-known relaxed reputation, but a home invitation for a meal is treated differently: the host has timed the cooking, and arriving on time respects that effort."
+      },
+      {
+        "titulo": "Salud is the whole toast reply",
+        "corpo": "You don't need a speech back. The host leads; you raise your glass and say salud. That's a complete, warm response."
+      }
     ]
   },
   "slot": "I08",
@@ -49,7 +203,9 @@
       "oQueMelhora": "You show up when the food is actually ready, and your host doesn't have to manage a cooling meal or a stalled evening.",
       "ondeNaoVale": "Not a rule for every social plan — a casual meetup at a bar or a loosely arranged outing genuinely does run on a more relaxed clock; it's specifically the hosted, home-cooked invitation where the expectation tightens.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i08-n03"]
+      "audioKeys": [
+        "mx-i08-n03"
+      ]
     }
   ]
 }

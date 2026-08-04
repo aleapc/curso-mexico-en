@@ -7,19 +7,13 @@
   "titulo": "What they laugh at — and the one joke you can make",
   "subtitulo": "The insult across the table is affection, the sudden courtesy is a fence, and the safest joke you will ever make in Spain is about yourself",
   "moldura": "ganha",
-
   "cena": "Ten at night, six round a table, the man opposite has just called his oldest friend a donkey to his face, everybody is laughing — and the one person they are watching is you.",
-
   "decisao": "whether the next two seconds are a laugh or an apology — the table reads that one reaction and treats the rest of the evening accordingly, and a fortnight of tables comes off it",
   "emJogo": "tempo",
-
   "frasePiso": "You will hear an insult land at a Spanish table and know it was affection. Most visitors read it as a row and go quiet for the rest of the night.",
-
   "permissao": "You are allowed to laugh at something you did not understand — the laugh is the answer, and nobody is checking whether you got the joke. You are allowed to make the joke about yourself out loud, on day one, in any bar, and it never lands badly. And nobody is waiting for you to insult anybody back: not taking that turn costs you nothing at all.",
   "permissaoAudioKey": "a02-n27",
-
   "espelho": "Saying the opposite of what you mean with a flat face is the bit that reads as odd there. Deadpan arrives as a complaint rather than as a joke, and the funniest thing you said all evening comes back as an apology from the kitchen.",
-
   "fichasCulturais": [
     {
       "sinal": "Two friends at the next table call each other names across the plates, loudly, and four minutes later they split the bill and leave with an arm round each other.",
@@ -29,7 +23,11 @@
       "oQueMelhora": "You stop reading warmth as a row, and you stop going quiet at the exact moment the table has decided you are one of them.",
       "ondeNaoVale": "Not out of your mouth, and not in your first week: the same word from a visitor has no history behind it and arrives as what it says. And not at a counter, a desk or a pharmacy, where the person in front of you is doing a job, not being a friend.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a02-n24", "a02-n25", "a02-n26"]
+      "audioKeys": [
+        "a02-n24",
+        "a02-n25",
+        "a02-n26"
+      ]
     },
     {
       "sinal": "The voice goes flat, the sentences get short, and somebody who was calling you tú four minutes ago is suddenly calling you usted.",
@@ -39,7 +37,11 @@
       "oQueMelhora": "The temperature comes back inside a minute and the evening carries on, because you read it the first time instead of the third.",
       "ondeNaoVale": "Not with somebody who has used usted with you since hello — a pharmacist, an older waiter, a hotel desk. There it is the register they started in and it means nothing at all.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a02-n11", "a02-n12", "a02-n13"]
+      "audioKeys": [
+        "a02-n11",
+        "a02-n12",
+        "a02-n13"
+      ]
     },
     {
       "sinal": "Somebody at the table says the word guiri about you, and there is a pause about a second long while everybody looks to see how you take it.",
@@ -49,10 +51,12 @@
       "oQueMelhora": "One sentence and the table stops handling you carefully — and it is the only joke available to you on day one that has no history you could get wrong.",
       "ondeNaoVale": "Not from a stranger shouting it down the street at you: same word, no table, no pause, nothing to answer. There you keep walking.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a02-guiri-e", "a02-n21"]
+      "audioKeys": [
+        "a02-guiri-e",
+        "a02-n21"
+      ]
     }
   ],
-
   "fatosDatados": [
     {
       "id": "guiri-registro",
@@ -62,7 +66,9 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a02-n21"]
+      "audioKeys": [
+        "a02-n21"
+      ]
     },
     {
       "id": "insulto-jocoso-peninsular",
@@ -72,7 +78,11 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a02-n05", "a02-n06", "a02-n25"]
+      "audioKeys": [
+        "a02-n05",
+        "a02-n06",
+        "a02-n25"
+      ]
     },
     {
       "id": "usted-como-distancia",
@@ -82,10 +92,13 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a02-n11", "a02-n12", "a02-n13"]
+      "audioKeys": [
+        "a02-n11",
+        "a02-n12",
+        "a02-n13"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
@@ -114,7 +127,10 @@
       "pinyin": "meh POH-nehs OO-nah KAH-nyah, por fah-BOR",
       "pt": "the small one, the way you always ask",
       "tts": "¿Me pones una caña, por favor?",
-      "consulta": ["mesa/bebida", "chegar/balcao"]
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -267,7 +283,9 @@
       "es": "Anda ya.",
       "pinyin": "AN-dah yah",
       "pt": "two words, and you keep eating",
-      "consulta": ["simpatia/puxar-conversa"]
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -309,7 +327,9 @@
       "es": "¡Qué me estás contando!",
       "pinyin": "keh meh ehs-TAHS kon-TAN-doh",
       "pt": "at the story, not at her",
-      "consulta": ["simpatia/puxar-conversa"]
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -389,7 +409,10 @@
       "es": "Soy el guiri, ya lo sé.",
       "pinyin": "soy el GEE-ree, yah loh SEH",
       "pt": "about yourself, with a shrug",
-      "consulta": ["simpatia/puxar-conversa", "chegar/entrar"]
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/entrar"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -431,7 +454,10 @@
       "es": "Hablo un poco de español. Muy poco.",
       "pinyin": "AH-bloh oon POH-koh deh ehs-pah-NYOL. mwee POH-koh",
       "pt": "the old sentence, undercut",
-      "consulta": ["simpatia/puxar-conversa", "reparo/ingles"]
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/ingles"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -529,7 +555,6 @@
       "pt": "That is it. You heard it, you did not repeat it, and the joke you made was about you. Hasta luego."
     }
   ],
-
   "aprofundar": {
     "titulo": "Teasing, fences and the joke that is yours (optional reading)",
     "secoes": [

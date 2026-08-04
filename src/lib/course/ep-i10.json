@@ -6,33 +6,188 @@
   "titulo": "Money without the drama",
   "subtitulo": "Bargaining is a friendly ritual at a craft market and completely out of place at a fixed-price shop — knowing which one you're in is the whole skill",
   "cena": "The price the vendor just said out loud was clearly an opening move, not a final number — and how you respond in the next ten seconds decides whether this turns into a game or an insult.",
+  "decisao": "aceitar o primeiro preço ou negociar — ler se a banca é de preço aberto ou fixo decide se você paga trinta por cento a mais ou passa vergonha tentando regatear no supermercado",
   "moldura": "ganha",
   "frasePiso": "Bargaining is a conversation, not a fight — and knowing where it belongs is worth more than knowing how to do it.",
   "fatosDatados": [
-    { "id": "mx-regateo-onde", "afirmacao": "Bargaining is socially accepted and often expected at informal markets like a tianguis or craft market, especially where prices aren't marked, but it is uncommon and generally not attempted at fixed shops, chain stores or supermarkets.", "fonte": "Consenso de guias culturais (Baconismagic, Where Sidewalks End, Sand In My Suitcase)", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i10-n02"] },
-    { "id": "mx-regateo-quanto", "afirmacao": "A common pattern in market bargaining is to expect to pay somewhat less than the initial asking price, often reported around 30 percent off, achieved through friendly, respectful negotiation rather than aggressive pressure.", "fonte": "Consenso de guias culturais (Sand In My Suitcase; Where Sidewalks End)", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i10-n04"] }
+    {
+      "id": "mx-regateo-onde",
+      "afirmacao": "Bargaining is socially accepted and often expected at informal markets like a tianguis or craft market, especially where prices aren't marked, but it is uncommon and generally not attempted at fixed shops, chain stores or supermarkets.",
+      "fonte": "Consenso de guias culturais (Baconismagic, Where Sidewalks End, Sand In My Suitcase)",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i10-n02"
+      ]
+    },
+    {
+      "id": "mx-regateo-quanto",
+      "afirmacao": "A common pattern in market bargaining is to expect to pay somewhat less than the initial asking price, often reported around 30 percent off, achieved through friendly, respectful negotiation rather than aggressive pressure.",
+      "fonte": "Consenso de guias culturais (Sand In My Suitcase; Where Sidewalks End)",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i10-n04"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i10-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Today's real skill isn't the bargaining phrases — it's knowing where they belong. Get that part right, and the rest is easy and even fun." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i10-r01", "es": "Esta le doy en quinientos.", "pt": "I'll give you this one for five hundred.", "tts": "Esta le doy en quinientos." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i10-n02", "bloco": "corpo", "pt": "A craft stall with no price tag, no cash register, no receipt — that's an invitation to negotiate. A supermarket or a chain store is not. Reading the room correctly comes first." },
-    { "consulta": ["compras/precio"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i10-p01", "promptPt": "You're at an open craft stall, no price marked. Ask a friendly opening question. Speak now.", "audioKey": "mx-i10-t01", "es": "¿Cuál es su mejor precio?", "pinyin": "kwahl ehs soo meh-HOR PREH-syoh", "pt": "What's your best price?", "tts": "¿Cuál es su mejor precio?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i10-r02", "es": "Se lo dejo en cuatrocientos.", "pt": "I'll let it go for four hundred.", "tts": "Se lo dejo en cuatrocientos." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i10-n03", "pt": "Now you make a counter-offer, friendly, not aggressive. This is a conversation, not a demand — smiling and showing genuine interest in the piece gets you further than pressure ever will." },
-    { "consulta": ["compras/precio"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i10-p02", "promptPt": "Offer a lower price, warmly. Speak now.", "audioKey": "mx-i10-t02", "es": "¿Se lo puedo dejar en trescientos cincuenta?", "pinyin": "seh loh PWEH-doh deh-HAR en trehs-syen-tohs seen-KWEN-tah", "pt": "Could I offer three hundred fifty?", "tts": "¿Se lo puedo dejar en trescientos cincuenta?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i10-n04", "bloco": "capsula", "pt": "A friendly back-and-forth like this commonly lands somewhere around thirty percent off the opening price — not a rule, just a rough shape of how these conversations tend to go." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i10-r03", "es": "Va, trato hecho.", "pt": "Deal.", "tts": "Va, trato hecho." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i10-n05", "pt": "And if the answer is a flat no, that's the end of it — pushing further is the one move that actually sours the exchange. Thank them and decide whether to buy at the stated price." },
-    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i10-p03", "promptPt": "The vendor can't go any lower. Thank them warmly, whether or not you buy. Speak now.", "audioKey": "mx-i10-t03", "es": "Está bien, muchas gracias.", "pinyin": "ehs-TAH byen, MOO-chahs GRAH-syahs", "pt": "That's fine, thank you very much.", "tts": "Está bien, muchas gracias." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i10-s01", "es": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias.", "pinyin": "kwahl ehs soo meh-HOR PREH-syoh. seh loh PWEH-doh deh-HAR en trehs-syen-tohs seen-KWEN-tah. ehs-TAH byen, MOO-chahs GRAH-syahs", "pt": "Shadow the whole friendly negotiation, start to finish.", "tts": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i10-n06", "bloco": "recap", "pt": "I10 complete. First, read the room — craft stall or supermarket. If it's a stall, ¿cuál es su mejor precio? opens it, a friendly counter-offer moves it, and a warm gracias closes it either way, deal or no deal. Money doesn't need to be tense to be real." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Today's real skill isn't the phrases — it's knowing where they belong. Get that right and the rest is easy."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i10-r01",
+      "es": "Esta le doy en quinientos.",
+      "pt": "I'll give you this one for five hundred.",
+      "tts": "Esta le doy en quinientos."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i10-n02",
+      "bloco": "corpo",
+      "pt": "A craft stall with no price tag or register is an invitation to negotiate — a supermarket isn't. Read the room first."
+    },
+    {
+      "consulta": [
+        "compras/precio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i10-p01",
+      "promptPt": "You're at an open craft stall, no price marked. Ask a friendly opening question. Speak now.",
+      "audioKey": "mx-i10-t01",
+      "es": "¿Cuál es su mejor precio?",
+      "pinyin": "kwahl ehs soo meh-HOR PREH-syoh",
+      "pt": "What's your best price?",
+      "tts": "¿Cuál es su mejor precio?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i10-r02",
+      "es": "Se lo dejo en cuatrocientos.",
+      "pt": "I'll let it go for four hundred.",
+      "tts": "Se lo dejo en cuatrocientos."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i10-n03",
+      "pt": "Now counter-offer, friendly not aggressive — a conversation, not a demand. Genuine interest gets you further than pressure."
+    },
+    {
+      "consulta": [
+        "compras/precio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i10-p02",
+      "promptPt": "Offer a lower price, warmly. Speak now.",
+      "audioKey": "mx-i10-t02",
+      "es": "¿Se lo puedo dejar en trescientos cincuenta?",
+      "pinyin": "seh loh PWEH-doh deh-HAR en trehs-syen-tohs seen-KWEN-tah",
+      "pt": "Could I offer three hundred fifty?",
+      "tts": "¿Se lo puedo dejar en trescientos cincuenta?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i10-n04",
+      "bloco": "capsula",
+      "pt": "A friendly back-and-forth commonly lands around thirty percent off the opening price — not a rule, just a rough shape."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i10-r03",
+      "es": "Va, trato hecho.",
+      "pt": "Deal.",
+      "tts": "Va, trato hecho."
+    },
+    {
+      "consulta": [
+        "pagar/efectivo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i10-p03b",
+      "promptPt": "Many stalls like this run cash-only. Confirm before you dig for a card. Speak now.",
+      "audioKey": "mx-i10-t03b",
+      "es": "¿Le puedo pagar en efectivo?",
+      "pinyin": "leh PWEH-doh pah-GAHR en eh-fehk-TEE-boh",
+      "pt": "Can I pay you in cash?",
+      "tts": "¿Le puedo pagar en efectivo?",
+      "molde": "PUEDO",
+      "encaixe": "pagar en efectivo"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i10-n05",
+      "pt": "If the answer is a flat no, that's the end of it — pushing further sours the exchange. Thank them either way."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i10-p03",
+      "promptPt": "The vendor can't go any lower. Thank them warmly, whether or not you buy. Speak now.",
+      "audioKey": "mx-i10-t03",
+      "es": "Está bien, muchas gracias.",
+      "pinyin": "ehs-TAH byen, MOO-chahs GRAH-syahs",
+      "pt": "That's fine, thank you very much.",
+      "tts": "Está bien, muchas gracias."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i10-s01",
+      "es": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias.",
+      "pinyin": "kwahl ehs soo meh-HOR PREH-syoh. seh loh PWEH-doh deh-HAR en trehs-syen-tohs seen-KWEN-tah. ehs-TAH byen, MOO-chahs GRAH-syahs",
+      "pt": "Shadow the whole friendly negotiation, start to finish.",
+      "tts": "¿Cuál es su mejor precio? ¿Se lo puedo dejar en trescientos cincuenta? Está bien, muchas gracias."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i10-n06",
+      "bloco": "recap",
+      "pt": "I10 complete. Read the room first — at a stall, ¿cuál es su mejor precio? opens it, a warm gracias closes it either way."
+    }
   ],
   "aprofundar": {
     "titulo": "Bargaining is a genre, not a universal rule",
     "secoes": [
-      { "titulo": "Read the setting first", "corpo": "No price tag, no register, an open-air or craft market stall — these signal that negotiation is expected. A fixed shop, chain store or supermarket does not work this way, and attempting to bargain there is simply out of place." },
-      { "titulo": "Friendly beats aggressive", "corpo": "A warm tone, a smile and genuine interest in the item get better results than pressure. The vendor is a person having a normal workday, not an opponent." },
-      { "titulo": "A firm no ends it", "corpo": "If the seller won't move on price, pushing further is the one thing that damages the interaction. Accept it gracefully — you can still buy at the stated price, or simply thank them and move on." }
+      {
+        "titulo": "Read the setting first",
+        "corpo": "No price tag, no register, an open-air or craft market stall — these signal that negotiation is expected. A fixed shop, chain store or supermarket does not work this way, and attempting to bargain there is simply out of place."
+      },
+      {
+        "titulo": "Friendly beats aggressive",
+        "corpo": "A warm tone, a smile and genuine interest in the item get better results than pressure. The vendor is a person having a normal workday, not an opponent."
+      },
+      {
+        "titulo": "A firm no ends it",
+        "corpo": "If the seller won't move on price, pushing further is the one thing that damages the interaction. Accept it gracefully — you can still buy at the stated price, or simply thank them and move on."
+      }
     ]
   },
   "slot": "I10",
@@ -48,7 +203,9 @@
       "oQueMelhora": "You avoid an awkward, mismatched interaction and reserve the fun, friendly haggling for the settings where it's actually expected and enjoyed.",
       "ondeNaoVale": "This ficha itself is about knowing where NOT to bargain — the exception is the informal market setting covered in the main lesson, where the opposite applies.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i10-n02"]
+      "audioKeys": [
+        "mx-i10-n02"
+      ]
     }
   ]
 }

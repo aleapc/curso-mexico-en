@@ -49,7 +49,7 @@ export const outline: ModuloOutline[] = [
       { id: 'i04', titulo: 'Who invited whom', pronta: true },
       { id: 'i05', titulo: 'The five questions everyone asks you', pronta: true },
       { id: 'i06', titulo: 'Where you went yesterday', pronta: true },
-      { id: 'i07', titulo: 'Está buenísimo — and the cook comes out', pronta: true },
+      { id: 'i07', titulo: 'Está buenísimo — and the cook hears about it', pronta: true },
       { id: 'i08', titulo: 'Someone invites you home', pronta: true },
       { id: 'i09', titulo: 'An afternoon doing what they do', pronta: true },
       { id: 'i10', titulo: 'Money without the drama', pronta: true },

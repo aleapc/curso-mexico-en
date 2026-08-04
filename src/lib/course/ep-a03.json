@@ -7,16 +7,11 @@
   "titulo": "Who they think they are",
   "subtitulo": "The village they name instead of the country, the running-down of their own place that you are not invited to join in with, and the two comparisons that make the answer go short",
   "moldura": "ganha",
-
   "cena": "Ten at night on a terrace in a town you cannot pronounce, the man who poured the wine has asked where you are from, and his own answer to that question is a village forty minutes up the road.",
-
   "frasePiso": "You will get somebody talking about the place they are actually from. Most visitors spend a fortnight here and never get past the name of the country.",
-
   "permissao": "You are allowed to like it out loud while somebody is running it down in front of you — that is not contradicting anybody, that is being a guest. You are allowed to laugh at the paperwork joke: the laugh is welcome, the agreeing is not yours to do. You are allowed not to know where the town is, because asking is the entire point. And you are allowed to be the guiri and say so out loud — the joke about yourself is the one that is yours to make, and it lands every time.",
   "permissaoAudioKey": "a03-n27",
-
   "espelho": "Opening with 'so is it always this hot?' on the second sentence is the bit that reads as odd there — it is the same move you find tiring when somebody lands in your country and starts with the rain. Two more that travel badly in the same direction: the compliment with a comparison bolted to it, which hands somebody their own thing as a version of somebody else's; and running your own country down to be polite, which at that table reads as agreeing with the complaint rather than as modesty. The complaint was never asking for a second opinion.",
-
   "fichasCulturais": [
     {
       "sinal": "You ask where she is from and she names a village of four thousand people, then stops and waits.",
@@ -26,7 +21,11 @@
       "oQueMelhora": "You get recommendations about a real place instead of about a country, from somebody who is now telling you something they actually know.",
       "ondeNaoVale": "Not at a hotel desk in a city of four million, where 'de aquí' is the whole answer and there is no village behind it — and not abroad either, where the country goes first for them exactly as it does for you.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n04", "a03-n05", "a03-n25"]
+      "audioKeys": [
+        "a03-n04",
+        "a03-n05",
+        "a03-n25"
+      ]
     },
     {
       "sinal": "You say you like it here, and back comes a cheerful list of what does not work — the paperwork, the wages, the trains.",
@@ -36,7 +35,11 @@
       "oQueMelhora": "The list stops being about a country and turns into a conversation, and you leave with the address of the place he does rate.",
       "ondeNaoVale": "Not when he asks you straight out what the worst of it is. That is a real question, a small specific answer is what he wanted, and hedging there reads as being managed.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n11", "a03-n12", "a03-n13"]
+      "audioKeys": [
+        "a03-n11",
+        "a03-n12",
+        "a03-n13"
+      ]
     },
     {
       "sinal": "You say the rice reminds you of a risotto — or that the Spanish you learned sounds nothing like his — and you get one flat syllable and a turn away.",
@@ -46,7 +49,11 @@
       "oQueMelhora": "You get told what is actually local, at length, and usually with something put in front of you to taste.",
       "ondeNaoVale": "Not among themselves — the neighbours get compared all day long, in both directions, and half of that is a football table. It is the comparison arriving from outside that makes the answer go short.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n16", "a03-n17", "a03-n18"]
+      "audioKeys": [
+        "a03-n16",
+        "a03-n17",
+        "a03-n18"
+      ]
     },
     {
       "sinal": "You say out loud how cheap it all is, the man who served it says 'ya', and he starts wiping down the counter.",
@@ -56,10 +63,13 @@
       "oQueMelhora": "The compliment lands on the person who made it instead of on a price, and the conversation carries on past the number.",
       "ondeNaoVale": "Not when he says it first. 'Aquí se come bien y barato' is said with pride, and agreeing with that is agreeing with him, which is an entirely different move.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n21", "a03-n22", "a03-n23"]
+      "audioKeys": [
+        "a03-n21",
+        "a03-n22",
+        "a03-n23"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
@@ -96,7 +106,9 @@
       "es": "Soy el guiri, ya lo sé.",
       "pinyin": "soy el GEE-ree, yah loh SEH",
       "pt": "the joke is yours to make",
-      "consulta": ["simpatia/puxar-conversa"]
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -133,7 +145,9 @@
       "es": "Soy de Londres, ¿y tú?",
       "pinyin": "soy deh LOHN-drehs, ee too",
       "pt": "and then it is his turn",
-      "consulta": ["simpatia/puxar-conversa"]
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -181,7 +195,9 @@
       "es": "¿De qué parte?",
       "pinyin": "deh keh PAR-teh",
       "pt": "three words, and she is off",
-      "consulta": ["simpatia/puxar-conversa"]
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -283,7 +299,9 @@
       "es": "Me encantó el mercado.",
       "pinyin": "meh en-kan-TOH el mehr-KAH-dhoh",
       "pt": "one place, named",
-      "consulta": ["simpatia/elogiar-lugar"]
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -368,7 +386,10 @@
       "es": "¿Hay algo típico de aquí?",
       "pinyin": "ai AL-goh TEE-pee-koh deh ah-KEE",
       "pt": "the one question that is yours",
-      "consulta": ["mesa/comida", "simpatia/puxar-conversa"]
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -516,7 +537,6 @@
       "pt": "That is it. You asked, they told you, and nobody had to speak for a whole country. Hasta luego."
     }
   ],
-
   "aprofundar": {
     "titulo": "The town, the empire and the licence to complain (optional reading)",
     "secoes": [

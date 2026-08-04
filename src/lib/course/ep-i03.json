@@ -10,28 +10,172 @@
   "moldura": "ganha",
   "frasePiso": "The best dish in the room is often the one with no name on an English menu, because there is no English menu — there's just today's comida corrida.",
   "fatosDatados": [
-    { "id": "mx-comida-corrida", "afirmacao": "Comida corrida (also called menú del día) is a fixed-price multi-course lunch — typically soup or starter, a main dish, rice or beans, and a drink — served at fondas roughly from midday to early afternoon, commonly in the 60-150 MXN range depending on the establishment.", "fonte": "Consenso de guias gastronômicos (Monte Albán Heritage Center, My Slice of Mexico, CCRA Travel) — preços variam por cidade e casa", "ano": 2026, "revisarAte": "2027-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i03-n02"] }
+    {
+      "id": "mx-comida-corrida",
+      "afirmacao": "Comida corrida (also called menú del día) is a fixed-price multi-course lunch — typically soup or starter, a main dish, rice or beans, and a drink — served at fondas roughly from midday to early afternoon, commonly in the 60-150 MXN range depending on the establishment.",
+      "fonte": "Consenso de guias gastronômicos (Monte Albán Heritage Center, My Slice of Mexico, CCRA Travel) — preços variam por cidade e casa",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i03-n02"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i03-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Some of the best food in Mexico has no printed menu at all. It has a chalkboard, or nothing — just today's comida corrida, decided in the kitchen that morning." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i03-r01", "es": "Hoy tenemos comida corrida: sopa, guisado y agua.", "pt": "Today we have comida corrida: soup, a stew, and a drink.", "tts": "Hoy tenemos comida corrida: sopa, guisado y agua." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i03-n02", "bloco": "corpo", "pt": "Comida corrida — the same idea as a menú del día — is a full, fixed multi-course lunch at a fair price, usually only available for a few hours around midday. It's not a limited option. It's often the actual reason to be there." },
-    { "consulta": ["mesa/pedir"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i03-p01", "promptPt": "That's exactly what you want. Say you'll have the comida corrida. Speak now.", "audioKey": "mx-i03-t01", "es": "Quiero la comida corrida, por favor.", "pinyin": "KYEH-roh lah koh-MEE-dah koh-RREE-dah, por fah-BOR", "pt": "I'd like the comida corrida, please.", "tts": "Quiero la comida corrida, por favor." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i03-r02", "es": "¿Sopa o crema?", "pt": "Soup or a cream soup?", "tts": "¿Sopa o crema?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i03-n03", "pt": "Comida corrida still asks you to choose between two or three set options at each course. You don't need every word — you need one clean choice." },
-    { "consulta": ["mesa/pedir"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i03-p02", "promptPt": "Pick one. Say soup. Speak now.", "audioKey": "mx-i03-t02", "es": "Sopa, por favor.", "pinyin": "SOH-pah, por fah-BOR", "pt": "Soup, please.", "tts": "Sopa, por favor." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i03-n04", "bloco": "capsula", "pt": "And when there genuinely is a longer menu and no comida corrida in sight, this is the move that unlocks the good dish instead of the safe one." },
-    { "consulta": ["mesa/recomendacion"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i03-p03", "promptPt": "You're not sure what to get. Ask what they recommend. Speak now.", "audioKey": "mx-i03-t03", "es": "¿Qué me recomienda?", "pinyin": "keh meh reh-koh-myen-DAH", "pt": "What do you recommend?", "tts": "¿Qué me recomienda?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i03-r03", "es": "El mole está buenísimo hoy.", "pt": "The mole is really good today.", "tts": "El mole está buenísimo hoy." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i03-s01", "es": "Quiero la comida corrida, por favor. ¿Qué me recomienda?", "pinyin": "KYEH-roh lah koh-MEE-dah koh-RREE-dah, por fah-BOR. keh meh reh-koh-myen-DAH", "pt": "Shadow ordering the fixed lunch and asking for a recommendation.", "tts": "Quiero la comida corrida, por favor. ¿Qué me recomienda?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i03-n05", "bloco": "recap", "pt": "I03 complete. Comida corrida is the move, not the fallback — a full fixed lunch, fair price, usually the best thing in the room. And when there's a longer menu instead, ¿qué me recomienda? gets you today's actual best dish, not just the one you already knew the name of." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Some of the best food has no printed menu — just a chalkboard, or nothing, today's comida corrida decided that morning."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i03-r01",
+      "es": "Hoy tenemos comida corrida: sopa, guisado y agua.",
+      "pt": "Today we have comida corrida: soup, a stew, and a drink.",
+      "tts": "Hoy tenemos comida corrida: sopa, guisado y agua."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i03-n02",
+      "bloco": "corpo",
+      "pt": "Comida corrida — like menú del día — is a full fixed lunch, fair price, a few hours around midday."
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i03-p01",
+      "promptPt": "That's exactly what you want. Say you'll have the comida corrida. Speak now.",
+      "audioKey": "mx-i03-t01",
+      "es": "Quiero la comida corrida, por favor.",
+      "pinyin": "KYEH-roh lah koh-MEE-dah koh-RREE-dah, por fah-BOR",
+      "pt": "I'd like the comida corrida, please.",
+      "tts": "Quiero la comida corrida, por favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i03-r02",
+      "es": "¿Sopa o crema?",
+      "pt": "Soup or a cream soup?",
+      "tts": "¿Sopa o crema?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i03-n03",
+      "pt": "Comida corrida still asks you to choose between two or three set options at each course. You don't need every word — you need one clean choice."
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i03-p02",
+      "promptPt": "Pick one. Say soup. Speak now.",
+      "audioKey": "mx-i03-t02",
+      "es": "Sopa, por favor.",
+      "pinyin": "SOH-pah, por fah-BOR",
+      "pt": "Soup, please.",
+      "tts": "Sopa, por favor."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i03-r04",
+      "es": "¿Guisado de pollo o de res?",
+      "pt": "Chicken stew or beef?",
+      "tts": "¿Guisado de pollo o de res?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i03-p04",
+      "promptPt": "The main course also has two options. Choose chicken. Speak now.",
+      "audioKey": "mx-i03-t04",
+      "es": "De pollo, por favor.",
+      "pinyin": "deh POH-yoh, por fah-BOR",
+      "pt": "Chicken, please.",
+      "tts": "De pollo, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i03-n04",
+      "bloco": "capsula",
+      "pt": "When there's a longer menu and no comida corrida, this move unlocks the good dish instead of the safe one."
+    },
+    {
+      "consulta": [
+        "mesa/recomendacion"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i03-p03",
+      "promptPt": "You're not sure what to get. Ask what they recommend. Speak now.",
+      "audioKey": "mx-i03-t03",
+      "es": "¿Qué me recomienda?",
+      "pinyin": "keh meh reh-koh-myen-DAH",
+      "pt": "What do you recommend?",
+      "tts": "¿Qué me recomienda?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i03-r03",
+      "es": "El mole está buenísimo hoy.",
+      "pt": "The mole is really good today.",
+      "tts": "El mole está buenísimo hoy."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i03-s01",
+      "es": "Quiero la comida corrida, por favor. ¿Qué me recomienda?",
+      "pinyin": "KYEH-roh lah koh-MEE-dah koh-RREE-dah, por fah-BOR. keh meh reh-koh-myen-DAH",
+      "pt": "Shadow ordering the fixed lunch and asking for a recommendation.",
+      "tts": "Quiero la comida corrida, por favor. ¿Qué me recomienda?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i03-n05",
+      "bloco": "recap",
+      "pt": "I03 complete. Comida corrida is the move, fair price, usually the best thing in the room — otherwise, ¿qué me recomienda?"
+    }
   ],
   "aprofundar": {
     "titulo": "The unwritten menu is often the good one",
     "secoes": [
-      { "titulo": "Comida corrida changes daily", "corpo": "Because the menu is fixed by the kitchen each morning, asking hoy — 'what's today's comida corrida?' — is more useful than expecting the same dish twice." },
-      { "titulo": "It's mainly a lunch institution", "corpo": "Fondas typically serve comida corrida from around midday to mid-afternoon, tied to the comida hour from I01 — it usually isn't available in the evening." },
-      { "titulo": "Asking for a recommendation is not indecision", "corpo": "¿Qué me recomienda? is a completely normal, common question — it signals trust in the kitchen, not that you couldn't read the menu." }
+      {
+        "titulo": "Comida corrida changes daily",
+        "corpo": "Because the menu is fixed by the kitchen each morning, asking hoy — 'what's today's comida corrida?' — is more useful than expecting the same dish twice."
+      },
+      {
+        "titulo": "It's mainly a lunch institution",
+        "corpo": "Fondas typically serve comida corrida from around midday to mid-afternoon, tied to the comida hour from I01 — it usually isn't available in the evening."
+      },
+      {
+        "titulo": "Asking for a recommendation is not indecision",
+        "corpo": "¿Qué me recomienda? is a completely normal, common question — it signals trust in the kitchen, not that you couldn't read the menu."
+      }
     ]
   },
   "slot": "I03",
@@ -47,7 +191,9 @@
       "oQueMelhora": "You get a full, freshly made meal at a fair price, often better than anything on a translated tourist menu nearby.",
       "ondeNaoVale": "Not in the evening or at more formal restaurants with an à la carte menu — comida corrida is specifically a midday, fonda-style institution.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i03-n02"]
+      "audioKeys": [
+        "mx-i03-n02"
+      ]
     }
   ]
 }

@@ -7,16 +7,11 @@
   "titulo": "Bon dia, kaixo, bo día",
   "subtitulo": "Eight signs, eight words and two seconds at the door — knowing which language the house speaks, and what happens to the service when you use it",
   "moldura": "ganha",
-
   "cena": "Ten past nine on a Tuesday in Gràcia, the board behind the counter is in a language you half recognise, four regulars have looked up, and the barman is waiting for you to say something.",
-
   "frasePiso": "You will read an exit, a closed door and a toilet in three languages you do not speak, and greet a room in the one on the door. Most visitors spend a fortnight assuming every sign in the country is in Spanish.",
-
   "permissao": "You will not offend a soul by speaking Spanish in Barcelona, Bilbao or Santiago. Nobody expects a word of Catalan, Basque or Galician from a visitor, and almost everyone will answer you in Castilian the moment they hear your accent. Bon dia is a courtesy, not a requirement, and courtesy is free. You are also allowed to get a sign wrong and point at it.",
   "permissaoAudioKey": "a05-n06",
-
   "espelho": "Opening with 'sorry, I don't speak Catalan' is the bit that reads as odd there. It hands them something to sort out that they never had — they were going to answer you in Castilian anyway. Two words of greeting and then your ordinary Spanish does the same job, without asking to be forgiven for it.",
-
   "fichasCulturais": [
     {
       "sinal": "The board behind the bar is in Catalan only, and the second you open your mouth the barman answers you in Castilian without being asked.",
@@ -26,7 +21,11 @@
       "oQueMelhora": "You get served in the language you actually have, and the two seconds you spent at the door are the part that gets remembered next time.",
       "ondeNaoVale": "Not with Basque. Far fewer people on a Bilbao street use it hour to hour, so kaixo lands as a nice gesture rather than as the language of the house — nothing switches, because nothing was in the other language to begin with.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a05-n25", "a05-n26", "a05-n27"]
+      "audioKeys": [
+        "a05-n25",
+        "a05-n26",
+        "a05-n27"
+      ]
     },
     {
       "sinal": "You say the friendly version of 'it's basically Spanish, isn't it', and the conversation that was going well goes flat in about four seconds.",
@@ -36,7 +35,12 @@
       "oQueMelhora": "You get two minutes of teaching, the table turns towards you, and you leave knowing a word you will see on forty more doors.",
       "ondeNaoVale": "Not as a correction pointed the other way. In Valencia the people who wrote the menu call it valencià, and telling them it is Catalan is the same move in reverse. Use the name that is on the sign.",
       "evidencia": "FATO",
-      "audioKeys": ["a05-n29", "a05-n30", "a05-n31", "a05-n32"]
+      "audioKeys": [
+        "a05-n29",
+        "a05-n30",
+        "a05-n31",
+        "a05-n32"
+      ]
     },
     {
       "sinal": "You say bon dia, they beam at you, and the very next sentence out of them is in Castilian.",
@@ -46,10 +50,12 @@
       "oQueMelhora": "The service warms up visibly, and it cost you four words in total across the whole visit.",
       "ondeNaoVale": "Not everywhere it stays in Castilian afterwards. A village bakery inland, an older woman, and the answer keeps coming back in Catalan — that is not a rebuff either. Say adéu, point at what you want, and you both get there.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a05-n26", "a05-n28"]
+      "audioKeys": [
+        "a05-n26",
+        "a05-n28"
+      ]
     }
   ],
-
   "fatosDatados": [
     {
       "id": "cooficialidade-1978",
@@ -59,7 +65,9 @@
       "revisarAte": "2030-01-01",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a05-n30"]
+      "audioKeys": [
+        "a05-n30"
+      ]
     },
     {
       "id": "nome-valencia",
@@ -69,7 +77,9 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a05-n32"]
+      "audioKeys": [
+        "a05-n32"
+      ]
     },
     {
       "id": "basco-lingua-isolada",
@@ -79,10 +89,12 @@
       "revisarAte": "2031-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a05-n17", "a05-n18"]
+      "audioKeys": [
+        "a05-n17",
+        "a05-n18"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
@@ -257,7 +269,9 @@
       "es": "Bon dia.",
       "pinyin": "bohn DEE-ah",
       "pt": "to the room, on the way in",
-      "consulta": ["chegar/entrar"]
+      "consulta": [
+        "chegar/entrar"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -299,7 +313,9 @@
       "es": "Si us plau.",
       "pinyin": "see oos PLAH-oo",
       "pt": "the ending, in hers",
-      "consulta": ["compras/balcao"]
+      "consulta": [
+        "compras/balcao"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -341,7 +357,9 @@
       "es": "Moltes gràcies.",
       "pinyin": "MOHL-tuhs GRAH-see-uhs",
       "pt": "the big version, soft on the end",
-      "consulta": ["simpatia/agradecer"]
+      "consulta": [
+        "simpatia/agradecer"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -383,7 +401,9 @@
       "es": "Adéu.",
       "pinyin": "ah-DEH-oo",
       "pt": "on the way out",
-      "consulta": ["chegar/sair"]
+      "consulta": [
+        "chegar/sair"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -431,7 +451,9 @@
       "es": "Kaixo.",
       "pinyin": "KAI-shoh",
       "pt": "one word, through the noise",
-      "consulta": ["chegar/entrar"]
+      "consulta": [
+        "chegar/entrar"
+      ]
     },
     {
       "tipo": "ouvir",
@@ -746,7 +768,6 @@
       "pt": "That is part thirty-three. You cannot speak three of the four, and from tomorrow you can read them. Adéu."
     }
   ],
-
   "aprofundar": {
     "titulo": "Four languages, eight signs and the two seconds at the door (optional reading)",
     "secoes": [

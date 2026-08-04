@@ -6,28 +6,158 @@
   "titulo": "An afternoon doing what they do",
   "subtitulo": "Ask what's actually happening this weekend, instead of defaulting to the one attraction every guidebook already told you about",
   "cena": "Your guidebook has one plan for the afternoon. The person next to you, who actually lives here, has a completely different one, and it's better.",
+  "decisao": "em que gastar a tarde livre — seguir o roteiro já pago do guia ou perguntar o que está realmente acontecendo e pedir para ir junto, que custa uma pergunta e muda o dia inteiro",
   "moldura": "ganha",
   "frasePiso": "The best afternoon plan is rarely in the guidebook. It's whatever's actually happening in the plaza this weekend.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i09-n01", "gesto": 1, "bloco": "aquecimento", "pt": "One question opens up a whole different kind of afternoon: not what should I see, but what's actually happening. The plaza, the local market, a neighbourhood event — the answer changes week to week, and that's exactly the point." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i09-r01", "es": "¿Qué van a hacer este fin de semana?", "pt": "What are you doing this weekend?", "tts": "¿Qué van a hacer este fin de semana?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i09-n02", "bloco": "corpo", "pt": "Turn the question back around. This is the one that gets you invited into someone's actual plan instead of a tourist itinerary." },
-    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i09-p01", "promptPt": "Ask what's happening in the plaza this weekend. Speak now.", "audioKey": "mx-i09-t01", "es": "¿Hay algo en la plaza este fin de semana?", "pinyin": "eye AHL-goh en lah PLAH-sah EHS-teh feen deh seh-MAH-nah", "pt": "Is there anything happening in the plaza this weekend?", "tts": "¿Hay algo en la plaza este fin de semana?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i09-r02", "es": "Sí, hay un mercado sobre ruedas los domingos.", "pt": "Yes, there's a roving market on Sundays.", "tts": "Sí, hay un mercado sobre ruedas los domingos." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i09-n03", "bloco": "capsula", "pt": "A mercado sobre ruedas — a market that sets up on a street for one day and moves on — is a completely different rhythm from a fixed tourist market. Ask to go along, not just for directions." },
-    { "consulta": ["conversa/convite"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i09-p02", "promptPt": "Ask if you can come along with them. Speak now.", "audioKey": "mx-i09-t02", "es": "¿Puedo ir con ustedes?", "pinyin": "PWEH-doh eer kohn oos-TEH-dehs", "pt": "Can I come with you?", "tts": "¿Puedo ir con ustedes?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i09-r03", "es": "Claro, nos vemos a las diez.", "pt": "Of course, see you at ten.", "tts": "Claro, nos vemos a las diez." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i09-n04", "pt": "Once you're there, you're not performing tourism. You're just at the market with everyone else, so the useful sentence is the same one anyone would use." },
-    { "consulta": ["compras/precio"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i09-p03", "promptPt": "Ask the price of something at a stall, like any other customer. Speak now.", "audioKey": "mx-i09-t03", "es": "¿Cuánto cuesta esto?", "pinyin": "KWAHN-toh KWEHS-tah EHS-toh", "pt": "How much does this cost?", "tts": "¿Cuánto cuesta esto?" },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i09-s01", "es": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?", "pinyin": "eye AHL-goh en lah PLAH-sah EHS-teh feen deh seh-MAH-nah. PWEH-doh eer kohn oos-TEH-dehs", "pt": "Shadow asking what's happening, and asking to join.", "tts": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i09-n05", "bloco": "recap", "pt": "I09 complete. ¿Hay algo en la plaza? finds out what's actually happening. ¿Puedo ir con ustedes? turns a plan into an invitation. Once you're there, you're just a customer, not a spectator — cuánto cuesta esto works exactly the same way it does everywhere else." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "One question opens a different kind of afternoon — not what should I see, but what's actually happening this week."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i09-r01",
+      "es": "¿Qué van a hacer este fin de semana?",
+      "pt": "What are you doing this weekend?",
+      "tts": "¿Qué van a hacer este fin de semana?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i09-n02",
+      "bloco": "corpo",
+      "pt": "Turn the question back around — this gets you into someone's actual plan, not a tourist itinerary."
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i09-p01",
+      "promptPt": "Ask what's happening in the plaza this weekend. Speak now.",
+      "audioKey": "mx-i09-t01",
+      "es": "¿Hay algo en la plaza este fin de semana?",
+      "pinyin": "eye AHL-goh en lah PLAH-sah EHS-teh feen deh seh-MAH-nah",
+      "pt": "Is there anything happening in the plaza this weekend?",
+      "tts": "¿Hay algo en la plaza este fin de semana?",
+      "molde": "HAY",
+      "encaixe": "algo en la plaza"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i09-r02",
+      "es": "Sí, hay un mercado sobre ruedas los domingos.",
+      "pt": "Yes, there's a roving market on Sundays.",
+      "tts": "Sí, hay un mercado sobre ruedas los domingos."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i09-n03",
+      "bloco": "capsula",
+      "pt": "A mercado sobre ruedas sets up for one day and moves on — a different rhythm from a fixed tourist market. Ask to go along."
+    },
+    {
+      "consulta": [
+        "conversa/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i09-p02",
+      "promptPt": "Ask if you can come along with them. Speak now.",
+      "audioKey": "mx-i09-t02",
+      "es": "¿Puedo ir con ustedes?",
+      "pinyin": "PWEH-doh eer kohn oos-TEH-dehs",
+      "pt": "Can I come with you?",
+      "tts": "¿Puedo ir con ustedes?",
+      "molde": "PUEDO",
+      "encaixe": "ir con ustedes"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i09-r03",
+      "es": "Claro, nos vemos a las diez.",
+      "pt": "Of course, see you at ten.",
+      "tts": "Claro, nos vemos a las diez."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i09-p04",
+      "promptPt": "They just made room for you in their own weekend. Thank them for the invitation. Speak now.",
+      "audioKey": "mx-i09-t04",
+      "es": "Qué padre, gracias por invitarme.",
+      "pinyin": "keh PAH-dreh, GRAH-syahs por een-bee-TAHR-meh",
+      "pt": "How cool, thanks for inviting me.",
+      "tts": "Qué padre, gracias por invitarme."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i09-n04",
+      "pt": "Once there, you're not performing tourism — just at the market with everyone else, using the same sentence anyone would."
+    },
+    {
+      "consulta": [
+        "compras/precio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i09-p03",
+      "promptPt": "Ask the price of something at a stall, like any other customer. Speak now.",
+      "audioKey": "mx-i09-t03",
+      "es": "¿Cuánto cuesta esto?",
+      "pinyin": "KWAHN-toh KWEHS-tah EHS-toh",
+      "pt": "How much does this cost?",
+      "tts": "¿Cuánto cuesta esto?"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i09-s01",
+      "es": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?",
+      "pinyin": "eye AHL-goh en lah PLAH-sah EHS-teh feen deh seh-MAH-nah. PWEH-doh eer kohn oos-TEH-dehs",
+      "pt": "Shadow asking what's happening, and asking to join.",
+      "tts": "¿Hay algo en la plaza este fin de semana? ¿Puedo ir con ustedes?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i09-n05",
+      "bloco": "recap",
+      "pt": "I09 complete. ¿Hay algo en la plaza? finds what's happening, ¿puedo ir con ustedes? turns it into an invitation."
+    }
   ],
   "aprofundar": {
     "titulo": "Local rhythm beats the fixed attraction",
     "secoes": [
-      { "titulo": "A mercado sobre ruedas is temporary by design", "corpo": "These street markets appear on a fixed day of the week in a given neighbourhood and pack up afterward — very different from a permanent tourist market, and worth asking about specifically since the schedule varies by area." },
-      { "titulo": "The plaza is the default social space", "corpo": "In many Mexican towns and neighbourhoods, the central plaza is where weekend life actually happens — asking what's on there is a reliable way to find something real rather than staged." },
-      { "titulo": "Joining beats observing", "corpo": "¿Puedo ir con ustedes? turns a piece of information into an invitation. Most people are glad to have you along, especially once you've asked rather than just watched from a distance." }
+      {
+        "titulo": "A mercado sobre ruedas is temporary by design",
+        "corpo": "These street markets appear on a fixed day of the week in a given neighbourhood and pack up afterward — very different from a permanent tourist market, and worth asking about specifically since the schedule varies by area."
+      },
+      {
+        "titulo": "The plaza is the default social space",
+        "corpo": "In many Mexican towns and neighbourhoods, the central plaza is where weekend life actually happens — asking what's on there is a reliable way to find something real rather than staged."
+      },
+      {
+        "titulo": "Joining beats observing",
+        "corpo": "¿Puedo ir con ustedes? turns a piece of information into an invitation. Most people are glad to have you along, especially once you've asked rather than just watched from a distance."
+      }
     ]
   },
   "slot": "I09",

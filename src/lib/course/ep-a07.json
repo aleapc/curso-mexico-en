@@ -7,21 +7,13 @@
   "titulo": "Two kisses, one hand, and knowing when to go",
   "subtitulo": "The greeting that is settled by whoever moves first, the hand on your arm that means the evening is going well, the two seconds of quiet that mean you have found the edge of something, and the goodbye that runs on from the room to the street because it is meant to",
   "moldura": "ganha",
-
   "cena": "Half eleven at night, the plates went an hour ago, you have twice said you ought to be going, and the man beside you has just put a hand on your arm and started another story.",
-
   "decisao": "whether you stay when the room means stay and go when it means go — the hour a table only opens after the food has gone, against the evening that ends at ten with everybody being very polite about it",
   "emJogo": "tempo",
-
-  "moldes": [],
-
   "frasePiso": "You will know when the room wants you to stay and when it has finished, and be right about both. Most visitors go home at ten and never find out that the good hour comes after the plates.",
-
   "permissao": "You are allowed to put a hand out instead of a cheek, anywhere, with anybody, and nobody in Spain is offended by it — ever. You are allowed to go over the top of somebody who is still talking: no gap is coming, and holding out for one is how a visitor spends a whole evening silent. You are allowed to stay after the plates have gone, because the table is yours until somebody stands up. And you are allowed to say nothing at all for ten minutes at a loud table — nobody is counting your turns.",
   "permissaoAudioKey": "a07-n45",
-
   "espelho": "Backing off half a step when somebody moves in to talk to you is the bit that reads as odd there. Eighty centimetres of clear air is not respect at that table — it is read as somebody with somewhere else to be.",
-
   "fichasCulturais": [
     {
       "sinal": "She comes across the room, tilts her head and goes for your right cheek before either of you has said a word.",
@@ -31,7 +23,13 @@
       "oQueMelhora": "The first three seconds stop being a negotiation, and you spend the rest of the evening talking instead of watching everybody's shoulders.",
       "ondeNaoVale": "Not across a counter, a desk or a till. Nobody selling you something, serving you or checking you in will offer it, and there the hand is the whole of the protocol.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n10", "a07-n11", "a07-n12", "a07-n13", "a07-gusto-c"]
+      "audioKeys": [
+        "a07-n10",
+        "a07-n11",
+        "a07-n12",
+        "a07-n13",
+        "a07-gusto-c"
+      ]
     },
     {
       "sinal": "He is standing closer than feels normal, he has not once dropped your eye, and a hand lands on your arm halfway through a sentence.",
@@ -41,7 +39,13 @@
       "oQueMelhora": "You get read as present rather than as polite, the conversation keeps its temperature, and you get the second half of it — which is the half worth having.",
       "ondeNaoVale": "Not at a bank counter, at a doctor's, or with anybody in a uniform. Those keep about the distance yours does at home, and closeness there would be as odd for them as it is for you.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n14", "a07-n15", "a07-n16", "a07-n17", "a07-n18"]
+      "audioKeys": [
+        "a07-n14",
+        "a07-n15",
+        "a07-n16",
+        "a07-n17",
+        "a07-n18"
+      ]
     },
     {
       "sinal": "The table goes quiet for about two seconds and somebody starts a completely different subject without looking at you while they do it.",
@@ -51,7 +55,13 @@
       "oQueMelhora": "The evening carries on at the temperature it had, and you become the visitor who noticed — which is worth more than the story you were in the middle of.",
       "ondeNaoVale": "Not between them. They will go back over the same subject with each other for an hour, at volume. The two seconds are about who said it, not about what was said.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n24", "a07-n25", "a07-n26", "a07-n27", "a07-ya-c"]
+      "audioKeys": [
+        "a07-n24",
+        "a07-n25",
+        "a07-n26",
+        "a07-n27",
+        "a07-ya-c"
+      ]
     },
     {
       "sinal": "You put Thursday to somebody and what comes back is warm, agreeable and has no day of the week anywhere in it.",
@@ -61,7 +71,12 @@
       "oQueMelhora": "You keep the person, and the invitation they do mean still turns up later in the week.",
       "ondeNaoVale": "Not from a shop or an office, where ya le digo algo can be a real answer that is genuinely pending. This is about a plan between people, not about a quote for a job.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n29", "a07-yatedire-e", "a07-yaveremos-c", "a07-otrodia-c"]
+      "audioKeys": [
+        "a07-n29",
+        "a07-yatedire-e",
+        "a07-yaveremos-c",
+        "a07-otrodia-c"
+      ]
     },
     {
       "sinal": "Midnight, everything has been cleared, no bill has come, and the moment you stand up three people ask whether you are off already.",
@@ -71,10 +86,16 @@
       "oQueMelhora": "You get the hour that only opens after the food has gone, which is the hour where you stop being the guest and start being the person they ask back.",
       "ondeNaoVale": "Not at a restaurant on its last sitting, where chairs going up on tables is exactly what it looks like — and not on a weeknight in a house with school in the morning.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n34", "a07-n35", "a07-n36", "a07-yatevas-e", "a07-n39", "a07-puesnada-e"]
+      "audioKeys": [
+        "a07-n34",
+        "a07-n35",
+        "a07-n36",
+        "a07-yatevas-e",
+        "a07-n39",
+        "a07-puesnada-e"
+      ]
     }
   ],
-
   "fatosDatados": [
     {
       "id": "dos-besos-protocolo",
@@ -84,7 +105,12 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a07-n10", "a07-n11", "a07-n12", "a07-n13"]
+      "audioKeys": [
+        "a07-n10",
+        "a07-n11",
+        "a07-n12",
+        "a07-n13"
+      ]
     },
     {
       "id": "guiri-nao-e-insulto",
@@ -94,10 +120,13 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a07-n32", "a07-guiri-e", "a07-n33"]
+      "audioKeys": [
+        "a07-n32",
+        "a07-guiri-e",
+        "a07-n33"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
@@ -171,7 +200,9 @@
       "voz": "Emilio",
       "promptVoz": "Alice",
       "promptAudioKey": "a07-p02",
-      "consulta": ["chegar/entrar"],
+      "consulta": [
+        "chegar/entrar"
+      ],
       "promptPt": "You have pushed open the door of a small bar with four people in it, and every one of them has looked up at you. One word, from the doorway. Speak now.",
       "audioKey": "e01b-15",
       "es": "Buenas.",
@@ -228,7 +259,10 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a07-p03",
-      "consulta": ["chegar/entrar", "simpatia/puxar-conversa"],
+      "consulta": [
+        "chegar/entrar",
+        "simpatia/puxar-conversa"
+      ],
       "promptPt": "A friend of a friend has walked into the flat, come straight across the room and is already leaning in. Two words, while it is happening. Speak now.",
       "audioKey": "a07-gusto-c",
       "es": "Mucho gusto.",
@@ -324,7 +358,9 @@
       "voz": "Emilio",
       "promptVoz": "Alice",
       "promptAudioKey": "a07-p04",
-      "consulta": ["simpatia/puxar-conversa"],
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "promptPt": "Five of them round a table, all going at once, no pause in six minutes, and you have something to add. Over the top of him. Speak now.",
       "audioKey": "a07-oye-e",
       "es": "Oye, una cosa.",
@@ -351,7 +387,9 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a07-p05",
-      "consulta": ["reparo/ingles"],
+      "consulta": [
+        "reparo/ingles"
+      ],
       "promptPt": "You get to the table and the whole lot of them switch into English mid-sentence, purely out of kindness. Hand it back to them. Speak now.",
       "audioKey": "e01c-02",
       "es": "Hablo un poco de español.",
@@ -448,7 +486,9 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a07-p06",
-      "consulta": ["simpatia/convite"],
+      "consulta": [
+        "simpatia/convite"
+      ],
       "promptPt": "You have put Thursday to him twice now, and what comes back is warm, agreeable and pins nothing down. Let him off it. Speak now.",
       "audioKey": "a07-otrodia-c",
       "es": "Vale, otro día.",
@@ -666,7 +706,10 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a07-p08",
-      "consulta": ["chegar/sair", "simpatia/agradecer"],
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
       "promptPt": "The door of the flat, coats on, and the woman whose kitchen it was has both hands out for you. Two words. Speak now.",
       "audioKey": "a07-placer-c",
       "es": "Un placer.",
@@ -680,7 +723,6 @@
       "pt": "That is the room. Stay put, go over the top, let the two seconds pass, and leave last. Hasta luego."
     }
   ],
-
   "aprofundar": {
     "titulo": "The greeting, the arm, the two seconds and the long goodbye (optional reading)",
     "secoes": [

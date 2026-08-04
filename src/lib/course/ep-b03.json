@@ -7,29 +7,188 @@
   "subtitulo": "Repeat, slow down, write it and show it on the map — the repair ladder for a noisy counter",
   "cena": "The departure time just went past you for the second time, said fast and confident, and the queue behind you is not getting any shorter.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b03-n01", "bloco": "aquecimento", "pt": "The dangerous tourist sentence is the smile that means nothing. You miss a price or a street name, nod anyway and inherit the wrong problem. B03 gives you a four-step ladder: say the break, ask for slower repetition, move the detail into writing, then put the route on a map. You are not asking the person to become your teacher. You are changing the channel until the information survives." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b03-t01", "es": "No entendí.", "pinyin": "noh en-ten-DEE", "pt": "I didn't understand.", "tts": "No entendí." },
-    { "consulta": ["reparo/no-entendi"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b03-p01", "promptPt": "At a noisy counter, the attendant gives you a long answer and you lose it. Stop the false smile and say you didn't understand. Speak now.", "audioKey": "mx-b03-t01", "es": "No entendí.", "pinyin": "noh en-ten-DEE", "pt": "I didn't understand." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b03-r01", "es": "¿Mande?", "pt": "Sorry? What was that?", "tts": "¿Mande?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b03-n02", "pt": "You may hear mande in Mexico when somebody did not catch you. Recognise it; you do not need to copy it. Your next step is explicit: repeat it more slowly. One request, not two separate apologies." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b03-t02", "es": "¿Me lo puede repetir más despacio?", "pinyin": "meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh", "pt": "Can you repeat that more slowly?", "tts": "¿Me lo puede repetir más despacio?" },
-    { "consulta": ["reparo/devagar"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b03-p02", "promptPt": "The bus attendant repeats at the same speed. Ask for the whole thing again, more slowly. Speak now.", "audioKey": "mx-b03-t02", "es": "¿Me lo puede repetir más despacio?", "pinyin": "meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh", "pt": "Can you repeat that more slowly?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b03-r02", "es": "Claro. Sale a las quince cincuenta.", "pt": "Of course. It leaves at 15:50.", "tts": "Claro. Sale a las quince cincuenta." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b03-n03", "bloco": "corpo", "pt": "Slower can still fail when the payload is a number, surname or address. Stop spending listening attempts. Put the detail somewhere your eyes can hold it." },
-    { "consulta": ["reparo/escribir", "transporte/horario"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b03-p03", "promptPt": "You still cannot separate quince from cincuenta. Ask the attendant to write the departure time. Speak now.", "audioKey": "mx-b03-t03", "es": "¿Me lo puede escribir, por favor?", "pinyin": "meh loh PWEH-deh ehs-kree-BEER, por fah-BOR", "pt": "Can you write it down for me, please?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b03-r03", "es": "Sí, claro. Quince cincuenta.", "pt": "Yes, of course. 15:50.", "tts": "Sí, claro. Quince cincuenta." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b03-n04", "bloco": "capsula", "pt": "Last channel: the map. A written street name can still leave you with three branches and no idea which way to move. Hand over the phone already open on the map and ask for the point, not another paragraph." },
-    { "consulta": ["reparo/apontar", "transporte/direcao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b03-p04", "promptPt": "A local writes the street name, but you still do not know which branch it is. Open the map and ask them to show you. Speak now.", "audioKey": "mx-b03-t04", "es": "¿Me lo muestra en el mapa?", "pinyin": "meh loh MWEHS-trah en el MAH-pah", "pt": "Can you show me on the map?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b03-r04", "es": "Sí. Es aquí, después de la esquina.", "pt": "Yes. It's here, after the corner.", "tts": "Sí. Es aquí, después de la esquina." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b03-s01", "es": "No entendí. ¿Me lo puede repetir más despacio? ¿Me lo puede escribir?", "pinyin": "noh en-ten-DEE. meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh. meh loh PWEH-deh ehs-kree-BEER", "pt": "Shadow the first three rungs without adding an apology.", "tts": "No entendí. ¿Me lo puede repetir más despacio? ¿Me lo puede escribir?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b03-n05", "bloco": "recap", "pt": "B03 complete. Say the break. Slow the repeat. Write the payload. Point to the route. The ladder keeps the exchange in Spanish while removing the exact part your ears cannot carry yet." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The false smile-and-nod inherits the wrong problem. The ladder: say the break, ask slower, get it written, use the map."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b03-t01",
+      "es": "No entendí.",
+      "pinyin": "noh en-ten-DEE",
+      "pt": "I didn't understand.",
+      "tts": "No entendí."
+    },
+    {
+      "consulta": [
+        "reparo/no-entendi"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b03-p01",
+      "promptPt": "At a noisy counter, the attendant gives you a long answer and you lose it. Stop the false smile and say you didn't understand. Speak now.",
+      "audioKey": "mx-b03-t01",
+      "es": "No entendí.",
+      "pinyin": "noh en-ten-DEE",
+      "pt": "I didn't understand."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b03-r01",
+      "es": "¿Mande?",
+      "pt": "Sorry? What was that?",
+      "tts": "¿Mande?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b03-n02",
+      "pt": "Here's the frame: ¿me puede, then the thing you need done. Recognise mande too — no need to copy it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b03-t02",
+      "es": "¿Me lo puede repetir más despacio?",
+      "pinyin": "meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh",
+      "pt": "Can you repeat that more slowly?",
+      "tts": "¿Me lo puede repetir más despacio?"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b03-p02",
+      "promptPt": "The bus attendant repeats at the same speed. Ask for the whole thing again, more slowly. Speak now.",
+      "audioKey": "mx-b03-t02",
+      "es": "¿Me lo puede repetir más despacio?",
+      "pinyin": "meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh",
+      "pt": "Can you repeat that more slowly?",
+      "molde": "ME-PUEDE",
+      "encaixe": "repetir más despacio"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b03-r02",
+      "es": "Claro. Sale a las quince cincuenta.",
+      "pt": "Of course. It leaves at 15:50.",
+      "tts": "Claro. Sale a las quince cincuenta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b03-n03",
+      "bloco": "corpo",
+      "pt": "Slower can still fail on numbers, names, addresses. Stop spending listening attempts — put it somewhere your eyes can hold."
+    },
+    {
+      "consulta": [
+        "reparo/escribir",
+        "transporte/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b03-p03",
+      "promptPt": "You still cannot separate quince from cincuenta. Ask the attendant to write the departure time. Speak now.",
+      "audioKey": "mx-b03-t03",
+      "es": "¿Me lo puede escribir, por favor?",
+      "pinyin": "meh loh PWEH-deh ehs-kree-BEER, por fah-BOR",
+      "pt": "Can you write it down for me, please?",
+      "molde": "ME-PUEDE",
+      "encaixe": "escribir"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b03-r03",
+      "es": "Sí, claro. Quince cincuenta.",
+      "pt": "Yes, of course. 15:50.",
+      "tts": "Sí, claro. Quince cincuenta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b03-n04",
+      "bloco": "capsula",
+      "pt": "Last channel: the map. A written street name can still leave three branches unclear — open the map and ask for the point."
+    },
+    {
+      "consulta": [
+        "reparo/apontar",
+        "transporte/direcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b03-p04",
+      "promptPt": "A local writes the street name, but you still do not know which branch it is. Open the map and ask them to show you. Speak now.",
+      "audioKey": "mx-b03-t04",
+      "es": "¿Me lo muestra en el mapa?",
+      "pinyin": "meh loh MWEHS-trah en el MAH-pah",
+      "pt": "Can you show me on the map?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b03-r04",
+      "es": "Sí. Es aquí, después de la esquina.",
+      "pt": "Yes. It's here, after the corner.",
+      "tts": "Sí. Es aquí, después de la esquina."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b03-s01",
+      "es": "No entendí. ¿Me lo puede repetir más despacio? ¿Me lo puede escribir?",
+      "pinyin": "noh en-ten-DEE. meh loh PWEH-deh reh-peh-TEER mahs dehs-PAH-syoh. meh loh PWEH-deh ehs-kree-BEER",
+      "pt": "Shadow the first three rungs without adding an apology.",
+      "tts": "No entendí. ¿Me lo puede repetir más despacio? ¿Me lo puede escribir?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b03-n05",
+      "bloco": "recap",
+      "pt": "B03 complete. Say the break, slow the repeat, write it, point to the map — the ladder stays in Spanish the whole time."
+    }
   ],
   "aprofundar": {
     "titulo": "Repair is a change of channel",
     "secoes": [
-      { "titulo": "Do not stack every rung", "corpo": "Start with the smallest repair that can work. If slower repetition succeeds, stop. Move to writing only for payloads that remain fragile: numbers, names, addresses, medicine and times." },
-      { "titulo": "What ¿mande? means here", "corpo": "In Mexico, ¿mande? can be a courteous response when somebody calls or was not heard. Treat it as 'sorry?' in this lesson. Recognition is useful; imitation is optional." },
-      { "titulo": "Writing beats a third repetition", "corpo": "A third identical listening attempt rarely changes the result. Writing externalises the detail and gives both people the same object to verify.", "exemplos": [{ "es": "¿Me lo puede escribir?", "pt": "Can you write it down for me?" }, { "es": "¿Me lo muestra en el mapa?", "pt": "Can you show me on the map?" }] }
+      {
+        "titulo": "Do not stack every rung",
+        "corpo": "Start with the smallest repair that can work. If slower repetition succeeds, stop. Move to writing only for payloads that remain fragile: numbers, names, addresses, medicine and times."
+      },
+      {
+        "titulo": "What ¿mande? means here",
+        "corpo": "In Mexico, ¿mande? can be a courteous response when somebody calls or was not heard. Treat it as 'sorry?' in this lesson. Recognition is useful; imitation is optional."
+      },
+      {
+        "titulo": "Writing beats a third repetition",
+        "corpo": "A third identical listening attempt rarely changes the result. Writing externalises the detail and gives both people the same object to verify.",
+        "exemplos": [
+          {
+            "es": "¿Me lo puede escribir?",
+            "pt": "Can you write it down for me?"
+          },
+          {
+            "es": "¿Me lo muestra en el mapa?",
+            "pt": "Can you show me on the map?"
+          }
+        ]
+      }
     ]
   },
   "slot": "B03",
@@ -47,7 +206,21 @@
       "oQueMelhora": "The correction happens while the person who has the answer is still standing in front of you, which is the only moment it is free.",
       "ondeNaoVale": "Not as a substitute for trying at all — saying no entendí to every sentence without ever attempting the exchange reads as giving up, not as repair.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b03-n01"]
+      "audioKeys": [
+        "mx-b03-n01"
+      ]
     }
-  ]
+  ],
+  "moldes": [
+    "ME-PUEDE"
+  ],
+  "clique": {
+    "contagem": [
+      "the noisy counter",
+      "the departure time",
+      "the street name"
+    ],
+    "desconto": "Nobody gave you three different sentences for three different breakdowns. You kept one opening — ¿me puede — and changed only the thing you needed done.",
+    "piso": "Next time an answer goes past you, you won't nod and hope. You'll pick the repair you need and ask for that one."
+  }
 }

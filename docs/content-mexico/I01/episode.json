@@ -10,30 +10,194 @@
   "moldura": "ganha",
   "frasePiso": "You will walk past a full comedor at two in the afternoon and an empty one at six, and the empty one is the one built for you.",
   "fatosDatados": [
-    { "id": "mx-horario-comida", "afirmacao": "Typically: desayuno 7:00-10:00, la comida (the main meal) 13:00-15:00, and cena from around 18:00 onward, usually lighter than comida.", "fonte": "Consenso de guias gastronômicos convergentes (Mexperience, PanFlavor, Remitly) — não é dado oficial único", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i01-n03"] }
+    {
+      "id": "mx-horario-comida",
+      "afirmacao": "Typically: desayuno 7:00-10:00, la comida (the main meal) 13:00-15:00, and cena from around 18:00 onward, usually lighter than comida.",
+      "fonte": "Consenso de guias gastronômicos convergentes (Mexperience, PanFlavor, Remitly) — não é dado oficial único",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i01-n03"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i01-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Part one of the good stuff. Today's decision is not a phrase — it's a time. What hour you sit down decides which room you eat in, and the two rooms are not the same trip." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i01-r01", "es": "Buenas tardes. Pase, tenemos mesa.", "pt": "Good afternoon. Come in, we have a table.", "tts": "Buenas tardes. Pase, tenemos mesa." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i01-n02", "bloco": "cena", "pt": "Six in the evening, and the whole comedor is yours — every table free, the cook visible through the kitchen door, nobody else in the room." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i01-n03", "bloco": "corpo", "pt": "Nothing has gone wrong. La comida — the main meal — runs one to three. By six, the city already ate hours ago; what's open now is running on tourist hours, not local ones." },
-    { "consulta": ["mesa/horario"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i01-p01", "promptPt": "You want to know when this place is genuinely busy. Ask what time la comida is usually served here. Speak now.", "audioKey": "mx-i01-t01", "es": "¿A qué hora sirven la comida aquí?", "pinyin": "ah keh OH-rah SEER-behn lah koh-MEE-dah ah-KEE", "pt": "What time do you serve la comida here?", "tts": "¿A qué hora sirven la comida aquí?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i01-r02", "es": "De una a tres, más o menos.", "pt": "From one to three, more or less.", "tts": "De una a tres, más o menos." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i01-n04", "pt": "Now the other end of the day. Cena is not a second comida — it runs later and lighter, sometimes just something from a stall, not a sit-down production." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-i01-t02", "es": "Para la cena, algo ligero está bien.", "pinyin": "PAH-rah lah SEH-nah, AHL-goh lee-HEH-roh ehs-TAH byen", "pt": "For dinner, something light is fine.", "tts": "Para la cena, algo ligero está bien." },
-    { "consulta": ["mesa/horario", "mesa/pedir"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i01-p02", "promptPt": "It's evening and you're not looking for a full meal. Say something light is fine for dinner. Speak now.", "audioKey": "mx-i01-t02", "es": "Para la cena, algo ligero está bien.", "pinyin": "PAH-rah lah SEH-nah, AHL-goh lee-HEH-roh ehs-TAH byen", "pt": "For dinner, something light is fine." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i01-n05", "bloco": "capsula", "pt": "So the move: if you want the room the city actually eats in, walk in for comida between one and three. If you just want something before bed, cena any time after six is completely normal." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i01-r03", "es": "¿Va a comer aquí o solo va de paso?", "pt": "Are you going to eat here or just passing through?", "tts": "¿Va a comer aquí o solo va de paso?" },
-    { "consulta": ["mesa/chegar"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i01-p03", "promptPt": "You've arrived right in the middle of la comida. Say you'd like to eat, here, now. Speak now.", "audioKey": "mx-i01-t03", "es": "Sí, quiero comer aquí, por favor.", "pinyin": "see, KYEH-roh koh-MEHR ah-KEE, por fah-BOR", "pt": "Yes, I'd like to eat here, please.", "tts": "Sí, quiero comer aquí, por favor." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i01-s01", "es": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien.", "pinyin": "ah keh OH-rah SEER-behn lah koh-MEE-dah ah-KEE. PAH-rah lah SEH-nah, AHL-goh lee-HEH-roh ehs-TAH byen", "pt": "Shadow both ends of the day's clock.", "tts": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i01-n06", "bloco": "recap", "pt": "I01 complete. Comida owns one to three — that's the room worth walking into. Cena is real but lighter, any time after six. An empty comedor at six isn't a warning sign. It's the clock telling you exactly where you are." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Today's decision isn't a phrase — it's a time. What hour you sit down decides which room you eat in."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i01-r01",
+      "es": "Buenas tardes. Pase, tenemos mesa.",
+      "pt": "Good afternoon. Come in, we have a table.",
+      "tts": "Buenas tardes. Pase, tenemos mesa."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i01-n02",
+      "bloco": "cena",
+      "pt": "Six in the evening, the whole comedor is yours — every table free, nobody else in the room."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i01-n03",
+      "bloco": "corpo",
+      "pt": "Nothing's wrong. La comida runs one to three — by six, the city already ate. What's open now runs on tourist hours."
+    },
+    {
+      "consulta": [
+        "mesa/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i01-p01",
+      "promptPt": "You want to know when this place is genuinely busy. Ask what time la comida is usually served here. Speak now.",
+      "audioKey": "mx-i01-t01",
+      "es": "¿A qué hora sirven la comida aquí?",
+      "pinyin": "ah keh OH-rah SEER-behn lah koh-MEE-dah ah-KEE",
+      "pt": "What time do you serve la comida here?",
+      "tts": "¿A qué hora sirven la comida aquí?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i01-r02",
+      "es": "De una a tres, más o menos.",
+      "pt": "From one to three, more or less.",
+      "tts": "De una a tres, más o menos."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i01-n04",
+      "pt": "Now the other end of the day — cena isn't a second comida, it's later and lighter, sometimes just a stall snack."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i01-t02",
+      "es": "Para la cena, algo ligero está bien.",
+      "pinyin": "PAH-rah lah SEH-nah, AHL-goh lee-HEH-roh ehs-TAH byen",
+      "pt": "For dinner, something light is fine.",
+      "tts": "Para la cena, algo ligero está bien."
+    },
+    {
+      "consulta": [
+        "mesa/horario",
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i01-p02",
+      "promptPt": "It's evening and you're not looking for a full meal. Say something light is fine for dinner. Speak now.",
+      "audioKey": "mx-i01-t02",
+      "es": "Para la cena, algo ligero está bien.",
+      "pinyin": "PAH-rah lah SEH-nah, AHL-goh lee-HEH-roh ehs-TAH byen",
+      "pt": "For dinner, something light is fine."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i01-n05",
+      "bloco": "capsula",
+      "pt": "The move: want the room the city eats in? Comida, one to three. Just want something before bed? Cena after six, no problem."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i01-r03",
+      "es": "¿Va a comer aquí o solo va de paso?",
+      "pt": "Are you going to eat here or just passing through?",
+      "tts": "¿Va a comer aquí o solo va de paso?"
+    },
+    {
+      "consulta": [
+        "mesa/chegar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i01-p03",
+      "promptPt": "You've arrived right in the middle of la comida. Say you'd like to eat, here, now. Speak now.",
+      "audioKey": "mx-i01-t03",
+      "es": "Sí, quiero comer aquí, por favor.",
+      "pinyin": "see, KYEH-roh koh-MEHR ah-KEE, por fah-BOR",
+      "pt": "Yes, I'd like to eat here, please.",
+      "tts": "Sí, quiero comer aquí, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i01-n07",
+      "pt": "One more useful check: arrive near the edge of the window, just ask before sitting down."
+    },
+    {
+      "consulta": [
+        "mesa/horario"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i01-p04",
+      "promptPt": "You arrive at half past two, unsure if it's too late. Ask whether they're still serving comida. Speak now.",
+      "audioKey": "mx-i01-t04",
+      "es": "¿Todavía sirven la comida?",
+      "pinyin": "toh-dah-BEE-ah SEER-behn lah koh-MEE-dah",
+      "pt": "Are you still serving comida?",
+      "tts": "¿Todavía sirven la comida?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i01-r04",
+      "es": "Sí, hasta las tres.",
+      "pt": "Yes, until three.",
+      "tts": "Sí, hasta las tres."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i01-s01",
+      "es": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien.",
+      "pinyin": "ah keh OH-rah SEER-behn lah koh-MEE-dah ah-KEE. PAH-rah lah SEH-nah, AHL-goh lee-HEH-roh ehs-TAH byen",
+      "pt": "Shadow both ends of the day's clock.",
+      "tts": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i01-n06",
+      "bloco": "recap",
+      "pt": "I01 complete. Comida owns one to three, cena is lighter after six — an empty room at six is the clock, not a warning."
+    }
   ],
   "aprofundar": {
     "titulo": "The day has a shape, and it isn't yours yet",
     "secoes": [
-      { "titulo": "Three meals, one of them the anchor", "corpo": "Desayuno runs morning, comida owns early-to-mid afternoon and is treated as the main event, and cena is later and usually lighter. None of this is a rule enforced anywhere — it's a pattern, and it varies by city and household." },
-      { "titulo": "An empty room is data, not rejection", "corpo": "A restaurant lit up and staffed but empty at six is not failing — it is simply between its two real rushes. Ask when la comida runs if you want the fuller room." },
-      { "titulo": "Tourist hours exist everywhere they need to", "corpo": "Hotel restaurants, airport counters and heavily touristed strips often serve on a schedule closer to what visitors expect. That is a legitimate choice for those places, not a trick — it just isn't the same clock as the neighbourhood fonda." }
+      {
+        "titulo": "Three meals, one of them the anchor",
+        "corpo": "Desayuno runs morning, comida owns early-to-mid afternoon and is treated as the main event, and cena is later and usually lighter. None of this is a rule enforced anywhere — it's a pattern, and it varies by city and household."
+      },
+      {
+        "titulo": "An empty room is data, not rejection",
+        "corpo": "A restaurant lit up and staffed but empty at six is not failing — it is simply between its two real rushes. Ask when la comida runs if you want the fuller room."
+      },
+      {
+        "titulo": "Tourist hours exist everywhere they need to",
+        "corpo": "Hotel restaurants, airport counters and heavily touristed strips often serve on a schedule closer to what visitors expect. That is a legitimate choice for those places, not a trick — it just isn't the same clock as the neighbourhood fonda."
+      }
     ]
   },
   "slot": "I01",
@@ -49,7 +213,9 @@
       "oQueMelhora": "You stop reading an empty room as a red flag and start reading it as a clock.",
       "ondeNaoVale": "Not in hotel restaurants, airports or heavily touristed strips, which often run on a more continuous schedule geared to visitors rather than the local comida/cena rhythm.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i01-n03"]
+      "audioKeys": [
+        "mx-i01-n03"
+      ]
     }
   ]
 }

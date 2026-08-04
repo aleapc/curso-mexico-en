@@ -1,36 +1,266 @@
 {
-  "id":"mx-b11","slot":"B11","nivel":"basico","numero":11,"parte":"4A",
-  "titulo":"Two people, one table, the first drink",
-  "subtitulo":"Enter the taquería, discover where the order starts and close the first round without choosing the tacos yet",
-  "moldura":"ganha","frasePiso":"You can enter, place two people, find the ordering channel and get the first drink before the menu becomes urgent.",
-  "steps":[
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b11-n01","pt":"A taquería may have table service, a counter, a cashier or more than one step. Do not perform a ritual you guessed from another place. First make your group visible."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b11-t01","es":"Buenas tardes. Somos dos.","pinyin":"BWEH-nahs TAR-dehs. SOH-mohs dohs","pt":"Good afternoon. There are two of us.","tts":"Buenas tardes. Somos dos."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b11-p01","promptPt":"You and one companion arrive in the afternoon. Greet the person receiving customers and state your group size. Speak now.","audioKey":"mx-b11-t01","es":"Buenas tardes. Somos dos.","pinyin":"BWEH-nahs TAR-dehs. SOH-mohs dohs","pt":"Good afternoon. There are two of us.","consulta":["mesa/chegar","simpatia/saudacao"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b11-r01","es":"Claro.","pt":"Of course.","tts":"Claro."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b11-n02","pt":"Group size does not promise a seat. Ask for the concrete resource you need. The number returns inside the destination: a table for two."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b11-p02","promptPt":"The room is busy and no one has pointed to a seat yet. Ask whether there is a table for the two of you. Speak now.","audioKey":"mx-b11-t02","es":"¿Hay mesa para dos?","pinyin":"eye MEH-sah PAH-rah dohs","pt":"Is there a table for two?","consulta":["mesa/mesa","mesa/chegar"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b11-r02","es":"Sí, al fondo.","pt":"Yes, at the back.","tts":"Sí, al fondo."},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b11-n03","pt":"A gesture toward an open table may still leave one doubt: assigned or free. Confirm the seat before occupying it; one short question is cheaper than relocating plates and bags."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b11-p03","promptPt":"You reach the open table indicated at the back. Confirm that you should sit there. Speak now.","audioKey":"mx-b11-t03","es":"¿Nos sentamos aquí?","pinyin":"nohs sehn-TAH-mohs ah-KEE","pt":"Do we sit here?","consulta":["mesa/sentar","mesa/mesa"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b11-r03","es":"Sí, adelante.","pt":"Yes, go ahead.","tts":"Sí, adelante."},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b11-n04","pt":"Now discover where the order begins. One question spans table service and counter service. Aquí versus en la mesa is a channel decision, not a lesson about restaurant types."},
-    {"tipo":"ouvir","voz":"target_mx_f","audioKey":"mx-b11-t04","es":"¿Ordeno aquí o en la mesa?","pinyin":"ohr-DEH-noh ah-KEE oh ehn lah MEH-sah","pt":"Do I order here or at the table?","tts":"¿Ordeno aquí o en la mesa?"},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b11-p04","promptPt":"There is a cashier near the entrance and menus on the tables. Ask where your order should start. Speak now.","audioKey":"mx-b11-t04","es":"¿Ordeno aquí o en la mesa?","pinyin":"ohr-DEH-noh ah-KEE oh ehn lah MEH-sah","pt":"Do I order here or at the table?","consulta":["mesa/pedir","mesa/canal"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b11-r04","es":"Aquí en la caja, por favor.","pt":"Here at the cashier, please.","tts":"Aquí en la caja, por favor."},
-    {"tipo":"intro","voz":"guide_en_us_f","audioKey":"mx-b11-n05","pt":"The channel is known. Buy time with the first drink while you look at the food. Un goes before agua here because the first sound is stressed; keep the whole useful phrase rather than carrying the rule."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_f","promptAudioKey":"mx-b11-p05","promptPt":"At the correct ordering point, ask for one sparkling water before choosing food. Speak now.","audioKey":"mx-b11-t05","es":"Un agua mineral, por favor.","pinyin":"oon AH-gwah mee-neh-RAHL por fah-BOR","pt":"One sparkling water, please.","consulta":["mesa/bebida","mesa/pedir"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b11-r05","es":"Claro. ¿Algo más?","pt":"Of course. Anything else?","tts":"Claro. ¿Algo más?"},
-    {"tipo":"intro","voz":"guide_en_us_m","audioKey":"mx-b11-n06","pt":"Anything else does not force the taco decision. Close only this round and keep the menu open. Por ahora means for now; it leaves the next order alive."},
-    {"tipo":"responde","voz":"target_mx_f","promptVoz":"guide_en_us_m","promptAudioKey":"mx-b11-p06","promptPt":"You have the first drink but still need time with the menu. Close this round without closing the whole meal. Speak now.","audioKey":"mx-b11-t06","es":"Eso es todo por ahora, gracias.","pinyin":"EH-soh ehs TOH-doh por ah-OH-rah GRAH-syahs","pt":"That is all for now, thank you.","consulta":["mesa/fechar-pedido","simpatia/agradecer"]},
-    {"tipo":"ouvir","voz":"target_mx_m","audioKey":"mx-b11-r06","es":"Muy bien.","pt":"Very good.","tts":"Muy bien."},
-    {"tipo":"shadow","voz":"target_mx_f","audioKey":"mx-b11-s01","es":"¿Ordeno aquí o en la mesa? Un agua mineral, por favor. Eso es todo por ahora, gracias.","pinyin":"ohr-DEH-noh ah-KEE oh ehn lah MEH-sah. oon AH-gwah mee-neh-RAHL por fah-BOR. EH-soh ehs TOH-doh por ah-OH-rah GRAH-syahs","pt":"Shadow the channel, the first drink and the temporary close.","tts":"¿Ordeno aquí o en la mesa? Un agua mineral, por favor. Eso es todo por ahora, gracias."},
-    {"tipo":"recap","voz":"guide_en_us_f","audioKey":"mx-b11-n07","pt":"B11 complete. Make the group visible. Ask for the table. Confirm the seat. Discover the ordering channel. Get the first drink. Close for now. B12 will earn the right to change the food; today the taquería has already started working for you."}
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "4A",
+  "titulo": "Two people, one table, the first drink",
+  "subtitulo": "Enter the taquería, discover where the order starts and close the first round without choosing the tacos yet",
+  "cena": "There's a cashier by the door and menus on every table, and nothing tells you yet which one of them actually starts your order.",
+  "moldura": "ganha",
+  "frasePiso": "You can enter, place two people, find the ordering channel and get the first drink before the menu becomes urgent.",
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b11-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A taquería might have table, counter or cashier service — don't guess the ritual. First make your group visible."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b11-t01",
+      "es": "Buenas tardes. Somos dos.",
+      "pinyin": "BWEH-nahs TAR-dehs. SOH-mohs dohs",
+      "pt": "Good afternoon. There are two of us.",
+      "tts": "Buenas tardes. Somos dos."
+    },
+    {
+      "consulta": [
+        "mesa/chegar",
+        "simpatia/saudacao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b11-p01",
+      "promptPt": "You and one companion arrive in the afternoon. Greet the person receiving customers and state your group size. Speak now.",
+      "audioKey": "mx-b11-t01",
+      "es": "Buenas tardes. Somos dos.",
+      "pinyin": "BWEH-nahs TAR-dehs. SOH-mohs dohs",
+      "pt": "Good afternoon. There are two of us."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b11-r01",
+      "es": "Claro.",
+      "pt": "Of course.",
+      "tts": "Claro."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b11-n02",
+      "bloco": "corpo",
+      "pt": "Group size doesn't promise a seat — ask for the table itself: a table for two."
+    },
+    {
+      "consulta": [
+        "mesa/mesa",
+        "mesa/chegar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b11-p02",
+      "promptPt": "The room is busy and no one has pointed to a seat yet. Ask whether there is a table for the two of you. Speak now.",
+      "audioKey": "mx-b11-t02",
+      "es": "¿Hay mesa para dos?",
+      "pinyin": "eye MEH-sah PAH-rah dohs",
+      "pt": "Is there a table for two?",
+      "molde": "HAY",
+      "encaixe": "mesa para dos"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b11-r02",
+      "es": "Sí, al fondo.",
+      "pt": "Yes, at the back.",
+      "tts": "Sí, al fondo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b11-n03",
+      "pt": "A gesture toward a table can still leave doubt — confirm the seat before sitting, cheaper than relocating later."
+    },
+    {
+      "consulta": [
+        "mesa/sentar",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b11-p03",
+      "promptPt": "You reach the open table indicated at the back. Confirm that you should sit there. Speak now.",
+      "audioKey": "mx-b11-t03",
+      "es": "¿Nos sentamos aquí?",
+      "pinyin": "nohs sehn-TAH-mohs ah-KEE",
+      "pt": "Do we sit here?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b11-r03",
+      "es": "Sí, adelante.",
+      "pt": "Yes, go ahead.",
+      "tts": "Sí, adelante."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b11-n04",
+      "bloco": "capsula",
+      "pt": "Discover where the order begins — one question covers both table and counter service, aquí or en la mesa."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b11-t04",
+      "es": "¿Ordeno aquí o en la mesa?",
+      "pinyin": "ohr-DEH-noh ah-KEE oh ehn lah MEH-sah",
+      "pt": "Do I order here or at the table?",
+      "tts": "¿Ordeno aquí o en la mesa?"
+    },
+    {
+      "consulta": [
+        "mesa/pedir",
+        "mesa/canal"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b11-p04",
+      "promptPt": "There is a cashier near the entrance and menus on the tables. Ask where your order should start. Speak now.",
+      "audioKey": "mx-b11-t04",
+      "es": "¿Ordeno aquí o en la mesa?",
+      "pinyin": "ohr-DEH-noh ah-KEE oh ehn lah MEH-sah",
+      "pt": "Do I order here or at the table?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b11-r04",
+      "es": "Aquí en la caja, por favor.",
+      "pt": "Here at the cashier, please.",
+      "tts": "Aquí en la caja, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b11-n05",
+      "pt": "Channel known. Buy time with the first drink while you check the food — just keep un agua mineral as one chunk."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "mesa/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b11-p05",
+      "promptPt": "At the correct ordering point, ask for one sparkling water before choosing food. Speak now.",
+      "audioKey": "mx-b11-t05",
+      "es": "Un agua mineral, por favor.",
+      "pinyin": "oon AH-gwah mee-neh-RAHL por fah-BOR",
+      "pt": "One sparkling water, please."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b11-r05",
+      "es": "Claro. ¿Algo más?",
+      "pt": "Of course. Anything else?",
+      "tts": "Claro. ¿Algo más?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b11-n06",
+      "pt": "Anything else doesn't force the taco decision — por ahora closes this round while keeping the menu open."
+    },
+    {
+      "consulta": [
+        "mesa/fechar-pedido",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b11-p06",
+      "promptPt": "You have the first drink but still need time with the menu. Close this round without closing the whole meal. Speak now.",
+      "audioKey": "mx-b11-t06",
+      "es": "Eso es todo por ahora, gracias.",
+      "pinyin": "EH-soh ehs TOH-doh por ah-OH-rah GRAH-syahs",
+      "pt": "That is all for now, thank you."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b11-r06",
+      "es": "Muy bien.",
+      "pt": "Very good.",
+      "tts": "Muy bien."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b11-s01",
+      "es": "¿Ordeno aquí o en la mesa? Un agua mineral, por favor. Eso es todo por ahora, gracias.",
+      "pinyin": "ohr-DEH-noh ah-KEE oh ehn lah MEH-sah. oon AH-gwah mee-neh-RAHL por fah-BOR. EH-soh ehs TOH-doh por ah-OH-rah GRAH-syahs",
+      "pt": "Shadow the channel, the first drink and the temporary close.",
+      "tts": "¿Ordeno aquí o en la mesa? Un agua mineral, por favor. Eso es todo por ahora, gracias."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b11-n07",
+      "bloco": "recap",
+      "pt": "B11 complete. Group visible, table, seat confirmed, ordering channel, first drink, close for now — the room is working for you."
+    }
   ],
-  "aprofundar":{"titulo":"Discover the service before ordering the food","secoes":[
-    {"titulo":"No single taquería ritual","corpo":"Table, counter, cashier and hybrid service all exist. The portable skill is not knowing the format in advance; it is asking ¿Ordeno aquí o en la mesa? before creating friction."},
-    {"titulo":"Somos dos makes the group visible","corpo":"State the number as you arrive, then ask for the table. The first phrase describes your group; the second requests the resource."},
-    {"titulo":"Un agua is a complete travel chunk","corpo":"Agua is grammatically feminine, but the singular article becomes un before its stressed opening sound. Memorise Un agua mineral as one useful chunk; no noun table is required."},
-    {"titulo":"Por ahora keeps the meal open","corpo":"Eso es todo can sound final. Adding por ahora closes the first round while leaving room for the food order that comes in B12."}
-  ]}
+  "aprofundar": {
+    "titulo": "Discover the service before ordering the food",
+    "secoes": [
+      {
+        "titulo": "No single taquería ritual",
+        "corpo": "Table, counter, cashier and hybrid service all exist. The portable skill is not knowing the format in advance; it is asking ¿Ordeno aquí o en la mesa? before creating friction."
+      },
+      {
+        "titulo": "Somos dos makes the group visible",
+        "corpo": "State the number as you arrive, then ask for the table. The first phrase describes your group; the second requests the resource."
+      },
+      {
+        "titulo": "Un agua is a complete travel chunk",
+        "corpo": "Agua is grammatically feminine, but the singular article becomes un before its stressed opening sound. Memorise Un agua mineral as one useful chunk; no noun table is required."
+      },
+      {
+        "titulo": "Por ahora keeps the meal open",
+        "corpo": "Eso es todo can sound final. Adding por ahora closes the first round while leaving room for the food order that comes in B12."
+      }
+    ]
+  },
+  "slot": "B11",
+  "permissao": "You are allowed to ask which channel the restaurant uses instead of guessing from how the last place worked. There is no single right way to order in a Mexican taquería, so the question that reveals the local system is the sophisticated move, not the awkward one.",
+  "permissaoAudioKey": "mx-b11-n04",
+  "espelho": "Anyone who has ever hovered near a counter in an unfamiliar cafe back home, unsure whether to sit and wait or order at the till, already knows this exact hesitation — it isn't a Spanish-language problem, it's what happens whenever a service format isn't standardised, in any country.",
+  "fichasCulturais": [
+    {
+      "sinal": "You sit down, open the menu, and ten minutes pass with nobody coming to take your order.",
+      "suaLeitura": "The service is slow, or they've forgotten about us.",
+      "oQueEAli": "Mexican taquerías use table service, counter service, a cashier, or combinations of these depending on the establishment, and nothing about the room necessarily signals which one this is — waiting at the table only works if this happens to be a table-service place.",
+      "oQueVoceFaz": "Ask ¿Ordeno aquí o en la mesa? as soon as you're seated, before assuming a format.",
+      "oQueMelhora": "You find out immediately whether to keep waiting or walk up to the register, instead of losing ten minutes to a guess.",
+      "ondeNaoVale": "Not once a server has already approached the table with menus or taken a drink order — at that point the channel has already answered itself.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "mx-b11-n04"
+      ]
+    }
+  ]
 }

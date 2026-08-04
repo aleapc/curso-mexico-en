@@ -14,7 +14,7 @@
       "gesto": 2,
       "bloco": "aquecimento",
       "mapaGestos": true,
-      "pt": "This is not accent removal. It is a four-movement repair kit for the words you already know. Equal taps keep every syllable alive. A flat palm stops English vowels from sliding. One small punch marks the stressed syllable. A finger flick replaces the heavy English R. We will use all four in the three places where your first words matter: the airport taxi, the hotel desk and a market counter."
+      "pt": "This isn't accent removal — it's a four-move repair kit: equal taps, flat palm, one punch, a finger flick."
     },
     {
       "tipo": "ouvir",
@@ -32,7 +32,7 @@
       "voz": "guide_en_us_f",
       "audioKey": "mx-b01-n02",
       "gesto": 1,
-      "pt": "Now pay every syllable. English hides weak vowels; Mexican Spanish keeps them available. Tap once for each syllable, all taps the same size: cho-co-la-te. Four taps, then one small punch on LA: cho-co-LA-te."
+      "pt": "English hides weak vowels; Spanish keeps them all. Tap each syllable evenly, then punch the stressed one: cho-co-LA-te."
     },
     {
       "tipo": "ouvir",
@@ -45,7 +45,9 @@
       "tts": "Quiero chocolate."
     },
     {
-      "consulta": ["compras/balcao"],
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
       "voz": "target_mx_m",
       "promptVoz": "guide_en_us_f",
@@ -62,7 +64,7 @@
       "audioKey": "mx-b01-n03",
       "gesto": 3,
       "bloco": "corpo",
-      "pt": "At the airport, the familiar word hotel is the trap. English hits HO; Spanish hits TEL. Give the word one short punch at the end: ho-TEL. Then stop. No extra vowel after the L."
+      "pt": "Hotel is the trap. English stresses HO; Spanish stresses TEL. One short punch at the end: ho-TEL, then stop."
     },
     {
       "tipo": "ouvir",
@@ -75,7 +77,9 @@
       "tts": "Al hotel del Centro Histórico, por favor."
     },
     {
-      "consulta": ["taxi/destino"],
+      "consulta": [
+        "taxi/destino"
+      ],
       "tipo": "responde",
       "voz": "target_mx_f",
       "promptVoz": "guide_en_us_m",
@@ -95,7 +99,10 @@
       "tts": "¿Por la entrada principal?"
     },
     {
-      "consulta": ["taxi/destino", "simpatia/agradecer"],
+      "consulta": [
+        "taxi/destino",
+        "simpatia/agradecer"
+      ],
       "tipo": "responde",
       "voz": "target_mx_f",
       "promptVoz": "guide_en_us_m",
@@ -112,7 +119,7 @@
       "audioKey": "mx-b01-n04",
       "bloco": "capsula",
       "tom": "ganha",
-      "pt": "That S matters to the identity of this course. In Mexico, gracias, cinco and zapato all use an S sound. The th taught for central Spain does not belong in the Mexican model. And LL and Y share one sound here: start with the Y in yes. You do not need a regional performance; you need a stable, recognisable word."
+      "pt": "That S matters here. Gracias, cinco and zapato all use S — the central-Spain th doesn't apply. LL and Y share one sound: start with the Y in yes."
     },
     {
       "tipo": "ouvir",
@@ -123,7 +130,9 @@
       "tts": "Buenas tardes. ¿En qué le ayudo?"
     },
     {
-      "consulta": ["quarto/reserva"],
+      "consulta": [
+        "quarto/reserva"
+      ],
       "tipo": "responde",
       "voz": "target_mx_f",
       "promptVoz": "guide_en_us_f",
@@ -143,7 +152,9 @@
       "tts": "¿A nombre de quién?"
     },
     {
-      "consulta": ["quarto/reserva"],
+      "consulta": [
+        "quarto/reserva"
+      ],
       "tipo": "responde",
       "voz": "target_mx_f",
       "promptVoz": "guide_en_us_f",
@@ -168,7 +179,7 @@
       "voz": "guide_en_us_f",
       "audioKey": "mx-b01-n05",
       "bloco": "recap",
-      "pt": "B01 complete. Equal taps, flat palm, one punch, quick flick. You used them to buy something at a market, direct an airport taxi and open your hotel reservation. Your floor is not a Mexican accent. It is five steady vowels and every syllable present when the useful sentence leaves your mouth."
+      "pt": "B01 complete. Equal taps, flat palm, one punch, quick flick — you used all four today, taxi to hotel desk."
     }
   ],
   "aprofundar": {
@@ -178,25 +189,46 @@
         "titulo": "S, Z and soft C converge",
         "corpo": "Mexican Spanish is seseante: gracias, cinco and zapato use /s/. Do not import the th model from central Spain. This is a destination choice, not a simplified learner option.",
         "exemplos": [
-          { "es": "gracias", "pt": "GRAH-syahs" },
-          { "es": "cincuenta", "pt": "seen-KWEN-tah" }
+          {
+            "es": "gracias",
+            "pt": "GRAH-syahs"
+          },
+          {
+            "es": "cincuenta",
+            "pt": "seen-KWEN-tah"
+          }
         ]
       },
       {
         "titulo": "Five vowels and one stress",
         "corpo": "Keep a, e, i, o and u stable, and give each word one clear stressed syllable. Accent marks override the default stress rules.",
         "exemplos": [
-          { "es": "México", "pt": "MEH-ksee-koh" },
-          { "es": "hotel", "pt": "oh-TEL" },
-          { "es": "reservación", "pt": "reh-sehr-bah-SYOHN" }
+          {
+            "es": "México",
+            "pt": "MEH-ksee-koh"
+          },
+          {
+            "es": "hotel",
+            "pt": "oh-TEL"
+          },
+          {
+            "es": "reservación",
+            "pt": "reh-sehr-bah-SYOHN"
+          }
         ]
       },
       {
         "titulo": "LL and Y share a lane",
         "corpo": "The Mexican model in this course is yeísta. For an English-speaking beginner, the Y in yes is the safe starting anchor. Regional realisations belong in receptive training later, not in your first production drill.",
         "exemplos": [
-          { "es": "ayuda", "pt": "ah-YOO-dah" },
-          { "es": "llave", "pt": "YAH-beh" }
+          {
+            "es": "ayuda",
+            "pt": "ah-YOO-dah"
+          },
+          {
+            "es": "llave",
+            "pt": "YAH-beh"
+          }
         ]
       },
       {
@@ -220,7 +252,10 @@
       "oQueMelhora": "The words you already recognise — and there are dozens of them between the airport and the hotel — stop being the ones that fail first.",
       "ondeNaoVale": "Not with staff at an international arrivals desk or a hotel that serves mostly foreign guests, where the listener decodes accented Spanish all day and will get you on the first try regardless.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b01-n01", "mx-b01-n02"]
+      "audioKeys": [
+        "mx-b01-n01",
+        "mx-b01-n02"
+      ]
     }
   ],
   "fatosDatados": [
@@ -232,7 +267,9 @@
       "revisarAte": "2031-01-01",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["mx-b01-n04"]
+      "audioKeys": [
+        "mx-b01-n04"
+      ]
     },
     {
       "id": "yeismo-cinco-vogais",
@@ -242,7 +279,9 @@
       "revisarAte": "2031-01-01",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["mx-b01-t01"]
+      "audioKeys": [
+        "mx-b01-t01"
+      ]
     },
     {
       "id": "tap-vibrante-r",
@@ -252,7 +291,9 @@
       "revisarAte": "2029-01-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["mx-b01-n01"]
+      "audioKeys": [
+        "mx-b01-n01"
+      ]
     }
   ]
 }

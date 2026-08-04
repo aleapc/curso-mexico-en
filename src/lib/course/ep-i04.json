@@ -10,29 +10,163 @@
   "moldura": "ganha",
   "frasePiso": "The person who invites usually pays. It isn't generosity showing off — it's just who asked.",
   "fatosDatados": [
-    { "id": "mx-quem-convida-paga", "afirmacao": "In Mexico, splitting the bill is less common than in some other cultures; whoever invites friends or family out is typically expected to pay, though splitting can still be requested explicitly.", "fonte": "Consenso de guias culturais (Janine in the World; SpanishStep); norma social, não regra legal", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-i04-n02"] }
+    {
+      "id": "mx-quem-convida-paga",
+      "afirmacao": "In Mexico, splitting the bill is less common than in some other cultures; whoever invites friends or family out is typically expected to pay, though splitting can still be requested explicitly.",
+      "fonte": "Consenso de guias culturais (Janine in the World; SpanishStep); norma social, não regra legal",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-i04-n02"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i04-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Tonight's decision happens before a single drink is ordered, in one word: who invited whom. That answer already decides who reaches for the bill later, and knowing it now avoids an awkward tug-of-war at the end." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i04-r01", "es": "Vamos por unas cervezas, yo invito.", "pt": "Let's go for some beers, I'm inviting.", "tts": "Vamos por unas cervezas, yo invito." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i04-n02", "bloco": "corpo", "pt": "Yo invito isn't a small offer to be politely refused three times. It's a plain statement of who's paying tonight — and the expected answer is thanks, not a fight over the bill." },
-    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i04-p01", "promptPt": "A friend says he's inviting. Accept it plainly, with thanks. Speak now.", "audioKey": "mx-i04-t01", "es": "Muchas gracias, muy amable.", "pinyin": "MOO-chahs GRAH-syahs, MOO-ee ah-MAH-bleh", "pt": "Thank you very much, that's kind of you.", "tts": "Muchas gracias, muy amable." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i04-n03", "pt": "But you're allowed to want the other arrangement. Splitting is not the default here — so if you want it, say so early, clearly, before the tab starts running." },
-    { "consulta": ["pagar/cuenta"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i04-p02", "promptPt": "You'd rather split the bill this time. Say so, before ordering. Speak now.", "audioKey": "mx-i04-t02", "es": "¿Podemos pagar por separado?", "pinyin": "poh-DEH-mohs pah-GAHR por seh-pah-RAH-doh", "pt": "Can we pay separately?", "tts": "¿Podemos pagar por separado?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i04-r02", "es": "Claro, sin problema.", "pt": "Sure, no problem.", "tts": "Claro, sin problema." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i04-n04", "bloco": "capsula", "pt": "One more version, for a group that's fine sharing a table but not a tab: everyone pays for what they actually had." },
-    { "consulta": ["pagar/cuenta"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i04-p03", "promptPt": "Suggest that everyone pays for their own order. Speak now.", "audioKey": "mx-i04-t03", "es": "Cada quien paga lo suyo.", "pinyin": "KAH-dah kyen PAH-gah loh SOO-yoh", "pt": "Each person pays for their own.", "tts": "Cada quien paga lo suyo." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i04-n05", "pt": "And when the night's done and you're leaving before the rest of the table, the exit doesn't need a speech. One line covers it." },
-    { "consulta": ["chegar/sair", "simpatia/agradecer"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i04-p04", "promptPt": "You're heading out while the others stay. Say goodbye to the table. Speak now.", "audioKey": "mx-i04-t04", "es": "Ya me voy. Gracias por todo, nos vemos.", "pinyin": "yah meh boy. GRAH-syahs por TOH-doh, nohs BEH-mohs", "pt": "I'm heading out. Thanks for everything, see you.", "tts": "Ya me voy. Gracias por todo, nos vemos." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i04-s01", "es": "¿Podemos pagar por separado? Cada quien paga lo suyo. Ya me voy. Gracias por todo, nos vemos.", "pinyin": "poh-DEH-mohs pah-GAHR por seh-pah-RAH-doh. KAH-dah kyen PAH-gah loh SOO-yoh. yah meh boy. GRAH-syahs por TOH-doh, nohs BEH-mohs", "pt": "Shadow choosing how to pay and closing out the night.", "tts": "¿Podemos pagar por separado? Cada quien paga lo suyo. Ya me voy. Gracias por todo, nos vemos." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i04-n06", "bloco": "recap", "pt": "I04 complete. Yo invito means they're paying — accept it. If you'd rather split, say ¿podemos pagar por separado? early. And when you're the one leaving first, ya me voy plus a thank-you closes it cleanly, no drawn-out goodbye required." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i04-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Tonight's decision happens before a drink is ordered: who invited whom. That decides who reaches for the bill later."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i04-r01",
+      "es": "Vamos por unas cervezas, yo invito.",
+      "pt": "Let's go for some beers, I'm inviting.",
+      "tts": "Vamos por unas cervezas, yo invito."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i04-n02",
+      "bloco": "corpo",
+      "pt": "Yo invito isn't an offer to refuse — it's who's paying tonight. The expected answer is thanks, not a fight."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i04-p01",
+      "promptPt": "A friend says he's inviting. Accept it plainly, with thanks. Speak now.",
+      "audioKey": "mx-i04-t01",
+      "es": "Muchas gracias, muy amable.",
+      "pinyin": "MOO-chahs GRAH-syahs, MOO-ee ah-MAH-bleh",
+      "pt": "Thank you very much, that's kind of you.",
+      "tts": "Muchas gracias, muy amable."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i04-n03",
+      "pt": "You're allowed to want the other arrangement — splitting isn't the default, so say so early, before the tab runs."
+    },
+    {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i04-p02",
+      "promptPt": "You'd rather split the bill this time. Say so, before ordering. Speak now.",
+      "audioKey": "mx-i04-t02",
+      "es": "¿Podemos pagar por separado?",
+      "pinyin": "poh-DEH-mohs pah-GAHR por seh-pah-RAH-doh",
+      "pt": "Can we pay separately?",
+      "tts": "¿Podemos pagar por separado?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i04-r02",
+      "es": "Claro, sin problema.",
+      "pt": "Sure, no problem.",
+      "tts": "Claro, sin problema."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i04-n04",
+      "bloco": "capsula",
+      "pt": "One more version, for a group sharing a table but not a tab: everyone pays for what they actually had."
+    },
+    {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i04-p03",
+      "promptPt": "Suggest that everyone pays for their own order. Speak now.",
+      "audioKey": "mx-i04-t03",
+      "es": "Cada quien paga lo suyo.",
+      "pinyin": "KAH-dah kyen PAH-gah loh SOO-yoh",
+      "pt": "Each person pays for their own.",
+      "tts": "Cada quien paga lo suyo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i04-n05",
+      "pt": "Leaving before the rest of the table doesn't need a speech — one line covers the exit."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i04-p04",
+      "promptPt": "You're heading out while the others stay. Say goodbye to the table. Speak now.",
+      "audioKey": "mx-i04-t04",
+      "es": "Ya me voy. Gracias por todo, nos vemos.",
+      "pinyin": "yah meh boy. GRAH-syahs por TOH-doh, nohs BEH-mohs",
+      "pt": "I'm heading out. Thanks for everything, see you.",
+      "tts": "Ya me voy. Gracias por todo, nos vemos."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i04-s01",
+      "es": "¿Podemos pagar por separado? Cada quien paga lo suyo. Ya me voy. Gracias por todo, nos vemos.",
+      "pinyin": "poh-DEH-mohs pah-GAHR por seh-pah-RAH-doh. KAH-dah kyen PAH-gah loh SOO-yoh. yah meh boy. GRAH-syahs por TOH-doh, nohs BEH-mohs",
+      "pt": "Shadow choosing how to pay and closing out the night.",
+      "tts": "¿Podemos pagar por separado? Cada quien paga lo suyo. Ya me voy. Gracias por todo, nos vemos."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i04-n06",
+      "bloco": "recap",
+      "pt": "I04 complete. Yo invito means accept it, ¿podemos pagar por separado? if you'd rather split, ya me voy to leave cleanly."
+    }
   ],
   "aprofundar": {
     "titulo": "Who pays is a decision, not an accident",
     "secoes": [
-      { "titulo": "Yo invito is not a bid to be refused", "corpo": "In many English-speaking cultures, an offer to pay gets a ritual refusal first. In this context, yo invito is closer to a plain announcement — the graceful response is thanks, not insistence on paying your share." },
-      { "titulo": "Splitting is a request, not the default", "corpo": "Asking to split is completely normal and many places accommodate it easily — it just isn't assumed the way it might be elsewhere, so naming it early avoids confusion when the bill actually arrives." },
-      { "titulo": "Leaving a table doesn't require a production", "corpo": "Ya me voy plus a short thanks is a complete, socially smooth exit from a group that's staying longer. There's no expectation of a formal round of goodbyes." }
+      {
+        "titulo": "Yo invito is not a bid to be refused",
+        "corpo": "In many English-speaking cultures, an offer to pay gets a ritual refusal first. In this context, yo invito is closer to a plain announcement — the graceful response is thanks, not insistence on paying your share."
+      },
+      {
+        "titulo": "Splitting is a request, not the default",
+        "corpo": "Asking to split is completely normal and many places accommodate it easily — it just isn't assumed the way it might be elsewhere, so naming it early avoids confusion when the bill actually arrives."
+      },
+      {
+        "titulo": "Leaving a table doesn't require a production",
+        "corpo": "Ya me voy plus a short thanks is a complete, socially smooth exit from a group that's staying longer. There's no expectation of a formal round of goodbyes."
+      }
     ]
   },
   "slot": "I04",
@@ -48,7 +182,9 @@
       "oQueMelhora": "The evening stays warm and simple instead of turning into a small tug-of-war over the bill.",
       "ondeNaoVale": "Not when the group explicitly organizes the outing together with no single host — in that case, asking ¿podemos pagar por separado? upfront is the completely normal move.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-i04-n02"]
+      "audioKeys": [
+        "mx-i04-n02"
+      ]
     }
   ]
 }

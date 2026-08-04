@@ -7,21 +7,13 @@
   "titulo": "August, the saint, and the week the street belongs to everyone",
   "subtitulo": "The month the neighbourhood empties out, the Saturday that feeds your Sunday, the two days a year that belong to one town and nowhere else, and the afternoon a brass band takes the street you were walking down",
   "moldura": "ganha",
-
   "cena": "Quarter past four on a Tuesday in August, twenty-five minutes on foot behind you, a metal shutter down, and the woman in the bar next door watching you read the card taped to it.",
-
   "decisao": "whether the week gets planned around their calendar or yours — the Saturday shop against a Sunday spent walking to a shut grille, and the twenty-five minutes on foot in August that one twenty-second phone call turns into nothing",
   "emJogo": "tempo",
-
-  "moldes": [],
-
   "frasePiso": "You will plan a Spanish week around their calendar — the Saturday shop, the shut Tuesday, the street that belongs to a saint. Most visitors spend a fortnight finding it out one shut door at a time.",
-
   "permissao": "August is not a bad month to be in Spain. It is a bad month to rely on one specific address, and ringing first is the whole of the fix. You are allowed to walk into the middle of somebody else's fiesta and stand there watching: the street is the venue, nobody bought a ticket, and the people around you are neighbours, not an audience that paid. And you are allowed to spend a Sunday on a long lunch and a museum, because both of those are open all day.",
   "permissaoAudioKey": "a06-n28",
-
   "espelho": "Asking why a shop is shut for the whole of August is the bit that reads as odd there. It lands the way 'why is nobody at work on Christmas Day' would land at home — the answer is not a reason, it is a month.",
-
   "fichasCulturais": [
     {
       "sinal": "Half a street has metal shutters down on a Tuesday in August, each with a handwritten card taped to the glass, and the bars on the same street are full.",
@@ -31,7 +23,13 @@
       "oQueMelhora": "You get the August the people who live there get: emptier streets, a table anywhere at nine, and every bar, restaurant and museum still running.",
       "ondeNaoVale": "Not the chains, the department stores, the restaurants or the museums, and not a shop on a street that lives off visitors — none of those shut, and a full shutter row is itself the sign of which kind of street you are standing on.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a06-n06", "a06-n07", "a06-n07b", "a06-n08", "b10-horario-e"]
+      "audioKeys": [
+        "a06-n06",
+        "a06-n07",
+        "a06-n07b",
+        "a06-n08",
+        "b10-horario-e"
+      ]
     },
     {
       "sinal": "Sunday lunchtime: the restaurants are full, the bakery has a queue out of the door, and the supermarket four doors along has the grille down.",
@@ -41,7 +39,14 @@
       "oQueMelhora": "You spend Sunday the way the neighbours spend it, instead of carrying a rented kitchen's worth of shopping around a street that is not going to open.",
       "ondeNaoVale": "Not in the middle of Madrid or Barcelona, where the declared zone opens seven days a week — walk four streets out of it and the rule comes straight back.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a06-n13", "a06-n14", "a06-domingo-c", "a06-n16", "a06-n16b", "a06-n16c"]
+      "audioKeys": [
+        "a06-n13",
+        "a06-n14",
+        "a06-domingo-c",
+        "a06-n16",
+        "a06-n16b",
+        "a06-n16c"
+      ]
     },
     {
       "sinal": "The bank, the town hall and the post office are shut on an ordinary Wednesday, and the town twenty minutes down the road is working normally.",
@@ -51,7 +56,12 @@
       "oQueMelhora": "You hear about it the night before rather than at the door, and the day turns into something to go to instead of something that shut the bank.",
       "ondeNaoVale": "Not for the bars, the restaurants and the terraces. A local holiday is the busiest trading day of their year and every one of them is open, often from breakfast.",
       "evidencia": "FATO",
-      "audioKeys": ["a06-n17", "a06-n18", "a06-n19", "a06-patrona-c"]
+      "audioKeys": [
+        "a06-n17",
+        "a06-n18",
+        "a06-n19",
+        "a06-patrona-c"
+      ]
     },
     {
       "sinal": "A brass band and a few hundred people are coming up the street you wanted, there is no cordon, no ticket and no stage, and everybody around you has stopped walking.",
@@ -61,10 +71,14 @@
       "oQueMelhora": "You get the one afternoon of the fortnight nobody sold you a ticket for, and asking gets it explained to you by somebody who has walked it since they were six.",
       "ondeNaoVale": "Not on the way to a station or an airport. A route that closes the centre for three hours closes your taxi with it, and that is the morning to go early or go underground.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["a06-n21", "a06-n22", "a06-patron-e", "a06-n24"]
+      "audioKeys": [
+        "a06-n21",
+        "a06-n22",
+        "a06-patron-e",
+        "a06-n24"
+      ]
     }
   ],
-
   "fatosDatados": [
     {
       "id": "agosto-cierre-familiar",
@@ -74,7 +88,11 @@
       "revisarAte": "2027-07-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a06-n06", "a06-n07", "a06-n08"]
+      "audioKeys": [
+        "a06-n06",
+        "a06-n07",
+        "a06-n08"
+      ]
     },
     {
       "id": "asuncion-15-agosto",
@@ -84,7 +102,9 @@
       "revisarAte": "2027-01-31",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a06-p08"]
+      "audioKeys": [
+        "a06-p08"
+      ]
     },
     {
       "id": "domingo-comercio",
@@ -94,7 +114,13 @@
       "revisarAte": "2027-06-01",
       "evidencia": "CONSENSO",
       "risco": "medio",
-      "audioKeys": ["a06-n13", "a06-n14", "a06-n16", "a06-n16b", "a06-n16c"]
+      "audioKeys": [
+        "a06-n13",
+        "a06-n14",
+        "a06-n16",
+        "a06-n16b",
+        "a06-n16c"
+      ]
     },
     {
       "id": "siesta-comercial",
@@ -104,7 +130,11 @@
       "revisarAte": "2027-06-01",
       "evidencia": "CONSENSO",
       "risco": "baixo",
-      "audioKeys": ["a06-n11", "a06-n12", "a06-cincoymedia-e"]
+      "audioKeys": [
+        "a06-n11",
+        "a06-n12",
+        "a06-cincoymedia-e"
+      ]
     },
     {
       "id": "dos-fiestas-locales",
@@ -114,7 +144,10 @@
       "revisarAte": "2028-01-01",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a06-n18", "a06-n19"]
+      "audioKeys": [
+        "a06-n18",
+        "a06-n19"
+      ]
     },
     {
       "id": "procesion-calle-cortada",
@@ -124,7 +157,11 @@
       "revisarAte": "2027-03-01",
       "evidencia": "CONSENSO",
       "risco": "medio",
-      "audioKeys": ["a06-n22", "a06-n24", "a06-detras-c"]
+      "audioKeys": [
+        "a06-n22",
+        "a06-n24",
+        "a06-detras-c"
+      ]
     },
     {
       "id": "canarias-temporada-invertida",
@@ -134,10 +171,12 @@
       "revisarAte": "2027-04-01",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a06-n26", "a06-n27"]
+      "audioKeys": [
+        "a06-n26",
+        "a06-n27"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
@@ -258,7 +297,10 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a06-p02",
-      "consulta": ["chegar/entrar", "compras/balcao"],
+      "consulta": [
+        "chegar/entrar",
+        "compras/balcao"
+      ],
       "promptPt": "Tuesday morning, the little shop's number on your screen, and a walk right across town if nobody picks up the truth first. Speak now.",
       "audioKey": "a06-abiertos-c",
       "es": "¿Están abiertos hoy?",
@@ -300,7 +342,9 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a06-p03",
-      "consulta": ["compras/balcao"],
+      "consulta": [
+        "compras/balcao"
+      ],
       "promptPt": "Twenty past one, the man behind the counter is already reaching for his keys, and you need him again later on. Speak now.",
       "audioKey": "a06-tarde-c",
       "es": "¿A qué hora abren por la tarde?",
@@ -348,7 +392,9 @@
       "voz": "Emilio",
       "promptVoz": "Alice",
       "promptAudioKey": "a06-p04",
-      "consulta": ["compras/balcao"],
+      "consulta": [
+        "compras/balcao"
+      ],
       "promptPt": "Sunday, a rented kitchen with nothing in it, and a man walking his dog who has lived on this street forty years. Speak now.",
       "audioKey": "a06-super-e",
       "es": "¿Hay algún supermercado abierto por aquí?",
@@ -438,7 +484,9 @@
       "voz": "Emilio",
       "promptVoz": "Alice",
       "promptAudioKey": "a06-p05",
-      "consulta": ["quarto/pedir"],
+      "consulta": [
+        "quarto/pedir"
+      ],
       "promptPt": "Hotel desk, half past nine at night, and the bank and the post office are both on your list for the morning. Speak now.",
       "audioKey": "a06-fiesta-e",
       "es": "¿Mañana es fiesta?",
@@ -487,7 +535,9 @@
       "voz": "Carmen",
       "promptVoz": "Alice",
       "promptAudioKey": "a06-p06",
-      "consulta": ["simpatia/puxar-conversa"],
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "promptPt": "The band has gone past, the woman beside you has not moved, and she has been standing on this corner since long before you were born. Ask her what the day is. Speak now.",
       "audioKey": "a06-celebra-c",
       "es": "¿Qué se celebra hoy?",
@@ -524,7 +574,9 @@
       "voz": "Emilio",
       "promptVoz": "Alice",
       "promptAudioKey": "a06-p07",
-      "consulta": ["taxi/destino"],
+      "consulta": [
+        "taxi/destino"
+      ],
       "promptPt": "Half seven, a train at nine, and the road you need has two thousand people standing in it. Ask the officer on the corner. Speak now.",
       "audioKey": "a06-pasar-e",
       "es": "¿Por dónde puedo pasar?",
@@ -641,7 +693,6 @@
       "pt": "That is their year. The month, the Sunday, the town's own two days, and the street that belongs to a saint. Hasta luego."
     }
   ],
-
   "aprofundar": {
     "titulo": "The month, the Sunday and the two days that are only theirs (optional reading)",
     "secoes": [

@@ -5,32 +5,153 @@
   "buyerLocale": "en-US",
   "status": "pending_generation",
   "clips": [
-    {"key": "mx-a01-n01", "role": "guide_en_us_f", "text": "Today trains your ear, not your mouth. Real Mexican Spanish, spoken fast among people who know each other, drops sounds constantly — and you already own most of the sentences underneath it.", "kind": "narration"},
-    {"key": "mx-a01-n02", "role": "guide_en_us_m", "text": "So say nothing for the next few minutes. The exercise today is entirely your ears.", "kind": "narration"},
-    {"key": "mx-a01-n03", "role": "guide_en_us_f", "text": "Ten at night, a busy taco stand. Two regulars order past you, back to back, and neither sentence slows down for a visitor.", "kind": "narration"},
-    {"key": "mx-a01-o01", "role": "target_mx_m", "text": "¿Me da dos de pastor y uno de bistec, pa' llevar?", "kind": "return"},
-    {"key": "mx-a01-o02", "role": "target_mx_f", "text": "Va, ahorita se los preparo.", "kind": "return"},
-    {"key": "mx-a01-n04", "role": "guide_en_us_m", "text": "You didn't catch that, and your ear is fine. Every pattern in it is one you're about to meet slowed down first.", "kind": "narration"},
-    {"key": "mx-a01-n05", "role": "guide_en_us_f", "text": "First pattern, and the most common: está shrinks to 'tá. Here it is in full, the way you learned it.", "kind": "narration"},
-    {"key": "mx-b08-t03", "role": "target_mx_f", "text": "¿Dónde está el baño?", "kind": "target"},
-    {"key": "mx-a01-o03", "role": "target_mx_f", "text": "¿Dónde 'tá el baño?", "kind": "return"},
-    {"key": "mx-a01-n06", "role": "guide_en_us_m", "text": "Second: para shrinks to pa'. You already asked this exact question in part seventeen, at the pharmacy counter.", "kind": "narration"},
-    {"key": "mx-b17-t03", "role": "target_mx_f", "text": "¿Necesito receta para este medicamento?", "kind": "target"},
-    {"key": "mx-a01-o04", "role": "target_mx_f", "text": "¿Necesito receta pa' este medicamento?", "kind": "return"},
-    {"key": "mx-a01-n07", "role": "guide_en_us_f", "text": "Third: nada shrinks to na'. This one you said at a restaurant table, about a peanut allergy — it matters more than most.", "kind": "narration"},
-    {"key": "mx-b13-t02", "role": "target_mx_f", "text": "No puedo comer nada que contenga cacahuate.", "kind": "target"},
-    {"key": "mx-a01-o05", "role": "target_mx_f", "text": "No puedo comer na' que contenga cacahuate.", "kind": "return"},
-    {"key": "mx-a01-n08", "role": "guide_en_us_m", "text": "Fourth, and this one you'll hear constantly: pues shrinks to pos, or even just pus. It's a filler word, a small verbal shrug.", "kind": "narration"},
-    {"key": "mx-a01-o06", "role": "target_mx_m", "text": "Pues no sé, tú dime.", "kind": "return"},
-    {"key": "mx-a01-o07", "role": "target_mx_m", "text": "Pos no sé, tú dime.", "kind": "return"},
-    {"key": "mx-a01-n09", "role": "guide_en_us_f", "text": "One more, and it's not a missing letter but a missing letter's cousin: the d between two vowels in -ado endings often just disappears. Cansado becomes cansao. Ocupado becomes ocupao.", "kind": "narration"},
-    {"key": "mx-a01-n10", "role": "guide_en_us_m", "text": "None of these four patterns are mistakes, and none are regional oddities — they're what relaxed, everyday Mexican Spanish actually sounds like, everywhere in the country.", "kind": "narration"},
-    {"key": "mx-a01-n11", "role": "guide_en_us_f", "text": "On top of that, the accent itself shifts by region: central Mexico tends to run fast and clipped, the coast has more of a sing-song lift, the Yucatán carries a Maya-influenced rhythm, and the north has its own distinctive pull. We won't fake demonstrating each one for you — that takes a real ear from each place, not a course. Just expect variety, not one single 'Mexican accent.'", "kind": "narration"},
-    {"key": "mx-a01-n12", "role": "guide_en_us_m", "text": "Now, back to the taco stand. Same two sentences you heard at the start — listen again with all four patterns in your ears.", "kind": "narration"},
-    {"key": "mx-a01-n13", "role": "guide_en_us_f", "text": "You got it. Nothing new went into your head today — what changed is that you can find your own sentences with pieces missing.", "kind": "narration"},
-    {"key": "mx-a01-n14", "role": "guide_en_us_f", "text": "A01 complete. Está to 'tá, para to pa', nada to na', pues to pos — four small erosions, and underneath every one of them is a sentence you already built. Count the beats, not the letters, and keep going.", "kind": "recap"},
-    {"key": "mx-a01-q-i", "role": "guide_en_us_f", "text": "Listen to two regulars ordering fast at a taco stand, then answer about what you heard.", "kind": "quiz_intro"},
-    {"key": "mx-a01-q01", "role": "target_mx_m", "text": "¿Me da dos de pastor y uno de bistec, pa' llevar?", "kind": "quiz"},
-    {"key": "mx-a01-q02", "role": "target_mx_f", "text": "Va, ahorita se los preparo.", "kind": "quiz"}
+    {
+      "key": "mx-a01-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-o01",
+      "role": "target_mx_m",
+      "text": "¿Me da dos de pastor y uno de bistec, pa' llevar?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-o02",
+      "role": "target_mx_f",
+      "text": "Va, ahorita se los preparo.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b08-t03",
+      "role": "target_mx_f",
+      "text": "¿Dónde está el baño?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-a01-o03",
+      "role": "target_mx_f",
+      "text": "¿Dónde 'tá el baño?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b17-t03",
+      "role": "target_mx_f",
+      "text": "¿Necesito receta para este medicamento?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-a01-o04",
+      "role": "target_mx_f",
+      "text": "¿Necesito receta pa' este medicamento?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b13-t02",
+      "role": "target_mx_f",
+      "text": "No puedo comer nada que contenga cacahuate.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-a01-o05",
+      "role": "target_mx_f",
+      "text": "No puedo comer na' que contenga cacahuate.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-n08",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-o06",
+      "role": "target_mx_m",
+      "text": "Pues no sé, tú dime.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-o07",
+      "role": "target_mx_m",
+      "text": "Pos no sé, tú dime.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-a01-n09",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n10",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n11",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n12",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n13",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-a01-n14",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-a01-q-i",
+      "role": "guide_en_us_f",
+      "text": "Listen to two regulars ordering fast at a taco stand, then answer about what you heard.",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-a01-q01",
+      "role": "target_mx_m",
+      "text": "¿Me da dos de pastor y uno de bistec, pa' llevar?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-a01-q02",
+      "role": "target_mx_f",
+      "text": "Va, ahorita se los preparo.",
+      "kind": "quiz"
+    }
   ]
 }

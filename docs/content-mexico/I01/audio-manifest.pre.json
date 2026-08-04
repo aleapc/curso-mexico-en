@@ -5,26 +5,145 @@
   "buyerLocale": "en-US",
   "status": "pending_generation",
   "clips": [
-    {"key": "mx-i01-n01", "role": "guide_en_us_f", "text": "Part one of the good stuff. Today's decision is not a phrase — it's a time. What hour you sit down decides which room you eat in, and the two rooms are not the same trip.", "kind": "narration"},
-    {"key": "mx-i01-r01", "role": "target_mx_m", "text": "Buenas tardes. Pase, tenemos mesa.", "kind": "return"},
-    {"key": "mx-i01-n02", "role": "guide_en_us_f", "text": "Six in the evening, and the whole comedor is yours — every table free, the cook visible through the kitchen door, nobody else in the room.", "kind": "narration"},
-    {"key": "mx-i01-n03", "role": "guide_en_us_m", "text": "Nothing has gone wrong. La comida — the main meal — runs one to three. By six, the city already ate hours ago; what's open now is running on tourist hours, not local ones.", "kind": "narration"},
-    {"key": "mx-i01-p01", "role": "guide_en_us_m", "text": "You want to know when this place is genuinely busy. Ask what time la comida is usually served here. Speak now.", "kind": "prompt"},
-    {"key": "mx-i01-t01", "role": "target_mx_f", "text": "¿A qué hora sirven la comida aquí?", "kind": "target"},
-    {"key": "mx-i01-r02", "role": "target_mx_m", "text": "De una a tres, más o menos.", "kind": "return"},
-    {"key": "mx-i01-n04", "role": "guide_en_us_f", "text": "Now the other end of the day. Cena is not a second comida — it runs later and lighter, sometimes just something from a stall, not a sit-down production.", "kind": "narration"},
-    {"key": "mx-i01-t02", "role": "target_mx_f", "text": "Para la cena, algo ligero está bien.", "kind": "target"},
-    {"key": "mx-i01-p02", "role": "guide_en_us_f", "text": "It's evening and you're not looking for a full meal. Say something light is fine for dinner. Speak now.", "kind": "prompt"},
-    {"key": "mx-i01-n05", "role": "guide_en_us_m", "text": "So the move: if you want the room the city actually eats in, walk in for comida between one and three. If you just want something before bed, cena any time after six is completely normal.", "kind": "narration"},
-    {"key": "mx-i01-r03", "role": "target_mx_m", "text": "¿Va a comer aquí o solo va de paso?", "kind": "return"},
-    {"key": "mx-i01-p03", "role": "guide_en_us_m", "text": "You've arrived right in the middle of la comida. Say you'd like to eat, here, now. Speak now.", "kind": "prompt"},
-    {"key": "mx-i01-t03", "role": "target_mx_f", "text": "Sí, quiero comer aquí, por favor.", "kind": "target"},
-    {"key": "mx-i01-s01", "role": "target_mx_f", "text": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien.", "kind": "shadow"},
-    {"key": "mx-i01-n06", "role": "guide_en_us_f", "text": "I01 complete. Comida owns one to three — that's the room worth walking into. Cena is real but lighter, any time after six. An empty comedor at six isn't a warning sign. It's the clock telling you exactly where you are.", "kind": "recap"},
-    {"key": "mx-i01-q-i", "role": "guide_en_us_f", "text": "A traveller walks into an empty comedor at six in the evening and asks when it actually fills up.", "kind": "quiz_intro"},
-    {"key": "mx-i01-q01", "role": "target_mx_m", "text": "Buenas tardes. Pase, tenemos mesa.", "kind": "quiz"},
-    {"key": "mx-i01-q02", "role": "target_mx_f", "text": "¿A qué hora sirven la comida aquí?", "kind": "quiz"},
-    {"key": "mx-i01-q03", "role": "target_mx_m", "text": "De una a tres, más o menos.", "kind": "quiz"},
-    {"key": "mx-i01-q04", "role": "target_mx_f", "text": "Para la cena, algo ligero está bien.", "kind": "quiz"}
+    {
+      "key": "mx-i01-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i01-r01",
+      "role": "target_mx_m",
+      "text": "Buenas tardes. Pase, tenemos mesa.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i01-n02",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i01-n03",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i01-p01",
+      "role": "guide_en_us_m",
+      "text": "You want to know when this place is genuinely busy. Ask what time la comida is usually served here. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-t01",
+      "role": "target_mx_f",
+      "text": "¿A qué hora sirven la comida aquí?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-r02",
+      "role": "target_mx_m",
+      "text": "De una a tres, más o menos.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i01-n04",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i01-t02",
+      "role": "target_mx_f",
+      "text": "Para la cena, algo ligero está bien.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-p02",
+      "role": "guide_en_us_f",
+      "text": "It's evening and you're not looking for a full meal. Say something light is fine for dinner. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-n05",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i01-r03",
+      "role": "target_mx_m",
+      "text": "¿Va a comer aquí o solo va de paso?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-i01-p03",
+      "role": "guide_en_us_m",
+      "text": "You've arrived right in the middle of la comida. Say you'd like to eat, here, now. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-t03",
+      "role": "target_mx_f",
+      "text": "Sí, quiero comer aquí, por favor.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-s01",
+      "role": "target_mx_f",
+      "text": "¿A qué hora sirven la comida aquí? Para la cena, algo ligero está bien.",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-i01-n06",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-i01-q-i",
+      "role": "guide_en_us_f",
+      "text": "A traveller walks into an empty comedor at six in the evening and asks when it actually fills up.",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-i01-q01",
+      "role": "target_mx_m",
+      "text": "Buenas tardes. Pase, tenemos mesa.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-q02",
+      "role": "target_mx_f",
+      "text": "¿A qué hora sirven la comida aquí?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-q03",
+      "role": "target_mx_m",
+      "text": "De una a tres, más o menos.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-q04",
+      "role": "target_mx_f",
+      "text": "Para la cena, algo ligero está bien.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-i01-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-i01-p04",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-i01-t04",
+      "role": "target_mx_f",
+      "kind": "target"
+    },
+    {
+      "key": "mx-i01-r04",
+      "role": "target_mx_m",
+      "kind": "return"
+    }
   ]
 }

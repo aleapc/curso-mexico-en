@@ -10,27 +10,156 @@
   "moldura": "ganha",
   "frasePiso": "You don't need every past tense in the language. You need three verbs, and you already know all three.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i06-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Everything so far has lived in the present: order this, ask that, right now. Today the trip gets a past tense — three verbs that let you tell someone what yesterday actually was." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i06-r01", "es": "¿Qué hiciste ayer?", "pt": "What did you do yesterday?", "tts": "¿Qué hiciste ayer?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i06-n02", "bloco": "corpo", "pt": "Fui — I went. The whole day starts with where you went, and that one word carries the whole sentence." },
-    { "consulta": ["conversa/passado"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i06-p01", "promptPt": "Say where you went yesterday. Speak now.", "audioKey": "mx-i06-t01", "es": "Fui al mercado.", "pinyin": "fwee al mehr-KAH-doh", "pt": "I went to the market.", "tts": "Fui al mercado." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i06-r02", "es": "¿Y qué comiste?", "pt": "And what did you eat?", "tts": "¿Y qué comiste?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i06-n03", "pt": "Comí — I ate. Same pattern, different verb. The story is building itself one short sentence at a time." },
-    { "consulta": ["conversa/passado"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i06-p02", "promptPt": "Say what you ate. Speak now.", "audioKey": "mx-i06-t02", "es": "Comí tacos al pastor.", "pinyin": "koh-MEE TAH-kohs al pahs-TOR", "pt": "I ate tacos al pastor.", "tts": "Comí tacos al pastor." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i06-n04", "bloco": "capsula", "pt": "And the verb that closes the story with feeling, not just fact: me encantó. It loved-me, literally — the thing did the loving, in Spanish grammar. But it lands exactly like 'I loved it.'" },
-    { "consulta": ["conversa/opiniao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i06-p03", "promptPt": "Say you loved it. Speak now.", "audioKey": "mx-i06-t03", "es": "Me encantó.", "pinyin": "meh en-kahn-TOH", "pt": "I loved it.", "tts": "Me encantó." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i06-r03", "es": "¿Y hoy qué van a hacer?", "pt": "And what are you going to do today?", "tts": "¿Y hoy qué van a hacer?" },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i06-n05", "pt": "The conversation naturally swings forward too. You don't need a new tense for tomorrow — vamos a plus what you'll do covers it." },
-    { "consulta": ["conversa/futuro"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i06-p04", "promptPt": "Say what you're going to do today. Speak now.", "audioKey": "mx-i06-t04", "es": "Vamos a ir a la playa.", "pinyin": "BAH-mohs ah eer ah lah PLAH-yah", "pt": "We're going to go to the beach.", "tts": "Vamos a ir a la playa." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i06-s01", "es": "Fui al mercado. Comí tacos al pastor. Me encantó.", "pinyin": "fwee al mehr-KAH-doh. koh-MEE TAH-kohs al pahs-TOR. meh en-kahn-TOH", "pt": "Shadow the whole story: went, ate, loved it.", "tts": "Fui al mercado. Comí tacos al pastor. Me encantó." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i06-n06", "bloco": "recap", "pt": "I06 complete. Fui, comí, me encantó — three verbs, and yesterday becomes a real story instead of a list of nouns. Vamos a covers tomorrow. You now have a past and a future, not just an endless present." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Everything so far lived in the present — order this, ask that. Today: three verbs that turn yesterday into a story."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i06-r01",
+      "es": "¿Qué hiciste ayer?",
+      "pt": "What did you do yesterday?",
+      "tts": "¿Qué hiciste ayer?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i06-n02",
+      "bloco": "corpo",
+      "pt": "Fui — I went. The whole day starts with where you went, and that one word carries the whole sentence."
+    },
+    {
+      "consulta": [
+        "conversa/passado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i06-p01",
+      "promptPt": "Say where you went yesterday. Speak now.",
+      "audioKey": "mx-i06-t01",
+      "es": "Fui al mercado.",
+      "pinyin": "fwee al mehr-KAH-doh",
+      "pt": "I went to the market.",
+      "tts": "Fui al mercado."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i06-r02",
+      "es": "¿Y qué comiste?",
+      "pt": "And what did you eat?",
+      "tts": "¿Y qué comiste?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i06-n03",
+      "pt": "Comí — I ate. Same pattern, different verb. The story is building itself one short sentence at a time."
+    },
+    {
+      "consulta": [
+        "conversa/passado"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i06-p02",
+      "promptPt": "Say what you ate. Speak now.",
+      "audioKey": "mx-i06-t02",
+      "es": "Comí tacos al pastor.",
+      "pinyin": "koh-MEE TAH-kohs al pahs-TOR",
+      "pt": "I ate tacos al pastor.",
+      "tts": "Comí tacos al pastor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i06-n04",
+      "bloco": "capsula",
+      "pt": "The verb that closes with feeling: me encantó — literally 'it delighted me,' but it lands like 'I loved it.'"
+    },
+    {
+      "consulta": [
+        "conversa/opiniao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i06-p03",
+      "promptPt": "Say you loved it. Speak now.",
+      "audioKey": "mx-i06-t03",
+      "es": "Me encantó.",
+      "pinyin": "meh en-kahn-TOH",
+      "pt": "I loved it.",
+      "tts": "Me encantó."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i06-r03",
+      "es": "¿Y hoy qué van a hacer?",
+      "pt": "And what are you going to do today?",
+      "tts": "¿Y hoy qué van a hacer?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i06-n05",
+      "pt": "The conversation swings forward too — no new tense needed, vamos a plus what you'll do covers tomorrow."
+    },
+    {
+      "consulta": [
+        "conversa/futuro"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i06-p04",
+      "promptPt": "Say what you're going to do today. Speak now.",
+      "audioKey": "mx-i06-t04",
+      "es": "Vamos a ir a la playa.",
+      "pinyin": "BAH-mohs ah eer ah lah PLAH-yah",
+      "pt": "We're going to go to the beach.",
+      "tts": "Vamos a ir a la playa."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i06-s01",
+      "es": "Fui al mercado. Comí tacos al pastor. Me encantó.",
+      "pinyin": "fwee al mehr-KAH-doh. koh-MEE TAH-kohs al pahs-TOR. meh en-kahn-TOH",
+      "pt": "Shadow the whole story: went, ate, loved it.",
+      "tts": "Fui al mercado. Comí tacos al pastor. Me encantó."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i06-n06",
+      "bloco": "recap",
+      "pt": "I06 complete. Fui, comí, me encantó make yesterday a story, vamos a covers tomorrow — past and future, not just present."
+    }
   ],
   "aprofundar": {
     "titulo": "Three verbs is a whole trip",
     "secoes": [
-      { "titulo": "The pattern generalises", "corpo": "Fui, comí and me encantó are specific examples of a much larger past tense (the preterite), but you don't need the grammar rule to use these three correctly and often." },
-      { "titulo": "Me encantó is grammatically backwards, on purpose", "corpo": "Like gustar, encantar puts the thing doing the delighting first. Me encantó literally means 'it delighted me' — you don't need to unpack that to use it naturally." },
-      { "titulo": "Vamos a is the easiest future", "corpo": "Rather than learning a separate future tense, vamos a plus a plain verb ('we're going to...') does the job for almost anything you'd want to say about your plans." }
+      {
+        "titulo": "The pattern generalises",
+        "corpo": "Fui, comí and me encantó are specific examples of a much larger past tense (the preterite), but you don't need the grammar rule to use these three correctly and often."
+      },
+      {
+        "titulo": "Me encantó is grammatically backwards, on purpose",
+        "corpo": "Like gustar, encantar puts the thing doing the delighting first. Me encantó literally means 'it delighted me' — you don't need to unpack that to use it naturally."
+      },
+      {
+        "titulo": "Vamos a is the easiest future",
+        "corpo": "Rather than learning a separate future tense, vamos a plus a plain verb ('we're going to...') does the job for almost anything you'd want to say about your plans."
+      }
     ]
   },
   "slot": "I06",

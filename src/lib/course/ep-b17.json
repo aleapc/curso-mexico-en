@@ -9,43 +9,296 @@
   "moldura": "protege",
   "frasePiso": "The only defensive part of this module: name the pain, learn the rule before you argue with it, and know the one number that ends the guessing.",
   "fatosDatados": [
-    { "id": "mx-emergencia-911", "afirmacao": "Mexico's national emergency number is 911, covering ambulance, police and fire; in Mexico City the Red Cross ambulance service can also be reached directly at 065.", "fonte": "Servicio de emergencias 911 (nacional); Cruz Roja Mexicana", "ano": 2026, "revisarAte": "2028-08-04", "evidencia": "FATO", "risco": "alto", "audioKeys": ["mx-b17-n06"] },
-    { "id": "mx-antibiotico-receta", "afirmacao": "Since a 2010 COFEPRIS rule, Mexican pharmacies may not sell antibiotics without a prescription issued by a physician licensed in Mexico; a prescription from another country is not accepted at the counter.", "fonte": "COFEPRIS — regulamento de venda de antibióticos (2010)", "ano": 2026, "revisarAte": "2027-08-04", "evidencia": "FATO", "risco": "medio", "audioKeys": ["mx-b17-n03"] }
+    {
+      "id": "mx-emergencia-911",
+      "afirmacao": "Mexico's national emergency number is 911, covering ambulance, police and fire; in Mexico City the Red Cross ambulance service can also be reached directly at 065.",
+      "fonte": "Servicio de emergencias 911 (nacional); Cruz Roja Mexicana",
+      "ano": 2026,
+      "revisarAte": "2028-08-04",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "mx-b17-n06"
+      ]
+    },
+    {
+      "id": "mx-antibiotico-receta",
+      "afirmacao": "Since a 2010 COFEPRIS rule, Mexican pharmacies may not sell antibiotics without a prescription issued by a physician licensed in Mexico; a prescription from another country is not accepted at the counter.",
+      "fonte": "COFEPRIS — regulamento de venda de antibióticos (2010)",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "mx-b17-n03"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b17-n01", "gesto": 1, "bloco": "aquecimento", "pt": "This is the one part of the whole module that is openly defensive. Most of it stays small: a headache, a question at the pharmacy counter. But the same four moves scale up to a real emergency, so we build them here, while the stakes are still low." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b17-t01", "es": "Me duele la cabeza.", "pinyin": "meh DWEH-leh lah kah-BEH-sah", "pt": "My head hurts.", "tts": "Me duele la cabeza." },
-    { "consulta": ["saude/farmacia", "saude/dolor"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b17-p01", "promptPt": "At the pharmacy counter, name the pain before asking for anything. Speak now.", "audioKey": "mx-b17-t01", "es": "Me duele la cabeza.", "pinyin": "meh DWEH-leh lah kah-BEH-sah", "pt": "My head hurts." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r01", "es": "¿Desde cuándo le duele?", "pt": "Since when does it hurt?", "tts": "¿Desde cuándo le duele?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b17-n02", "bloco": "corpo", "pt": "Duration is the first thing a pharmacist actually needs, not a diagnosis. Keep it to one clean answer." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b17-t02", "es": "Desde ayer.", "pinyin": "DEHS-deh ah-YEHR", "pt": "Since yesterday.", "tts": "Desde ayer." },
-    { "consulta": ["saude/dolor"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b17-p02", "promptPt": "The pharmacist asks since when. Answer with one clean phrase: since yesterday. Speak now.", "audioKey": "mx-b17-t02", "es": "Desde ayer.", "pinyin": "DEHS-deh ah-YEHR", "pt": "Since yesterday." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r02", "es": "Le recomiendo este para el dolor.", "pt": "I recommend this one for the pain.", "tts": "Le recomiendo este para el dolor." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b17-n03", "bloco": "capsula", "pt": "Here is the wall. Since 2010, a Mexican pharmacy cannot sell an antibiotic without a prescription from a doctor licensed in Mexico — and a prescription from your own country will not be accepted at this counter. Asking first saves you an argument you cannot win." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b17-t03", "es": "¿Necesito receta para este medicamento?", "pinyin": "neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh", "pt": "Do I need a prescription for this medication?", "tts": "¿Necesito receta para este medicamento?" },
-    { "consulta": ["saude/receta", "saude/farmacia"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b17-p03", "promptPt": "Before you take anything to the till, ask whether this medication needs a prescription. Speak now.", "audioKey": "mx-b17-t03", "es": "¿Necesito receta para este medicamento?", "pinyin": "neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh", "pt": "Do I need a prescription for this medication?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r03", "es": "No, este no necesita receta.", "pt": "No, this one doesn't need a prescription.", "tts": "No, este no necesita receta." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b17-n04", "pt": "One more filter before you buy, and it connects back to B13. If you have an allergy, the pharmacy counter is not exempt from that sentence." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b17-t04", "es": "Tengo una alergia. ¿Tiene algo sin aspirina?", "pinyin": "TEN-goh OO-nah ah-LEHR-hyah. TYEH-neh AHL-goh seen ahs-pee-REE-nah", "pt": "I have an allergy. Do you have something without aspirin?", "tts": "Tengo una alergia. ¿Tiene algo sin aspirina?" },
-    { "consulta": ["saude/farmacia", "dieta/alergia"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b17-p04", "promptPt": "You cannot take aspirin. Say so and ask for an alternative. Speak now.", "audioKey": "mx-b17-t04", "es": "Tengo una alergia. ¿Tiene algo sin aspirina?", "pinyin": "TEN-goh OO-nah ah-LEHR-hyah. TYEH-neh AHL-goh seen ahs-pee-REE-nah", "pt": "I have an allergy. Do you have something without aspirin?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r04", "es": "Sí, este es con paracetamol.", "pt": "Yes, this one is with paracetamol.", "tts": "Sí, este es con paracetamol." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b17-n05", "bloco": "capsula", "pt": "Now the scale-up. Same four moves — name it, give it a timeframe, ask the constraint, get the answer — but the object is a real emergency, and the phone is the counter." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r05", "es": "911, ¿cuál es su emergencia?", "pt": "911, what is your emergency?", "tts": "911, ¿cuál es su emergencia?" },
-    { "consulta": ["apuro/emergencia", "saude/urgencia"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b17-p05", "promptPt": "Someone next to you has collapsed. Call and say you need an ambulance. Speak now.", "audioKey": "mx-b17-t05", "es": "Necesito una ambulancia.", "pinyin": "neh-seh-SEE-toh OO-nah ahm-boo-LAHN-syah", "pt": "I need an ambulance.", "tts": "Necesito una ambulancia." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r06", "es": "¿Cuál es su ubicación?", "pt": "What is your location?", "tts": "¿Cuál es su ubicación?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b17-n06", "pt": "911 is the number for the whole country: ambulance, police and fire, all through the same door. Give the address you already made portable back in B04 — this is exactly what it was for." },
-    { "consulta": ["apuro/emergencia", "dormir/endereco"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b17-p06", "promptPt": "Give your location using the hotel name and room number. Speak now.", "audioKey": "mx-b17-t06", "es": "Estoy en el hotel, en la habitación trescientos cinco.", "pinyin": "ehs-TOY en el oh-TEL, en lah ah-bee-tah-SYOHN trehs-SYEHN-tohs SEEN-koh", "pt": "I'm at the hotel, in room three hundred five.", "tts": "Estoy en el hotel, en la habitación trescientos cinco." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b17-r07", "es": "Vamos en camino.", "pt": "We're on our way.", "tts": "Vamos en camino." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b17-s01", "es": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia.", "pinyin": "meh DWEH-leh lah kah-BEH-sah. neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh. neh-seh-SEE-toh OO-nah ahm-boo-LAHN-syah", "pt": "Shadow the small version and the scaled-up version of the same four moves.", "tts": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b17-n07", "bloco": "recap", "pt": "B17 complete. Name the problem. Give it a timeframe if asked. Ask the constraint before you hit it — receta, alergia. And if it scales up: 911, the ambulance, the address you already had ready. The only defensive part of the module, and now it is four short moves, not a fear." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b17-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The one openly defensive part of the module — mostly small, a headache, a question. But these four moves scale to a real emergency."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b17-t01",
+      "es": "Me duele la cabeza.",
+      "pinyin": "meh DWEH-leh lah kah-BEH-sah",
+      "pt": "My head hurts.",
+      "tts": "Me duele la cabeza."
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "saude/dolor"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b17-p01",
+      "promptPt": "At the pharmacy counter, name the pain before asking for anything. Speak now.",
+      "audioKey": "mx-b17-t01",
+      "es": "Me duele la cabeza.",
+      "pinyin": "meh DWEH-leh lah kah-BEH-sah",
+      "pt": "My head hurts."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r01",
+      "es": "¿Desde cuándo le duele?",
+      "pt": "Since when does it hurt?",
+      "tts": "¿Desde cuándo le duele?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b17-n02",
+      "bloco": "corpo",
+      "pt": "Duration is the first thing a pharmacist needs, not a diagnosis — keep it to one clean answer."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b17-t02",
+      "es": "Desde ayer.",
+      "pinyin": "DEHS-deh ah-YEHR",
+      "pt": "Since yesterday.",
+      "tts": "Desde ayer."
+    },
+    {
+      "consulta": [
+        "saude/dolor"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b17-p02",
+      "promptPt": "The pharmacist asks since when. Answer with one clean phrase: since yesterday. Speak now.",
+      "audioKey": "mx-b17-t02",
+      "es": "Desde ayer.",
+      "pinyin": "DEHS-deh ah-YEHR",
+      "pt": "Since yesterday."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r02",
+      "es": "Le recomiendo este para el dolor.",
+      "pt": "I recommend this one for the pain.",
+      "tts": "Le recomiendo este para el dolor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b17-n03",
+      "bloco": "capsula",
+      "pt": "Since 2010, pharmacies can't sell antibiotics without a Mexico-licensed prescription — a foreign one won't work here either. Ask first."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b17-t03",
+      "es": "¿Necesito receta para este medicamento?",
+      "pinyin": "neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh",
+      "pt": "Do I need a prescription for this medication?",
+      "tts": "¿Necesito receta para este medicamento?"
+    },
+    {
+      "consulta": [
+        "saude/receta",
+        "saude/farmacia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b17-p03",
+      "promptPt": "Before you take anything to the till, ask whether this medication needs a prescription. Speak now.",
+      "audioKey": "mx-b17-t03",
+      "es": "¿Necesito receta para este medicamento?",
+      "pinyin": "neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh",
+      "pt": "Do I need a prescription for this medication?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r03",
+      "es": "No, este no necesita receta.",
+      "pt": "No, this one doesn't need a prescription.",
+      "tts": "No, este no necesita receta."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b17-n04",
+      "pt": "One more filter, connecting to B13 — the allergy sentence applies at the pharmacy counter too."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b17-t04",
+      "es": "Tengo una alergia. ¿Tiene algo sin aspirina?",
+      "pinyin": "TEN-goh OO-nah ah-LEHR-hyah. TYEH-neh AHL-goh seen ahs-pee-REE-nah",
+      "pt": "I have an allergy. Do you have something without aspirin?",
+      "tts": "Tengo una alergia. ¿Tiene algo sin aspirina?",
+      "molde": "SIN",
+      "encaixe": "aspirina"
+    },
+    {
+      "consulta": [
+        "saude/farmacia",
+        "dieta/alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b17-p04",
+      "promptPt": "You cannot take aspirin. Say so and ask for an alternative. Speak now.",
+      "audioKey": "mx-b17-t04",
+      "es": "Tengo una alergia. ¿Tiene algo sin aspirina?",
+      "pinyin": "TEN-goh OO-nah ah-LEHR-hyah. TYEH-neh AHL-goh seen ahs-pee-REE-nah",
+      "pt": "I have an allergy. Do you have something without aspirin?",
+      "molde": "SIN",
+      "encaixe": "aspirina"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r04",
+      "es": "Sí, este es con paracetamol.",
+      "pt": "Yes, this one is with paracetamol.",
+      "tts": "Sí, este es con paracetamol."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b17-n05",
+      "bloco": "capsula",
+      "pt": "Now the scale-up — same four moves, but the object is a real emergency and the phone is the counter."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r05",
+      "es": "911, ¿cuál es su emergencia?",
+      "pt": "911, what is your emergency?",
+      "tts": "911, ¿cuál es su emergencia?"
+    },
+    {
+      "consulta": [
+        "apuro/emergencia",
+        "saude/urgencia"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b17-p05",
+      "promptPt": "Someone next to you has collapsed. Call and say you need an ambulance. Speak now.",
+      "audioKey": "mx-b17-t05",
+      "es": "Necesito una ambulancia.",
+      "pinyin": "neh-seh-SEE-toh OO-nah ahm-boo-LAHN-syah",
+      "pt": "I need an ambulance.",
+      "tts": "Necesito una ambulancia."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r06",
+      "es": "¿Cuál es su ubicación?",
+      "pt": "What is your location?",
+      "tts": "¿Cuál es su ubicación?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b17-n06",
+      "pt": "911 covers the whole country — ambulance, police, fire, one number. Give the address you made portable in B04."
+    },
+    {
+      "consulta": [
+        "apuro/emergencia",
+        "dormir/endereco"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b17-p06",
+      "promptPt": "Give your location using the hotel name and room number. Speak now.",
+      "audioKey": "mx-b17-t06",
+      "es": "Estoy en el hotel, en la habitación trescientos cinco.",
+      "pinyin": "ehs-TOY en el oh-TEL, en lah ah-bee-tah-SYOHN trehs-SYEHN-tohs SEEN-koh",
+      "pt": "I'm at the hotel, in room three hundred five.",
+      "tts": "Estoy en el hotel, en la habitación trescientos cinco."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b17-r07",
+      "es": "Vamos en camino.",
+      "pt": "We're on our way.",
+      "tts": "Vamos en camino."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b17-s01",
+      "es": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia.",
+      "pinyin": "meh DWEH-leh lah kah-BEH-sah. neh-seh-SEE-toh reh-SEH-tah PAH-rah EHS-teh meh-dee-kah-MEHN-toh. neh-seh-SEE-toh OO-nah ahm-boo-LAHN-syah",
+      "pt": "Shadow the small version and the scaled-up version of the same four moves.",
+      "tts": "Me duele la cabeza. ¿Necesito receta para este medicamento? Necesito una ambulancia."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b17-n07",
+      "bloco": "recap",
+      "pt": "B17 complete. Name it, timeframe, ask the constraint — receta, alergia. If it scales up: 911, ambulance, the address."
+    }
   ],
   "aprofundar": {
     "titulo": "The counter has a rule the traveller cannot see",
     "secoes": [
-      { "titulo": "The prescription wall is not personal", "corpo": "Since 2010, COFEPRIS has required a valid prescription from a Mexico-licensed physician for antibiotics. A foreign prescription, however official, is not accepted at the counter. Ask ¿necesita receta? before assuming a familiar medicine will be sold over the counter." },
-      { "titulo": "911 is the one number, for everything", "corpo": "Unlike some countries that split police, fire and ambulance into different numbers, Mexico's national emergency line is 911 for all three. In Mexico City, Cruz Roja's own ambulance line, 065, is a parallel option, not a replacement." },
-      { "titulo": "Duration before diagnosis", "corpo": "A pharmacist's first useful question is almost always about time, not cause. Desde ayer, desde esta mañana — a one-line duration answer keeps the exchange moving toward a recommendation." },
-      { "titulo": "Allergy does not stop applying at the pharmacy", "corpo": "The B13 discipline — name the allergen plainly — is exactly as valid over the counter as it is in a kitchen. Tengo una alergia works in both places without modification." }
+      {
+        "titulo": "The prescription wall is not personal",
+        "corpo": "Since 2010, COFEPRIS has required a valid prescription from a Mexico-licensed physician for antibiotics. A foreign prescription, however official, is not accepted at the counter. Ask ¿necesita receta? before assuming a familiar medicine will be sold over the counter."
+      },
+      {
+        "titulo": "911 is the one number, for everything",
+        "corpo": "Unlike some countries that split police, fire and ambulance into different numbers, Mexico's national emergency line is 911 for all three. In Mexico City, Cruz Roja's own ambulance line, 065, is a parallel option, not a replacement."
+      },
+      {
+        "titulo": "Duration before diagnosis",
+        "corpo": "A pharmacist's first useful question is almost always about time, not cause. Desde ayer, desde esta mañana — a one-line duration answer keeps the exchange moving toward a recommendation."
+      },
+      {
+        "titulo": "Allergy does not stop applying at the pharmacy",
+        "corpo": "The B13 discipline — name the allergen plainly — is exactly as valid over the counter as it is in a kitchen. Tengo una alergia works in both places without modification."
+      }
     ]
   },
   "slot": "B17",
@@ -61,7 +314,9 @@
       "oQueMelhora": "You stop spending time on a request that was never going to be granted and move straight to the option that actually works — a nearby clinic or doctor.",
       "ondeNaoVale": "Not for the wide range of medications that don't require a prescription in Mexico — many common pain relievers and over-the-counter remedies are sold freely; the rule is specifically about antibiotics.",
       "evidencia": "FATO",
-      "audioKeys": ["mx-b17-n03"]
+      "audioKeys": [
+        "mx-b17-n03"
+      ]
     }
   ]
 }

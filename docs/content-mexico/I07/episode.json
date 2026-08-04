@@ -3,31 +3,165 @@
   "nivel": "intermediario",
   "numero": 7,
   "parte": "I07",
-  "titulo": "Está buenísimo — and the cook comes out",
-  "subtitulo": "A real compliment that gets a real reaction, and a calm complaint that fixes the problem instead of starting a fight",
+  "titulo": "Está buenísimo — and the cook hears about it",
+  "subtitulo": "A specific compliment that reaches the kitchen, and the calm, exact sentence that gets a cold dish replaced",
   "cena": "The plate is empty, the cook is visible through the pass, and one honest sentence is about to change the rest of the meal.",
+  "decisao": "dizer em voz alta o que está bom e o que está errado, em vez de guardar os dois — o elogio específico e a reclamação calma decidem se a refeição melhora ou fica como veio",
   "moldura": "ganha",
   "frasePiso": "A specific compliment gets you a warmer table. A calm complaint gets you a fixed problem. Neither one needs drama.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i07-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Two moves today, both about saying something true out loud instead of keeping it to yourself: a genuine compliment, and a calm complaint. Both work better specific than vague." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i07-r01", "es": "¿Todo bien con la comida?", "pt": "Everything good with the food?", "tts": "¿Todo bien con la comida?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i07-n02", "bloco": "corpo", "pt": "This is your opening. Está buenísimo works, but naming the actual dish gets a bigger reaction — it proves you weren't just being polite." },
-    { "consulta": ["simpatia/elogio"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i07-p01", "promptPt": "The food was genuinely excellent. Say so, specifically. Speak now.", "audioKey": "mx-i07-t01", "es": "El mole está buenísimo. Felicite al cocinero.", "pinyin": "el MOH-leh ehs-TAH bweh-NEE-see-moh. feh-lee-SEE-teh al koh-see-NEH-roh", "pt": "The mole is really excellent. Congratulate the cook.", "tts": "El mole está buenísimo. Felicite al cocinero." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i07-r02", "es": "Muchas gracias, se lo voy a decir.", "pt": "Thank you very much, I'll tell them.", "tts": "Muchas gracias, se lo voy a decir." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-i07-n03", "bloco": "capsula", "pt": "Now the other move. Something's actually wrong — not a preference, an actual problem. Name the object and the issue, calmly, without a speech attached." },
-    { "consulta": ["mesa/problema"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-i07-p02", "promptPt": "The soup arrived cold. Name the problem, calmly. Speak now.", "audioKey": "mx-i07-t02", "es": "Disculpe, la sopa está fría.", "pinyin": "dees-KOOL-peh, lah SOH-pah ehs-TAH FREE-ah", "pt": "Excuse me, the soup is cold.", "tts": "Disculpe, la sopa está fría." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-i07-r03", "es": "Perdón, se la cambio ahora mismo.", "pt": "Sorry, I'll swap it right now.", "tts": "Perdón, se la cambio ahora mismo." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-i07-n04", "pt": "Disculpe opens it without blame. Naming the object and the exact problem — not a general complaint — is what actually gets it fixed fast." },
-    { "consulta": ["simpatia/agradecer"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-i07-p03", "promptPt": "They fixed it fast. Thank them for taking care of it. Speak now.", "audioKey": "mx-i07-t03", "es": "Gracias por resolverlo tan rápido.", "pinyin": "GRAH-syahs por reh-sohl-BEHR-loh tahn RAH-pee-doh", "pt": "Thanks for sorting it out so quickly.", "tts": "Gracias por resolverlo tan rápido." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-i07-s01", "es": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido.", "pinyin": "el MOH-leh ehs-TAH bweh-NEE-see-moh. dees-KOOL-peh, lah SOH-pah ehs-TAH FREE-ah. GRAH-syahs por reh-sohl-BEHR-loh tahn RAH-pee-doh", "pt": "Shadow the compliment and the complaint, back to back.", "tts": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-i07-n05", "bloco": "recap", "pt": "I07 complete. A specific compliment brings the cook out to say thanks in person. A calm, specific complaint — disculpe plus the exact problem — gets it fixed fast, no confrontation required. Both moves work because they're honest and precise, not because they're loud." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Two moves today: a genuine compliment and a calm complaint, both said out loud. Specific beats vague, either way."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i07-r01",
+      "es": "¿Todo bien con la comida?",
+      "pt": "Everything good with the food?",
+      "tts": "¿Todo bien con la comida?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i07-n02",
+      "bloco": "corpo",
+      "pt": "Your opening. Está buenísimo works, but naming the dish gets a bigger reaction — proof you weren't just being polite."
+    },
+    {
+      "consulta": [
+        "simpatia/elogio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i07-p01",
+      "promptPt": "The food was genuinely excellent. Say so, specifically. Speak now.",
+      "audioKey": "mx-i07-t01",
+      "es": "El mole está buenísimo.",
+      "pinyin": "el MOH-leh ehs-TAH bweh-NEE-see-moh",
+      "pt": "The mole is really excellent.",
+      "tts": "El mole está buenísimo."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i07-r02",
+      "es": "Muchas gracias, se lo voy a decir.",
+      "pt": "Thank you very much, I'll tell them.",
+      "tts": "Muchas gracias, se lo voy a decir."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i07-n03",
+      "bloco": "capsula",
+      "pt": "Now the other move — something's actually wrong. Name the object and the issue, calmly, no speech attached."
+    },
+    {
+      "consulta": [
+        "mesa/problema"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-i07-p02",
+      "promptPt": "The soup arrived cold. Name the problem, calmly. Speak now.",
+      "audioKey": "mx-i07-t02",
+      "es": "Disculpe, la sopa está fría.",
+      "pinyin": "dees-KOOL-peh, lah SOH-pah ehs-TAH FREE-ah",
+      "pt": "Excuse me, the soup is cold.",
+      "tts": "Disculpe, la sopa está fría."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i07-r03",
+      "es": "Perdón, se la cambio ahora mismo.",
+      "pt": "Sorry, I'll swap it right now.",
+      "tts": "Perdón, se la cambio ahora mismo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-i07-n04",
+      "pt": "Disculpe opens it without blame — naming the object and the exact problem is what actually gets it fixed fast."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i07-p03",
+      "promptPt": "They fixed it fast. Thank them for taking care of it. Speak now.",
+      "audioKey": "mx-i07-t03",
+      "es": "Gracias por resolverlo tan rápido.",
+      "pinyin": "GRAH-syahs por reh-sohl-BEHR-loh tahn RAH-pee-doh",
+      "pt": "Thanks for sorting it out so quickly.",
+      "tts": "Gracias por resolverlo tan rápido."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-i07-r04",
+      "es": "Aquí tiene, disculpe la molestia.",
+      "pt": "Here you go, sorry for the trouble.",
+      "tts": "Aquí tiene, disculpe la molestia."
+    },
+    {
+      "consulta": [
+        "simpatia/elogio"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-i07-p04",
+      "promptPt": "The new soup arrives hot. Close the loop with a quick, genuine reaction. Speak now.",
+      "audioKey": "mx-i07-t04",
+      "es": "Ahora sí, está perfecta.",
+      "pinyin": "ah-OH-rah see, ehs-TAH pehr-FEHK-tah",
+      "pt": "Now it's perfect.",
+      "tts": "Ahora sí, está perfecta."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-i07-s01",
+      "es": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido.",
+      "pinyin": "el MOH-leh ehs-TAH bweh-NEE-see-moh. dees-KOOL-peh, lah SOH-pah ehs-TAH FREE-ah. GRAH-syahs por reh-sohl-BEHR-loh tahn RAH-pee-doh",
+      "pt": "Shadow the compliment and the complaint, back to back.",
+      "tts": "El mole está buenísimo. Disculpe, la sopa está fría. Gracias por resolverlo tan rápido."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-i07-n05",
+      "bloco": "recap",
+      "pt": "I07 complete. A specific compliment reaches the cook, disculpe plus the exact problem gets it fixed — precise, not loud."
+    }
   ],
   "aprofundar": {
     "titulo": "Precision, not volume, gets results",
     "secoes": [
-      { "titulo": "Naming the dish beats a generic 'delicious'", "corpo": "Está buenísimo is fine, but el mole está buenísimo shows you actually noticed what you ate — and in a small kitchen, that compliment often genuinely reaches the person who cooked it." },
-      { "titulo": "Disculpe, not a complaint speech", "corpo": "Disculpe opens a correction without assigning blame. Following it immediately with the specific problem — la sopa está fría — keeps the exchange about the fix, not about fault." },
-      { "titulo": "Thanking the fix closes the loop", "corpo": "A short gracias once the problem is resolved keeps the whole exchange warm — the complaint and the compliment aren't opposites, they're both just honest, specific feedback." }
+      {
+        "titulo": "Naming the dish beats a generic 'delicious'",
+        "corpo": "Está buenísimo is fine, but el mole está buenísimo shows you actually noticed what you ate — and in a small kitchen, that compliment often genuinely reaches the person who cooked it."
+      },
+      {
+        "titulo": "Disculpe, not a complaint speech",
+        "corpo": "Disculpe opens a correction without assigning blame. Following it immediately with the specific problem — la sopa está fría — keeps the exchange about the fix, not about fault."
+      },
+      {
+        "titulo": "Thanking the fix closes the loop",
+        "corpo": "A short gracias once the problem is resolved keeps the whole exchange warm — the complaint and the compliment aren't opposites, they're both just honest, specific feedback."
+      }
     ]
   },
   "slot": "I07",

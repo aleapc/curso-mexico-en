@@ -9,36 +9,224 @@
   "moldura": "ganha",
   "frasePiso": "The trip does not end at checkout. It ends when the bag is stored, the last person is thanked, and you leave the way you arrived.",
   "fatosDatados": [
-    { "id": "mx-checkout-horario", "afirmacao": "Standard hotel checkout in Mexico is typically around midday (commonly 12:00–13:00), with late checkout available for an additional charge depending on the hotel's own policy and the hour requested.", "fonte": "Práticas hoteleiras convergentes reportadas por guias de viagem (Villa Experience, Frommer's, Mexperience); confirmar política do estabelecimento específico", "ano": 2026, "revisarAte": "2027-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-b18-n02"] },
-    { "id": "mx-gorjeta-camarista", "afirmacao": "A common practice for tipping housekeeping in Mexico is 25–50 pesos per day, left visibly in the room, since the person cleaning may change daily.", "fonte": "Guias de viagem convergentes sobre gorjeta em hotéis mexicanos (Villa Experience, Afar, The Real Deal Tours)", "ano": 2026, "revisarAte": "2027-08-04", "evidencia": "CONSENSO", "risco": "baixo", "audioKeys": ["mx-b18-n04"] }
+    {
+      "id": "mx-checkout-horario",
+      "afirmacao": "Standard hotel checkout in Mexico is typically around midday (commonly 12:00–13:00), with late checkout available for an additional charge depending on the hotel's own policy and the hour requested.",
+      "fonte": "Práticas hoteleiras convergentes reportadas por guias de viagem (Villa Experience, Frommer's, Mexperience); confirmar política do estabelecimento específico",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-b18-n02"
+      ]
+    },
+    {
+      "id": "mx-gorjeta-camarista",
+      "afirmacao": "A common practice for tipping housekeeping in Mexico is 25–50 pesos per day, left visibly in the room, since the person cleaning may change daily.",
+      "fonte": "Guias de viagem convergentes sobre gorjeta em hotéis mexicanos (Villa Experience, Afar, The Real Deal Tours)",
+      "ano": 2026,
+      "revisarAte": "2027-08-04",
+      "evidencia": "CONSENSO",
+      "risco": "baixo",
+      "audioKeys": [
+        "mx-b18-n04"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b18-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Last morning. The flight is hours away but the room is not. Close the room properly, store the bag somewhere real, thank the people who made the stay work, and leave the same way you arrived — with a sentence, not a silent exit." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b18-r01", "es": "Buenos días. ¿Todo bien con la habitación?", "pt": "Good morning. Everything all right with the room?", "tts": "Buenos días. ¿Todo bien con la habitación?" },
-    { "consulta": ["quarto/checkout", "simpatia/saudacao"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b18-p01", "promptPt": "Reception asks how the room was. Confirm and say you're here to check out. Speak now.", "audioKey": "mx-b18-t01", "es": "Todo bien, gracias. Vengo a hacer el check-out.", "pinyin": "TOH-doh byen, GRAH-syahs. BEN-goh ah AH-sehr el chek-OWT", "pt": "All good, thanks. I'm here to check out.", "tts": "Todo bien, gracias. Vengo a hacer el check-out." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b18-r02", "es": "Claro. Un momento, por favor.", "pt": "Of course. One moment, please.", "tts": "Claro. Un momento, por favor." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b18-n02", "bloco": "corpo", "pt": "The flight is late tonight and the checkout clock does not care. Do not carry the bag around the city all day. Ask the one question that solves it." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b18-t02", "es": "¿Puedo dejar mi maleta aquí hasta la tarde?", "pinyin": "PWEH-doh deh-HAR mee mah-LEH-tah ah-KEE AHS-tah lah TAR-deh", "pt": "Can I leave my suitcase here until the afternoon?", "tts": "¿Puedo dejar mi maleta aquí hasta la tarde?" },
-    { "consulta": ["quarto/mala", "transporte/bagagem"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b18-p02", "promptPt": "Your flight isn't until tonight. Ask whether you can leave your suitcase here until the afternoon. Speak now.", "audioKey": "mx-b18-t02", "es": "¿Puedo dejar mi maleta aquí hasta la tarde?", "pinyin": "PWEH-doh deh-HAR mee mah-LEH-tah ah-KEE AHS-tah lah TAR-deh", "pt": "Can I leave my suitcase here until the afternoon?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b18-r03", "es": "Sí, claro. Aquí tiene su comprobante.", "pt": "Yes, of course. Here's your claim ticket.", "tts": "Sí, claro. Aquí tiene su comprobante." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b18-n03", "pt": "Hold onto that comprobante. It is the same logic as the receipts in B14 and B15: the small paper that gets your bag back without an argument at the desk later." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b18-r04", "es": "¿Le gustaría dejar alguna propina para la camarista?", "pt": "Would you like to leave a tip for the housekeeper?", "tts": "¿Le gustaría dejar alguna propina para la camarista?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b18-n04", "bloco": "capsula", "pt": "This one is genuinely voluntary, unlike the automatic line B14 taught you to question. A common local practice is a small amount left visibly in the room each day, since the person who cleans can change daily — but the choice and the amount are yours." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b18-t03", "es": "Sí, ya la dejé en la habitación.", "pinyin": "see, yah lah deh-HEH en lah ah-bee-tah-SYOHN", "pt": "Yes, I already left it in the room.", "tts": "Sí, ya la dejé en la habitación." },
-    { "consulta": ["pagar/propina", "quarto/checkout"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b18-p03", "promptPt": "You already left a tip in the room this morning. Confirm that. Speak now.", "audioKey": "mx-b18-t03", "es": "Sí, ya la dejé en la habitación.", "pinyin": "see, yah lah deh-HEH en lah ah-bee-tah-SYOHN", "pt": "Yes, I already left it in the room." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b18-n05", "pt": "Last piece, and it costs one sentence. Not a review, not a summary of the trip — just the same close you used all module: thanks, and see you." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b18-r05", "es": "Gracias por su visita. Que tenga buen viaje.", "pt": "Thank you for your visit. Have a good trip.", "tts": "Gracias por su visita. Que tenga buen viaje." },
-    { "consulta": ["simpatia/agradecer", "chegar/sair"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b18-p04", "promptPt": "Close the stay the way you closed every counter this trip. Thank them and say goodbye. Speak now.", "audioKey": "mx-b18-t04", "es": "Muchas gracias. Hasta luego.", "pinyin": "MOO-chahs GRAH-syahs. AHS-tah LWEH-goh", "pt": "Thank you very much. See you.", "tts": "Muchas gracias. Hasta luego." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b18-s01", "es": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego.", "pinyin": "BEN-goh ah AH-sehr el chek-OWT. PWEH-doh deh-HAR mee mah-LEH-tah ah-KEE AHS-tah lah TAR-deh. MOO-chahs GRAH-syahs. AHS-tah LWEH-goh", "pt": "Shadow the whole last morning, start to close.", "tts": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b18-n06", "bloco": "recap", "pt": "B18 complete, and básico with it. Check out, store the bag with a real claim ticket, decide the tip on your own terms, and close with the same two words you opened every counter with. You did not just survive the day — you ran it, from ho-TEL to hasta luego." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Last morning. Close the room, store the bag properly, thank the people who made it work — leave with a sentence, not silence."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b18-r01",
+      "es": "Buenos días. ¿Todo bien con la habitación?",
+      "pt": "Good morning. Everything all right with the room?",
+      "tts": "Buenos días. ¿Todo bien con la habitación?"
+    },
+    {
+      "consulta": [
+        "quarto/checkout",
+        "simpatia/saudacao"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b18-p01",
+      "promptPt": "Reception asks how the room was. Confirm and say you're here to check out. Speak now.",
+      "audioKey": "mx-b18-t01",
+      "es": "Todo bien, gracias. Vengo a hacer el check-out.",
+      "pinyin": "TOH-doh byen, GRAH-syahs. BEN-goh ah AH-sehr el chek-OWT",
+      "pt": "All good, thanks. I'm here to check out.",
+      "tts": "Todo bien, gracias. Vengo a hacer el check-out."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b18-r02",
+      "es": "Claro. Un momento, por favor.",
+      "pt": "Of course. One moment, please.",
+      "tts": "Claro. Un momento, por favor."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b18-n02",
+      "bloco": "corpo",
+      "pt": "Flight's late tonight, checkout clock doesn't care — don't carry the bag all day, ask the one question that solves it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b18-t02",
+      "es": "¿Puedo dejar mi maleta aquí hasta la tarde?",
+      "pinyin": "PWEH-doh deh-HAR mee mah-LEH-tah ah-KEE AHS-tah lah TAR-deh",
+      "pt": "Can I leave my suitcase here until the afternoon?",
+      "tts": "¿Puedo dejar mi maleta aquí hasta la tarde?"
+    },
+    {
+      "consulta": [
+        "quarto/mala",
+        "transporte/bagagem"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b18-p02",
+      "promptPt": "Your flight isn't until tonight. Ask whether you can leave your suitcase here until the afternoon. Speak now.",
+      "audioKey": "mx-b18-t02",
+      "es": "¿Puedo dejar mi maleta aquí hasta la tarde?",
+      "pinyin": "PWEH-doh deh-HAR mee mah-LEH-tah ah-KEE AHS-tah lah TAR-deh",
+      "pt": "Can I leave my suitcase here until the afternoon?",
+      "molde": "PUEDO",
+      "encaixe": "dejar mi maleta"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b18-r03",
+      "es": "Sí, claro. Aquí tiene su comprobante.",
+      "pt": "Yes, of course. Here's your claim ticket.",
+      "tts": "Sí, claro. Aquí tiene su comprobante."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b18-n03",
+      "pt": "Hold onto that comprobante — same logic as B14 and B15's receipts, the paper that gets your bag back without argument."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b18-r04",
+      "es": "¿Le gustaría dejar alguna propina para la camarista?",
+      "pt": "Would you like to leave a tip for the housekeeper?",
+      "tts": "¿Le gustaría dejar alguna propina para la camarista?"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b18-n04",
+      "bloco": "capsula",
+      "pt": "Genuinely voluntary, unlike B14's automatic line — commonly a small daily amount left visibly, but the choice is yours."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b18-t03",
+      "es": "Sí, ya la dejé en la habitación.",
+      "pinyin": "see, yah lah deh-HEH en lah ah-bee-tah-SYOHN",
+      "pt": "Yes, I already left it in the room.",
+      "tts": "Sí, ya la dejé en la habitación."
+    },
+    {
+      "consulta": [
+        "pagar/propina",
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b18-p03",
+      "promptPt": "You already left a tip in the room this morning. Confirm that. Speak now.",
+      "audioKey": "mx-b18-t03",
+      "es": "Sí, ya la dejé en la habitación.",
+      "pinyin": "see, yah lah deh-HEH en lah ah-bee-tah-SYOHN",
+      "pt": "Yes, I already left it in the room."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b18-n05",
+      "pt": "Last piece, one sentence — not a review, just the same close you used all module: thanks, and see you."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b18-r05",
+      "es": "Gracias por su visita. Que tenga buen viaje.",
+      "pt": "Thank you for your visit. Have a good trip.",
+      "tts": "Gracias por su visita. Que tenga buen viaje."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b18-p04",
+      "promptPt": "Close the stay the way you closed every counter this trip. Thank them and say goodbye. Speak now.",
+      "audioKey": "mx-b18-t04",
+      "es": "Muchas gracias. Hasta luego.",
+      "pinyin": "MOO-chahs GRAH-syahs. AHS-tah LWEH-goh",
+      "pt": "Thank you very much. See you.",
+      "tts": "Muchas gracias. Hasta luego."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b18-s01",
+      "es": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego.",
+      "pinyin": "BEN-goh ah AH-sehr el chek-OWT. PWEH-doh deh-HAR mee mah-LEH-tah ah-KEE AHS-tah lah TAR-deh. MOO-chahs GRAH-syahs. AHS-tah LWEH-goh",
+      "pt": "Shadow the whole last morning, start to close.",
+      "tts": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b18-n06",
+      "bloco": "recap",
+      "pt": "B18 complete, básico with it. Check out, claim ticket, tip on your terms, close with the same words you opened with."
+    }
   ],
   "aprofundar": {
     "titulo": "The last hours are still part of the stay",
     "secoes": [
-      { "titulo": "Checkout time is the hotel's, not the flight's", "corpo": "Standard checkout runs mid-morning to early afternoon depending on the property, and a flight that leaves at night does not extend it automatically. Ask for storage rather than assuming you can keep the room key past the stated hour." },
-      { "titulo": "A claim ticket beats a memory", "corpo": "The same logic that made you ask for receipts in B14 and B15 applies to a stored bag: a physical comprobante is the artifact that gets it back without a debate." },
-      { "titulo": "The housekeeping tip is genuinely optional", "corpo": "Unlike the automatic restaurant charge B14 taught you to question, a tip for housekeeping in Mexico is a voluntary local custom, not a fee. A commonly reported range is 25–50 pesos per day, left visibly, but the decision belongs to the traveller." },
-      { "titulo": "The close costs one sentence", "corpo": "Muchas gracias and hasta luego are the same two moves B02 opened the whole course with. The course ends where it began, on purpose." }
+      {
+        "titulo": "Checkout time is the hotel's, not the flight's",
+        "corpo": "Standard checkout runs mid-morning to early afternoon depending on the property, and a flight that leaves at night does not extend it automatically. Ask for storage rather than assuming you can keep the room key past the stated hour."
+      },
+      {
+        "titulo": "A claim ticket beats a memory",
+        "corpo": "The same logic that made you ask for receipts in B14 and B15 applies to a stored bag: a physical comprobante is the artifact that gets it back without a debate."
+      },
+      {
+        "titulo": "The housekeeping tip is genuinely optional",
+        "corpo": "Unlike the automatic restaurant charge B14 taught you to question, a tip for housekeeping in Mexico is a voluntary local custom, not a fee. A commonly reported range is 25–50 pesos per day, left visibly, but the decision belongs to the traveller."
+      },
+      {
+        "titulo": "The close costs one sentence",
+        "corpo": "Muchas gracias and hasta luego are the same two moves B02 opened the whole course with. The course ends where it began, on purpose."
+      }
     ]
   },
   "slot": "B18",
@@ -54,7 +242,9 @@
       "oQueMelhora": "You close the stay without anxiety about a custom that was always flexible, not a test you could fail.",
       "ondeNaoVale": "Not a reason to assume every hotel charge is optional — this specifically applies to the housekeeping tip, not to charges the hotel states as mandatory, like some late-checkout fees.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b18-n04"]
+      "audioKeys": [
+        "mx-b18-n04"
+      ]
     }
   ]
 }

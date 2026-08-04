@@ -9,28 +9,139 @@
   "moldura": "protege",
   "frasePiso": "Your eyes can resolve the next action before your mouth has to ask for help.",
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b10-n01", "bloco": "aquecimento", "pt": "B10 is a silent lesson. You will not pronounce, spell or copy a sign. You will recognise a short surface and move: enter, leave, pull, push, queue, find the toilets, check the time or stop." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b10-t01", "receptivo": true, "es": "ENTRADA · SALIDA", "pinyin": "ehn-TRAH-dah · sah-LEE-dah", "pt": "entrance · exit", "tts": "Entrada. Salida." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b10-n02", "pt": "At a divided doorway, choose the flow before you reach it. Entrada takes you in. Salida takes you out. The arrow and the people confirm the word; do not stop in the crossing to translate it." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b10-t02", "receptivo": true, "es": "JALE · EMPUJE", "pinyin": "HAH-leh · ehm-POO-heh", "pt": "pull · push", "tts": "Jale. Empuje." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b10-n03", "bloco": "corpo", "pt": "On a manual door in Mexico, jale brings the door toward you and empuje sends it away. Eyes reach the word before the hand reaches the handle. Automatic doors need no reading ritual." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b10-t03", "receptivo": true, "es": "FILA · TAQUILLA", "pinyin": "FEE-lah · tah-KEE-yah", "pt": "queue · ticket window", "tts": "Fila. Taquilla." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b10-n04", "pt": "Fila tells you where the waiting begins. Taquilla tells you what the window does. If the queue ends at that window, join the back instead of walking to the glass and asking everyone." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b10-t04", "receptivo": true, "es": "SANITARIOS · BAÑOS", "pinyin": "sah-nee-TAH-ryohs · BAH-nyohs", "pt": "toilets · bathrooms", "tts": "Sanitarios. Baños." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b10-n05", "bloco": "capsula", "pt": "Both surfaces can lead to the toilets. Follow the pictogram and arrow. If neither surface exists, use the location question from B08; the sign lesson does not replace the repair route." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b10-t05", "receptivo": true, "es": "HORARIO · CERRADO", "pinyin": "oh-RAH-ryoh · seh-RRAH-doh", "pt": "hours or schedule · closed", "tts": "Horario. Cerrado." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b10-n06", "pt": "Horario introduces the times that apply to that place. Match today with its range; do not import a national opening pattern. Cerrado ends the decision for now: change time or place before asking for service." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b10-t06", "receptivo": true, "es": "ÚLTIMO ACCESO · SOLO PERSONAL", "pinyin": "OOL-tee-moh ahk-SEH-soh · SOH-loh pehr-soh-NAHL", "pt": "last entry · staff only", "tts": "Último acceso. Solo personal." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b10-n07", "pt": "Último acceso is the deadline to enter, not necessarily the time the whole place closes. Solo personal marks a boundary: stop and use a public route. One sign protects time; the other protects access." },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b10-n08", "bloco": "recap", "pt": "B10 complete. Entrance or exit. Pull or push. Back of the queue or ticket window. Toilets. Today's hours. Last entry. Staff only. No speaking test and no copied alphabet: surface, decision, body." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "B10 is silent — no pronouncing, no copying. Just recognise a sign and move: enter, exit, pull, push, queue, toilets, time, stop."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b10-t01",
+      "receptivo": true,
+      "es": "ENTRADA · SALIDA",
+      "pinyin": "ehn-TRAH-dah · sah-LEE-dah",
+      "pt": "entrance · exit",
+      "tts": "Entrada. Salida."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b10-n02",
+      "pt": "At a divided doorway, choose the flow first — entrada in, salida out. Let the arrow and people confirm it, don't stop to translate."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b10-t02",
+      "receptivo": true,
+      "es": "JALE · EMPUJE",
+      "pinyin": "HAH-leh · ehm-POO-heh",
+      "pt": "pull · push",
+      "tts": "Jale. Empuje."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b10-n03",
+      "bloco": "corpo",
+      "pt": "On a manual door, jale pulls toward you, empuje pushes away. Read it before your hand reaches the handle."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b10-t03",
+      "receptivo": true,
+      "es": "FILA · TAQUILLA",
+      "pinyin": "FEE-lah · tah-KEE-yah",
+      "pt": "queue · ticket window",
+      "tts": "Fila. Taquilla."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b10-n04",
+      "pt": "Fila marks where waiting begins, taquilla is the ticket window. If a queue leads there, join the back, don't walk to the glass."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b10-t04",
+      "receptivo": true,
+      "es": "SANITARIOS · BAÑOS",
+      "pinyin": "sah-nee-TAH-ryohs · BAH-nyohs",
+      "pt": "toilets · bathrooms",
+      "tts": "Sanitarios. Baños."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b10-n05",
+      "bloco": "capsula",
+      "pt": "Both signs lead to the toilets — follow the pictogram and arrow. No sign? Fall back to B08's location question."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b10-t05",
+      "receptivo": true,
+      "es": "HORARIO · CERRADO",
+      "pinyin": "oh-RAH-ryoh · seh-RRAH-doh",
+      "pt": "hours or schedule · closed",
+      "tts": "Horario. Cerrado."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b10-n06",
+      "pt": "Horario shows the hours for that place specifically — check today's range. Cerrado ends it: change time or place."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b10-t06",
+      "receptivo": true,
+      "es": "ÚLTIMO ACCESO · SOLO PERSONAL",
+      "pinyin": "OOL-tee-moh ahk-SEH-soh · SOH-loh pehr-soh-NAHL",
+      "pt": "last entry · staff only",
+      "tts": "Último acceso. Solo personal."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b10-n07",
+      "pt": "Último acceso is the deadline to enter, not closing time. Solo personal is a boundary — stop, find the public route."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b10-n08",
+      "bloco": "recap",
+      "pt": "B10 complete. Entrance, exit, pull, push, queue, toilets, hours, last entry, staff only — sign to decision to body."
+    }
   ],
   "aprofundar": {
     "titulo": "A sign is a compressed action",
     "secoes": [
-      { "titulo": "Transparent writing still needs a decision", "corpo": "An English speaker can recognise many letters and still choose the wrong action. B10 does not reward approximate translation; every surface is tied to one bodily or planning decision." },
-      { "titulo": "Mexican door words", "corpo": "This SKU teaches JALE and EMPUJE for manual doors. It does not import the Spain-centred TIRAR pair. Read the surface that is actually present; automatic doors are outside the drill." },
-      { "titulo": "Place words and pictograms cooperate", "corpo": "SANITARIOS and BAÑOS are recognition targets. The arrow and restroom pictogram carry equal weight, which makes the skill robust when only one word is visible." },
-      { "titulo": "Hours are local data", "corpo": "HORARIO tells you to read today's line. The course freezes no opening time, midday closure or weekly rest day. ÚLTIMO ACCESO is a separate deadline and must not be treated as closing time." }
+      {
+        "titulo": "Transparent writing still needs a decision",
+        "corpo": "An English speaker can recognise many letters and still choose the wrong action. B10 does not reward approximate translation; every surface is tied to one bodily or planning decision."
+      },
+      {
+        "titulo": "Mexican door words",
+        "corpo": "This SKU teaches JALE and EMPUJE for manual doors. It does not import the Spain-centred TIRAR pair. Read the surface that is actually present; automatic doors are outside the drill."
+      },
+      {
+        "titulo": "Place words and pictograms cooperate",
+        "corpo": "SANITARIOS and BAÑOS are recognition targets. The arrow and restroom pictogram carry equal weight, which makes the skill robust when only one word is visible."
+      },
+      {
+        "titulo": "Hours are local data",
+        "corpo": "HORARIO tells you to read today's line. The course freezes no opening time, midday closure or weekly rest day. ÚLTIMO ACCESO is a separate deadline and must not be treated as closing time."
+      }
     ]
   },
   "slot": "B10",
@@ -46,7 +157,9 @@
       "oQueMelhora": "You join the process everyone else is already following instead of becoming the visible exception to it.",
       "ondeNaoVale": "Not at a counter with clearly no queue at all — the rule is about respecting an existing line, not inventing one where none exists.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b10-n04"]
+      "audioKeys": [
+        "mx-b10-n04"
+      ]
     }
   ]
 }

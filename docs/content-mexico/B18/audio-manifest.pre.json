@@ -5,32 +5,161 @@
   "buyerLocale": "en-US",
   "status": "pending_generation",
   "clips": [
-    {"key": "mx-b18-n01", "role": "guide_en_us_f", "text": "Last morning. The flight is hours away but the room is not. Close the room properly, store the bag somewhere real, thank the people who made the stay work, and leave the same way you arrived — with a sentence, not a silent exit.", "kind": "narration"},
-    {"key": "mx-b18-r01", "role": "target_mx_m", "text": "Buenos días. ¿Todo bien con la habitación?", "kind": "return"},
-    {"key": "mx-b18-p01", "role": "guide_en_us_f", "text": "Reception asks how the room was. Confirm and say you're here to check out. Speak now.", "kind": "prompt"},
-    {"key": "mx-b18-t01", "role": "target_mx_f", "text": "Todo bien, gracias. Vengo a hacer el check-out.", "kind": "target"},
-    {"key": "mx-b18-r02", "role": "target_mx_m", "text": "Claro. Un momento, por favor.", "kind": "return"},
-    {"key": "mx-b18-n02", "role": "guide_en_us_m", "text": "The flight is late tonight and the checkout clock does not care. Do not carry the bag around the city all day. Ask the one question that solves it.", "kind": "narration"},
-    {"key": "mx-b18-t02", "role": "target_mx_f", "text": "¿Puedo dejar mi maleta aquí hasta la tarde?", "kind": "target"},
-    {"key": "mx-b18-p02", "role": "guide_en_us_m", "text": "Your flight isn't until tonight. Ask whether you can leave your suitcase here until the afternoon. Speak now.", "kind": "prompt"},
-    {"key": "mx-b18-r03", "role": "target_mx_m", "text": "Sí, claro. Aquí tiene su comprobante.", "kind": "return"},
-    {"key": "mx-b18-n03", "role": "guide_en_us_f", "text": "Hold onto that comprobante. It is the same logic as the receipts in B14 and B15: the small paper that gets your bag back without an argument at the desk later.", "kind": "narration"},
-    {"key": "mx-b18-r04", "role": "target_mx_m", "text": "¿Le gustaría dejar alguna propina para la camarista?", "kind": "return"},
-    {"key": "mx-b18-n04", "role": "guide_en_us_m", "text": "This one is genuinely voluntary, unlike the automatic line B14 taught you to question. A common local practice is a small amount left visibly in the room each day, since the person who cleans can change daily — but the choice and the amount are yours.", "kind": "narration"},
-    {"key": "mx-b18-t03", "role": "target_mx_f", "text": "Sí, ya la dejé en la habitación.", "kind": "target"},
-    {"key": "mx-b18-p03", "role": "guide_en_us_m", "text": "You already left a tip in the room this morning. Confirm that. Speak now.", "kind": "prompt"},
-    {"key": "mx-b18-n05", "role": "guide_en_us_f", "text": "Last piece, and it costs one sentence. Not a review, not a summary of the trip — just the same close you used all module: thanks, and see you.", "kind": "narration"},
-    {"key": "mx-b18-r05", "role": "target_mx_m", "text": "Gracias por su visita. Que tenga buen viaje.", "kind": "return"},
-    {"key": "mx-b18-p04", "role": "guide_en_us_f", "text": "Close the stay the way you closed every counter this trip. Thank them and say goodbye. Speak now.", "kind": "prompt"},
-    {"key": "mx-b18-t04", "role": "target_mx_f", "text": "Muchas gracias. Hasta luego.", "kind": "target"},
-    {"key": "mx-b18-s01", "role": "target_mx_f", "text": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego.", "kind": "shadow"},
-    {"key": "mx-b18-n06", "role": "guide_en_us_f", "text": "B18 complete, and básico with it. Check out, store the bag with a real claim ticket, decide the tip on your own terms, and close with the same two words you opened every counter with. You did not just survive the day — you ran it, from ho-TEL to hasta luego.", "kind": "recap"},
-    {"key": "mx-b18-q-i", "role": "guide_en_us_f", "text": "A traveller checks out hours before a night flight. Listen for the storage ticket, the voluntary tip and the final goodbye.", "kind": "quiz_intro"},
-    {"key": "mx-b18-q01", "role": "target_mx_f", "text": "Todo bien, gracias. Vengo a hacer el check-out.", "kind": "quiz"},
-    {"key": "mx-b18-q02", "role": "target_mx_f", "text": "¿Puedo dejar mi maleta aquí hasta la tarde?", "kind": "quiz"},
-    {"key": "mx-b18-q03", "role": "target_mx_m", "text": "Sí, claro. Aquí tiene su comprobante.", "kind": "quiz"},
-    {"key": "mx-b18-q04", "role": "target_mx_m", "text": "¿Le gustaría dejar alguna propina para la camarista?", "kind": "quiz"},
-    {"key": "mx-b18-q05", "role": "target_mx_f", "text": "Sí, ya la dejé en la habitación.", "kind": "quiz"},
-    {"key": "mx-b18-q06", "role": "target_mx_f", "text": "Muchas gracias. Hasta luego.", "kind": "quiz"}
+    {
+      "key": "mx-b18-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b18-r01",
+      "role": "target_mx_m",
+      "text": "Buenos días. ¿Todo bien con la habitación?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b18-p01",
+      "role": "guide_en_us_f",
+      "text": "Reception asks how the room was. Confirm and say you're here to check out. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b18-t01",
+      "role": "target_mx_f",
+      "text": "Todo bien, gracias. Vengo a hacer el check-out.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b18-r02",
+      "role": "target_mx_m",
+      "text": "Claro. Un momento, por favor.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b18-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b18-t02",
+      "role": "target_mx_f",
+      "text": "¿Puedo dejar mi maleta aquí hasta la tarde?",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b18-p02",
+      "role": "guide_en_us_m",
+      "text": "Your flight isn't until tonight. Ask whether you can leave your suitcase here until the afternoon. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b18-r03",
+      "role": "target_mx_m",
+      "text": "Sí, claro. Aquí tiene su comprobante.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b18-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b18-r04",
+      "role": "target_mx_m",
+      "text": "¿Le gustaría dejar alguna propina para la camarista?",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b18-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b18-t03",
+      "role": "target_mx_f",
+      "text": "Sí, ya la dejé en la habitación.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b18-p03",
+      "role": "guide_en_us_m",
+      "text": "You already left a tip in the room this morning. Confirm that. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b18-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "mx-b18-r05",
+      "role": "target_mx_m",
+      "text": "Gracias por su visita. Que tenga buen viaje.",
+      "kind": "return"
+    },
+    {
+      "key": "mx-b18-p04",
+      "role": "guide_en_us_f",
+      "text": "Close the stay the way you closed every counter this trip. Thank them and say goodbye. Speak now.",
+      "kind": "prompt"
+    },
+    {
+      "key": "mx-b18-t04",
+      "role": "target_mx_f",
+      "text": "Muchas gracias. Hasta luego.",
+      "kind": "target"
+    },
+    {
+      "key": "mx-b18-s01",
+      "role": "target_mx_f",
+      "text": "Vengo a hacer el check-out. ¿Puedo dejar mi maleta aquí hasta la tarde? Muchas gracias. Hasta luego.",
+      "kind": "shadow"
+    },
+    {
+      "key": "mx-b18-n06",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "mx-b18-q-i",
+      "role": "guide_en_us_f",
+      "text": "A traveller checks out hours before a night flight. Listen for the storage ticket, the voluntary tip and the final goodbye.",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "mx-b18-q01",
+      "role": "target_mx_f",
+      "text": "Todo bien, gracias. Vengo a hacer el check-out.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b18-q02",
+      "role": "target_mx_f",
+      "text": "¿Puedo dejar mi maleta aquí hasta la tarde?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b18-q03",
+      "role": "target_mx_m",
+      "text": "Sí, claro. Aquí tiene su comprobante.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b18-q04",
+      "role": "target_mx_m",
+      "text": "¿Le gustaría dejar alguna propina para la camarista?",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b18-q05",
+      "role": "target_mx_f",
+      "text": "Sí, ya la dejé en la habitación.",
+      "kind": "quiz"
+    },
+    {
+      "key": "mx-b18-q06",
+      "role": "target_mx_f",
+      "text": "Muchas gracias. Hasta luego.",
+      "kind": "quiz"
+    }
   ]
 }

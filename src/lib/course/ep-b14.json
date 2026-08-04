@@ -9,51 +9,379 @@
   "moldura": "resolve",
   "frasePiso": "Before the card touches the terminal, you can make the amount visible, identify an extra line and authorise only what you chose.",
   "fatosDatados": [
-    { "id": "mx-precos-pesos-impuestos", "afirmacao": "Restaurants and bars in Mexico must display prices clearly, in national currency and including taxes, and must provide a receipt.", "fonte": "Profeco — direitos em restaurantes e bares (15 fev. 2026)", "ano": 2026, "revisarAte": "2027-02-15", "evidencia": "FATO", "risco": "medio", "audioKeys": ["mx-b14-n03"] },
-    { "id": "mx-propina-voluntaria", "afirmacao": "A tip in Mexico is voluntary and cannot be demanded or included on the bill without the diner's consent; an unrequested charge is treated as an abusive practice.", "fonte": "Profeco — revisão da conta e gorjeta voluntária (4 jul. 2026); Profeco — cargo extra sem autorização (2 jan. 2025)", "ano": 2026, "revisarAte": "2027-07-04", "evidencia": "FATO", "risco": "alto", "audioKeys": ["mx-b14-n04", "mx-b14-n05"] }
+    {
+      "id": "mx-precos-pesos-impuestos",
+      "afirmacao": "Restaurants and bars in Mexico must display prices clearly, in national currency and including taxes, and must provide a receipt.",
+      "fonte": "Profeco — direitos em restaurantes e bares (15 fev. 2026)",
+      "ano": 2026,
+      "revisarAte": "2027-02-15",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "mx-b14-n03"
+      ]
+    },
+    {
+      "id": "mx-propina-voluntaria",
+      "afirmacao": "A tip in Mexico is voluntary and cannot be demanded or included on the bill without the diner's consent; an unrequested charge is treated as an abusive practice.",
+      "fonte": "Profeco — revisão da conta e gorjeta voluntária (4 jul. 2026); Profeco — cargo extra sem autorização (2 jan. 2025)",
+      "ano": 2026,
+      "revisarAte": "2027-07-04",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "mx-b14-n04",
+        "mx-b14-n05"
+      ]
+    }
   ],
   "steps": [
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b14-n01", "gesto": 1, "bloco": "aquecimento", "pt": "Recall the first-hour payment question. Before leaving the airport you asked whether card worked. Bring that question to the restaurant now, but do not let the terminal outrun the bill." },
-    { "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b14-p01", "promptPt": "Recall B06. Before ordering, ask whether you can pay by card. Speak now.", "audioKey": "mx-b14-c01", "es": "¿Puedo pagar con tarjeta?", "pinyin": "PWEH-doh pah-GAHR kohn tar-HEH-tah", "pt": "Can I pay by card?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b14-n02", "bloco": "corpo", "pt": "The meal is finished. Ask for the bill before asking for the terminal. The paper or screen gives you something you can inspect." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t01", "es": "¿Me trae la cuenta, por favor?", "pinyin": "meh TRAH-eh lah KWEN-tah por fah-BOR", "pt": "Can you bring me the bill, please?", "tts": "¿Me trae la cuenta, por favor?" },
-    { "consulta": ["pagar/cuenta"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b14-p02", "promptPt": "The plates are clear but no bill has arrived. Ask for it. Speak now.", "audioKey": "mx-b14-t01", "es": "¿Me trae la cuenta, por favor?", "pinyin": "meh TRAH-eh lah KWEN-tah por fah-BOR", "pt": "Can you bring me the bill, please?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r01", "es": "Claro, ahora se la traigo.", "pt": "Of course, I'll bring it now.", "tts": "Claro, ahora se la traigo." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b14-n03", "pt": "Prices in a Mexican restaurant should be shown in pesos and include taxes. You do not need to produce a spoken number from memory. Ask for the total, then ask to see it if the answer runs past your ear." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t02", "es": "¿Cuál es el total?", "pinyin": "kwahl ehs el toh-TAHL", "pt": "What is the total?", "tts": "¿Cuál es el total?" },
-    { "consulta": ["pagar/total"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b14-p03", "promptPt": "The bill has several lines. Ask for the final amount. Speak now.", "audioKey": "mx-b14-t02", "es": "¿Cuál es el total?", "pinyin": "kwahl ehs el toh-TAHL", "pt": "What is the total?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r02", "es": "Son ochocientos cuarenta pesos.", "pt": "It's eight hundred forty pesos.", "tts": "Son ochocientos cuarenta pesos." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t03", "es": "¿Me lo puede mostrar, por favor?", "pinyin": "meh loh PWEH-deh mohs-TRAHR por fah-BOR", "pt": "Can you show it to me, please?", "tts": "¿Me lo puede mostrar, por favor?" },
-    { "consulta": ["pagar/total", "reparo/mostrar"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b14-p04", "promptPt": "You did not catch the amount. Do not guess or practise arithmetic aloud; ask to see it. Speak now.", "audioKey": "mx-b14-t03", "es": "¿Me lo puede mostrar, por favor?", "pinyin": "meh loh PWEH-deh mohs-TRAHR por fah-BOR", "pt": "Can you show it to me, please?" },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b14-n04", "bloco": "capsula", "pt": "Your finger stops on a line you did not choose. Do not accuse and do not pay first. Ask what the charge is. If it is a tip added without your consent, name the missing authorisation and ask for removal." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t04", "es": "¿Qué es este cargo?", "pinyin": "keh ehs EHS-teh KAHR-goh", "pt": "What is this charge?", "tts": "¿Qué es este cargo?" },
-    { "consulta": ["pagar/cargo"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b14-p05", "promptPt": "There is an extra line on the bill. Point to it and ask what it is. Speak now.", "audioKey": "mx-b14-t04", "es": "¿Qué es este cargo?", "pinyin": "keh ehs EHS-teh KAHR-goh", "pt": "What is this charge?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r03", "es": "Es la propina.", "pt": "It's the tip.", "tts": "Es la propina." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t05", "es": "No autoricé este cargo. ¿Puede quitarlo, por favor?", "pinyin": "noh ow-toh-ree-SEH EHS-teh KAHR-goh PWEH-deh kee-TAHR-loh por fah-BOR", "pt": "I did not authorise this charge. Can you remove it, please?", "tts": "No autoricé este cargo. ¿Puede quitarlo, por favor?" },
-    { "consulta": ["pagar/cargo", "pagar/propina"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b14-p06", "promptPt": "The server says the unrequested line is the tip. State that you did not authorise it and ask for removal. Speak now.", "audioKey": "mx-b14-t05", "es": "No autoricé este cargo. ¿Puede quitarlo, por favor?", "pinyin": "noh ow-toh-ree-SEH EHS-teh KAHR-goh PWEH-deh kee-TAHR-loh por fah-BOR", "pt": "I did not authorise this charge. Can you remove it, please?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r04", "es": "Sí, la retiro.", "pt": "Yes, I'll remove it.", "tts": "Sí, la retiro." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b14-n05", "pt": "Removing an unauthorised line does not forbid a voluntary tip. Choose your own amount after the corrected total. This lesson gives no universal percentage: service, setting and your decision vary. If speaking the number is fragile, show the amount on your phone." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t06", "es": "Quiero agregar esta cantidad de propina.", "pinyin": "KYEH-roh ah-greh-GAHR EHS-tah kahn-tee-DAHD deh proh-PEE-nah", "pt": "I want to add this amount as a tip.", "tts": "Quiero agregar esta cantidad de propina." },
-    { "consulta": ["pagar/propina"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b14-p07", "promptPt": "The corrected bill is in front of you. Show the amount you chose on your phone and say you want to add that amount as a tip. Speak now.", "audioKey": "mx-b14-t06", "es": "Quiero agregar esta cantidad de propina.", "pinyin": "KYEH-roh ah-greh-GAHR EHS-tah kahn-tee-DAHD deh proh-PEE-nah", "pt": "I want to add this amount as a tip." },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r05", "es": "Muy bien. La agrego.", "pt": "All right. I'll add it.", "tts": "Muy bien. La agrego." },
-    { "tipo": "intro", "voz": "guide_en_us_m", "audioKey": "mx-b14-n06", "pt": "Now the total is the total you approved. Ask for the terminal to come to you, compare the amount on its screen with the corrected bill, then pay." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t07", "es": "¿Me trae la terminal, por favor?", "pinyin": "meh TRAH-eh lah tehr-mee-NAHL por fah-BOR", "pt": "Can you bring me the card terminal, please?", "tts": "¿Me trae la terminal, por favor?" },
-    { "consulta": ["pagar/tarjeta"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_m", "promptAudioKey": "mx-b14-p08", "promptPt": "The corrected bill is ready and you are keeping the card with you. Ask for the terminal. Speak now.", "audioKey": "mx-b14-t07", "es": "¿Me trae la terminal, por favor?", "pinyin": "meh TRAH-eh lah tehr-mee-NAHL por fah-BOR", "pt": "Can you bring me the card terminal, please?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r06", "es": "Sí, aquí está.", "pt": "Yes, here it is.", "tts": "Sí, aquí está." },
-    { "tipo": "intro", "voz": "guide_en_us_f", "audioKey": "mx-b14-n07", "bloco": "capsula", "pt": "Close the loop with evidence. Ask for the receipt and keep it until the charge appears correctly. The receipt is not clutter; it is the last checkable artifact in the scene." },
-    { "tipo": "ouvir", "voz": "target_mx_f", "audioKey": "mx-b14-t08", "es": "¿Me puede dar el recibo, por favor?", "pinyin": "meh PWEH-deh dahr el reh-SEE-boh por fah-BOR", "pt": "Can you give me the receipt, please?", "tts": "¿Me puede dar el recibo, por favor?" },
-    { "consulta": ["pagar/recibo"], "tipo": "responde", "voz": "target_mx_f", "promptVoz": "guide_en_us_f", "promptAudioKey": "mx-b14-p09", "promptPt": "Payment went through. Ask for the receipt before you leave. Speak now.", "audioKey": "mx-b14-t08", "es": "¿Me puede dar el recibo, por favor?", "pinyin": "meh PWEH-deh dahr el reh-SEE-boh por fah-BOR", "pt": "Can you give me the receipt, please?" },
-    { "tipo": "ouvir", "voz": "target_mx_m", "audioKey": "mx-b14-r07", "es": "Claro, aquí tiene.", "pt": "Of course, here you are.", "tts": "Claro, aquí tiene." },
-    { "tipo": "shadow", "voz": "target_mx_f", "audioKey": "mx-b14-s01", "es": "¿Me trae la cuenta, por favor? ¿Cuál es el total? ¿Qué es este cargo? ¿Me trae la terminal, por favor?", "pinyin": "meh TRAH-eh lah KWEN-tah por fah-BOR. kwahl ehs el toh-TAHL. keh ehs EHS-teh KAHR-goh. meh TRAH-eh lah tehr-mee-NAHL por fah-BOR", "pt": "Shadow the bill, total, extra-charge and terminal sequence.", "tts": "¿Me trae la cuenta, por favor? ¿Cuál es el total? ¿Qué es este cargo? ¿Me trae la terminal, por favor?" },
-    { "tipo": "recap", "voz": "guide_en_us_f", "audioKey": "mx-b14-n08", "bloco": "recap", "pt": "B14 complete. Bill before terminal. Total visible instead of guessed. Unknown line identified. Unauthorised tip removed. Your own tip chosen without a universal percentage. Terminal amount compared, receipt kept. You authorised the payment instead of merely completing it." }
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Recall the airport payment question — bring it here too, but don't let the terminal outrun the bill."
+    },
+    {
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b14-p01",
+      "promptPt": "Recall B06. Before ordering, ask whether you can pay by card. Speak now.",
+      "audioKey": "mx-b14-c01",
+      "es": "¿Puedo pagar con tarjeta?",
+      "pinyin": "PWEH-doh pah-GAHR kohn tar-HEH-tah",
+      "pt": "Can I pay by card?",
+      "molde": "PUEDO",
+      "encaixe": "pagar con tarjeta"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b14-n02",
+      "bloco": "corpo",
+      "pt": "Meal's done. The frame here is ¿me trae, plus whatever you want brought — starting with the bill."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t01",
+      "es": "¿Me trae la cuenta, por favor?",
+      "pinyin": "meh TRAH-eh lah KWEN-tah por fah-BOR",
+      "pt": "Can you bring me the bill, please?",
+      "tts": "¿Me trae la cuenta, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/cuenta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b14-p02",
+      "promptPt": "The plates are clear but no bill has arrived. Ask for it. Speak now.",
+      "audioKey": "mx-b14-t01",
+      "es": "¿Me trae la cuenta, por favor?",
+      "pinyin": "meh TRAH-eh lah KWEN-tah por fah-BOR",
+      "pt": "Can you bring me the bill, please?",
+      "molde": "ME-DA",
+      "encaixe": "la cuenta"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r01",
+      "es": "Claro, ahora se la traigo.",
+      "pt": "Of course, I'll bring it now.",
+      "tts": "Claro, ahora se la traigo."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b14-n03",
+      "pt": "Prices should show in pesos, taxes included. No need to catch spoken numbers — ask to see it if it runs past your ear."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t02",
+      "es": "¿Cuál es el total?",
+      "pinyin": "kwahl ehs el toh-TAHL",
+      "pt": "What is the total?",
+      "tts": "¿Cuál es el total?"
+    },
+    {
+      "consulta": [
+        "pagar/total"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b14-p03",
+      "promptPt": "The bill has several lines. Ask for the final amount. Speak now.",
+      "audioKey": "mx-b14-t02",
+      "es": "¿Cuál es el total?",
+      "pinyin": "kwahl ehs el toh-TAHL",
+      "pt": "What is the total?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r02",
+      "es": "Son ochocientos cuarenta pesos.",
+      "pt": "It's eight hundred forty pesos.",
+      "tts": "Son ochocientos cuarenta pesos."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t03",
+      "es": "¿Me lo puede mostrar, por favor?",
+      "pinyin": "meh loh PWEH-deh mohs-TRAHR por fah-BOR",
+      "pt": "Can you show it to me, please?",
+      "tts": "¿Me lo puede mostrar, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/total",
+        "reparo/mostrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b14-p04",
+      "promptPt": "You did not catch the amount. Do not guess or practise arithmetic aloud; ask to see it. Speak now.",
+      "audioKey": "mx-b14-t03",
+      "es": "¿Me lo puede mostrar, por favor?",
+      "pinyin": "meh loh PWEH-deh mohs-TRAHR por fah-BOR",
+      "pt": "Can you show it to me, please?",
+      "molde": "ME-PUEDE",
+      "encaixe": "mostrar"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b14-n04",
+      "bloco": "capsula",
+      "pt": "Your finger stops on an unfamiliar line — don't accuse, don't pay yet. Ask what it is, and ask for removal if unauthorised."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t04",
+      "es": "¿Qué es este cargo?",
+      "pinyin": "keh ehs EHS-teh KAHR-goh",
+      "pt": "What is this charge?",
+      "tts": "¿Qué es este cargo?"
+    },
+    {
+      "consulta": [
+        "pagar/cargo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b14-p05",
+      "promptPt": "There is an extra line on the bill. Point to it and ask what it is. Speak now.",
+      "audioKey": "mx-b14-t04",
+      "es": "¿Qué es este cargo?",
+      "pinyin": "keh ehs EHS-teh KAHR-goh",
+      "pt": "What is this charge?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r03",
+      "es": "Es la propina.",
+      "pt": "It's the tip.",
+      "tts": "Es la propina."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t05",
+      "es": "No autoricé este cargo. ¿Puede quitarlo, por favor?",
+      "pinyin": "noh ow-toh-ree-SEH EHS-teh KAHR-goh PWEH-deh kee-TAHR-loh por fah-BOR",
+      "pt": "I did not authorise this charge. Can you remove it, please?",
+      "tts": "No autoricé este cargo. ¿Puede quitarlo, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/cargo",
+        "pagar/propina"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b14-p06",
+      "promptPt": "The server says the unrequested line is the tip. State that you did not authorise it and ask for removal. Speak now.",
+      "audioKey": "mx-b14-t05",
+      "es": "No autoricé este cargo. ¿Puede quitarlo, por favor?",
+      "pinyin": "noh ow-toh-ree-SEH EHS-teh KAHR-goh PWEH-deh kee-TAHR-loh por fah-BOR",
+      "pt": "I did not authorise this charge. Can you remove it, please?"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r04",
+      "es": "Sí, la retiro.",
+      "pt": "Yes, I'll remove it.",
+      "tts": "Sí, la retiro."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b14-n05",
+      "pt": "Removing that line doesn't forbid a voluntary tip — choose your amount after correction, no fixed percentage."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t06",
+      "es": "Quiero agregar esta cantidad de propina.",
+      "pinyin": "KYEH-roh ah-greh-GAHR EHS-tah kahn-tee-DAHD deh proh-PEE-nah",
+      "pt": "I want to add this amount as a tip.",
+      "tts": "Quiero agregar esta cantidad de propina."
+    },
+    {
+      "consulta": [
+        "pagar/propina"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b14-p07",
+      "promptPt": "The corrected bill is in front of you. Show the amount you chose on your phone and say you want to add that amount as a tip. Speak now.",
+      "audioKey": "mx-b14-t06",
+      "es": "Quiero agregar esta cantidad de propina.",
+      "pinyin": "KYEH-roh ah-greh-GAHR EHS-tah kahn-tee-DAHD deh proh-PEE-nah",
+      "pt": "I want to add this amount as a tip."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r05",
+      "es": "Muy bien. La agrego.",
+      "pt": "All right. I'll add it.",
+      "tts": "Muy bien. La agrego."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "mx-b14-n06",
+      "pt": "Now the total is what you approved. Bring the terminal, compare its screen to the corrected bill, then pay."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t07",
+      "es": "¿Me trae la terminal, por favor?",
+      "pinyin": "meh TRAH-eh lah tehr-mee-NAHL por fah-BOR",
+      "pt": "Can you bring me the card terminal, please?",
+      "tts": "¿Me trae la terminal, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/tarjeta"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "mx-b14-p08",
+      "promptPt": "The corrected bill is ready and you are keeping the card with you. Ask for the terminal. Speak now.",
+      "audioKey": "mx-b14-t07",
+      "es": "¿Me trae la terminal, por favor?",
+      "pinyin": "meh TRAH-eh lah tehr-mee-NAHL por fah-BOR",
+      "pt": "Can you bring me the card terminal, please?",
+      "molde": "ME-DA",
+      "encaixe": "la terminal"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r06",
+      "es": "Sí, aquí está.",
+      "pt": "Yes, here it is.",
+      "tts": "Sí, aquí está."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b14-n07",
+      "bloco": "capsula",
+      "pt": "Close the loop with evidence — ask for the receipt and keep it. It's the last checkable artifact in the scene."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-t08",
+      "es": "¿Me puede dar el recibo, por favor?",
+      "pinyin": "meh PWEH-deh dahr el reh-SEE-boh por fah-BOR",
+      "pt": "Can you give me the receipt, please?",
+      "tts": "¿Me puede dar el recibo, por favor?"
+    },
+    {
+      "consulta": [
+        "pagar/recibo"
+      ],
+      "tipo": "responde",
+      "voz": "target_mx_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "mx-b14-p09",
+      "promptPt": "Payment went through. Ask for the receipt before you leave. Speak now.",
+      "audioKey": "mx-b14-t08",
+      "es": "¿Me puede dar el recibo, por favor?",
+      "pinyin": "meh PWEH-deh dahr el reh-SEE-boh por fah-BOR",
+      "pt": "Can you give me the receipt, please?",
+      "molde": "ME-PUEDE",
+      "encaixe": "dar el recibo"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_mx_m",
+      "audioKey": "mx-b14-r07",
+      "es": "Claro, aquí tiene.",
+      "pt": "Of course, here you are.",
+      "tts": "Claro, aquí tiene."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_mx_f",
+      "audioKey": "mx-b14-s01",
+      "es": "¿Me trae la cuenta, por favor? ¿Cuál es el total? ¿Qué es este cargo? ¿Me trae la terminal, por favor?",
+      "pinyin": "meh TRAH-eh lah KWEN-tah por fah-BOR. kwahl ehs el toh-TAHL. keh ehs EHS-teh KAHR-goh. meh TRAH-eh lah tehr-mee-NAHL por fah-BOR",
+      "pt": "Shadow the bill, total, extra-charge and terminal sequence.",
+      "tts": "¿Me trae la cuenta, por favor? ¿Cuál es el total? ¿Qué es este cargo? ¿Me trae la terminal, por favor?"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "mx-b14-n08",
+      "bloco": "recap",
+      "pt": "B14 complete. Bill before terminal, total visible, unknown line questioned, your tip chosen, receipt kept."
+    }
   ],
   "aprofundar": {
     "titulo": "The bill is an approval surface",
     "secoes": [
-      { "titulo": "Pesos and taxes are already part of the display", "corpo": "Restaurant prices should be shown in Mexican pesos and include taxes. A dollar figure may also appear, but the national-currency price remains the anchor." },
-      { "titulo": "A voluntary tip needs your choice", "corpo": "Profeco states that a tip cannot be demanded or included without the diner's consent. Removing an unauthorised line and choosing a voluntary amount are separate actions." },
-      { "titulo": "Show numbers when speech is brittle", "corpo": "B14 trains receptive numbers. On the productive side, point to the bill, terminal or phone; the result matters more than performing arithmetic in Spanish." },
-      { "titulo": "The terminal waits for the bill", "corpo": "Ask for the bill, inspect it, then bring the terminal into the scene. Compare the corrected total and keep the receipt as the final checkable artifact." }
+      {
+        "titulo": "Pesos and taxes are already part of the display",
+        "corpo": "Restaurant prices should be shown in Mexican pesos and include taxes. A dollar figure may also appear, but the national-currency price remains the anchor."
+      },
+      {
+        "titulo": "A voluntary tip needs your choice",
+        "corpo": "Profeco states that a tip cannot be demanded or included without the diner's consent. Removing an unauthorised line and choosing a voluntary amount are separate actions."
+      },
+      {
+        "titulo": "Show numbers when speech is brittle",
+        "corpo": "B14 trains receptive numbers. On the productive side, point to the bill, terminal or phone; the result matters more than performing arithmetic in Spanish."
+      },
+      {
+        "titulo": "The terminal waits for the bill",
+        "corpo": "Ask for the bill, inspect it, then bring the terminal into the scene. Compare the corrected total and keep the receipt as the final checkable artifact."
+      }
     ]
   },
   "slot": "B14",
@@ -69,7 +397,21 @@
       "oQueMelhora": "You pay exactly what you approved, and you can still add a voluntary tip of your own choosing right afterward — asking doesn't cost you the option to tip.",
       "ondeNaoVale": "Not a reason to question a tip line you did explicitly agree to earlier, or one clearly marked as optional on a menu you already saw — the rule is about unauthorised charges, not tipping itself.",
       "evidencia": "CONSENSO",
-      "audioKeys": ["mx-b14-n04"]
+      "audioKeys": [
+        "mx-b14-n04"
+      ]
     }
-  ]
+  ],
+  "moldes": [
+    "ME-DA"
+  ],
+  "clique": {
+    "contagem": [
+      "the table",
+      "the card terminal",
+      "the receipt"
+    ],
+    "desconto": "Nobody taught you three ways to make something come to you. You kept one opening and changed only what you wanted brought.",
+    "piso": "Next time something you need is sitting behind a counter, you won't wait to be offered it. You'll ask for it by name."
+  }
 }
