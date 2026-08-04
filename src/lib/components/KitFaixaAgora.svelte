@@ -17,7 +17,7 @@
 
 <div class="rounded-2xl bg-white px-3.5 py-2.5 ring-1 ring-black/10">
   <p class="text-xs font-bold uppercase tracking-wide text-terracota">
-    {agora.hora} · Madrid
+    {agora.hora} · {agora.cidade}
   </p>
   <p class="mt-0.5 text-[0.9rem] font-medium leading-snug text-carvao">{agora.linha}</p>
 </div>
