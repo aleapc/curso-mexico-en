@@ -1,0 +1,26 @@
+{
+  "id": "q-mx-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — The honest unsafe answer",
+  "subtitulo": "Alert the kitchen, inspect the preparation path and leave when risk remains",
+  "introAudioKey": "mx-b13-q-i",
+  "introPt": "The kitchen gives an honest answer about a shared surface. Listen for the warning, the concrete preparation question and the safe decision.",
+  "cenario": "A written allergy card reaches the kitchen; the shared preparation surface makes the order unsafe.",
+  "dialogo": [
+    { "audioKey": "mx-b13-q01", "voz": "target_mx_f", "es": "Tengo una alergia grave al cacahuate.", "pt": "I have a severe peanut allergy." },
+    { "audioKey": "mx-b13-q02", "voz": "target_mx_m", "es": "¿Qué alimento no puede comer?", "pt": "Which food can't you eat?" },
+    { "audioKey": "mx-b13-q03", "voz": "target_mx_f", "es": "No puedo comer nada que contenga cacahuate.", "pt": "I cannot eat anything containing peanut." },
+    { "audioKey": "mx-b13-q04", "voz": "target_mx_f", "es": "¿Puede mostrarle esta tarjeta a la persona que prepara la comida?", "pt": "Can you show this card to the person preparing the food?" },
+    { "audioKey": "mx-b13-q05", "voz": "target_mx_m", "es": "Voy a preguntarle a la cocina.", "pt": "I'm going to ask the kitchen." },
+    { "audioKey": "mx-b13-q06", "voz": "target_mx_f", "es": "¿Se prepara en la misma superficie o con los mismos utensilios?", "pt": "Is it prepared on the same surface or with the same utensils?" },
+    { "audioKey": "mx-b13-q07", "voz": "target_mx_m", "es": "Sí, usamos la misma superficie.", "pt": "Yes, we use the same surface." },
+    { "audioKey": "mx-b13-q08", "voz": "target_mx_f", "es": "Entonces no voy a comer aquí.", "pt": "Then I'm not going to eat here." }
+  ],
+  "perguntas": [
+    { "pergunta": "What did the traveller communicate first?", "opcoes": ["A food preference", "A severe peanut allergy", "A request for mild salsa", "A request for the bill"], "correta": 1, "explica": "Alergia grave names a serious allergy, not a preference." },
+    { "pergunta": "Why did the traveller hand over a card?", "opcoes": ["To pay the bill", "To let the person preparing the food review the exact warning", "To request a table", "To identify the server"], "correta": 1, "explica": "The written artifact must reach the kitchen decision-maker." },
+    { "pergunta": "What concrete risk did the traveller ask about?", "opcoes": ["The same surface or utensils", "The restaurant's opening hours", "The portion size", "The salsa colour"], "correta": 0, "explica": "The question checks a specific cross-contact path." },
+    { "pergunta": "What made the answer unsafe?", "opcoes": ["The kitchen used a shared surface", "The server spoke slowly", "The dish was expensive", "The card was bilingual"], "correta": 0, "explica": "A shared preparation surface could carry the allergen." },
+    { "pergunta": "What was the trained decision?", "opcoes": ["Ask for a guarantee", "Eat a small amount first", "Do not eat there", "Remove the visible peanut"], "correta": 2, "explica": "The course trains leaving when the answer is unsafe or uncertain." }
+  ]
+}

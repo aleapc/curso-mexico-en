@@ -1,0 +1,25 @@
+{
+  "id": "q-mx-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Stop at the extra line",
+  "subtitulo": "Review first, authorise second",
+  "introAudioKey": "mx-b14-q-i",
+  "introPt": "A traveller receives a bill with an extra tip line before the card terminal arrives. Listen for the review sequence and the amount that is actually authorised.",
+  "cenario": "The bill is checked, corrected and only then transferred to the terminal.",
+  "dialogo": [
+    { "audioKey": "mx-b14-q01", "voz": "target_mx_f", "es": "¿Me trae la cuenta, por favor?", "pt": "Can you bring me the bill, please?" },
+    { "audioKey": "mx-b14-q02", "voz": "target_mx_m", "es": "Claro, aquí tiene.", "pt": "Of course, here you are." },
+    { "audioKey": "mx-b14-q03", "voz": "target_mx_f", "es": "¿Qué es este cargo?", "pt": "What is this charge?" },
+    { "audioKey": "mx-b14-q04", "voz": "target_mx_m", "es": "Es la propina.", "pt": "It's the tip." },
+    { "audioKey": "mx-b14-q05", "voz": "target_mx_f", "es": "No autoricé este cargo. ¿Puede quitarlo, por favor?", "pt": "I did not authorise this charge. Can you remove it, please?" },
+    { "audioKey": "mx-b14-q06", "voz": "target_mx_m", "es": "Sí, la retiro.", "pt": "Yes, I'll remove it." },
+    { "audioKey": "mx-b14-q07", "voz": "target_mx_f", "es": "Quiero agregar esta cantidad de propina. ¿Me trae la terminal, por favor?", "pt": "I want to add this amount as a tip. Can you bring me the terminal, please?" }
+  ],
+  "perguntas": [
+    { "pergunta": "What arrived before the terminal?", "opcoes": ["The reviewed bill", "A second meal", "A currency exchange", "A membership form"], "correta": 0, "explica": "The bill is the surface where the traveller checks and authorises the amount." },
+    { "pergunta": "What did cargo identify?", "opcoes": ["A table", "An extra charge", "A receipt", "A card brand"], "correta": 1, "explica": "The traveller points to an unknown line and asks what the charge is." },
+    { "pergunta": "Why was the tip removed?", "opcoes": ["Tips are always forbidden", "It had not been authorised", "The traveller had no card", "The amount was in pesos"], "correta": 1, "explica": "A voluntary tip requires the diner's choice; this line was added without consent." },
+    { "pergunta": "Did the traveller refuse every tip?", "opcoes": ["Yes", "No; a chosen amount was added after correction", "Only cash tips are allowed", "The dialogue does not say"], "correta": 1, "explica": "Removing an unauthorised line and choosing a voluntary amount are separate actions." },
+    { "pergunta": "What should match before payment?", "opcoes": ["The corrected bill and terminal amount", "The menu and passport", "The receipt and reservation", "The tip and tax rate"], "correta": 0, "explica": "The terminal should display the amount the traveller actually approved." }
+  ]
+}
