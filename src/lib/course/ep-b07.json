@@ -6,7 +6,7 @@
   "titulo": "Choose the channel before the car",
   "subtitulo": "Authorised transport, app pickup, address, cost and receipt from the airport to the hotel",
   "cena": "A dozen drivers are working the arrivals curb, and the only one who matters is the one you haven't found yet — the authorised one.",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "frasePiso": "The first vehicle that approaches you is not automatically your transport.",
   "steps": [
     {

@@ -6,7 +6,7 @@
   "titulo": "Ticket, rule, vehicle — in that order",
   "subtitulo": "Buy for the destination, discover validation and transfer rules, then confirm the vehicle before boarding",
   "cena": "The ticket is already in your hand, warm from the machine, and it has told you nothing yet about the one rule that decides whether it actually works.",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "frasePiso": "A ticket is not useful until you know where it goes and what must happen before you board.",
   "clique": {
     "contagem": [

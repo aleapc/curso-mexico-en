@@ -213,6 +213,47 @@ if (buyerLang && FUNCIONAIS[buyerLang] && existsSync(cursoDir)) {
   }
 }
 
+// ── 9. a frase-alvo está no ALFABETO do destino ──────────────────────────────
+// Só vale para destino de escrita não-latina, e ali é o teste de resíduo mais
+// forte que existe: uma frase-alvo em alfabeto latino num curso de grego é ou
+// sobra do SKU de origem, ou — o caso mais provável e mais insidioso —
+// TRANSLITERAÇÃO escrita no campo errado. «Póso káni» no lugar de «Πόσο κάνει»
+// passa por todos os outros portões: o texto existe, o áudio grava, o build fica
+// verde, e o aluno recebe um curso que nunca lhe mostra a palavra que ele vai
+// ter que reconhecer numa placa. A transliteração tem um campo próprio (pinyin);
+// o campo `es` é a língua escrita como ela é escrita.
+const ESCRITA = {
+  el: { re: /[Ͱ-Ͽἀ-῿]/, nome: 'grego' },
+  ru: { re: /[Ѐ-ӿ]/, nome: 'cirílico' },
+  ar: { re: /[؀-ۿ]/, nome: 'árabe' },
+  he: { re: /[֐-׿]/, nome: 'hebraico' },
+  th: { re: /[฀-๿]/, nome: 'tailandês' },
+  ja: { re: /[぀-ヿ一-鿿]/, nome: 'japonês' },
+  zh: { re: /[一-鿿]/, nome: 'chinês' }
+};
+if (targetLang && ESCRITA[targetLang] && existsSync(cursoDir)) {
+  const { re, nome } = ESCRITA[targetLang];
+  const latinas = [];
+  for (const f of readdirSync(cursoDir).filter((x) => /^ep-.*\.json$/.test(x))) {
+    const j = lerJson(join(cursoDir, f));
+    for (const s of j?.steps || []) {
+      const alvo = String(s.es ?? '').trim();
+      // só passos de voz-alvo; a narração-guia é latina por definição
+      if (!alvo || !String(s.voz || '').startsWith('target_')) continue;
+      if (!re.test(alvo)) {
+        latinas.push(`${f} ${s.audioKey || ''}: "${alvo.slice(0, 44)}"`);
+        break;
+      }
+    }
+  }
+  if (latinas.length)
+    erros.push(
+      `${latinas.length} episódio(s) com frase-alvo FORA do alfabeto ${nome} — ou é sobra do SKU de ` +
+        `origem, ou é transliteração no campo errado (ela vai em "pinyin", não em "es")\n` +
+        latinas.slice(0, 3).map((s) => '        ' + s).join('\n')
+    );
+}
+
 // ── saída ────────────────────────────────────────────────────────────────────
 console.log(
   `\nvalida-esqueleto · ${pasta} · ${buyerLang ?? '—'} → destino "${destino}" ` +

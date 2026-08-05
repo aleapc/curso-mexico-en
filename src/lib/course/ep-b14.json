@@ -6,7 +6,7 @@
   "titulo": "The extra line before the terminal",
   "subtitulo": "Ask for the bill, verify the total, remove an unauthorised tip and keep the receipt",
   "cena": "The plates have been cleared for five minutes, and the terminal is already halfway to the table before a single number has actually been shown to you.",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "frasePiso": "Before the card touches the terminal, you can make the amount visible, identify an extra line and authorise only what you chose.",
   "fatosDatados": [
     {

@@ -3,8 +3,8 @@
   "nivel": "basico",
   "numero": 3,
   "parte": "1C",
-  "titulo": "Move the problem out of your ears",
-  "subtitulo": "Repeat, slow down, write it and show it on the map — the repair ladder for a noisy counter",
+  "titulo": "Move it out of your ears and onto the map",
+  "subtitulo": "Repeat, slow down, write it and show it on the map — the repair ladder for a name you did not catch",
   "cena": "The departure time just went past you for the second time, said fast and confident, and the queue behind you is not getting any shorter.",
   "steps": [
     {
@@ -260,7 +260,7 @@
     ]
   },
   "slot": "B03",
-  "moldura": "resolve",
+  "moldura": "ganha",
   "permissao": "You are allowed to say 'no entendí' and mean it plainly, with no apology attached. Losing the thread in a noisy counter is not a failure of your Spanish — it is a normal part of a real conversation, and the ladder exists precisely so you never have to fake understanding to keep things moving.",
   "permissaoAudioKey": "mx-b03-n01",
   "espelho": "A tourist speaking English abroad does the same false-smile nod when they lose the thread of a fast reply, and it produces exactly the same downstream mess — the wrong platform, the wrong price, the wrong turn. The habit is not a Spanish-specific weakness; it is what anyone does under the small social pressure of not wanting to seem slow, in any language.",

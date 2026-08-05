@@ -19,7 +19,7 @@ export const outline: ModuloOutline[] = [
     licoes: [
       { id: 'b01', titulo: 'Five vowels, one clean beat', pronta: true },
       { id: 'b02', titulo: 'Hello before anything else', pronta: true },
-      { id: 'b03', titulo: 'Move the problem out of your ears', pronta: true },
+      { id: 'b03', titulo: 'Move it out of your ears and onto the map', pronta: true },
       { id: 'b04', titulo: 'The four files that board with you', pronta: true },
       { id: 'b05', titulo: 'Three answers, then stop', pronta: true },
       { id: 'b06', titulo: 'Do not leave the hall with five loose problems', pronta: true },
