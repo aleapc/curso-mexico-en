@@ -136,8 +136,88 @@ if (targetLang && targetLang !== 'es' && existsSync(cursoDir)) {
     );
 }
 
+// ════════════════════════════════════════════════════════════════════════════
+// A SEGUNDA METADE DO PORTÃO: A CAMADA DE ORIGEM
+//
+// Os seis testes acima conferem o DESTINO e foram escritos olhando para os
+// cinco clones de 2026-08-04. Em 2026-08-05, ao derivar DE→Itália a partir de
+// EN→Itália, o mesmo padrão apareceu uma camada adiante e passou por todos
+// eles: o destino estava perfeito — italiano correto, roster certo, 551 mp3
+// no caminho certo — e a ORIGEM inteira era a do irmão. moldes.json dizia
+// «EN → Itália» e as 531 narrações estavam em inglês sob vozes alemãs, que é
+// literalmente o acidente dos 460 clipes que originou o G14.
+//
+// Passou porque o G14 depende dos pacotes pré-áudio em docs/content-<destino>/,
+// que num SKU recém-derivado ainda não existem: sem jobs, zero divergências,
+// portão verde. Um portão que só funciona depois de o trabalho estar feito não
+// protege a derivação, que é justamente quando o erro entra.
+//
+// Estes dois testes leem o EPISÓDIO, que existe desde o primeiro minuto.
+// ════════════════════════════════════════════════════════════════════════════
+const buyerLang = existsSync(cfgPath)
+  ? (readFileSync(cfgPath, 'utf8').match(/buyerLang:\s*'([a-z-]+)'/) || [])[1] || null
+  : null;
+const linguaDaPasta = m[2] || null;
+
+if (buyerLang && linguaDaPasta && buyerLang !== linguaDaPasta)
+  erros.push(`curso.config.ts tem buyerLang "${buyerLang}" e a worktree é "-${linguaDaPasta}" — config do SKU de origem`);
+
+// ── 7. o roster nomeia a ORIGEM certa, não só o destino ──────────────────────
+// O teste 3 pergunta «é do destino certo?». Um roster copiado do SKU irmão
+// responde que sim e continua errado: o roster é ativo de PAR, e o par tem
+// duas pontas.
+if (moldes && moldes.sku && linguaDaPasta) {
+  const sku = semAcento(moldes.sku);
+  const origem = sku.split(/->|→/)[0] || '';
+  if (origem && !origem.includes(linguaDaPasta))
+    erros.push(
+      `moldes.json declara sku "${moldes.sku}" e a origem desta worktree é "${linguaDaPasta}" — roster do SKU irmão`
+    );
+}
+
+// ── 8. a narração está na língua do COMPRADOR ────────────────────────────────
+// O G14 faz esta pergunta sobre os jobs de áudio; aqui ela é feita sobre o
+// texto, que existe antes de qualquer job. Palavras-função são o sinal barato:
+// elas são frequentes, curtas e não atravessam língua por acaso.
+const FUNCIONAIS = {
+  en: /\b(the|you|your|and|that|this|with|what|when|they|is not|does not)\b/gi,
+  de: /\b(der|die|das|und|nicht|Sie|dass|mit|ist|dem|den|ein|eine|sich|auch|noch|aber)\b/g,
+  fr: /\b(le|la|les|des|vous|et|que|qui|pas|avec|c'est|dans|pour)\b/gi,
+  it: /\b(il|lo|la|gli|che|non|con|per|una|del|sono|questo)\b/gi,
+  pt: /\b(o|a|os|as|que|não|com|para|uma|do|isso|você)\b/gi
+};
+if (buyerLang && FUNCIONAIS[buyerLang] && existsSync(cursoDir)) {
+  const conta = (re, t) => ((t.match(new RegExp(re.source, re.flags)) || []).length);
+  let narracao = '';
+  for (const f of readdirSync(cursoDir).filter((x) => /^ep-.*\.json$/.test(x))) {
+    const j = lerJson(join(cursoDir, f));
+    for (const s of j?.steps || []) {
+      // só voz-guia: é a única que deve falar a língua do comprador
+      if (String(s.voz || '').startsWith('guide_') && s.pt) narracao += ' ' + s.pt;
+      if (String(s.promptVoz || '').startsWith('guide_') && s.promptPt) narracao += ' ' + s.promptPt;
+    }
+  }
+  if (narracao.trim().length > 500) {
+    const meu = conta(FUNCIONAIS[buyerLang], narracao);
+    const intrusos = Object.entries(FUNCIONAIS)
+      .filter(([lg]) => lg !== buyerLang && lg !== targetLang)
+      .map(([lg, re]) => [lg, conta(re, narracao)])
+      .sort((a, b) => b[1] - a[1]);
+    const [lgIntruso, nIntruso] = intrusos[0] || [null, 0];
+    if (lgIntruso && nIntruso > meu * 2 && nIntruso > 30)
+      erros.push(
+        `a narração de voz-guia parece estar em "${lgIntruso}" e o comprador deste SKU fala "${buyerLang}" ` +
+          `(${nIntruso} palavras-função de ${lgIntruso} contra ${meu} de ${buyerLang}) — ` +
+          'é o acidente dos 460 clipes: texto do SKU irmão sob as vozes deste'
+      );
+  }
+}
+
 // ── saída ────────────────────────────────────────────────────────────────────
-console.log(`\nvalida-esqueleto · ${pasta} · destino "${destino}" · alvo "${targetLang ?? '—'}" · ${mp3s} mp3`);
+console.log(
+  `\nvalida-esqueleto · ${pasta} · ${buyerLang ?? '—'} → destino "${destino}" ` +
+    `(alvo "${targetLang ?? '—'}") · ${mp3s} mp3`
+);
 
 if (avisos.length) {
   console.log(`\n${avisos.length} aviso(s):`);
