@@ -1,0 +1,36 @@
+{
+  "marca": "¿Mande?",
+  "cabecalho": "Mexico, at a glance",
+  "titulo": "Traveler's pocket",
+  "subtitulo": "The essentials stay available in airplane mode.",
+  "rotulos": {
+    "cambio": "Currency converter",
+    "valorEm": "Amount in",
+    "dataCotacao": "Rate date",
+    "avisoCotacao": "Reference only. Check your card or bank rate before spending.",
+    "tomadas": "Plugs & power",
+    "emergencia": "Emergency",
+    "ligar": "Call",
+    "saberUtil": "Useful to know"
+  },
+  "mesmaMoeda": "Mexico uses the same currency you already carry, so there is nothing to convert.",
+  "moedas": {
+    "MXN": { "flag": "🇲🇽", "locale": "es-MX" },
+    "USD": { "flag": "🇺🇸", "locale": "en-US" }
+  },
+  "cambio": {
+    "date": "2026-08-04",
+    "rates": { "USD": 0.0579 }
+  },
+  "emergencia": [
+    { "numero": "911", "oQue": "The single national emergency number: police, ambulance, fire or civil protection. Free, 24 hours, everywhere in Mexico." },
+    { "numero": "078", "oQue": "National tourist assistance line, for help and information rather than an emergency." }
+  ],
+  "saberUtil": [
+    { "emoji": "🧾", "texto": "Restaurants and bars must show prices clearly, in national currency and with tax included, and must give you a receipt." },
+    { "emoji": "💛", "texto": "A tip is voluntary: it cannot be demanded, and it cannot be added to your bill without your consent — check the total before you pay." },
+    { "emoji": "💳", "texto": "An extra charge for paying by card is treated as an improper practice, not a normal fee." },
+    { "emoji": "🚕", "texto": "At the airport, ask an identified staff member where the authorized transport is; for an app ride, look for the designated meeting point." },
+    { "emoji": "🎫", "texto": "There is no single national transport system: ticket, card and validation change from city to city, so ask before you queue." }
+  ]
+}
